@@ -3,7 +3,7 @@
   "server" : "https://i.verbaria.org/",
   "project" : "consulo**",
   "projectVersion" : "master",
-  "generatedAt" : "2026-06-23T21:27:15.481579618Z",
+  "generatedAt" : "2026-06-23T21:58:42.359240539Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
@@ -612,6 +612,19 @@
           "sig" : "c25a114490cba10b99cd53e3e1ac3856",
           "state" : "Approved",
           "total" : 41,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-regexp/consulo.regexp.RegExpLocalize" : {
+      "source" : {
+        "revision" : 1
+      },
+      "translations" : {
+        "be" : {
+          "sig" : "25b7d8896642bafcec37c7a1aceab776",
+          "state" : "Approved",
+          "total" : 185,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
