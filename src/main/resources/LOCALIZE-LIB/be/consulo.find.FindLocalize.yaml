@@ -35,7 +35,7 @@ find.empty.search.text.error:
 find.excessive.total.size.prompt:
     text: Выяўлены агульны памер файлаў {0}. Пры працягу {1} можа перастаць адказваць або завяршыцца з памылкай OutOfMemoryError. Працягнуць?
 find.field.accessors.prompt:
-    text: Шукаць аксесары поля ''{0}''?
+    text: "Шукаць аксесары поля ''{0}''?"
 find.field.accessors.title:
     text: Пошук аксесараў
 find.filter.empty.file.mask.error:
@@ -55,7 +55,9 @@ find.invalid.regular.expression.error:
 find.new.line:
     text: Новая строка
 find.no.usages.at.cursor.error:
-    text: "Немагчыма знайсці выкарыстанні ў гэтай пазіцыі.\nПамясціце курсор на элемент для пошуку яго выкарыстанняў і паўтарыце спробу."
+    text: |-
+        Немагчыма знайсці выкарыстанні ў гэтай пазіцыі.
+        Памясціце курсор на элемент для пошуку яго выкарыстанняў і паўтарыце спробу.
 find.open.in.new.tab.action:
     text: Открыть результаты в новой вкладке [&B]
 find.open.in.new.tab.checkbox:
@@ -103,7 +105,7 @@ find.replace.accessible.name:
 find.replace.all.action:
     text: Замяніць усе [&A]
 find.replace.all.confirmation:
-    text: <html><body>Замяніць {0} супадзенняў ''{1}''<br>на ''{3}'' у {2} файлах?
+    text: "<html><body>Замяніць {0} супадзенняў ''{1}''<br>на ''{3}'' у {2} файлах?"
 find.replace.all.confirmation.title:
     text: Замяніць усе
 find.replace.command:
@@ -115,7 +117,7 @@ find.replace.history:
 find.replace.in.project.dialog.title:
     text: Замяніць у файлах
 find.replace.invalid.replacement.string:
-    text: 'Введена некорректная строка замены: ''''{0}'''''
+    text: "Введена некорректная строка замены: ''{0}''"
 find.replace.invalid.replacement.string.title:
     text: Памылка замены
 find.replace.selected.action:
@@ -129,11 +131,11 @@ find.scope.directory.recursive.checkbox:
 find.scope.directory.title:
     text: Каталог {0}
 find.scope.files.with.mask:
-    text: С маской ''{0}''
+    text: "С маской ''{0}''"
 find.scope.label:
     text: 'Область [&S]:'
 find.scope.module.title:
-    text: Модуль ''{0}''
+    text: "Модуль ''{0}''"
 find.scope.project.title:
     text: Проект
 find.search.accessible.name:
@@ -157,7 +159,7 @@ find.searching.for.references.to.class.progress:
 find.searching.for.string.in.file.occurrences.progress:
     text: Знойдзена {0,choice,0#0|1#{0}} {0,choice,0#супадзенняў|1#супадзенне|2#супадзенні}
 find.searching.for.string.in.file.progress:
-    text: Пошук ''{0}'' у {1}…
+    text: "Пошук ''{0}'' у {1}…"
 find.selection.only:
     text: Шукаць у вылучэнні
 find.super.method.warning.action.verb:
@@ -167,9 +169,9 @@ find.text.dialog.title:
 find.usage.view.no.usages.text:
     text: Выкарыстанні не знойдзены
 find.usage.view.tab.text:
-    text: Супадзенні ''{0}''{1}
+    text: "Супадзенні ''{0}''{1}"
 find.usage.view.toolwindow.title:
-    text: Супадзенні ''{0}'' у {1}{2}
+    text: "Супадзенні ''{0}'' у {1}{2}"
 find.usages.ambiguous.title:
     text: Знайсці выкарыстанні
 find.usages.dialog.title:
@@ -249,7 +251,7 @@ progress.title.updating.usage.view:
 recent.find.usages.action.nothing:
     text: Няма нядаўніх запісаў выкарыстанняў
 recent.find.usages.action.popup:
-    text: '{0} ''''{1}'''' в {2}'
+    text: "{0} ''{1}'' в {2}"
 recent.find.usages.action.title:
     text: Нядаўні пошук выкарыстанняў
 se.text.header.action.all.filetypes:

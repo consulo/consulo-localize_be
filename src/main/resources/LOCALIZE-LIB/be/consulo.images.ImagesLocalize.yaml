@@ -1,5 +1,5 @@
 black.cell.color.descriptor:
-    text: '''Черная'' ячейка'
+    text: "'Черная' ячейка"
 chessboard.cell.size:
     text: 'Памер ячэйкі сеткі (у пікселях) [&S]:'
 error.broken.image.file.format:
@@ -37,4 +37,4 @@ thumbnails.component.error.text:
 unknown.format:
     text: Невядомы фармат
 white.cell.color.descriptor:
-    text: '''Белая'' ячейка'
+    text: "'Белая' ячейка"

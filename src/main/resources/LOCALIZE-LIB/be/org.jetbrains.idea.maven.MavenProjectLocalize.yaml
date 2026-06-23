@@ -19,7 +19,10 @@ maven.import.title.module.dir:
 maven.locating.files:
     text: Пошук файлаў праекта Maven…
 maven.navigator.nothing.to.display:
-    text: "Няма праектаў Maven для адлюстравання.\n\nВы можаце выкарыстоўваць {0} для дадання праекта або {1}, каб плагін знайшоў усе файлы pom.xml у каранёвых каталогах праекта і перазагрузіў іх"
+    text: |-
+        Няма праектаў Maven для адлюстравання.
+
+        Вы можаце выкарыстоўваць {0} для дадання праекта або {1}, каб плагін знайшоў усе файлы pom.xml у каранёвых каталогах праекта і перазагрузіў іх
 maven.post.processing:
     text: Настройка проектов Maven
 maven.profile.activate:
@@ -33,21 +36,21 @@ maven.project.import.title:
 maven.project.importing:
     text: Імпарт праектаў Maven
 maven.project.problem.moduleNotFound:
-    text: Модуль ''{0}'' не найден
+    text: "Модуль ''{0}'' не найден"
 maven.project.problem.parentHasProblems:
-    text: Бацькоўскі праект ''{0}'' змяшчае памылкі
+    text: "Бацькоўскі праект ''{0}'' змяшчае памылкі"
 maven.project.problem.parentNotFound:
-    text: Бацькоўскі праект ''{0}'' не знойдзены
+    text: "Бацькоўскі праект ''{0}'' не знойдзены"
 maven.project.problem.recursiveInheritance:
     text: Выяўлена рэкурсіўнае наследаванне
 maven.project.problem.selfInheritance:
     text: Выяўлена саманаследаванне
 maven.project.problem.unresolvedDependency:
-    text: 'Невырашаная залежнасць: ''''{0}'''''
+    text: "Невырашаная залежнасць: ''{0}''"
 maven.project.problem.unresolvedExtension:
-    text: 'Невырашанае пашырэнне зборкі: ''''{0}'''''
+    text: "Невырашанае пашырэнне зборкі: ''{0}''"
 maven.project.problem.unresolvedPlugin:
-    text: 'Невырашаны плагін: ''''{0}'''''
+    text: "Невырашаны плагін: ''{0}''"
 maven.reading:
     text: Чытанне Maven праектаў…
 maven.reading.pom:

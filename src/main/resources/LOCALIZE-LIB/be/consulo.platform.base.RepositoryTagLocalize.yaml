@@ -3,7 +3,7 @@ database:
 library:
     text: бібліятэка
 test.framework:
-    text: 'Фреймворк ''''{0}'''':'
+    text: "Фреймворк ''{0}'':"
 vcs:
     text: СКВ
 web.server:

@@ -9,13 +9,15 @@ action.text.move:
 block.comment.intersects.existing.comment:
     text: Выдзеленая вобласць перасякаецца з існуючым каментарыем
 block.comment.nested.comment:
-    text: "Вылучаная вобласць змяшчае {0, choice, 1#каментар|2#каментары} блока,\nнавакольная вобласць закаментавана."
+    text: |-
+        Вылучаная вобласць змяшчае {0, choice, 1#каментар|2#каментары} блока,
+        навакольная вобласць закаментавана.
 block.comment.wrapping.suffix:
     text: Выдзеленая вобласць змяшчае суфікс каментарыя блока
 cast.expression:
     text: Уставіць прывядзенне тыпу
 cast.to.0:
-    text: Прывесці да ''{0}''
+    text: "Прывесці да ''{0}''"
 choose.type.popup.title:
     text: Выберыце тып
 class.completion.file.path:
@@ -39,7 +41,7 @@ command.wrap.with.template:
 completion.automatic.command.name:
     text: Аўтазапаўненне
 copy.abstract.method.intention.name:
-    text: Выкарыстоўваць існуючую рэалізацыю ''{0}''
+    text: "Выкарыстоўваць існуючую рэалізацыю ''{0}''"
 copy.abstract.method.no.existing.implementations.found:
     text: Існуючыя рэалізацыі не знойдзены
 copy.abstract.method.popup.title:
@@ -67,7 +69,7 @@ deannotate.intention.action.text:
 deannotate.intention.chooser.title:
     text: Выберыце анатацыю для выдалення
 declaration.navigation.title:
-    text: Выберыце аб'яву
+    text: "Выберыце аб'яву"
 dialog.create.class.destination.package.label:
     text: 'Целевой пакет:'
 dialog.create.class.label:
@@ -129,21 +131,21 @@ dialog.title.move.to.a.new.group:
 dialog.title.rename:
     text: Перайменаваць
 disable.intention.action:
-    text: Адключыць ''{0}''
+    text: "Адключыць ''{0}''"
 display.coverage.prompt:
-    text: Паказаць дадзеныя пакрыцця для ''{0}''?
+    text: "Паказаць дадзеныя пакрыцця для ''{0}''?"
 documentation.message.documentation.is.not.available:
     text: Дакументацыя недаступная да завяршэння індэксацыі.
 enable.intention.action:
-    text: Уключыць ''{0}''
+    text: "Уключыць ''{0}''"
 error.attempt.to.generate.constructor.for.anonymous.class:
     text: Немагчыма дадаць канструктар у ананімны клас
 error.cannot.resolve.0.1:
-    text: Немагчыма вырашыць {0}''{1}''
+    text: "Немагчыма вырашыць {0}''{1}''"
 error.cannot.resolve.class:
-    text: Не ўдаецца вырашыць клас ''{0}''
+    text: "Не ўдаецца вырашыць клас ''{0}''"
 error.cannot.resolve.default.message:
-    text: Не ўдаецца вызначыць сімвал ''{0}''
+    text: "Не ўдаецца вызначыць сімвал ''{0}''"
 error.dialog.readonly.file.title:
     text: Файл толькі для чытання
 error.hint.file.is.readonly:
@@ -201,15 +203,15 @@ goto.super.method.chooser.title:
 goto.super.method.findUsages.title:
     text: Супер метады для {0}
 goto.test.chooserTitle.subject:
-    text: <html><body>Выберыце тэставы аб'ект для <b>{0}</b> ({1} знойдзены{2})</body></html>
+    text: "<html><body>Выберыце тэставы аб'ект для <b>{0}</b> ({1} знойдзены{2})</body></html>"
 goto.test.chooserTitle.test:
     text: <html><body>Выберыце тэст для <b>{0}</b> ({1} знойдзены{2})</body></html>
 goto.test.findUsages.subject.title:
-    text: Тэставыя аб'екты для {0}
+    text: "Тэставыя аб'екты для {0}"
 goto.test.findUsages.test.title:
     text: Тэсты для {0}
 goto.test.notFound:
-    text: Тэставыя аб'екты не знойдзены
+    text: "Тэставыя аб'екты не знойдзены"
 highlight.exceptions.thrown.chooser.title:
     text: Выберыце класы выключэнняў для падсветкі
 highlight.overridden.classes.chooser.title:
@@ -235,13 +237,13 @@ i18n.quickfix.property.panel.title:
 i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
     text: Абнавіць усе файлы ўласцівасцей у пакеце рэсурсаў [&R]
 i18nize.cant.create.properties.file.because.its.name.is.associated:
-    text: Немагчыма стварыць файл уласцівасцей ''{0}'', бо яго імя звязана з {1}.
+    text: "Немагчыма стварыць файл уласцівасцей ''{0}'', бо яго імя звязана з {1}."
 i18nize.dialog.error.jdk.message:
     text: "Клас 'java.util.ResourceBundle' не знойдзены.\nКалі ласка, усталюйце карэктны JDK."
 i18nize.dialog.error.jdk.title:
     text: Класс не найден
 i18nize.dialog.error.property.already.defined.message:
-    text: Уласцівасць ''{0}'' ужо існуе ў файле ''{1}''
+    text: "Уласцівасць ''{0}'' ужо існуе ў файле ''{1}''"
 i18nize.dialog.error.property.already.defined.title:
     text: Уласцівасць ужо існуе
 i18nize.dialog.property.file.chooser.title:
@@ -255,11 +257,16 @@ i18nize.empty.file.path:
 i18nize.error.creating.properties.file:
     text: Памылка стварэння файла ўласцівасцей
 i18nize.error.message:
-    text: "Вы можаце інтэрнацыяналізаваць толькі радковы літарал Java або яго падрадок.\nКалі ласка, змясціце курсор унутр радковага літарала Java або вылучыце яго частку."
+    text: |-
+        Вы можаце інтэрнацыяналізаваць толькі радковы літарал Java або яго падрадок.
+        Калі ласка, змясціце курсор унутр радковага літарала Java або вылучыце яго частку.
 i18nize.error.title:
     text: Немагчыма інтэрнацыяналізаваць вылучанае
 i18nize.jsp.error:
-    text: "Калі ласка, выберыце тэкст JSP для інтэрнацыяналізацыі.\nПераканайцеся, што вы не выбралі скрыптлеты, карыстальніцкія тэгі або элементы іншых моў.\nТаксама HTML-тэгі ўнутры вылучэння павінны быць збалансаваны."
+    text: |-
+        Калі ласка, выберыце тэкст JSP для інтэрнацыяналізацыі.
+        Пераканайцеся, што вы не выбралі скрыптлеты, карыстальніцкія тэгі або элементы іншых моў.
+        Таксама HTML-тэгі ўнутры вылучэння павінны быць збалансаваны.
 implementation.view.title:
     text: Вызначэнні {0}
 incremental.search.tooltip.prefix:
@@ -269,13 +276,13 @@ inlay.hints.base.exclude.list.description:
 inlay.hints.disable.action.text:
     text: Адключыць падказкі
 inlay.hints.disable.option:
-    text: Адключыць ''{0}''
+    text: "Адключыць ''{0}''"
 inlay.hints.enable.action.text:
     text: Уключыць падказкі па назвах параметраў
 inlay.hints.exclude.list.method:
     text: Не паказваць падказкі для бягучага метаду
 inlay.hints.show.settings:
-    text: Адключыць падказкі для метаду ''{0}''
+    text: "Адключыць падказкі для метаду ''{0}''"
 insert.code.template.command:
     text: Уставіць шаблон кода
 inspection.error.dialog.title:
@@ -283,19 +290,19 @@ inspection.error.dialog.title:
 inspection.i18n.display.name:
     text: Жорстка закадаваныя радкі
 inspection.i18n.expression.is.invalid.error.message:
-    text: Шаблон выразу I18nized не з'яўляецца дапушчальным выразам
+    text: "Шаблон выразу I18nized не з'яўляецца дапушчальным выразам"
 inspection.i18n.message.general.with.value:
     text: 'Жорстка закадаваны радковы літарал: {0}'
 inspection.i18n.quickfix:
     text: Інтэрнацыяналізаваць жорстка зададзены радковы літарал
 inspection.i18n.quickfix.annotate.as:
-    text: Анатаваць як ''@{0}''
+    text: "Анатаваць як ''@{0}''"
 inspection.i18n.quickfix.annotate.element.as:
-    text: Анатаваць {0} ''{1}'' як ''@{2}''
+    text: "Анатаваць {0} ''{1}'' як ''@{2}''"
 inspection.invalid.resource.bundle.reference:
-    text: Неверная ссылка на пакет ресурсов ''{0}''
+    text: "Неверная ссылка на пакет ресурсов ''{0}''"
 inspection.unresolved.property.key.reference.message:
-    text: '''''{0}'''' не похоже на корректный ключ свойства'
+    text: "''{0}'' не похоже на корректный ключ свойства"
 inspection.unresolved.property.key.reference.name:
     text: Неверный ключ свойства
 intention.add.annotation.family:
@@ -303,31 +310,31 @@ intention.add.annotation.family:
 intention.add.on.demand.static.import.family:
     text: Дадаць статычны імпарт па патрабаванні
 intention.add.on.demand.static.import.text:
-    text: Дадаць статычны імпарт па патрабаванні для ''{0}''
+    text: "Дадаць статычны імпарт па патрабаванні для ''{0}''"
 intention.add.single.member.static.import.family:
     text: Дадаць статычны імпарт аднаго члена
 intention.add.single.member.static.import.text:
-    text: Дадаць статычны імпарт для ''{0}''
+    text: "Дадаць статычны імпарт для ''{0}''"
 intention.assign.field.from.parameter.family:
     text: Прысвоіць параметр полю
 intention.assign.field.from.parameter.text:
-    text: Прысвоіць параметр полю ''{0}''
+    text: "Прысвоіць параметр полю ''{0}''"
 intention.bind.fields.from.parameters.family:
     text: Прывязаць параметры да палёў
 intention.bind.fields.from.parameters.text:
     text: Прывязаць {0} параметраў да палёў
 intention.break.string.on.line.breaks.text:
-    text: Разбіць радок па '\n'
+    text: "Разбіць радок па '\\n'"
 intention.color.chooser.dialog:
     text: Выбор цвета
 intention.convert.color.representation.family:
     text: Пераўтварыць прадстаўленне Color
 intention.convert.color.representation.text:
-    text: Преобразовать в ''new Color{0}''
+    text: "Преобразовать в ''new Color{0}''"
 intention.create.field.from.parameter.family:
     text: Создать поле для параметра
 intention.create.field.from.parameter.text:
-    text: Создать поле для параметра ''{0}''
+    text: "Создать поле для параметра ''{0}''"
 intention.create.test:
     text: Стварыце тэст
 intention.create.test.dialog.choose.super.class:
@@ -351,11 +358,11 @@ intention.create.test.dialog.testing.library:
 intention.encapsulate.field.text:
     text: Інкапсуляваць поле
 intention.error.cannot.create.class.message:
-    text: Невозможно создать класс ''{0}''
+    text: "Невозможно создать класс ''{0}''"
 intention.error.cannot.create.class.title:
     text: Не удалось создать класс
 intention.extract.if.condition.family:
-    text: Выняць умову 'if'
+    text: "Выняць умову 'if'"
 intention.extract.if.condition.text:
     text: Выняць if ({0})
 intention.implement.abstract.class.default.text:
@@ -379,41 +386,41 @@ intention.implement.abstract.method.family:
 intention.implement.abstract.method.searching.for.descendants.progress:
     text: Пошук нашчадкаў…
 intention.implement.abstract.method.text:
-    text: Рэалізаваць метад ''{0}''
+    text: "Рэалізаваць метад ''{0}''"
 intention.intercept.ejb.method.or.class.class.text:
-    text: Дадаць перахопнік для класа EJB ''{0}''
+    text: "Дадаць перахопнік для класа EJB ''{0}''"
 intention.intercept.ejb.method.or.class.family:
     text: Дадаць перахопнік EJB
 intention.intercept.ejb.method.or.class.method.text:
-    text: Дадайце перахопнік для бізнес-метаду ''{0}''
+    text: "Дадайце перахопнік для бізнес-метаду ''{0}''"
 intention.introduce.variable.text:
     text: Увесці лакальную пераменную
 intention.invert.if.condition:
-    text: Інвертаваць умову 'if'
+    text: "Інвертаваць умову 'if'"
 intention.move.field.assignment.to.declaration:
-    text: Перамясціць прысвойванне ў аб'яўленне поля
+    text: "Перамясціць прысвойванне ў аб'яўленне поля"
 intention.move.initializer.to.constructor:
     text: Перамясціць ініцыялізатар у канструктар
 intention.move.initializer.to.set.up:
     text: Перамясціць ініцыялізатар у метад setUp
 intention.override.method.text:
-    text: Пераазначыць метад ''{0}''
+    text: "Пераазначыць метад ''{0}''"
 intention.replace.concatenation.with.formatted.output.family:
     text: Замяніць канкатэнацыю фарматаваным вывадам
 intention.replace.concatenation.with.formatted.output.text:
-    text: Замяніць '+' на 'java.text.MessageFormat.format()'
+    text: "Замяніць '+' на 'java.text.MessageFormat.format()'"
 intention.settings:
     text: Намеры
 intention.settings.category.text:
     text: Вы выбралі катэгорыю намераў <b>{0}</b>.<br>Націсніце сцяжок, каб уключыць/выключыць усе намеры ў гэтай катэгорыі.<br>Каб уключыць/выключыць пэўны намер, выберыце яго ў гэтай катэгорыі.
 intention.split.declaration.assignment.text:
-    text: Падзяліць на аб'яўленне і прысвойванне
+    text: "Падзяліць на аб'яўленне і прысвойванне"
 intention.split.declaration.family:
-    text: Падзяліць аб'яўленне
+    text: "Падзяліць аб'яўленне"
 intention.split.if.family:
-    text: Падзяліць 'if'
+    text: "Падзяліць 'if'"
 intention.split.if.text:
-    text: Падзяліць на 2 аператары 'if'
+    text: "Падзяліць на 2 аператары 'if'"
 intention.surround.resource.with.ARM.block:
     text: Обернуть в блок try-with-resources
 javadoc.action.back:
@@ -471,7 +478,7 @@ livetemplate.description.if.not.null:
 livetemplate.description.if.null:
     text: Устаўце аператар «калі нуль».
 livetemplate.description.inst:
-    text: Праверце тып аб'екта з дапамогай instanceof і выканайце прывядзенне тыпу
+    text: "Праверце тып аб'екта з дапамогай instanceof і выканайце прывядзенне тыпу"
 livetemplate.description.itar:
     text: Ітэрацыя па элементах масіва
 livetemplate.description.itco:
@@ -479,7 +486,7 @@ livetemplate.description.itco:
 livetemplate.description.iten:
     text: Ітэрацыя па java.util.Enumeration
 livetemplate.description.iter:
-    text: Ітэрацыя па аб'екту або масіву, якія можна паўтараць
+    text: "Ітэрацыя па аб'екту або масіву, якія можна паўтараць"
 livetemplate.description.itit:
     text: Ітэрацыя з выкарыстаннем функцый-членаў begin/end
 livetemplate.description.itli:
@@ -495,7 +502,7 @@ livetemplate.description.mn:
 livetemplate.description.mx:
     text: Задаць максімальнае значэнне для зменнай
 livetemplate.description.psvm:
-    text: Аб'ява метаду main().
+    text: "Аб'ява метаду main()."
 livetemplate.description.ritar:
     text: Ітэрацыя па элементах масіва ў адваротным парадку
 livetemplate.description.serr:
@@ -535,7 +542,7 @@ multiple.implementations.tooltip:
 no.documentation.found:
     text: Дакументацыя не знойдзена.
 no.methods.overriding.0.are.found:
-    text: Не знойдзены метады, якія пераазначаюць {0, choice, 0#|1#''{1}''|2#гэтыя класы}
+    text: "Не знойдзены метады, якія пераазначаюць {0, choice, 0#|1#''{1}''|2#гэтыя класы}"
 node.annotation.tooltip:
     text: Анатацыя
 node.anonymous.class.tooltip:
@@ -589,11 +596,11 @@ process.reformat.code.before.commit:
 process.scope.changed.files:
     text: Толькі файлы з незафіксаванымі зменамі ў VCS [&V]
 process.scope.directory:
-    text: Каталог ''{0}''
+    text: "Каталог ''{0}''"
 process.scope.module:
-    text: Модуль ''{0}''
+    text: "Модуль ''{0}''"
 process.scope.project:
-    text: Праект ''{0}''
+    text: "Праект ''{0}''"
 progress.reformat.and.optimize.common.command.text:
     text: Перафарматаваць і аптымізаваць імпарт
 progress.reformat.stage.applying.changes:
@@ -605,7 +612,7 @@ progress.reformat.stage.wrapping.blocks:
 progress.text.optimizing.imports:
     text: Аптымізацыя імпарту...
 property.has.more.parameters.than.passed:
-    text: Уласцівасць ''{0}'' чакае {1} {1, choice, 1#параметр|2#параметры|3#параметраў}, перададзена {2}
+    text: "Уласцівасць ''{0}'' чакае {1} {1, choice, 1#параметр|2#параметры|3#параметраў}, перададзена {2}"
 quick.definition.back:
     text: Назад
 quick.definition.edit.source:
@@ -615,7 +622,7 @@ quick.definition.forward:
 quickfix.add.variable.family.name:
     text: Ініцыялізаваць пераменную
 quickfix.add.variable.text:
-    text: Ініцыялізаваць пераменную ''{0}''
+    text: "Ініцыялізаваць пераменную ''{0}''"
 quickfix.i18n.concatentation:
     text: Інтэрнацыяналізаваць канкатэнацыю
 quickfix.i18n.concatentation.error:
@@ -645,9 +652,9 @@ rename.file.reference.family:
 rename.file.reference.text:
     text: Перайменаваць спасылку на файл у {0}
 rename.named.element.text:
-    text: Перайменаваць ''{0}'' у ''{1}''
+    text: "Перайменаваць ''{0}'' у ''{1}''"
 rename.public.class.text:
-    text: Перайменаваць клас ''{0}'' у ''{1}''
+    text: "Перайменаваць клас ''{0}'' у ''{1}''"
 searching.for.implementations:
     text: Пошук рэалізацый...
 set.language.level:
@@ -703,13 +710,13 @@ templates.surround.no.defined:
 under.construction.string:
     text: У распрацоўцы.
 unknown.encoding.0:
-    text: 'Невядомая кадыроўка: ''''{0}'''''
+    text: "Невядомая кадыроўка: ''{0}''"
 unwrap.anonymous:
-    text: Развернуть 'anonymous...'
+    text: "Развернуть 'anonymous...'"
 unwrap.braces:
     text: Разгарнуць фігурныя дужкі
 unwrap.conditional:
-    text: 'Развернуть ''f ? a : b'''
+    text: "Развернуть 'f ? a : b'"
 unwrap.else:
     text: Разгарнуць "яшчэ..."
 unwrap.for:
@@ -719,12 +726,12 @@ unwrap.if:
 unwrap.popup.title:
     text: Выберыце выраз для пашырэння/выдалення
 unwrap.synchronized:
-    text: Развернуть 'synchronized...'
+    text: "Развернуть 'synchronized...'"
 unwrap.try:
     text: Разгарнуць "паспрабаваць..."
 unwrap.while:
     text: Разгарнуць "пакуль..."
 unwrap.with.placeholder:
-    text: Разгарнуць ''{0}''
+    text: "Разгарнуць ''{0}''"
 xml.tag.info.no.attributes:
     text: <няма атрыбутаў>

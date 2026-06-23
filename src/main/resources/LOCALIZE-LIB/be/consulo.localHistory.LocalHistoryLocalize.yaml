@@ -15,13 +15,18 @@ create.patch.dialog.title:
 current.revision:
     text: Бягучая
 file.does.not.exist:
-    text: '''''{0}'''' не існуе'
+    text: "''{0}'' не існуе"
 message.cannot.create.patch.because.of.unavailable.content:
-    text: "Немагчыма стварыць патч, бо змесціва некаторых\nвыбраных файлаў не было захавана з-за вялікага памеру."
+    text: |-
+        Немагчыма стварыць патч, бо змесціва некаторых
+        выбраных файлаў не было захавана з-за вялікага памеру.
 message.cannot.revert.because:
     text: Немагчыма адкаціць, бо {0}
 message.do.you.want.to.proceed:
-    text: "{0}\n\nПрацягнуць?"
+    text: |-
+        {0}
+
+        Працягнуць?
 message.error.during.create.patch:
     text: 'Памылка пры стварэнні патча: {0}'
 message.error.during.revert:

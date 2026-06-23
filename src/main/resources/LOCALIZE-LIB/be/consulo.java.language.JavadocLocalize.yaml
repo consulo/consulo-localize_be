@@ -7,7 +7,9 @@ javadoc.constructor.candidates:
 javadoc.generate.arguments:
     text: 'Аргументы каманднага радка:'
 javadoc.generate.exited:
-    text: "\n\"javadoc\" завяршыўся з кодам выхаду $EXIT_CODE$"
+    text: |4-
+
+        "javadoc" завяршыўся з кодам выхаду $EXIT_CODE$
 javadoc.generate.heap.size:
     text: '&Максімальны памер кучы:'
 javadoc.generate.locale:

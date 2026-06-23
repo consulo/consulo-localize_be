@@ -3,7 +3,7 @@ action.download.and.install.plugin:
 column.plugins.name:
     text: Імя
 error.cannot.create.temp.dir:
-    text: Немагчыма стварыць часовы каталог ''{0}''
+    text: "Немагчыма стварыць часовы каталог ''{0}''"
 error.dialog.clear.all.action:
     text: Ачысціць усё [&C]
 error.dialog.comment.prompt:
@@ -95,9 +95,9 @@ progress.download.plugins:
 progress.downloading.list.of.plugins:
     text: Загрузка спісу плагінаў з {0}
 progress.downloading.plugin:
-    text: Загрузка плагіна ''{0}''
+    text: "Загрузка плагіна ''{0}''"
 prompt.uninstall.plugin:
-    text: Вы ўпэўнены, што хочаце выдаліць плагін ''{0}''{1, choice, 0#|1# абнаўленне}?
+    text: "Вы ўпэўнены, што хочаце выдаліць плагін ''{0}''{1, choice, 0#|1# абнаўленне}?"
 prompt.uninstall.several.plugins:
     text: Вы ўпэўнены, што хочаце выдаліць гэтыя {0} плагіны?
 title.plugin.uninstall:

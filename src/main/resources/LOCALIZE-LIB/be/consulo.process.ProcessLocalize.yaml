@@ -5,6 +5,6 @@ run.canceled.by.user.message:
 run.configuration.error.executable.not.specified:
     text: Выканальны файл не ўказаны
 run.configuration.error.working.directory.does.not.exist:
-    text: Немагчыма запусціць працэс, рабочая дырэкторыя ''{0}'' не існуе
+    text: "Немагчыма запусціць працэс, рабочая дырэкторыя ''{0}'' не існуе"
 script.execution.timeout:
     text: Выкананне скрыпта перавысіла {0} секунд.

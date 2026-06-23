@@ -1,11 +1,11 @@
 checkbox.run.tests.before.commit:
-    text: Запусціць ''{0}''
+    text: "Запусціць ''{0}''"
 checkbox.run.tests.before.commit.no.configuration:
     text: Запусціць тэсты
 dialog.message.target.does.not.exist:
     text: Цэль {0} не існуе
 dialog.message.unable.to.parse.test.results:
-    text: Не ўдалося разабраць вынікі тэстаў з ''{0}''. Вынікі тэстаў павінны быць захаваны ў фармаце xml.
+    text: "Не ўдалося разабраць вынікі тэстаў з ''{0}''. Вынікі тэстаў павінны быць захаваны ў фармаце xml."
 dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
     text: 'Не ўдалося запусціць канфігурацыю: не выяўлены тэставы фрэймворк'
 dialog.message.unable.to.run.configuration.settings.are.corrupted:
@@ -13,7 +13,7 @@ dialog.message.unable.to.run.configuration.settings.are.corrupted:
 link.label.choose.configuration.before.commit:
     text: Выбраць канфігурацыю
 progress.text.running.tests:
-    text: Запуск ''{0}''…
+    text: "Запуск ''{0}''…"
 sm.test.runner.abstract.import.test.error.title:
     text: Памылка імпарту
 sm.test.runner.import.test:

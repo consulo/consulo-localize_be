@@ -1,9 +1,9 @@
 code.vision.implementations.hint:
-    text: '{0, choice, 1#1 рэалізацыя|2#{0,number}''{1,choice, |1#+}'' рэалізацый}'
+    text: "{0, choice, 1#1 рэалізацыя|2#{0,number}'{1,choice, |1#+}' рэалізацый}"
 code.vision.inheritors.hint:
-    text: '{0, choice, 1#1 нашчадак|2#{0,number}''{1,choice, |1#+}'' нашчадкаў}'
+    text: "{0, choice, 1#1 нашчадак|2#{0,number}'{1,choice, |1#+}' нашчадкаў}"
 code.vision.overrides.hint:
-    text: '{0, choice, 1#1 пераазначэнне|2#{0,number}''{1,choice, |1#+}'' пераазначэнняў}'
+    text: "{0, choice, 1#1 пераазначэнне|2#{0,number}'{1,choice, |1#+}' пераазначэнняў}"
 usages.telescope:
     text: '{0,choice, 0#не выкарыстоўваецца|1#1 выкарыстанне|2#{0,number} выкарыстанняў}'
 action.go.to.implementation.text:
@@ -29,7 +29,7 @@ checkbox.collapse.file.header:
 checkbox.collapse.generic.constructor.parameters:
     text: <html>Параметры абагульненых канструктараў і метадаў</html>
 checkbox.collapse.html.style.attribute:
-    text: HTML-атрыбут 'style'
+    text: "HTML-атрыбут 'style'"
 checkbox.collapse.i18n.messages:
     text: I18n радкі
 checkbox.collapse.inner.classes:
@@ -43,13 +43,13 @@ class.file.decompiled.text:
 class.file.open.source.action:
     text: Адкрыць зыходны файл
 class.not.found.error.message:
-    text: Класс ''{0}'' не найден
+    text: "Класс ''{0}'' не найден"
 dependencies.tree.node.default.package.abbreviation:
     text: <пакет па змаўчанні>
 error.package.already.contains.package.html:
-    text: Пакет ''{0}'' ужо змяшчае файл ''package.html''. Стварыць ''package-info.java'' усё роўна?
+    text: "Пакет ''{0}'' ужо змяшчае файл ''package.html''. Стварыць ''package-info.java'' усё роўна?"
 error.package.html.found.title:
-    text: Найден 'package.html'
+    text: "Найден 'package.html'"
 gutter.implemented.method:
     text: Рэалізаваны метад
 gutter.implementing.method:
@@ -69,7 +69,7 @@ inspection.default.annotation.param:
 java.method.chains.inlay.provider.name:
     text: Ланцугі метадаў
 label.method:
-    text: Метод ''{0}''
+    text: "Метод ''{0}''"
 library.choose.one.to.attach:
     text: Выберыце бібліятэкі для падключэння зыходнікаў
 notification.navigation.to.overriding.classes:
@@ -109,7 +109,7 @@ settings.inlay.java.implicit.types.lambda.description:
 settings.inlay.java.implicit.types.local:
     text: Няяўныя тыпы
 settings.inlay.java.implicit.types.local.description:
-    text: Лакальныя пераменныя, аб'яўленыя з ключавым словам var, калі выведзены тып можа быць невідавочны з правай часткі прысвойвання, напрыклад пры выкарыстанні фабрычнага метаду.
+    text: "Лакальныя пераменныя, аб'яўленыя з ключавым словам var, калі выведзены тып можа быць невідавочны з правай часткі прысвойвання, напрыклад пры выкарыстанні фабрычнага метаду."
 settings.inlay.java.inferred.annotations:
     text: Выведзеныя анатацыі
 settings.inlay.java.inheritors:
@@ -117,7 +117,7 @@ settings.inlay.java.inheritors:
 settings.inlay.java.methods.with.same.named.numbered.parameters:
     text: Метады з аднайменнымі нумараванымі параметрамі
 settings.inlay.java.new.expressions:
-    text: Выразы 'new'
+    text: "Выразы 'new'"
 settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
     text: Нелітаралы для множных параметраў аднаго тыпу
 settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:
@@ -127,6 +127,6 @@ settings.inlay.java.show.hints.for:
 settings.inlay.java.show.parameter.hints.for:
     text: 'Паказваць падказкі параметраў для:'
 settings.inlay.java.show.parameter.hints.when.expression.type.is.clear.description:
-    text: Ініцыялізатары масіваў, switch, умоўныя выразы, спасылкі, instanceof, прысвойванні, выклікі, удакладненні, прывядзенні тыпаў, доступ да аб'ектаў класаў.
+    text: "Ініцыялізатары масіваў, switch, умоўныя выразы, спасылкі, instanceof, прысвойванні, выклікі, удакладненні, прывядзенні тыпаў, доступ да аб'ектаў класаў."
 settings.inlay.java.usages:
     text: Выкарыстанні

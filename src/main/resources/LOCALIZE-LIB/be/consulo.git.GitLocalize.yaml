@@ -67,7 +67,7 @@ error.dialog.title:
 error.list.title:
     text: '{0} Памылка:'
 error.occurred.during:
-    text: Узнікла памылка падчас ''{0}''
+    text: "Узнікла памылка падчас ''{0}''"
 errors.message:
     text: 'Аперацыя Git завяршылася з некалькімі памылкамі: {0}'
 fetch.action.name:
@@ -111,7 +111,9 @@ init.destination.directory.description:
 init.destination.directory.title:
     text: Стварыць Git-рэпазіторый
 init.warning.already.under.git:
-    text: "Выбраная дырэкторыя <tt>{0}</tt> ужо знаходзіцца пад кіраваннем Git.\nВы ўпэўнены, што хочаце стварыць новы корань СКВ?"
+    text: |-
+        Выбраная дырэкторыя <tt>{0}</tt> ужо знаходзіцца пад кіраваннем Git.
+        Вы ўпэўнены, што хочаце стварыць новы корань СКВ?
 initializing.title:
     text: Ініцыялізацыя рэпазіторыя…
 merge.branch.title:
@@ -159,7 +161,9 @@ reset.commit.invalid:
 reset.commit.label:
     text: 'Да каміта [&C]:'
 reset.commit.tooltip:
-    text: "Каміт, які стане бягучым HEAD\nу выніку аперацыі reset."
+    text: |-
+        Каміт, які стане бягучым HEAD
+        у выніку аперацыі reset.
 reset.type:
     text: 'Тып reset [&T]:'
 reset.type.tooltip:
@@ -203,11 +207,11 @@ tag.button:
 tag.commit.label:
     text: Каміт [&C]
 tag.commit.tooltip:
-    text: Увядзіце імя каміта або аб'екта для тэгіравання або пакіньце пустым для выкарыстання HEAD.
+    text: "Увядзіце імя каміта або аб'екта для тэгіравання або пакіньце пустым для выкарыстання HEAD."
 tag.error.creating.message.file.message:
     text: 'Немагчыма стварыць файл паведамлення: {0}'
 tag.error.invalid.commit:
-    text: Недапушчальнае імя каміта або аб'екта.
+    text: "Недапушчальнае імя каміта або аб'екта."
 tag.error.tag.exists:
     text: Тэг з такім імем ужо існуе.
 tag.force:
@@ -243,9 +247,9 @@ unstash.button.pop:
 unstash.clear:
     text: Ачысціць [&C]
 unstash.clear.tooltip:
-    text: Выдаліць усе stash'ы ў рэпазіторыі
+    text: "Выдаліць усе stash'ы ў рэпазіторыі"
 unstash.clearing.stashes:
-    text: Ачыстка stash'аў…
+    text: "Ачыстка stash'аў…"
 unstash.drop:
     text: Выдаліць [&D]
 unstash.drop.tooltip:
@@ -259,7 +263,7 @@ unstash.reinstate.index:
 unstash.reinstate.index.tooltip:
     text: Паспрабаваць аднавіць індэкс разам са зменамі рабочага дрэва
 unstash.stashes:
-    text: 'Stash''ы [&S]:'
+    text: "Stash'ы [&S]:"
 unstash.title:
     text: Аднавіць змены з stash
 unstash.unstashing:
@@ -273,7 +277,11 @@ update.options.display.name:
 util.remote.renderer.none:
     text: Нет
 vfs.listener.add.single.prompt:
-    text: "Дадаць наступны файл у Git?\n{0}\n\nКалі вы выберыце \"Адмена\", вы зможаце дадаць яго пазней уручную."
+    text: |-
+        Дадаць наступны файл у Git?
+        {0}
+
+        Калі вы выберыце "Адмена", вы зможаце дадаць яго пазней уручную.
 vfs.listener.add.single.title:
     text: Дадаць файл у Git
 vfs.listener.add.title:
@@ -281,7 +289,11 @@ vfs.listener.add.title:
 vfs.listener.checking.ignored:
     text: Праверка ігнаруемых файлаў…
 vfs.listener.delete.single.prompt:
-    text: "Выдаліць наступны файл з Git?\n{0}\n\nКалі вы выберыце \"Адмена\", вы зможаце выдаліць яго пазней уручную."
+    text: |-
+        Выдаліць наступны файл з Git?
+        {0}
+
+        Калі вы выберыце "Адмена", вы зможаце выдаліць яго пазней уручную.
 vfs.listener.delete.single.title:
     text: Выдаліць файл з Git
 vfs.listener.delete.title:

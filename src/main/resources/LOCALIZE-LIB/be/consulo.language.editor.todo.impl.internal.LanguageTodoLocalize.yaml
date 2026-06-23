@@ -55,7 +55,7 @@ node.todo.group:
 node.todo.items:
     text: '{0} {0,choice,0#элементов|1#элемент|2#элемента}'
 node.todo.more.items:
-    text: ...больш...
+    text: '...больш...'
 node.todo.summary:
     text: Найдено {0} TODO {0,choice,0#элементов|1#элемент|2#элемента} в {1} {1,choice,0#файлах|1#файле|2#файлах}
 text.todo.no.filters:

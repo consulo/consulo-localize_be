@@ -15,4 +15,4 @@ jar.application.configuration.description:
 jar.application.configuration.name:
     text: Прыкладанне JAR
 jre.path.is.not.valid.jre.home.error.message:
-    text: «{0}» не з'яўляецца сапраўдным хатнім каталогам JRE
+    text: "«{0}» не з'яўляецца сапраўдным хатнім каталогам JRE"

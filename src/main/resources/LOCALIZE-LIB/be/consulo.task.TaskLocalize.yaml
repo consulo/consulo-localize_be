@@ -3,7 +3,7 @@ action.LoadContextAction.Anonymous.text.load:
 action.LoadContextAction.Anonymous.text.remove:
     text: Выдаліць
 action.add.changelist.for.text:
-    text: Дадаць спіс змен для ''{0}''
+    text: "Дадаць спіс змен для ''{0}''"
 action.context.clear.text:
     text: Ачысціць кантэкст [_C]
 action.context.load.text:
@@ -11,11 +11,11 @@ action.context.load.text:
 action.context.save.text:
     text: Захаваць кантэкст [_S]…
 action.create.changelist.for.text:
-    text: Стварыць спіс змен для ''{0}''
+    text: "Стварыць спіс змен для ''{0}''"
 action.edit.text.with.mnemonic:
     text: Рэдагаваць [&E]
 action.open.in.browser.text:
-    text: Открыть ''{0}'' в браузере [_B]
+    text: "Открыть ''{0}'' в браузере [_B]"
 action.remove.text:
     text: Выдаліць [&R]
 action.switch.to.text:
@@ -39,7 +39,7 @@ bugzilla.failure.no.version:
 command.name.load.context:
     text: Загрузіць кантэкст {0}
 create.new.task.0:
-    text: Создать новую задачу ''{0}''
+    text: "Создать новую задачу ''{0}''"
 dialog.message.changelist.associated.with.not.empty:
     text: "Спіс змен, звязаны з ''{0}'', не пусты.\nВыдаліць яго і перамясціць змены ў актыўны спіс?"
 dialog.message.changelist.name:
@@ -93,13 +93,13 @@ label.include.closed.tasks:
 open.task.action.menu.text:
     text: Открыть задачу…
 popup.advertisement.html.press.shift.to.merge.with.current.context.br.pressing.would.show.task.description.comments.html:
-    text: <html>Націсніце SHIFT для аб'яднання з бягучым кантэкстам<br/>Націсніце {0} для прагляду апісання задачы і каментараў</html>
+    text: "<html>Націсніце SHIFT для аб'яднання з бягучым кантэкстам<br/>Націсніце {0} для прагляду апісання задачы і каментараў</html>"
 popup.advertisement.press.shift.to.merge.with.current.context:
-    text: Націсніце SHIFT для аб'яднання з бягучым кантэкстам
+    text: "Націсніце SHIFT для аб'яднання з бягучым кантэкстам"
 popup.title.load.context:
     text: Загрузіць кантэкст
 popup.title.merge.with.current.context:
-    text: Аб'яднаць з бягучым кантэкстам
+    text: "Аб'яднаць з бягучым кантэкстам"
 popup.title.switch.to.task:
     text: Пераключыцца на задачу
 separator.recently.closed.tasks:

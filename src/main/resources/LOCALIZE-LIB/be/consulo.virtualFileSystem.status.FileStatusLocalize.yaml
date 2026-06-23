@@ -9,13 +9,13 @@ file.status.name.hijacked:
 file.status.name.ignored:
     text: Ігнаруецца
 file.status.name.merged:
-    text: Аб'яднаны
+    text: "Аб'яднаны"
 file.status.name.merged.with.both.conflicts:
-    text: Канфлікты пры аб'яднанні тэксту і ўласцівасцей
+    text: "Канфлікты пры аб'яднанні тэксту і ўласцівасцей"
 file.status.name.merged.with.conflicts:
-    text: Аб'яднаны з канфліктамі
+    text: "Аб'яднаны з канфліктамі"
 file.status.name.merged.with.property.conflicts:
-    text: Канфлікты пры аб'яднанні ўласцівасцей
+    text: "Канфлікты пры аб'яднанні ўласцівасцей"
 file.status.name.modified:
     text: Зменены
 file.status.name.obsolete:

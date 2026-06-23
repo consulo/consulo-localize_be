@@ -1,20 +1,20 @@
 expected.colon:
-    text: Чакаецца ':'
+    text: "Чакаецца ':'"
 expected.comma:
-    text: Чакаецца ','
+    text: "Чакаецца ','"
 expected.identifier:
     text: Чакаецца ідэнтыфікатар
 expected.lbrace:
-    text: Чакаецца '{'
+    text: "Чакаецца '{'"
 expected.lparen:
-    text: Чакаецца '('
+    text: "Чакаецца '('"
 expected.rbrace:
-    text: Чакаецца '}'
+    text: "Чакаецца '}'"
 expected.rbracket:
-    text: Чакаецца ']'
+    text: "Чакаецца ']'"
 expected.rparen:
-    text: Чакаецца ')'
+    text: "Чакаецца ')'"
 expected.semicolon:
-    text: Чакаецца ';'
+    text: "Чакаецца ';'"
 unexpected.token:
     text: Нечаканы токен

@@ -11,31 +11,31 @@ index.rebuild.notification.title:
 indexable.files.provider.indexing.additional.dependencies:
     text: Індэксацыя залежнасцей
 indexable.files.provider.indexing.fileOrDir.name:
-    text: Індэксацыя ''{0}''
+    text: "Індэксацыя ''{0}''"
 indexable.files.provider.indexing.internal.module.name:
     text: Індэксацыя
 indexable.files.provider.indexing.library.name:
-    text: Індэксацыя бібліятэкі ''{0}''
+    text: "Індэксацыя бібліятэкі ''{0}''"
 indexable.files.provider.indexing.module.name:
-    text: Індэксацыя модуля ''{0}''
+    text: "Індэксацыя модуля ''{0}''"
 indexable.files.provider.indexing.named.provider:
-    text: Індэксацыя ''{0}''
+    text: "Індэксацыя ''{0}''"
 indexable.files.provider.indexing.sdk:
-    text: Індэксацыя {0} ''{1}''
+    text: "Індэксацыя {0} ''{1}''"
 indexable.files.provider.scanning.additional.dependencies:
     text: Сканіраванне залежнасцей
 indexable.files.provider.scanning.fileOrDir.name:
-    text: Сканіраванне ''{0}''
+    text: "Сканіраванне ''{0}''"
 indexable.files.provider.scanning.files.contributor:
-    text: Сканіраванне ''{0}''
+    text: "Сканіраванне ''{0}''"
 indexable.files.provider.scanning.internal.module.name:
     text: Сканіраванне
 indexable.files.provider.scanning.library.name:
-    text: Сканіраванне бібліятэкі ''{0}''
+    text: "Сканіраванне бібліятэкі ''{0}''"
 indexable.files.provider.scanning.module.name:
-    text: Сканіраванне модуля ''{0}''
+    text: "Сканіраванне модуля ''{0}''"
 indexable.files.provider.scanning.sdk:
-    text: Сканіраванне {0} ''{1}''
+    text: "Сканіраванне {0} ''{1}''"
 indexes.preparing.to.shutdown.message:
     text: Падрыхтоўка індэксаў да завяршэння работы...
 indexes.reloading:
@@ -63,7 +63,7 @@ removing.indexable.set.project.handler:
 search.scope.module:
     text: В одном модуле
 search.scope.module.runtime:
-    text: Runtime область модуля ''{0}''
+    text: "Runtime область модуля ''{0}''"
 terms.directory:
     text: Каталог
 terms.file:

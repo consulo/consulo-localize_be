@@ -3,11 +3,11 @@ tools.add.title:
 tools.after.commit.description:
     text: 'Запусціць інструмент:'
 tools.before.run.description:
-    text: Знешні інструмент ''{0}''{1, choice, 0# (адключаны)|1#}
+    text: "Знешні інструмент ''{0}''{1, choice, 0# (адключаны)|1#}"
 tools.before.run.provider.name:
     text: Запусціць знешні інструмент
 tools.completed.message:
-    text: Знешні інструмент ''{0}'' завершаны з кодам {1}
+    text: "Знешні інструмент ''{0}'' завершаны з кодам {1}"
 tools.copy.button:
     text: Капіраваць [&C]
 tools.copy.title:

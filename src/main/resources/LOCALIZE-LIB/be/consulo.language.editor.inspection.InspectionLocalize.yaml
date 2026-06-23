@@ -1,15 +1,15 @@
 access.static.via.instance:
     text: Доступ к static члену через ссылку на экземпляр
 annotate.overridden.methods.parameters:
-    text: Анатаваць параметры пераазначальнага метаду як ''@{0}''
+    text: "Анатаваць параметры пераазначальнага метаду як ''@{0}''"
 assignment.to.declared.variable.problem.descriptor:
-    text: Пераменная ''{0}'' ініцыялізуецца самапрысвойваннем
+    text: "Пераменная ''{0}'' ініцыялізуецца самапрысвойваннем"
 assignment.to.itself.problem.descriptor:
-    text: Пераменнай ''{0}'' прысвойваецца яе ж значэнне
+    text: "Пераменнай ''{0}'' прысвойваецца яе ж значэнне"
 boolean.method.is.always.inverted.display.name:
     text: Булеў метад заўсёды інвертуецца
 boolean.method.is.always.inverted.problem.descriptor:
-    text: Выклікі булева метаду '#ref()' заўсёды інвертуюцца
+    text: "Выклікі булева метаду '#ref()' заўсёды інвертуюцца"
 cleanup.in.file:
     text: Ачысціць код
 cleanup.in.scope:
@@ -27,7 +27,7 @@ dataflow.message.passing.nullable.argument:
 default.file.template.description:
     text: Шаблон файла па змаўчанні
 deprecated.symbol:
-    text: '''''{0}'''' пазначаны як састарэлы'
+    text: "''{0}'' пазначаны як састарэлы"
 detach.library.quickfix.name:
     text: Адлучыць бібліятэку
 detach.library.roots.quickfix.name:
@@ -37,7 +37,7 @@ disable.inspection.action.name:
 duplicate.property.diff.key.option:
     text: Дублюючыя ключы з рознымі значэннямі [&D]
 duplicate.property.diff.key.problem.descriptor:
-    text: 'Дублюючы ключ уласцівасці ''''{0}'''' з рознымі значэннямі #treeend :<br>'
+    text: "Дублюючы ключ уласцівасці ''{0}'' з рознымі значэннямі #treeend :<br>"
 duplicate.property.diff.key.progress.indicator.text:
     text: Апрацоўка дублюючага ключа ўласцівасці:{0}
 duplicate.property.display.name:
@@ -47,7 +47,7 @@ duplicate.property.file.scope.option:
 duplicate.property.key.option:
     text: Дублюючыя ключы [&K]
 duplicate.property.key.problem.descriptor:
-    text: 'Дублюючы ключ уласцівасці ''''{0}'''' #treeend са значэннямі:<br>'
+    text: "Дублюючы ключ уласцівасці ''{0}'' #treeend са значэннямі:<br>"
 duplicate.property.key.progress.indicator.text:
     text: Апрацоўка дублюючага ключа ўласцівасці:{0}
 duplicate.property.module.scope.option:
@@ -57,11 +57,11 @@ duplicate.property.project.scope.option:
 duplicate.property.value.option:
     text: Дублюючыя значэнні [&V]
 duplicate.property.value.problem.descriptor:
-    text: 'Дублюючае значэнне ўласцівасці ''''{0}'''' #treeend з ключамі:<br>'
+    text: "Дублюючае значэнне ўласцівасці ''{0}'' #treeend з ключамі:<br>"
 duplicate.property.value.progress.indicator.text:
     text: Апрацоўка дублюючага значэння ўласцівасці:{0}
 edit.inspection.options:
-    text: Рэдагаваць параметры ''{0}''
+    text: "Рэдагаваць параметры ''{0}''"
 edit.options.of.reporter.inspection.family:
     text: Рэдагаваць параметры інспекцыі справаздач
 edit.options.of.reporter.inspection.text:
@@ -93,7 +93,7 @@ group.names.control.flow.issues:
 group.names.data.flow.issues:
     text: Поток данных
 group.names.declaration.redundancy:
-    text: Лішнасць аб'яўленняў
+    text: "Лішнасць аб'яўленняў"
 group.names.dependency.issues:
     text: Праблемы залежнасцей
 group.names.encapsulation.issues:
@@ -155,9 +155,9 @@ highlight.severity.create.dialog.name.label:
 highlight.severity.create.dialog.title:
     text: Рэдагаваць імя ўзроўню важнасці
 inconsistent.bundle.property.error:
-    text: Неўзгодненая ўласцівасць ''{0}''. Павінна быць вызначана ў бацькоўскім файле ''{1}''.
+    text: "Неўзгодненая ўласцівасць ''{0}''. Павінна быць вызначана ў бацькоўскім файле ''{1}''."
 inconsistent.bundle.property.inherited.with.the.same.value:
-    text: Уласцівасць успадкавана з файла ''{0}'' з тым жа значэннем
+    text: "Уласцівасць успадкавана з файла ''{0}'' з тым жа значэннем"
 inconsistent.bundle.report.duplicate.properties.values:
     text: Паведамляць пра ўласцівасці, пераазначаныя з тым жа значэннем [&O]
 inconsistent.bundle.report.inconsistent.properties:
@@ -165,7 +165,7 @@ inconsistent.bundle.report.inconsistent.properties:
 inconsistent.bundle.report.missing.translations:
     text: Паведамляць пра адсутныя пераклады [&M]
 inconsistent.bundle.untranslated.property.error:
-    text: Непереведенное свойство ''{0}''. Должно быть переопределено в ''{1}''.
+    text: "Непереведенное свойство ''{0}''. Должно быть переопределено в ''{1}''."
 inconsistent.line.separators:
     text: Непаслядоўныя падзельнікі радкоў
 inconsistent.resource.bundle.display.name:
@@ -199,7 +199,9 @@ inspection.action.title:
 inspection.annotate.quickfix.implements:
     text: рэалізуе
 inspection.annotate.quickfix.overridden.method.messages:
-    text: "Метад {0} {1} метад {2}.\nАнатаваць таксама базавы метад?"
+    text: |-
+        Метад {0} {1} метад {2}.
+        Анатаваць таксама базавы метад?
 inspection.annotate.quickfix.overridden.method.warning:
     text: Папярэджанне пераазначанага метаду
 inspection.annotate.quickfix.overrides:
@@ -221,9 +223,9 @@ inspection.application.project.has.older.format.and.will.be.converted:
 inspection.application.starting.up:
     text: Запуск {0}…
 inspection.assert.quickfix:
-    text: Праверыць ''{0}''
+    text: "Праверыць ''{0}''"
 inspection.can.be.final.display.name:
-    text: Аб'яўленне можа мець мадыфікатар 'final'
+    text: "Аб'яўленне можа мець мадыфікатар 'final'"
 inspection.can.be.final.option:
     text: Паведамляць пра класы
 inspection.can.be.final.option1:
@@ -237,7 +239,17 @@ inspection.can.be.local.variable.problem.descriptor:
 inspection.capitalized.done:
     text: Готово.
 inspection.command.line.explanation:
-    text: "Чаканыя параметры: <project_file_path> <inspection_profile> <output_path> [<options>]\n<inspection_profile> -- імя профілю ў праекце або лакальнай канфігурацыі або шлях да профілю інспекцый; можа быць прапушчаны пры выкарыстанні -e|-profileName|-profilePath\nДаступныя опцыі:\n-d <directory_path>  --  дырэкторыя для праверкі, па змаўчанні ўвесь праект\n-e                   --  выкарыстоўваць профіль інспекцый, настроены для праекта\n-v[0|1|2]            --  узровень падрабязнасці. 0 - ціхі, 1 - падрабязны, 2 - максімальна падрабязны\n-profileName         --  імя профілю, вызначанага ў праекце\n-profilePath         --  абсалютны шлях да профілю\n-format              --  фармат вываду справаздачы. адзін з xml|json|plain, па змаўчанні xml\n-changes             --  праверыць незакамічаныя змены і паведаміць пра новыя праблемы"
+    text: |-
+        Чаканыя параметры: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- імя профілю ў праекце або лакальнай канфігурацыі або шлях да профілю інспекцый; можа быць прапушчаны пры выкарыстанні -e|-profileName|-profilePath
+        Даступныя опцыі:
+        -d <directory_path>  --  дырэкторыя для праверкі, па змаўчанні ўвесь праект
+        -e                   --  выкарыстоўваць профіль інспекцый, настроены для праекта
+        -v[0|1|2]            --  узровень падрабязнасці. 0 - ціхі, 1 - падрабязны, 2 - максімальна падрабязны
+        -profileName         --  імя профілю, вызначанага ў праекце
+        -profilePath         --  абсалютны шлях да профілю
+        -format              --  фармат вываду справаздачы. адзін з xml|json|plain, па змаўчанні xml
+        -changes             --  праверыць незакамічаныя змены і паведаміць пра новыя праблемы
 inspection.comparing.references.problem.descriptor:
     text: 'Падазронае параўнанне #ref #loc'
 inspection.comparing.references.use.quickfix:
@@ -265,7 +277,7 @@ inspection.dead.code.comment.quickfix:
 inspection.dead.code.date.comment:
     text: '// --Закаментаваная інспекцыя ({0}):'
 inspection.dead.code.display.name:
-    text: Нявыкарыстаныя аб'яўленні
+    text: "Нявыкарыстаныя аб'яўленні"
 inspection.dead.code.entry.point.quickfix:
     text: Дадаць як пункт уваходу
 inspection.dead.code.entry.points.display.name:
@@ -341,17 +353,19 @@ inspection.dead.code.problem.synopsis9.suspicious:
 inspection.dead.code.safe.delete.quickfix:
     text: Бяспечнае выдаленне
 inspection.dead.code.start.comment:
-    text: "// --Закаментаваная інспекцыя ПАЧАТАК ({0}):\n"
+    text: |
+        // --Закаментаваная інспекцыя ПАЧАТАК ({0}):
 inspection.dead.code.stop.comment:
-    text: "// --Закаментаваная інспекцыя КАНЕЦ ({0})\n"
+    text: |
+        // --Закаментаваная інспекцыя КАНЕЦ ({0})
 inspection.deprecated.display.name:
     text: Выкарыстанне састарэлага API
 inspection.diff.format.error:
     text: 'Неабходныя параметры: <old_file> <new_file> [<delta_file_name>]'
 inspection.disabled.error:
-    text: 'Інспекцыя ''''{0}'''' адключана: {1}.'
+    text: "Інспекцыя ''{0}'' адключана: {1}."
 inspection.disabled.wrong.id:
-    text: 'Інспекцыя ''''{0}'''' адключана: ID ''''{1}'''' не адпавядае шаблону ''''{2}''''.'
+    text: "Інспекцыя ''{0}'' адключана: ID ''{1}'' не адпавядае шаблону ''{2}''."
 inspection.done:
     text: Готово.
 inspection.duplicate.throws.display.name:
@@ -359,7 +373,7 @@ inspection.duplicate.throws.display.name:
 inspection.duplicate.throws.ignore.subclassing.option:
     text: Ігнараваць выключэнні, якія наследуюць іншыя
 inspection.duplicate.throws.more.general.problem:
-    text: У спісе throws ужо ёсць больш агульнае выключэнне ''{0}''.
+    text: "У спісе throws ужо ёсць больш агульнае выключэнне ''{0}''."
 inspection.duplicate.throws.problem:
     text: Дублюючыя throws
 inspection.duplicates.display.name:
@@ -377,7 +391,7 @@ inspection.duplicates.option.report.propertykey.expressions:
 inspection.duplicates.replace.family.quickfix:
     text: Замяніць
 inspection.duplicates.replace.quickfix:
-    text: Замяніць на ''{0}''
+    text: "Замяніць на ''{0}''"
 inspection.empty.method.delete.quickfix:
     text: Выдаліць непатрэбныя метады
 inspection.empty.method.display.name:
@@ -391,7 +405,7 @@ inspection.empty.method.problem.descriptor2:
 inspection.empty.method.problem.descriptor4:
     text: Усе рэалізацыі гэтага метаду пустыя
 inspection.equals.hashcode.display.name:
-    text: '''equals()'' і ''hashCode()'' не ўзгоднены'
+    text: "'equals()' і 'hashCode()' не ўзгоднены"
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
     text: В классе определен {0}, но не определен {1}
 inspection.error.loading.message:
@@ -413,7 +427,7 @@ inspection.export.results.at.line:
 inspection.export.results.callees:
     text: Цепочка вызовов
 inspection.export.results.can.be.final.description:
-    text: Аб'яўленне можа мець мадыфікатар final
+    text: "Аб'яўленне можа мець мадыфікатар final"
 inspection.export.results.capitalized.abstract.class:
     text: Абстрактный класс
 inspection.export.results.capitalized.class:
@@ -427,7 +441,7 @@ inspection.export.results.class:
 inspection.export.results.constructor:
     text: конструктор
 inspection.export.results.dead.code:
-    text: Нявыкарыстаныя аб'яўленні
+    text: "Нявыкарыстаныя аб'яўленні"
 inspection.export.results.derived.methods:
     text: Вытворныя метады
 inspection.export.results.extended:
@@ -497,7 +511,7 @@ inspection.javadoc.option.tab.title.inner.class:
 inspection.javadoc.option.tab.title.method:
     text: Метод
 inspection.javadoc.problem.add.param.tag:
-    text: Дадаць тэг @param для параметра ''{0}''
+    text: "Дадаць тэг @param для параметра ''{0}''"
 inspection.javadoc.problem.add.tag:
     text: Дадаць тэг @{0} {1}
 inspection.javadoc.problem.add.tag.family:
@@ -509,11 +523,11 @@ inspection.javadoc.problem.descriptor:
 inspection.javadoc.problem.descriptor1:
     text: У дакументацыі адсутнічае кропка. Кропка выкарыстоўваецца інструментам Javadoc для генерацыі каментара на старонцы агляду
 inspection.javadoc.problem.duplicate.param:
-    text: Дублюючы тэг @param для параметра ''{0}''
+    text: "Дублюючы тэг @param для параметра ''{0}''"
 inspection.javadoc.problem.duplicate.tag:
     text: Дублюючы тэг @{0}
 inspection.javadoc.problem.duplicate.throws:
-    text: Дублюючы тэг @throws або @exception для выключэння ''{0}''
+    text: "Дублюючы тэг @throws або @exception для выключэння ''{0}''"
 inspection.javadoc.problem.missing.tag:
     text: Отсутствует обязательный тег {0}
 inspection.javadoc.problem.name.expected:
@@ -523,9 +537,9 @@ inspection.javadoc.problem.pointing.to.itself:
 inspection.javadoc.problem.wrong.tag:
     text: Неверный тег {0}
 inspection.javadoc.ref.display.name:
-    text: Праблемы ў спасылках Javadoc у аб'яўленні
+    text: "Праблемы ў спасылках Javadoc у аб'яўленні"
 inspection.local.can.be.final.display.name:
-    text: Лакальная пераменная або параметр могуць быць 'final'
+    text: "Лакальная пераменная або параметр могуць быць 'final'"
 inspection.local.can.be.final.option:
     text: Паведамляць пра лакальныя пераменныя
 inspection.local.can.be.final.option1:
@@ -549,7 +563,7 @@ inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
 inspection.nullable.problems.display.name:
     text: Проблемы @NotNull/@Nullable
 inspection.options.action.text:
-    text: Параметры праверкі ''{0}''
+    text: "Параметры праверкі ''{0}''"
 inspection.parameter.can.be.local.display.name:
     text: Значэнне, перададзенае як параметр, ніколі не чытаецца
 inspection.parameter.can.be.local.problem.descriptor:
@@ -587,11 +601,11 @@ inspection.redundant.suppression.description:
 inspection.redundant.suppression.name:
     text: Лішняе падаўленне
 inspection.redundant.throws.problem.descriptor:
-    text: Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ні ў адной рэалізацыі метаду
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ні ў адной рэалізацыі метаду"
 inspection.redundant.throws.problem.descriptor1:
-    text: Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ў гэтым метадзе або яго пераазначальных метадах
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ў гэтым метадзе або яго пераазначальных метадах"
 inspection.redundant.throws.problem.descriptor2:
-    text: Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца"
 inspection.redundant.type.display.name:
     text: Лішнія аргументы тыпу
 inspection.redundant.type.problem.descriptor:
@@ -601,15 +615,15 @@ inspection.reference.anonymous:
 inspection.reference.anonymous.name:
     text: ананімны ({0})
 inspection.replace.ternary.quickfix:
-    text: Замяніць на ''{0} != null ?:''
+    text: "Замяніць на ''{0} != null ?:''"
 inspection.root.node.title:
     text: Інспекцыі
 inspection.same.parameter.display.name:
     text: Параметр метаду заўсёды мае адно і тое ж значэнне
 inspection.same.parameter.fix.name:
-    text: Убудаваць значэнне ''{1}'' для параметра ''{0}''
+    text: "Убудаваць значэнне ''{1}'' для параметра ''{0}''"
 inspection.same.parameter.problem.descriptor:
-    text: Значэнне параметра <code>#ref</code> заўсёды роўна ''{0}''
+    text: "Значэнне параметра <code>#ref</code> заўсёды роўна ''{0}''"
 inspection.same.return.value.display.name:
     text: Метад заўсёды вяртае адно і тое ж значэнне
 inspection.same.return.value.problem.descriptor:
@@ -625,7 +639,7 @@ inspection.surround.if.family:
 inspection.suspicious.collections.method.calls.display.name:
     text: Падазроны выклік метаду калекцыі
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: Падазроны выклік ''{0}''
+    text: "Падазроны выклік ''{0}''"
 inspection.tool.availability.in.tree.node1:
     text: (Даступна ў "Код | Праверыць код")
 inspection.tool.description.under.construction.text:
@@ -659,7 +673,7 @@ inspection.unused.parameter.composer:
 inspection.unused.parameter.composer1:
     text: Параметр <code>#ref</code> не выкарыстоўваецца ні ў гэтым метадзе, ні ў яго пераазначальных метадах
 inspection.unused.parameter.delete.quickfix:
-    text: Бяспечна выдаліць нявыкарыстаны параметр ''{0}''
+    text: "Бяспечна выдаліць нявыкарыстаны параметр ''{0}''"
 inspection.unused.parameter.display.name:
     text: Нявыкарыстаны параметр
 inspection.unused.return.value.problem.descriptor:
@@ -685,9 +699,9 @@ nullable.stuff.problems.overridden.methods.are.not.annotated:
 offline.inspections.jdk.not.found:
     text: Не найден {0}
 offline.inspections.library.was.not.resolved:
-    text: Калі ласка, настройце бібліятэку ''{0}'', якая выкарыстоўваецца ў модулі ''{1}''
+    text: "Калі ласка, настройце бібліятэку ''{0}'', якая выкарыстоўваецца ў модулі ''{1}''"
 offline.inspections.module.jdk.not.found:
-    text: Укажыце sdk ''{0}'' для модуля ''{1}''
+    text: "Укажыце sdk ''{0}'' для модуля ''{1}''"
 offline.view.editor.settings.title:
     text: Налады рэдактара
 offline.view.parse.exception.title:
@@ -737,13 +751,13 @@ unhandled.exception.in.jsp.name:
 unnecessary.module.dependency.display.name:
     text: Непатрэбная залежнасць модуля
 unsupported.character.for.the.charset:
-    text: Непадтрымлівальны сімвал для кадавання ''{0}''
+    text: "Непадтрымлівальны сімвал для кадавання ''{0}''"
 unused.library.display.name:
     text: Нявыкарыстаная бібліятэка
 unused.library.problem.descriptor:
-    text: Нявыкарыстаная бібліятэка ''{0}''
+    text: "Нявыкарыстаная бібліятэка ''{0}''"
 unused.library.roots.problem.descriptor:
-    text: Нявыкарыстаныя карані {0} з бібліятэкі ''{1}''
+    text: "Нявыкарыстаныя карані {0} з бібліятэкі ''{1}''"
 wrong.package.statement:
     text: Неверный оператор package
 xml.suppressable.all.for.file.title:

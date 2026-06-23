@@ -69,13 +69,13 @@ hector.syntax.slider.label:
 inlay.hints.declarative.disable.action.no.provider.text:
     text: Адключыць убудаваныя падказкі
 inlay.hints.declarative.disable.action.text:
-    text: Адключыць убудаваныя падказкі ''{0}''
+    text: "Адключыць убудаваныя падказкі ''{0}''"
 inlay.hints.declarative.disable.option.action.text:
-    text: Адключыць опцыю ''{0}'' для ўбудаваных падказак ''{1}''
+    text: "Адключыць опцыю ''{0}'' для ўбудаваных падказак ''{1}''"
 inlay.hints.declarative.enable.action.text:
-    text: Уключыць убудаваныя падказкі ''{0}''
+    text: "Уключыць убудаваныя падказкі ''{0}''"
 inlay.hints.declarative.enable.option.action.text:
-    text: Уключыць опцыю ''{0}'' для ўбудаваных падказак ''{1}''
+    text: "Уключыць опцыю ''{0}'' для ўбудаваных падказак ''{1}''"
 iw.compact.view:
     text: Кампактны выгляд
 iw.disable.powersave:

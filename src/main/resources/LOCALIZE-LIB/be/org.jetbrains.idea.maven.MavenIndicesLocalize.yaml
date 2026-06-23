@@ -11,4 +11,4 @@ maven.indices.updating:
 maven.repositories.title:
     text: Рэпазіторыі
 repository.plugin.corrupt:
-    text: '{0} не з''яўляецца файлам плагіна Maven 2'
+    text: "{0} не з'яўляецца файлам плагіна Maven 2"

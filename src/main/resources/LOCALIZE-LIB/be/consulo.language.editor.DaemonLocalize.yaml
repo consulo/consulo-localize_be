@@ -25,7 +25,7 @@ iw.status.paused:
 method.implements:
     text: Рэалізуе метад з <a href="#javaClass/{1}">{1}</a>
 method.implements.in:
-    text: Рэалізуе метад ''{0}'' з <a href="#javaClass/{1}">{1}</a>
+    text: "Рэалізуе метад ''{0}'' з <a href=\"#javaClass/{1}\">{1}</a>"
 method.is.implemented.header:
     text: Рэалізавана ў<br>
 method.is.implemented.too.many:
@@ -37,7 +37,7 @@ method.is.overriden.header:
 method.overrides:
     text: Пераазначае метад з <a href="#javaClass/{1}">{1}</a>
 method.overrides.in:
-    text: Пераазначае метад ''{0}'' з <a href="#javaClass/{1}">{1}</a>
+    text: "Пераазначае метад ''{0}'' з <a href=\"#javaClass/{1}\">{1}</a>"
 navigation.findUsages.title.super.method:
     text: Super метод для {0}
 navigation.title.implementation.method:
@@ -65,7 +65,7 @@ performing.code.analysis:
 popup.title.configure.highlighting.level:
     text: Узровень падсветкі для {0}
 process.title.file.is.binary:
-    text: Файл з'яўляецца бінарным
+    text: "Файл з'яўляецца бінарным"
 process.title.file.is.decompiled:
     text: Файл дэкампіляваны
 process.title.file.is.generated:
