@@ -1,0 +1,904 @@
+ACT.CMD.use.import:
+    text: Выкарыстоўвайце імпартаваны модуль
+ACT.from.some.module.import:
+    text: Імпарт з...
+ACT.qualify.with.module:
+    text: Дапрацаваць з дапамогай імпартаванага модуля
+ANN.assign.to.none:
+    text: Прызначэнне Няма
+ANN.break.outside.loop:
+    text: '''разрыў'' па-за цыклам'
+ANN.cant.assign.to.call:
+    text: Немагчыма прысвоіць значэнне выкліку функцыі
+ANN.cant.assign.to.comprh:
+    text: Немагчыма прысвоіць значэнне ўключэнню ў спіс
+ANN.cant.assign.to.dict.comprh:
+    text: Немагчыма прысвоіць значэнне ўключэнню слоўніка
+ANN.cant.assign.to.generator:
+    text: Немагчыма прысвоіць значэнне выразу генератара
+ANN.cant.assign.to.lambda:
+    text: Немагчыма прысвоіць значэнне лямбда
+ANN.cant.assign.to.literal:
+    text: Немагчыма прысвоіць значэнне літаралу
+ANN.cant.assign.to.operator:
+    text: Немагчыма прысвоіць значэнне аператару
+ANN.cant.assign.to.parens:
+    text: Немагчыма прысвоіць значэнне ()
+ANN.cant.assign.to.set.comprh:
+    text: Немагчыма прысвоіць значэнне множнаму ўключэнню
+ANN.cant.aug.assign.to.comprh:
+    text: Немагчыма выканаць пашыранае прызначэнне для ўключэння ў спіс
+ANN.cant.aug.assign.to.dict.comprh:
+    text: Немагчыма выканаць пашыранае прызначэнне для ўключэння ў слоўнік
+ANN.cant.aug.assign.to.generator:
+    text: Немагчыма выканаць пашыранае прызначэнне выразу генератара
+ANN.cant.aug.assign.to.list.or.comprh:
+    text: Немагчыма выканаць пашыранае прызначэнне літаралу спісу або ўбудове спісу
+ANN.cant.aug.assign.to.set.comprh:
+    text: Немагчыма выканаць пашыранае прызначэнне множнага ўключэння
+ANN.cant.aug.assign.to.tuple.or.generator:
+    text: Немагчыма выканаць пашыранае прызначэнне літэралу картэжа або выразу генератара
+ANN.cant.delete.call:
+    text: Немагчыма выдаліць выклік функцыі
+ANN.cant.delete.literal:
+    text: Немагчыма выдаліць літар
+ANN.continue.outside.loop:
+    text: «працягнуць» па-за цыклам
+ANN.default.except.must.be.last:
+    text: па змаўчанні 'except:' павінен быць апошнім
+ANN.deleting.none:
+    text: Выдаленне нічога
+ANN.duplicate.param.name:
+    text: паўтаральнае імя параметра
+ANN.missing.closing.quote:
+    text: Адсутнічае завяршальная цытата [{0}]
+ANN.missing.closing.triple.quotes:
+    text: Закрывальныя патройныя двукоссі адсутнічаюць
+ANN.non.default.param.after.default:
+    text: параметр без значэння па змаўчанні ідзе пасля параметра са значэннем па змаўчанні
+ANN.regular.param.after.keyword:
+    text: звычайны параметр пасля параметра **
+ANN.regular.param.after.vararg:
+    text: звычайны параметр пасля параметра *
+ANN.star.import.at.top.only:
+    text: '''імпарт *'' дазволены толькі на ўзроўні модуля'
+ANN.starred.param.after.kwparam:
+    text: параметр * пасля параметра **
+ANN.tuple.py3:
+    text: распакаванне параметраў картэжа не падтрымліваецца ў Python 3
+CONFLICT.occurrence.pl:
+    text: запалкі
+INSP.NAME.abstract.class:
+    text: Клас павінен рэалізаваць усе абстрактныя метады
+INSP.NAME.argument.equal.default:
+    text: Аргумент функцыі роўны значэнню параметра па змаўчанні
+INSP.NAME.attribute.outside.init:
+    text: Атрыбут асобніка, вызначаны па-за `__init__`
+INSP.NAME.augment.assignment:
+    text: Заданне можна замяніць пашыраным заданнем
+INSP.NAME.bad.except.clauses.order:
+    text: Няправільны парадак сказаў «за выключэннем».
+INSP.NAME.byte.literal:
+    text: Літарал байта змяшчае сімвалы, якія не з'яўляюцца ASCII
+INSP.NAME.chained.comparisons:
+    text: Занадта складаныя ланцужкі параўнанняў
+INSP.NAME.check.can.be.simplified:
+    text: Праверка залішняй лагічнай зменнай
+INSP.NAME.class.has.no.init:
+    text: Клас не мае метаду `__init__`
+INSP.NAME.classic.class.usage:
+    text: Выкарыстанне класічнага стылю
+INSP.NAME.comparison.with.none:
+    text: Выкарыстанне аператараў роўнасці для параўнання з None
+INSP.NAME.compatibility:
+    text: Код несумяшчальны з пэўнымі версіямі Python
+INSP.NAME.decorator.outside.class:
+    text: Спецыфічны для класа дэкаратар выкарыстоўваецца па-за класам
+INSP.NAME.default.argument:
+    text: Аргумент па змаўчанні зменлівы
+INSP.NAME.dict.creation:
+    text: Стварэнне слоўніка можа быць перапісана з дапамогай слоўнікавага літарала
+INSP.NAME.docstring.types:
+    text: Тып у радку дакументацыі не адпавядае меркаванаму тыпу
+INSP.NAME.duplicate.keys:
+    text: Слоўнік змяшчае дублікаты ключоў
+INSP.NAME.exception.not.inherit:
+    text: Выключэнні не ўспадкоўваюцца ад стандартнага класа Exception
+INSP.NAME.first.arg.assign:
+    text: Першы аргумент метаду перапрызначаны
+INSP.NAME.from.future.import:
+    text: Няправільная пазіцыя з __будучага__ імпарту
+INSP.NAME.global.undefined:
+    text: Глабальная зменная не вызначана на ўзроўні модуля
+INSP.NAME.incorrect.call.arguments:
+    text: Няправільныя аргументы выкліку
+INSP.NAME.incorrect.docstring:
+    text: Няправільны радок дакументацыі
+INSP.NAME.init.return:
+    text: Метад __init__ вяртае значэнне
+INSP.NAME.invalid.interpreter:
+    text: Няправільны інтэрпрэтатар
+INSP.NAME.list.creation:
+    text: Аб'ява неаптымальнага спісу
+INSP.NAME.mandatory.encoding:
+    text: Кадыроўка файла не ўказана
+INSP.NAME.method.may.be.static:
+    text: Метад не заяўлены як статычны
+INSP.NAME.method.over:
+    text: Подпіс метаду не супадае з подпісам перавызначанага метаду
+INSP.NAME.missing.or.empty.docstring:
+    text: Адсутнічае або пусты радок дакументацыі
+INSP.NAME.missing.super.constructor:
+    text: Прапушчаны выклік '__init__' суперкласа
+INSP.NAME.nested.decorators:
+    text: Праблемная ўкладзенасць дэкаратараў
+INSP.NAME.new.init.signature:
+    text: Несумяшчальныя подпісы __new__ і __init__
+INSP.NAME.non.ascii:
+    text: Файл змяшчае сімвалы, якія не з'яўляюцца ASCII
+INSP.NAME.none.function.assignment:
+    text: Прызначэнне выклікаў функцый, якія нічога не вяртаюць
+INSP.NAME.oldstyle.class:
+    text: Стары клас стылю змяшчае функцыі новага класа стылю
+INSP.NAME.problematic.first.parameter:
+    text: Няправільны першы параметр
+INSP.NAME.property.access:
+    text: Няправільны доступ да ўласцівасцей
+INSP.NAME.property.definition:
+    text: Няправільнае вызначэнне ўласцівасці
+INSP.NAME.redeclaration:
+    text: Пераабвешчаныя імёны без выкарыстання
+INSP.NAME.redundant.parentheses:
+    text: Лішнія дужкі
+INSP.NAME.requirements:
+    text: Невыкананыя патрабаванні да пакета
+INSP.NAME.set.function.to.literal:
+    text: Выклік функцыі можа быць заменены літэралам набору
+INSP.NAME.single.quoted.docstring:
+    text: Радок дакументацыі ў адзінарных двукоссях
+INSP.NAME.statement.effect:
+    text: Выраз не дзейнічае
+INSP.NAME.str.format:
+    text: Памылкі ў аперацыях фарматавання радка
+INSP.NAME.too.broad.exception.clauses:
+    text: Невыразныя блокі выключэнняў
+INSP.NAME.trailing.semicolon:
+    text: Недапушчальная кропка з коскі ў выразе
+INSP.NAME.tuple.item.assignment:
+    text: Прызначэнне элементу картэжа забаронена
+INSP.NAME.unbound:
+    text: Непрывязаныя лакальныя зменныя
+INSP.NAME.unnecessary.backslash:
+    text: Непатрэбны зваротны слэш
+INSP.NAME.unreachable.code:
+    text: Недаступны код
+INSP.NAME.unresolved.refs:
+    text: Нявырашаныя спасылкі
+INSP.NAME.unused:
+    text: Нявыкарыстаная мясцовая сімволіка
+INSP.NAME.wrong.super.arguments:
+    text: Няправільныя аргументы пры выкліку супер
+INSP.argument.equals.to.default:
+    text: Аргумент роўны значэнню параметра па змаўчанні
+INSP.cant.return.value.from.init:
+    text: Немагчыма вярнуць значэнне з __init__
+INSP.class.has.no.init:
+    text: Клас не мае метаду __init__
+INSP.classic.class.usage.old.style.class:
+    text: Клас у старым стылі
+INSP.classic.class.usage.old.style.class.ancestors:
+    text: Клас старога стылю, бо ўсе класы, ад якіх ён успадкоўваецца, з'яўляюцца класамі старога стылю
+INSP.decorator.receives.unexpected.builtin:
+    text: Гэты дэкаратар не атрымае чаканага выкліку; убудаваны дэкаратар вяртае спецыяльны аб'ект
+INSP.deleter.should.not.return:
+    text: Праграма выдалення не павінна вяртаць значэнне
+INSP.deleter.signature.advice:
+    text: Подпіс выдаляльніка павінен быць (сам)
+INSP.doc.param.should.be.str:
+    text: Параметр doc павінен быць радком
+INSP.empty.docstring:
+    text: Пусты радок дакументацыі
+INSP.expression.can.be.simplified:
+    text: Выраз можна спрасціць
+INSP.first.param.must.not.be.tuple:
+    text: Першы параметр нестатычнага метаду не павінен быць картэжам
+INSP.format.requires.mapping:
+    text: Фармат патрабуе адлюстравання
+INSP.format.requires.no.mapping:
+    text: Фармат не патрабуе адлюстравання
+INSP.func.property.name.mismatch:
+    text: Назвы функцыі і дэкаратара не супадаюць; сродак доступу да ўласцівасці не створана
+INSP.getter.return.smth:
+    text: Геттер павінен нешта вяртаць або ствараць
+INSP.getter.signature.advice:
+    text: Подпіс атрымальніка павінен быць (сам)
+INSP.init.incompatible.to.new:
+    text: Подпіс несумяшчальны з __new__
+INSP.message.single.quoted.docstring:
+    text: Для docstring трэба выкарыстоўваць радкі з патройнымі двукоссямі.
+INSP.method.may.be.static:
+    text: Метад <code>#ref</code> можа быць «статычным»
+INSP.missing.parameter.in.docstring:
+    text: У радку дакумента адсутнічае параметр {0}
+INSP.missing.super.constructor.message:
+    text: Прапушчаны выклік __init__ суперкласса
+INSP.must.have.first.parameter:
+    text: Метад павінен мець першы параметр, які звычайна называецца ''{0}''
+INSP.new.incompatible.to.init:
+    text: Подпіс несумяшчальны з __init__
+INSP.no.docstring:
+    text: Адсутнічае радок дакументацыі
+INSP.no.format.specifier.char:
+    text: Адсутнічае сімвал спецыфікатара фармату
+INSP.none.function.assignment:
+    text: Функцыя ''{0}'' нічога не вяртае
+INSP.oldstyle.class.getattribute:
+    text: Клас старога стылю змяшчае азначэнне __getattribute__
+INSP.oldstyle.class.slots:
+    text: Клас старога стылю змяшчае вызначэнне __slots__
+INSP.oldstyle.class.super:
+    text: Клас старога стылю змяшчае выклік метаду super
+INSP.probably.mistyped.self:
+    text: Магчыма, вы мелі на ўвазе «я»?
+INSP.redeclared.name:
+    text: Паўторна абвешчаны ''{0}'', вызначаны вышэй, без выкарыстання
+INSP.setter.should.not.return:
+    text: Усталёўшчык не павінен вяртаць значэнне
+INSP.setter.signature.advice:
+    text: Подпіс установшчыка павінен быць (я, значэнне)
+INSP.signature.mismatch:
+    text: Подпіс метаду ''{0}'' не супадае з подпісам базавага метаду ў класе ''{1}''
+INSP.strange.arg.want.callable:
+    text: Дзіўны аргумент; чаканы выклік
+INSP.too.few.args.for.fmt.string:
+    text: Занадта мала аргументаў для радка фармату
+INSP.too.few.keys:
+    text: Занадта мала клавіш дысплея
+INSP.too.many.args.for.fmt.string:
+    text: Зашмат аргументаў для радка фармату
+INSP.try.except.import.error:
+    text: «{0}» у блоку try з «except ImportError» таксама павінен быць вызначаны ў блоку Except
+INSP.tuples.never.assign.items:
+    text: Картэжы не падтрымліваюць прызначэнне элементаў
+INSP.unbound.function.too.large:
+    text: Функцыя ''{0}'' занадта вялікая для аналізу
+INSP.unbound.local.variable:
+    text: Лакальная зменная ''{0}'' можа быць выкарыстана перад прызначэннем
+INSP.unbound.nonlocal.variable:
+    text: Нелакальная зменная ''{0}'' павінна быць звязана ў вобласці знешняй функцыі
+INSP.unexpected.arg:
+    text: Нечаканы аргумент
+INSP.unexpected.parameter.in.docstring:
+    text: Нечаканы параметр {0} у радку дакумента
+INSP.unreachable.code:
+    text: Гэты код недасяжны
+INSP.unused.locals.local.class.isnot.used:
+    text: Лакальны клас ''{0}'' не выкарыстоўваецца
+INSP.unused.locals.local.function.isnot.used:
+    text: Лакальная функцыя ''{0}'' не выкарыстоўваецца
+INSP.unused.locals.local.variable.isnot.used:
+    text: Значэнне лакальнай зменнай ''{0}'' не выкарыстоўваецца
+INSP.unused.locals.parameter.isnot.used:
+    text: Значэнне параметра ''{0}'' не выкарыстоўваецца
+INSP.unused.locals.replace.with.wildcard:
+    text: Замяніць на _
+INSP.usually.named.self:
+    text: Звычайна першы параметр метаду называецца "я"
+INTN.add.parameters.to.docstring:
+    text: Дадайце параметры ў радок дакументацыі
+INTN.convert.builtin.import:
+    text: Пераўтварыце імпарт убудаванага модуля ў форму, якая падтрымліваецца
+INTN.convert.dict.constructor.to.dict.literal:
+    text: Пераўтварыць канструктар dict у літаральны dict
+INTN.convert.dict.literal.to.dict.constructor:
+    text: Пераўтварыць літарал dict у канструктар dict
+INTN.convert.except.to:
+    text: Пераўтварыць «except osimClass, Target» у «except acceptClass as Target»
+INTN.convert.lambda.to.function:
+    text: Пераўтварэнне лямбда ў функцыю
+INTN.convert.method.to.property:
+    text: Пераўтварыць метад ва ўласцівасць
+INTN.convert.static.method.to.function:
+    text: Пераўтварэнне статычнага метаду ў функцыянальны
+INTN.convert.to.fstring.literal:
+    text: Пераўтварыць у f-радок
+INTN.convert.variadic.param:
+    text: Пераўтварыце зменныя параметры ў звычайныя
+INTN.flip.comparison:
+    text: Інвертаваць ''{0}''
+INTN.format.operator.to.method:
+    text: Пераўтварыце фармат у выклік метаду "str.format"
+INTN.insert.assertion:
+    text: Праверка тыпу ўстаўкі
+INTN.join.if:
+    text: Аб'яднайце два выказванні "калі".
+INTN.negate.comparison:
+    text: Замяніць ''{0}'' на ''{1}''
+INTN.quoted.string:
+    text: Пераўтварэнне радкоў з адзінарнымі двукоссямі ў падвойныя і наадварот
+INTN.quoted.string.double.to.single:
+    text: Пераўтварэнне радка з падвойнымі двукоссямі ў радок з адзінарнымі двукоссямі
+INTN.quoted.string.single.to.double:
+    text: Пераўтварэнне радка з адзінарнымі двукоссямі ў радок з падвойнымі двукоссямі
+INTN.replace.backquote.expression:
+    text: Замяніце выраз зваротнымі двукоссямі
+INTN.replace.list.comprehensions:
+    text: Пераўтварыце ўключэнне ў спіс у форму, якая падтрымліваецца
+INTN.replace.list.comprehensions.with.for:
+    text: Пераўтварыце ўкладанне спісу ў цыкл "for".
+INTN.replace.noteq.operator:
+    text: Замяніць аператар няроўнасці
+INTN.replace.octal.numeric.literal:
+    text: Пераўтварэнне васьмярковага літарала ў форму, якая падтрымліваецца
+INTN.replace.plus.with.format.operator:
+    text: Заменіце + аператарам фарматавання радка
+INTN.replace.plus.with.str.format:
+    text: Заменіце + на выклік метаду str.format
+INTN.replace.raise.statement:
+    text: Пераўтварыце заяву аб павышэнні ў форму, якая падтрымліваецца
+INTN.replace.with.method:
+    text: Заменіце выклікам метаду str.format
+INTN.specify.return.type.in.annotation:
+    text: Укажыце тып вяртання з дапамогай анатацыі
+INTN.specify.type.in.annotation:
+    text: Вызначце тып спасылкі з дапамогай анатацыі
+INTN.split.if:
+    text: Разбіце на 2 аператары "калі".
+INTN.string.concatenation.to.format:
+    text: Замяніць аб'яднанне радкоў на "str.format"
+INTN.transform.into.if.else.statement:
+    text: Пераўтварыце ўмоўныя выразы ў аператары «if/else».
+INTN.triple.quoted.string:
+    text: Пераўтварэнне радка з патройнымі двукоссямі ў радок з адзінарнымі двукоссямі
+INTN.yield.from:
+    text: Пераўтварыце відавочныя ітэрацыі з выразамі 'yield' у 'yield from'
+PARSE.expected.colon:
+    text: Чакаецца ':'
+PARSE.expected.colon.or.rbracket:
+    text: Чакаецца ':' або ']'
+PARSE.expected.comma:
+    text: Чакаецца ","
+PARSE.expected.comma.lpar.rpar:
+    text: Чакаецца ',', '(' або ')'
+PARSE.expected.comma.or.rpar:
+    text: Чакаецца ',' або ')'
+PARSE.expected.else:
+    text: «Інакш» чакаецца
+PARSE.expected.expr.or.comma.or.bracket:
+    text: Чакаецца выраз, ',' або ']'
+PARSE.expected.expression:
+    text: Чаканы выраз
+PARSE.expected.for.or.bracket:
+    text: Чакаецца ']' або 'for'
+PARSE.expected.formal.param.name:
+    text: Чакаецца афіцыйная назва параметра
+PARSE.expected.identifier:
+    text: Чакаецца пасведчанне асобы
+PARSE.expected.in:
+    text: Чакаецца "ў"
+PARSE.expected.lpar:
+    text: Чакаецца '('
+PARSE.expected.name:
+    text: Імя чаканае
+PARSE.expected.rbrace:
+    text: Чакаецца "}"
+PARSE.expected.rbracket:
+    text: Чакаецца ']'
+PARSE.expected.rpar:
+    text: Чакаецца ')'
+PARSE.expected.statement.break:
+    text: Чакаецца збой аператара
+PARSE.expected.tick:
+    text: Чакаецца "`" (адваротная галочка)
+QDOC.module.path.unknown:
+    text: (Шлях да модуля невядомы)
+QFIX.NAME.add.exception.base:
+    text: Дадаць базавы клас Exception
+QFIX.NAME.add.specifier:
+    text: Дадаць сімвал спецыфікатара фармату
+QFIX.NAME.change.signature:
+    text: Змяніць подпіс
+QFIX.NAME.implement.methods:
+    text: Рэалізаваць абстрактныя метады
+QFIX.NAME.make.function:
+    text: Стварыць функцыю з метаду
+QFIX.NAME.make.list:
+    text: Замяніць картэж спісам
+QFIX.NAME.make.static:
+    text: Зрабіце метад статычным
+QFIX.NAME.move.except.up:
+    text: Рухайцеся, акрамя блакіроўкі
+QFIX.NAME.remove.argument:
+    text: Выдаліць аргумент
+QFIX.NAME.remove.assignment:
+    text: Выдаліць прызначэнне
+QFIX.NAME.remove.call:
+    text: Выдаліць выклік
+QFIX.NAME.remove.dict.key:
+    text: Выдаліць гэты ключ
+QFIX.NAME.remove.parameter:
+    text: Выдаліць параметр
+QFIX.NAME.remove.statement:
+    text: Выдаліць аператара
+QFIX.NAME.remove.underscores.in.numeric:
+    text: Выдаліць падкрэсліванне ў лікавых літэралах
+QFIX.NAME.rename.argument:
+    text: Перайменаваць аргумент
+QFIX.NAME.rename.element:
+    text: Перайменаваць элемент
+QFIX.NAME.update.parameters:
+    text: Абнавіць налады
+QFIX.action.failed:
+    text: Дзеянне не завершана
+QFIX.add.encoding:
+    text: Дадайце дэкларацыю кадавання
+QFIX.add.global:
+    text: Дадаць глабальнае аб'яву
+QFIX.add.import.add.import:
+    text: Дадаць "''{0}"
+QFIX.add.parameter.self:
+    text: Дадаць параметр ''{0}''
+QFIX.add.property:
+    text: Дадайце ўласцівасць для поля
+QFIX.add.super:
+    text: Дадаць выклік суперкласса
+QFIX.augment.assignment:
+    text: Замяніць прызначэнне пашыраным прызначэннем
+QFIX.auto.import.import.name:
+    text: Імпарт ''{0}''
+QFIX.auto.import.import.this.name:
+    text: Імпартаваць гэтае імя
+QFIX.chained.comparison:
+    text: Спрасціце ланцужок параўнанняў
+QFIX.change.base.class:
+    text: Змяніць базавы клас
+QFIX.classic.class.transform:
+    text: Успадкаваць ад аб'екта
+QFIX.convert.single.quoted.docstring:
+    text: Пераўтварэнне радка дакумента ў радок з патройнымі падвойнымі двукоссямі
+QFIX.convert.to.new.style:
+    text: Пераўтварыць у клас новага стылю
+QFIX.create.property:
+    text: Стварыце ўласнасць
+QFIX.default.argument:
+    text: Замяніць зменлівы аргумент па змаўчанні
+QFIX.dict.creation:
+    text: Замяніць стварэнне слоўніка
+QFIX.docstring.insert.stub:
+    text: Устаўце радок дакументацыі
+QFIX.failed.to.add.field:
+    text: <br/>Не атрымалася дадаць поле!<br/><br/>
+QFIX.failed.to.add.function:
+    text: <br/>Не атрымалася дадаць функцыю!<br/><br/>
+QFIX.failed.to.add.method:
+    text: <br/>Не атрымалася дадаць метад!<br/><br/>
+QFIX.introduce.variable:
+    text: Стварыце зменную для аператара
+QFIX.list.creation:
+    text: Замяніць літаральным спісам
+QFIX.local.auto.import.import.locally:
+    text: Мясцовы {0}
+QFIX.make.public:
+    text: Зрабіце гэта публічным
+QFIX.move.attribute:
+    text: Перамясціць атрыбут у метад __init__
+QFIX.move.from.future.import:
+    text: Перамясціць 'from __future__ import' у патрэбнае месца
+QFIX.redundant.parentheses:
+    text: Выдаліць лішнія дужкі
+QFIX.remove.argument.equal.default:
+    text: Выдаліць аргументы, роўныя значэнням па змаўчанні
+QFIX.remove.decorator:
+    text: Выдаліць дэкаратар
+QFIX.remove.trailing.semicolon:
+    text: Выдаліце ​​кропку з коскі
+QFIX.remove.unnecessary.backslash:
+    text: Выдаліце ​​непатрэбную зваротную касую рысу ў выразе
+QFIX.rename.unresolved.reference:
+    text: Перайменаваць спасылку
+QFIX.replace.equality:
+    text: Замяніце параўнанне
+QFIX.replace.function.set.with.literal:
+    text: Заменіце выклік функцыі зададзеным літэралам
+QFIX.statement.effect:
+    text: Замяніць выклікам функцыі
+QFIX.unresolved.reference:
+    text: Замяніць ''{0}'' на ''{1}.{0}''
+QFIX.unresolved.reference.add.param:
+    text: Стварыць параметр ''{0}''
+QFIX.use.property:
+    text: Выкарыстоўвайце ўласцівасць для поля
+active.sdk.dialog.project.interpreter:
+    text: 'Інтэрпрэтатар Python:'
+active.sdk.dialog.project.interpreter.path.mappings:
+    text: 'Адлюстраванне шляху:'
+active.sdk.dialog.project.interpreter.path.mappings.default.project.error:
+    text: Адкрыйце або стварыце праект, каб наладзіць супастаўленні
+active.sdk.dialog.show.all.item:
+    text: Паказаць усё...
+commandLine.commandNotFound:
+    text: '{0}: каманда не знойдзена'
+commandLine.inspection.badArgument:
+    text: Аргумент не можа мець гэта значэнне. Выкарыстоўвайце аўтадапаўненне для праверкі спісу магчымых значэнняў.
+commandLine.inspection.badCommand:
+    text: Няправільная або невядомая каманда. Пераканайцеся, што каманда існуе.
+commandLine.inspection.badOption:
+    text: Няправільная або невядомая опцыя. Пераканайцеся, што опцыя існуе.
+commandLine.inspection.excessArgument:
+    text: Лішні аргумент або аргумент тут немагчымы
+commandLine.inspection.name:
+    text: Некарэктны сінтаксіс CLI
+custom.type.mimic.name:
+    text: Дынамічны клас на аснове {0}
+debug.popup.title.step.into.function:
+    text: Перайсці да функцыі
+formatter.after.hash:
+    text: Пасля '#'
+formatter.after.local.imports:
+    text: 'Пасля мясцовага імпарту:'
+formatter.align.when.multiline:
+    text: Выраўнаваць па разрывах радкоў
+formatter.around.eq.in.keyword.argument:
+    text: Вакол = у названым аргументе
+formatter.around.eq.in.named.parameter:
+    text: Вакол = у названым параметры
+formatter.around.multiplicative.operators:
+    text: Аператары множання (*, @, /, %)
+formatter.around.power.operator:
+    text: Аператар узвядзення ў ступень (**)
+formatter.around.top.level.classes.and.function:
+    text: 'Вакол класаў і функцый верхняга ўзроўню:'
+formatter.around.top.level.imports:
+    text: 'Пасля імпарту верхняга ўзроўню:'
+formatter.before.backslash:
+    text: Перад '\'
+formatter.before.hash:
+    text: Перад '#'
+formatter.braces:
+    text: Брекеты
+formatter.collections.and.comprehensions:
+    text: Калекцыі і генератары
+formatter.dictionary.literals:
+    text: Літэралы слоўніка
+formatter.force.new.line.after.colon:
+    text: Прымусовы працяжнік пасля двукроп'я
+formatter.imports.panel.optimize.imports:
+    text: Аптымізацыя імпарту
+formatter.imports.panel.sort.by.type:
+    text: Адсартуйце звычайны імпарт і імпарт "ад" асобна ў групе
+formatter.imports.panel.sort.imports:
+    text: Сартаваць імпарт
+formatter.imports.panel.sort.names.in.from.imports:
+    text: Сартаванне імёнаў у "ад" імпарту
+formatter.imports.panel.title:
+    text: Імпарт
+formatter.left.bracket:
+    text: Левая квадратная дужка
+formatter.multi.clause.statements:
+    text: Шматрадковыя выразы
+formatter.panel.add.trailing.line.feed:
+    text: Дадайце новы радок у канцы файла
+formatter.panel.dict.alignment.align.on.colon:
+    text: Выраўнаваць па двукроп'ю
+formatter.panel.dict.alignment.align.on.value:
+    text: Выраўнаваць па значэнні
+formatter.panel.dict.alignment.do.not.align:
+    text: Не выраўноўваць
+formatter.panel.dict.alignment.label:
+    text: 'Выраўноўванне па слоўніку:'
+formatter.panel.use.continuation.indent.for.arguments:
+    text: Аргументы выкліку метаду
+formatter.single.clause.statements:
+    text: Аднарадковыя выразы
+python.console:
+    text: Кансоль Python
+refactoring.change.signature.dialog.default.value.checkbox:
+    text: 'Выкарыстоўваць стандартнае значэнне ў подпісе:'
+refactoring.change.signature.dialog.name.label:
+    text: 'Імя:'
+refactoring.change.signature.dialog.validation.default.missing:
+    text: Значэнне па змаўчанні адсутнічае
+refactoring.change.signature.dialog.validation.function.name:
+    text: Няправільная назва функцыі
+refactoring.change.signature.dialog.validation.multiple.double.star:
+    text: Некалькі аргументаў** не дапускаюцца
+refactoring.change.signature.dialog.validation.multiple.star:
+    text: Некалькі аргументаў * не дапускаюцца
+refactoring.change.signature.dialog.validation.name.defined:
+    text: Імя ўжо вызначана ў гэтай вобласці
+refactoring.change.signature.dialog.validation.parameter.missing:
+    text: Адсутнічае імя параметра
+refactoring.change.signature.dialog.validation.parameter.name:
+    text: Няправільнае імя параметра
+refactoring.change.signature.error.lambda.call:
+    text: Курсор размешчаны на лямбда-выкліку
+refactoring.change.signature.error.not.under.source.root:
+    text: Функцыя размешчана па-за каранёвым зыходным каталогам
+refactoring.change.signature.error.tuple.parameters:
+    text: Функцыя змяшчае параметры картэжа
+refactoring.change.signature.error.wrong.caret.position.method.name:
+    text: Курсор павінен быць размешчаны на назве метаду, які будзе рэарганізаваны
+refactoring.change.signature.find.usages.of.base.class:
+    text: "Метад {0} класа {1}\noзамяняе метад класа {2}.\nВы жадаеце зрабіць рэфактаринг базавага метаду?"
+refactoring.change.signature.usage.view.declarations.header:
+    text: Функцыі для рэфактарынгу
+refactoring.convert.package.to.module.error.not.empty.package:
+    text: Пакет "{0}" не пусты
+refactoring.error.directory.exists:
+    text: Каталог "{0}" ужо існуе
+refactoring.error.file.exists:
+    text: Файл "{0}" ужо існуе
+refactoring.extract.method:
+    text: Метад экстракта
+refactoring.extract.method.error.bad.selection:
+    text: Немагчыма рэарганізаваць «Метад вылучэння» з выбранымі элементамі
+refactoring.extract.method.error.class.level:
+    text: Немагчыма рэарганізаваць на ўзроўні класа
+refactoring.extract.method.error.empty.fragment:
+    text: Немагчыма правесці рэфактаринг з пустога фрагмента кода
+refactoring.extract.method.error.interrupted.execution.flow:
+    text: Немагчыма рэарганізаваць, пакуль паток перапынены
+refactoring.extract.method.error.local.variable.modifications:
+    text: Немагчыма рэарганізаваць выраз з мадыфікацыямі лакальных зменных у фрагменце кода.
+refactoring.extract.method.error.local.variable.modifications.and.returns:
+    text: Немагчыма выканаць рэарганізацыю з выразу з мадыфікацыямі лакальных зменных і аператараў вяртання ўнутры фрагмента кода
+refactoring.extract.method.error.name.clash:
+    text: Назва метаду канфліктуе з існуючай назвай
+refactoring.extract.method.error.returns:
+    text: Немагчыма атрымаць метад з аператарамі вяртання ўнутры фрагмента кода
+refactoring.extract.method.error.star.import:
+    text: Немагчыма рэарганізаваць з імпартам са зорачкай у блоку кода
+refactoring.extract.method.error.yield:
+    text: Немагчыма выканаць рэфактарынг з аператарам 'yield' у блоку кода
+refactoring.extract.super.class.no.members.allowed:
+    text: Ні адзін з элементаў не можа быць адноўлены
+refactoring.extract.super.name.0.must.be.ident:
+    text: Імя «{0}» несапраўднае. Гэта павінен быць сапраўдны ідэнтыфікатар Python
+refactoring.extract.super.target.class.already.exists:
+    text: Клас «{0}» ужо існуе ў гэтым модулі
+refactoring.extract.super.target.path.outside.roots:
+    text: Мэтавы каталог знаходзіцца па-за праектам. Ён павінен знаходзіцца ўнутры каранёвых каталогаў
+refactoring.inline.local.multiassignment:
+    text: Вызначэнне ў множным прызначэнні
+refactoring.introduce.constant.dialog.title:
+    text: Выняць канстанту
+refactoring.introduce.constant.scope.error:
+    text: Імя ўжо аб'яўлена ў вобласці бачнасці
+refactoring.introduce.name.error:
+    text: Некарэктнае імя
+refactoring.introduce.parameter.dialog.title:
+    text: Выняць параметр
+refactoring.introduce.selection.error:
+    text: Немагчыма выканаць рэфактарынг для выбранага элемента
+refactoring.make.function.top.level.error.attribute.writes:
+    text: Немагчыма перамясціць метад, які запісвае ў атрыбуты асобніка
+refactoring.make.function.top.level.error.method.calls:
+    text: Немагчыма перамясціць метад, які выклікае іншыя метады таго ж класа
+refactoring.make.function.top.level.error.nonlocal.writes:
+    text: Немагчыма перамясціць функцыю з нелакальнымі запісамі
+refactoring.make.function.top.level.error.outer.scope.reads:
+    text: Немагчыма перамясціць метады, якія спасылаюцца на імёны, са знешняй вобласці
+refactoring.make.function.top.level.error.private.attributes:
+    text: Немагчыма перамясціць метад, які спасылаецца на прыватныя атрыбуты асобніка
+refactoring.make.function.top.level.error.self.reads:
+    text: Немагчыма перамясціць функцыю, якая выкарыстоўвае параметр "self", са знешняй вобласці
+refactoring.make.function.top.level.error.special.usage.of.self:
+    text: Немагчыма перамясціць метад, які змяшчае спецыяльнае выкарыстанне параметра "self".
+refactoring.make.local.function.top.level.dialog.description:
+    text: Перамясціць лакальную функцыю {0} на глабальны ўзровень
+refactoring.make.local.function.top.level.dialog.title:
+    text: Зрабіце лакальную функцыю глабальнай
+refactoring.make.method.top.level.dialog.description:
+    text: Перамясціць метад {0} на глабальны ўзровень
+refactoring.make.method.top.level.dialog.title:
+    text: Зрабіце метад глабальным
+refactoring.move.choose.destination.file.title:
+    text: Выберыце мэтавы файл
+refactoring.move.module.members:
+    text: Перамясціць элементы модуля
+refactoring.move.module.members.dialog.description.class:
+    text: Перамясціць клас {0}
+refactoring.move.module.members.dialog.description.function:
+    text: Функцыя перамяшчэння {0}
+refactoring.move.module.members.dialog.description.selection:
+    text: Перамясціць выбраныя элементы
+refactoring.move.module.members.dialog.description.variable:
+    text: Перамясціць глабальную зменную {0}
+refactoring.move.module.members.dialog.table.title:
+    text: Масавы рух [&M]
+refactoring.move.module.members.dialog.title:
+    text: Перамясціць элементы модуля
+refactoring.move.module.members.error.cannot.place.elements.into.nonpython.file:
+    text: Немагчыма змясціць элементы ў файл не Python
+refactoring.move.module.members.error.selection:
+    text: Немагчыма рэарганізаваць выбраныя элементы
+refactoring.pull.up.dialog.members.to.be.moved:
+    text: Наступныя элементы будуць перамешчаны
+refactoring.pull.up.dialog.move.members.to.class:
+    text: Перамясціць элементы ў клас
+refactoring.pull.up.dialog.title:
+    text: Падняць элементы да
+refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
+    text: Клас {0} не мае суперкласаў або ні адзін з іх не можа быць выкарыстаны для рэфактарынгу
+refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
+    text: 'Немагчыма падняць элемент: не ўнутры класа'
+refactoring.will.not.be.accessible:
+    text: Элемент, які перамяшчаецца, залежыць ад ''{0}'', які не будзе даступны пасля рэфактарынгу
+remote.debug.info:
+    text: Інфармацыя
+remote.debug.local.host:
+    text: 'Імя хаста ISR:'
+remote.debug.local.root.folder:
+    text: Локальная корневая папка
+remote.debug.port:
+    text: Удалённый порт
+remote.debug.redirect.output:
+    text: Перанакіраваць вывад на кансоль
+remote.debug.remote.host:
+    text: Удалённый хост
+remote.debug.remote.root.folder:
+    text: Удалённая корневая папка
+remote.debug.server.hint:
+    text: Выкарыстоўвайце наступную каманду на баку сервера для ўключэння аддаленай адладкі
+remote.debug.server.hint1.5:
+    text: 'Абнавіце свой сцэнар:'
+remote.debug.server.hint2:
+    text: '1. Дадайце pydevd-pycharm.egg з устаноўкі PyCharm у шлях Python або запусціце:'
+remote.debug.server.hint4:
+    text: '2. Дадайце наступную каманду для падлучэння да сервера адладкі:'
+remote.debug.settings:
+    text: Налады
+remote.debug.suspend.on.connect:
+    text: Паўза пасля падключэння
+remote.interpreter.configure.path.label:
+    text: 'Шлях да &Ruby або менеджара версій:'
+remote.interpreter.configure.path.title:
+    text: Выберыце інтэрпрэтатар Ruby
+remote.interpreter.configure.temp.files.path.label:
+    text: 'Путь к вспомогательным файлам Ruby:'
+remote.interpreter.configure.temp.files.path.title:
+    text: Выберыце папку для дапаможных файлаў Ruby
+remote.interpreter.configure.title:
+    text: Налада аддаленага інтэрпрэтатара Ruby
+remote.interpreter.unspecified.interpreter.path:
+    text: Укажыце шлях да інтэрпрэтатара Ruby
+remote.interpreter.unspecified.temp.files.path:
+    text: Укажыце шлях для дапаможных файлаў Ruby
+remove.elif:
+    text: Выдаліць elif…
+remove.else:
+    text: Выдаліць іншае...
+run.configuration.remote.debug.name:
+    text: Удалённая отладка Ruby
+run.configuration.show.command.line.action.name:
+    text: Паказаць кансоль адладкі
+run.configuration.type.description:
+    text: Запускае сервер для аддаленай адладкі
+runcfg.captions.interpreter_options_dialog:
+    text: Увядзіце параметры інтэрпрэтатара
+runcfg.captions.script_parameters_dialog:
+    text: Увядзіце параметры сцэнарыя
+runcfg.labels.environment_variables:
+    text: 'Зменныя асяроддзя [&E]:'
+runcfg.labels.interpreter:
+    text: 'Выкарыстоўвайце ўказаны інтэрпрэтатар [&U]:'
+runcfg.labels.interpreter_options:
+    text: '[&O] параметры інтэрпрэтатара:'
+runcfg.labels.script_parameters:
+    text: 'Параметры [&P]:'
+runcfg.labels.working_directory:
+    text: 'Працоўны каталог [&W]:'
+runcfg.test.description:
+    text: Фрэймворкі Python, якія падтрымліваюцца PyCharm
+runcfg.test.display_name:
+    text: Тэсты Python
+runcfg.testing.no.test.framework:
+    text: Бягун {0} не знойдзены ў выбраным інтэрпрэтатары
+runcfg.tests.cant_rerun:
+    text: Тэсты нельга паўтарыць, таму што нельга вызначыць ідэнтыфікатары тэстаў. Паспрабуйце выдаліць канфігурацыю запуску, затым стварыце новую праз кантэкстнае меню.
+runcfg.unittest.dlg.all_in_folder_title:
+    text: Усё ў тэчку
+runcfg.unittest.dlg.all_in_script_title:
+    text: Скрыпт
+runcfg.unittest.dlg.class_label:
+    text: 'Клас:'
+runcfg.unittest.dlg.folder_path:
+    text: 'Тэчка:'
+runcfg.unittest.dlg.function_label:
+    text: 'Функцыя:'
+runcfg.unittest.dlg.interpreter_options_title:
+    text: 'Параметры інтэрпрэтатара:'
+runcfg.unittest.dlg.method_label:
+    text: 'Спосаб:'
+runcfg.unittest.dlg.pattern:
+    text: 'Узор:'
+runcfg.unittest.dlg.select.folder.path:
+    text: 'Выберыце шлях да папкі:'
+runcfg.unittest.dlg.select.script.path:
+    text: 'Выберыце шлях да сцэнарыя:'
+runcfg.unittest.dlg.test_class_title:
+    text: Клас
+runcfg.unittest.dlg.test_function_title:
+    text: Функцыя
+runcfg.unittest.dlg.test_method_title:
+    text: Метад
+runcfg.unittest.dlg.test_script_label:
+    text: 'Скрыпт:'
+runcfg.unittest.dlg.test_type_title:
+    text: 'Тэст:'
+runcfg.unittest.no_class_name:
+    text: Укажыце назву класа
+runcfg.unittest.no_folder_name:
+    text: Пакажыце тэчку з тэстамі
+runcfg.unittest.no_method_name:
+    text: Пакажыце назву метаду
+runcfg.unittest.no_module_sdk:
+    text: Выберыце модуль з правільным Python SDK
+runcfg.unittest.no_script_name:
+    text: Пакажыце імя скрыпту
+runcfg.unittest.no_sdk:
+    text: Укажыце Python SDK
+runcfg.unittest.no_valid_sdk:
+    text: Выберыце правільны інтэрпрэтатар Python
+sdk.create.venv.conda.dialog.label.python.version:
+    text: 'Версія Python:'
+sdk.create.venv.dialog.label.inherit.global.site.packages:
+    text: Успадкоўваць глабальныя сайт-пакеты
+sdk.details.dialog.error.duplicate.name:
+    text: Дайце ўнікальнае імя для інтэрпрэтатара
+sdk.details.dialog.show.interpreter.paths:
+    text: Паказаць шляхі для абранага інтэрпрэтатара
+sdk.details.dialog.title:
+    text: Інтэрпрэтатары Python
+sdk.edit.dialog.associate.virtual.env.current.project:
+    text: Звязаць гэта асяроддзе з бягучым праектам
+sdk.edit.dialog.associate.virtual.env.with.path:
+    text: Звязаць гэта віртуальнае асяроддзе з {0}
+sdk.edit.dialog.specify.interpreter.path:
+    text: Пакажыце шлях да інтэрпрэтатара
+sdk.edit.dialog.title:
+    text: Рэдагаваць інтэрпрэтатар Python
+sdk.gen.reloading:
+    text: Перазагрузка створаных шкілетаў...
+sdk.gen.stubs.for.binary.modules:
+    text: Стварэнне заглушак для бінарнага модуля {0}
+sdk.gen.updating.interpreter:
+    text: Абнаўленне інтэрпрэтатара Python
+sdk.paths.dialog.added.by.user.suffix:
+    text: (дададзена карыстальнікам)
+sdk.paths.dialog.reload.paths:
+    text: Перазагрузіць спіс шляхоў
+sdk.paths.dialog.removed.by.user.suffix:
+    text: (выдалена карыстальнікам)
+sdk.paths.dialog.title:
+    text: Інтэрпрэтатар сцежак
+sdk.scanning.installed.packages:
+    text: Сканаванне ўсталяваных пакетаў
+sdk.select.path:
+    text: Выберыце інтэрпрэтатар Python
+sdk.some.skeletons.failed:
+    text: Не ўдалося стварыць некалькі шкілетаў
+smartKeys.insert.self.in.method:
+    text: Устаўце 'self' пры вызначэнні метаду
+smartKeys.insert.type.placeholder.in.docstring.stub:
+    text: Устаўце запаўняльнікі тыпаў у заглушку дакументацыі
+unable.to.stop:
+    text: Спыніць бягучы працэс немагчыма. Спачатку запоўніце яго ўручную.
+unwrap.elif:
+    text: Разгарнуць elif…
+unwrap.else:
+    text: Яшчэ разгарнуць...
+unwrap.for:
+    text: Разгарнуць для...
+unwrap.if:
+    text: Разгарнуць, калі...
+unwrap.try:
+    text: Разгарнуць паспрабуйце...
+unwrap.while:
+    text: Разгарнуць пакуль...
+unwrap.with:
+    text: Пашырыць з дапамогай...
+windowWithActions.closeWindow:
+    text: Зачыніць акно
+windowWithActions.stopProcess:
+    text: Спыніць бягучы працэс

@@ -1,0 +1,948 @@
+action.delete.column:
+    text: Выдаліць слупок
+action.delete.columns:
+    text: Выдаліць слупкі
+action.delete.row:
+    text: Выдаліць радок
+action.delete.rows:
+    text: Выдаліць радкі
+action.insert.column.after.this:
+    text: Уставіць слупок пасля
+action.insert.row.after.this:
+    text: Уставіць радок пасля
+action.insert.column.before.this:
+    text: Уставіць слупок перад
+action.insert.row.before.this:
+    text: Уставіць радок перад
+action.split.column:
+    text: Падзяліць слупок
+action.split.row:
+    text: Падзяліць радок
+error.class.does.not.exist:
+    text: Клас "{0}" не існуе
+error.multiple.toplevel.components:
+    text: Форма не можа быць скампілявана, бо змяшчае некалькі кампанентаў верхняга ўзроўню
+error.panel.not.laid.out:
+    text: Форма не можа быць скампілявана, пакуль гэта панэль не выкарыстоўвае grid layout
+error.no.field.in.class:
+    text: Поле "{0}" не існуе ў класе "{1}"
+error.cant.bind.to.static:
+    text: Немагчыма прывязаць да статычнага поля "{0}"
+error.bind.incompatible.types:
+    text: Несумяшчальныя тыпы. Фактычны "{0}", патрабуецца "{1}"
+error.binding.already.exists:
+    text: Прывязка да поля "{0}" ужо існуе
+error.class.not.found.N:
+    text: 'Класс не найден: {0}'
+error.class.not.found:
+    text: Класс не найден
+error.required.class.not.found.N:
+    text: 'Требуемый класс не найден: {0}'
+error.required.class.not.found:
+    text: Требуемый класс не найден
+chk.copy.form.runtime:
+    text: Аўтаматычна капіраваць runtime класы форм у выхадны каталог [&A]
+label.generate.gui.into:
+    text: 'Згенераваць GUI у:'
+radio.generate.into.class:
+    text: В файл класса [&C]
+progress.converting:
+    text: 'Канвертацыя: {0}'
+title.add.component:
+    text: Дадаць кампанент
+message.enter.group.name:
+    text: 'Увядзіце новае імя групы:'
+title.add.group:
+    text: Дадаць групу
+title.converting.project:
+    text: Канвертацыя праекта...
+title.edit.component:
+    text: Рэдагаваць кампанент
+edit.enter.group.name:
+    text: 'Увядзіце імя групы:'
+title.edit.group:
+    text: Рэдагаваць групу
+error.group.name.unique:
+    text: Імя групы павінна быць унікальным
+error.cannot.remove.default.palette:
+    text: Нельга выдаліць кампаненты палітры па змаўчанні
+error.cannot.remove.default.group:
+    text: Нельга выдаліць групу, якая змяшчае кампаненты палітры па змаўчанні
+error.form.file.is.invalid:
+    text: Файл формы несапраўдны
+error.form.file.is.invalid.message:
+    text: 'Файл формы несапраўдны: {0}'
+error.class.cannot.be.instantiated:
+    text: Невозможно создать экземпляр класса "{0}"
+tab.untitled:
+    text: Без назвы
+error.cannot.load.class:
+    text: Немагчыма загрузіць клас {0}
+action.create.dialog:
+    text: Стварыць клас дыялогу
+action.description.create.dialog:
+    text: Стварыць новы клас, які рэалізуе javax.swing.JDialog
+title.new.dialog:
+    text: Новы дыялог
+error.cannot.create.dialog:
+    text: Немагчыма стварыць дыялог
+progress.creating.class:
+    text: Стварэнне класа {0}. {1}
+comment.call.onCancel.cross:
+    text: // выклікаецца пры націсканні на X
+comment.call.onCancel.escape:
+    text: // выклікаецца пры націсканні ESCAPE
+comment.onok:
+    text: // добавьте свой код здесь
+comment.oncancel:
+    text: // дадайце свой код тут пры неабходнасці
+edit.dialog.class.name:
+    text: 'Увядзіце новае імя класа дыялогу:'
+checkbox.generate.cancel:
+    text: Згенераваць апрацоўшчык 'Cancel'
+checkbox.generate.ok:
+    text: Згенераваць апрацоўшчык 'OK'
+checkbox.generate.main:
+    text: Згенераваць метад main(), які стварае і паказвае дыялог
+info.form.not.bound:
+    text: Дзеянне не выканана. Форма павінна быць прывязана да класа
+title.data.binding.wizard:
+    text: Майстар прывязкі даных
+error.bound.to.not.found.class:
+    text: Форма прывязана да незнойдзенага класа {0}
+info.no.bound.components:
+    text: Дзеянне не выканана. Форма павінна змяшчаць хаця б адзін прывязаны кампанент
+action.alter.data.binding:
+    text: Змяніць прывязку даных
+action.bind.to.another.bean:
+    text: Прывязаць да іншага Bean
+info.data.binding.regenerate:
+    text: Выяўлена прывязка даных да {0}. Пры працягу згенераваныя метады будуць перагенераваны
+title.data.binding:
+    text: Прывязка даных
+title.form.preview:
+    text: Предпросмотр формы
+error.cannot.preview.form:
+    text: "Немагчыма папярэдне праглядзець форму ''{0}''\nПрычына: {1}"
+error.cannot.read.form:
+    text: "Немагчыма прачытаць файл формы ''{0}''.\nПрычына: {1}"
+error.cannot.preview.empty.form:
+    text: Невозможно предпросмотреть пустую форму ''{0}''
+progress.preview.started:
+    text: Перадпрагляд {0} запушчаны
+component.vertical.spacer:
+    text: Вертыкальны падзельнік
+component.horizontal.spacer:
+    text: Гарызантальны падзельнік
+component.form:
+    text: Форма
+component.no.binding:
+    text: Няма прывязкі
+component.gui.designer.form.to.source.compiler:
+    text: Кампілятар форм GUI Designer у зыходны код
+progress.compiling.ui.forms:
+    text: Кампіляцыя UI форм…
+error.cannot.process.form.file:
+    text: 'Немагчыма апрацаваць файл формы. Прычына: {0}'
+error.cannot.copy.gui.designer.form.runtime:
+    text: "Немагчыма скапіраваць runtime-клас GUI Designer формы ў выхадную дырэкторыю модуля {0}.\nПрычына: {1}"
+error.class.to.bind.does.not.exist:
+    text: 'Клас для прывязкі не існуе: {0}'
+error.duplicate.bind:
+    text: "Форма прывязана да класа {0}.\nІншая форма {1} таксама прывязана да гэтага класа"
+editbox.icon:
+    text: 'Іконка [&I]:'
+editbox.class:
+    text: 'Класс [&C]:'
+checkbox.want.grow.horz:
+    text: Пажадана пашыраць [&W]
+checkbox.can.grow.horz:
+    text: Можа пашырацца [&G]
+checkbox.can.shrink.horz:
+    text: Можа сціскацца [&S]
+checkbox.want.grow.vert:
+    text: Пажадана пашыраць [&A]
+checkbox.can.grow.vert:
+    text: Можа пашырацца [&R]
+checkbox.can.shrink.vert:
+    text: Можа сціскацца [&H]
+error.item.already.added:
+    text: 'GUI Designer палітра: элемент гэтага класа ўжо дададзены: {0}'
+property.horizontal:
+    text: Гарызантальна
+property.vertical:
+    text: Вертыкальна
+property.always:
+    text: Всегда
+property.as.needed:
+    text: Пры неабходнасці
+property.never:
+    text: Ніколі
+property.wrap:
+    text: Перенос
+property.scroll:
+    text: Прокрутка
+property.top:
+    text: Сверху
+property.left:
+    text: Слева
+property.bottom:
+    text: Знізу
+property.right:
+    text: Справа
+property.center:
+    text: По центру
+property.trailing:
+    text: В конце
+property.leading:
+    text: В начале
+property.horizontal.wrap:
+    text: Гарызантальны перанос
+property.vertical.wrap:
+    text: Вертыкальны перанос
+property.selection.single:
+    text: Адзіночны
+property.selection.single.interval:
+    text: Адзіночны інтэрвал
+property.selection.multiple.interval:
+    text: Множны інтэрвал
+property.resize.off:
+    text: Выключено
+property.resize.next.column:
+    text: Наступны слупок
+property.resize.subsequent.columns:
+    text: Наступныя слупкі
+property.resize.last.column:
+    text: Апошні слупок
+property.resize.all.columns:
+    text: Все столбцы
+property.focuslost.commit:
+    text: Прымяніць
+property.focuslost.commit.or.revert:
+    text: Прымяніць або адмяніць
+property.focuslost.persist:
+    text: Захаваць
+property.focuslost.revert:
+    text: Адмяніць
+title.choose.component.class:
+    text: Выбрать класс компонента
+chk.show.expert.properties:
+    text: Показывать экспертные свойства [&S]
+column.property:
+    text: Свойство
+column.value:
+    text: Значэнне
+title.invalid.input:
+    text: Некорректный ввод
+error.value.should.not.be.less:
+    text: Значэнне не павінна быць менш {0}
+error.not.an.integer:
+    text: Уведзенае значэнне не з'яўляецца цэлым лікам
+title.chooser.value:
+    text: Выбрать ключ свойства
+column.key:
+    text: Ключ
+editbox.bundle.name:
+    text: 'Імя bundle [&N]:'
+editbox.value:
+    text: 'Значэнне:'
+editbox.key:
+    text: 'Ключ [&K]:'
+editbox.value.2:
+    text: 'Значэнне [&V]:'
+title.edit.text:
+    text: Рэдагаваць тэкст
+radio.string:
+    text: Строка [&S]
+title.choose.properties.file:
+    text: Выбрать файл свойств
+error.specify.bundle.name:
+    text: Укажыце імя resource bundle
+error.bundle.does.not.exist:
+    text: Bundle "{0}" не існуе
+message.rename.field:
+    text: Перайменаваць таксама поле "{0}" у "{1}"?
+title.rename:
+    text: Перайменаваць
+title.choose.class.to.bind:
+    text: Выбраць клас для прывязкі
+class.in.package:
+    text: '{0} (в {1})'
+property.can.shrink:
+    text: Может уменьшаться
+property.can.grow:
+    text: Можа павялічвацца
+property.want.grow:
+    text: Пажадана павялічыць
+property.fixed:
+    text: Фіксаваны
+action.change.field.type:
+    text: Змяніць тып поля ''{0}'' з ''{1}'' на ''{2}''
+error.cannot.change.field.type:
+    text: "Немагчыма змяніць тып поля ''{0}''.\nПрычына: {1}"
+action.create.class:
+    text: Создать класс ''{0}''
+error.cannot.create.class.not.in.source.root:
+    text: "Немагчыма стварыць клас, бо файл формы не належыць\nні аднаму source root"
+error.cannot.create.package:
+    text: "Немагчыма стварыць пакет ''{0}''.\nПрычына: {1}"
+error.cannot.create.class:
+    text: "Немагчыма стварыць клас ''{0}''.\nПрычына: {1}"
+action.create.field:
+    text: Создать поле ''{0}''
+error.cannot.create.field:
+    text: Невозможно создать поле ''{0}''
+error.cannot.create.field.no.class:
+    text: "Немагчыма стварыць поле ''{0}'', бо\nклас ''{1}'' не існуе"
+command.create.field:
+    text: Создать поле
+error.cannot.create.field.reason:
+    text: "Немагчыма стварыць поле ''{0}''.\nПрычына: {1}"
+tooltip.press.accelerator:
+    text: Націсніце або націсніце {0}
+property.not.defined:
+    text: <Не определено>
+editbox.class.2:
+    text: 'Класс [&L]:'
+radio.bind.to.existing.bean:
+    text: Прывязаць да існуючага Bean [&B]
+editbox.package:
+    text: 'Пакет [&P]:'
+radio.create.new.bean:
+    text: Создать новый Bean [&A]
+column.form.field:
+    text: Поле формы
+column.bean.property:
+    text: Свойство Bean
+group.horizontal.size.policy:
+    text: Палітыка гарызантальнага памеру
+group.vertical.size.policy:
+    text: Палітыка вертыкальнага памеру
+title.choose.bean.class:
+    text: Выбрать класс Bean
+title.choose.package:
+    text: Выбрать пакет
+error.cannot.read:
+    text: Немагчыма прачытаць {0}
+label.select.single.component.to.edit.its.properties:
+    text: "Выберыце адзін кампанент\nдля рэдагавання яго ўласцівасцей"
+error.please.specify.class.name.of.the.bean.to.be.created:
+    text: Укажыце імя класа ствараемага Bean
+error.X.is.not.a.valid.class.name:
+    text: '"{0}" не з''яўляецца дапушчальным імем класа'
+error.package.with.name.X.does.not.exist:
+    text: Пакет з імем "{0}" не існуе
+error.cannot.create.class.X.because.it.already.exists:
+    text: Немагчыма стварыць клас "{0}", бо ён ужо існуе
+error.please.specify.fully.qualified.name.of.bean.class:
+    text: Укажыце поўнае імя класа Bean
+error.class.with.name.X.does.not.exist:
+    text: Клас з імем "{0}" не існуе
+error.X.is.not.a.valid.property.name:
+    text: '"{0}" не з''яўляецца дапушчальным імем уласцівасці'
+error.form.file.is.not.in.source.root:
+    text: Файл формы не знаходзіцца ў source root
+error.package.does.not.exist:
+    text: 'Пакет не існуе: {0}'
+error.cannot.find.package:
+    text: 'Не ўдаецца знайсці пакет: {0}'
+error.form.is.not.bound.to.a.class:
+    text: Форма не прывязана да класа
+error.bound.class.does.not.exist:
+    text: Прывязаны клас {0} не існуе
+error.field.not.found.in.class:
+    text: Поле {0} не найдено в классе {1}
+error.invalid.binding.field.type:
+    text: 'Недапушчальны тып поля прывязкі: поле {0}, клас {1}'
+uidesigner.string.no.i18n:
+    text: Значэнне не патрабуе інтэрнацыяналізацыі [&I]
+error.one.toplevel.component.required:
+    text: Патрабуецца адзін кампанент верхняга ўзроўню
+error.nonempty.xy.panels.found:
+    text: Існуюць непустыя панэлі з XY-layout. Калі ласка, выкарыстоўвайце grid layout
+error.class.to.bind.not.found:
+    text: 'Клас для прывязкі не знойдзены: {0}'
+component.none:
+    text: <нет>
+component.not.found:
+    text: <не найден>
+color.chooser.title:
+    text: Выберыце колер для {0}
+font.chooser.title:
+    text: Выбар шрыфта для {0}
+font.chooser.font.tab:
+    text: Выбар шрыфта
+font.chooser.swing.tab:
+    text: Шрыфт Swing
+font.chooser.font:
+    text: Шрыфт [&F]
+font.chooser.style:
+    text: Стыль [&S]
+font.chooser.size:
+    text: Размер [&Z]
+font.chooser.preview.text:
+    text: Текст для предпросмотра
+font.chooser.regular:
+    text: Обычный
+font.chooser.bold:
+    text: Паўтлусты
+font.chooser.italic:
+    text: Курсіў
+font.chooser.bold.italic:
+    text: Паўтлусты курсіў
+title.choose.icon.file:
+    text: Выбраць файл іконкі
+remove.property.quickfix:
+    text: Выдаліць уласцівасць
+form.inspections.group:
+    text: UI формы
+inspection.duplicate.mnemonics:
+    text: Дублюючыя мнемонікі
+inspection.duplicate.mnemonics.message:
+    text: 'Дублюючыя мнемонікі: {0}, {1}'
+inspection.missing.mnemonics:
+    text: Адсутныя мнемонікі
+inspection.missing.mnemonics.message:
+    text: 'Адсутнічаюць мнемонікі: {0}'
+edit.text.searching.references:
+    text: Пошук спасылак на ўласцівасць
+edit.text.multiple.usages:
+    text: Уласцівасць {0} мае {1} выкарыстанняў. Змяніць яго значэнне?
+edit.text.multiple.usages.title:
+    text: Змяненне значэння ўласцівасці
+inspections.missing.mnemonic.quickfix:
+    text: Прызначыць мнемоніку
+inspection.missing.mnemonics.quickfix.prompt:
+    text: 'Выберыце тэкст з мнемонікай:'
+inspection.missing.mnemonics.quickfix.title:
+    text: Прызначыць мнемоніку
+inspection.duplicate.mnemonics.quickfix:
+    text: Прызначыць унікальныя мнемонікі
+inspection.no.label.for:
+    text: Няма меткі для кампанента
+inspection.no.label.for.error:
+    text: Не указана метка для компонента
+inspection.no.label.for.quickfix:
+    text: Прызначыць метку ''{0}''
+inspection.no.button.group:
+    text: Радыёкнопка не ў групе
+inspection.no.button.group.error:
+    text: Радыёкнопка не ў групе
+inspection.no.button.group.quickfix.create:
+    text: Згрупаваць суседнія кнопкі
+key.chooser.new.property:
+    text: Новое свойство [&N]…
+key.chooser.new.property.title:
+    text: Создать свойство
+key.chooser.new.property.name:
+    text: 'Імя ключа [&N]:'
+key.chooser.new.property.value:
+    text: 'Значэнне ключа [&V]:'
+choose.locale.description:
+    text: Выберыце лакаль для адлюстравання лакалізаваных радковых уласцівасцей
+choose.locale.default:
+    text: <па змаўчанні>
+add.component.form:
+    text: 'Форма:'
+add.component.class:
+    text: 'Класс:'
+add.component.cannot.load.form:
+    text: Не ўдаецца загрузіць файл формы {0}
+add.component.form.not.bound:
+    text: Форма, якая дадаецца ў палітру, павінна быць прывязана да класа
+add.component.root.not.bound:
+    text: Форма, якая дадаецца ў палітру, павінна мець прывязку для каранёвага кампанента
+add.component.choose.form:
+    text: Выберыце файл формы
+add.component.choose.icon:
+    text: Выберыце файл значка
+inspection.no.scroll.pane:
+    text: Пракручваемы кампанент не ў JScrollPane
+inspection.no.scroll.pane.quickfix:
+    text: Обернуть в JScrollPane
+surround.with.popup.title:
+    text: Акружыць
+toolwindow.ui.designer.title:
+    text: Дерево компонентов
+error.cannot.delete.unused.field:
+    text: 'Немагчыма выдаліць нявыкарыстанае поле: {0}'
+command.delete.unused.field:
+    text: Выдаліць нявыкарыстанае поле
+error.for.component:
+    text: 'Компонент {0}: {1}'
+button.group.name.prompt:
+    text: 'Увядзіце імя групы:'
+button.group.name.title:
+    text: Создать группу кнопок
+button.group.none:
+    text: <нет>
+button.group.new:
+    text: Новая…
+delete.row.nonempty:
+    text: Выбраная {1, choice, 1#радок змяшчае|2# {1} радкі змяшчаюць} {0} кампанентаў. Хочаце выдаліць гэтыя кампаненты і {1, choice, 1#радок|2#радкі}?
+delete.column.nonempty:
+    text: Выбраны {1, choice, 1#слупок змяшчае|2# {1} слупкі змяшчаюць} {0} кампанентаў. Хочаце выдаліць гэтыя кампаненты і {1, choice, 1#слупок|2#слупкі}?
+delete.row.title:
+    text: Выдаліць радок
+delete.column.title:
+    text: Выдаліць слупок
+checkbox.auto.create.binding:
+    text: Аўтаматычна ствараць прывязку
+checkbox.can.attach.label:
+    text: Можа мець прымацаваную метку
+error.cannot.create.form:
+    text: Невозможно создать форму
+action.gui.form.text:
+    text: GUI форма
+action.gui.form.description:
+    text: Создать пустую GUI форму
+title.new.gui.form:
+    text: Новая GUI форма
+checkbox.create.bound.class:
+    text: Стварыць клас прывязкі [&B]
+new.form.class.name.label:
+    text: 'Імя класа [&C]:'
+new.form.form.name.label:
+    text: 'Імя формы [&F]:'
+paste.choose.destination.prompt:
+    text: Выберыце месца ўстаўкі. Пстрыкніце або націсніце Enter для ўстаўкі, Esc для адмены
+navigate.to.listener.title:
+    text: Перайсці да слухача
+navigate.to.listener.empty:
+    text: Слухачы не знойдзены
+palette.special.group:
+    text: Палітра
+palette.non.palette.component:
+    text: Непалітравы кампанент…
+palette.non.palette.component.tooltip:
+    text: Дадаць кампанент, які адсутнічае ў палітры
+palette.non.palette.component.title:
+    text: Дадаць непалітравы кампанент
+default.layout.manager:
+    text: 'Менеджар кампаноўкі па змаўчанні [&D]:'
+error.card.already.exists:
+    text: Картка з імем ''{0}'' ужо існуе ў гэтым кантэйнеры
+create.component.title:
+    text: Выберыце кампанент для ўстаўкі
+error.no.custom.create.method:
+    text: Форма змяшчае кампаненты з опцыяй "Custom Create", але метад createUIComponents() адсутнічае
+error.custom.create.no.binding:
+    text: Толькі кампаненты, прывязаныя да палёў, могуць мець карыстальніцкі код стварэння
+quickfix.generate.custom.create:
+    text: Згенераваць метад createUIComponents()
+error.custom.create.binding.required:
+    text: Гэты кампанент патрабуе карыстальніцкі код стварэння і павінен мець непустую прывязку
+custom.create.field.name.prompt:
+    text: 'Кампаненты з карыстальніцкім кодам стварэння павінны быць прывязаны да поля. Калі ласка, увядзіце імя поля:'
+custom.create.title:
+    text: Карыстальніцкае стварэнне
+client.property.name:
+    text: 'Імя ўласцівасці [&P]:'
+client.property.add.title:
+    text: Дадаць кліенцкую ўласцівасць
+client.properties.class.not.found:
+    text: Класс {0} не найден
+client.properties.class.not.component:
+    text: 'Не является классом компонента: {0}'
+client.properties.already.defined:
+    text: Свойство {0} уже определено
+client.properties.title:
+    text: Налада кліенцкіх уласцівасцей
+client.properties.class.prompt:
+    text: 'Увядзіце поўнае імя класа для налады кліенцкіх уласцівасцей:'
+client.properties.name:
+    text: Імя
+client.properties.class:
+    text: Класс
+client.properties.configure:
+    text: (Наладзіць…)
+client.properties.type.header:
+    text: Тып уласцівасці
+label:
+    text: Метка
+morph.component.title:
+    text: Выберыце кампанент для пераўтварэння
+morph.component.command:
+    text: Преобразовать компонент
+inspection.bound.field.title:
+    text: Прысвойванне UI-прывязанаму полю
+inspection.bound.field.message:
+    text: Прысвойванне UI-прывязанаму полю перазапіша поле, згенераванае UI Designer
+property.default:
+    text: Па змаўчанні
+property.above.top:
+    text: Выше верхнего края
+property.below.top:
+    text: Ніжэй верхняга краю
+property.above.bottom:
+    text: Вышэй ніжняга краю
+property.below.bottom:
+    text: Ніжэй ніжняга краю
+border.title.editor.title:
+    text: Загаловак мяжы
+border.color.editor.title:
+    text: Колер мяжы
+property.javadoc.title:
+    text: Дакументацыя для ўласцівасці {0}
+create.listener.title:
+    text: Создать слушатель
+create.listener.class.not.found:
+    text: Класс слушателя не найден
+create.listener.command:
+    text: Создать слушатель
+list.editor.prompt:
+    text: 'Элементы ў мадэлі (па адным у радку) [&I]:'
+list.editor.title:
+    text: Мадэль спісу для {0}
+add.module.dependency.prompt:
+    text: Клас {0} вызначаны ў модулі {1}. Хочаце дадаць залежнасць ад гэтага модуля ў модуль {2}?
+add.module.dependency.title:
+    text: Дадаць залежнасць ад модуля
+add.library.dependency.prompt:
+    text: Клас {0} вызначаны ў бібліятэцы {1}. Хочаце дадаць залежнасць ад гэтай бібліятэкі ў модуль {2}?
+add.library.dependency.title:
+    text: Дадаць залежнасць ад бібліятэкі
+i18n.quickfix.property:
+    text: Інтэрнацыяналізацыя ўласцівасці ''{0}''
+i18n.quickfix.border.title:
+    text: Інтэрнацыяналізацыя загалоўка рамкі
+i18n.quickfix.tab.title:
+    text: Інтэрнацыяналізацыя {0}
+inspection.one.button.group:
+    text: Група кнопак змяшчае адну кнопку
+inspection.one.button.group.error:
+    text: Група кнопак змяшчае адну кнопку
+inspection.no.button.group.quickfix.add:
+    text: Дадаць у групу ''{0}''
+property.fill:
+    text: Запаўненне
+action.group.columns:
+    text: Згрупаваць слупкі
+action.group.rows:
+    text: Згрупаваць радкі
+action.ungroup.columns:
+    text: Разгрупаваць слупкі
+action.ungroup.rows:
+    text: Разгрупаваць радкі
+title.default.alignment:
+    text: Выраўноўванне па змаўчанні
+alignment.left:
+    text: Слева [&L]
+alignment.center:
+    text: По центру [&C]
+alignment.right:
+    text: Справа [&R]
+alignment.fill:
+    text: Запоўніць [&F]
+title.size:
+    text: Размер
+size.default:
+    text: Па змаўчанні [&D]
+size.preferred:
+    text: Пажаданы [&P]
+size.minimum:
+    text: Мінімум [&M]
+size.constant:
+    text: Константа [&T]
+size.minimum.limit:
+    text: Мінімум [&I]
+size.maximum.limit:
+    text: Максімум [&A]
+size.grow:
+    text: 'Рост [&G]:'
+alignment.top:
+    text: Сверху [&T]
+alignment.bottom:
+    text: Знізу [&B]
+title.row.properties:
+    text: Уласцівасці радка {0}
+title.column.properties:
+    text: Свойства столбца {0}
+title.multiple.rows.selected:
+    text: Выбрано несколько строк
+title.multiple.columns.selected:
+    text: Выбрано несколько столбцов
+title.no.rows.selected:
+    text: Радкі не выбраны
+title.no.columns.selected:
+    text: Столбцы не выбраны
+unit.pixels:
+    text: пікселі
+unit.dialog.units:
+    text: адзінкі дыялогу
+unit.points:
+    text: кропкі
+unit.inches:
+    text: дюймы
+unit.centimeters:
+    text: сантыметры
+unit.millimeters:
+    text: міліметры
+font.default:
+    text: <Па змаўчанні>
+action.suppress.for.component:
+    text: Падавіць для кампанента
+action.suppress.for.all.components:
+    text: Падавіць для ўсіх кампанентаў
+action.suppress.named.for.component:
+    text: Падавіць ''{0}'' для кампанента
+action.suppress.named.for.all.components:
+    text: Падавіць ''{0}'' для ўсіх кампанентаў
+insert.feedback.before.col:
+    text: '{0} (строка {1}, перед столбцом {2})'
+insert.feedback.after.col:
+    text: '{0} (строка {1}, после столбца {2})'
+insert.feedback.before.row:
+    text: '{0} (столбец {1}, перед строкой {2})'
+insert.feedback.after.row:
+    text: '{0} (слупок {1}, пасля радка {2})'
+insert.feedback.top:
+    text: Сверху
+insert.feedback.bottom:
+    text: Знізу
+insert.feedback.left:
+    text: Слева
+insert.feedback.right:
+    text: Справа
+command.update.property:
+    text: Змяніць уласцівасць
+command.create.property:
+    text: Стварыць значэнне ўласцівасці
+title.height:
+    text: Высота
+title.width:
+    text: Шырыня
+tooltip.resize.row:
+    text: 'Строка {0}: {1}'
+tooltip.resize.column:
+    text: 'Столбец {0}: {1}'
+edit.text.change.all:
+    text: Змяніць усе
+edit.text.make.unique:
+    text: Зрабіць унікальным
+edit.text.unique.key.prompt:
+    text: 'Увядзіце імя новага ключа ўласцівасці:'
+delete.component.prompt:
+    text: Выдаліць кампанент {0} з палітры?
+delete.component.title:
+    text: Выдаліць кампанент
+insert.feedback.fill:
+    text: Запоўніць
+insert.feedback.add.tab:
+    text: 'Дадаць укладку: {0} ({1})'
+generate.main.title:
+    text: Згенераваць main()
+generate.main.no.default.constructor:
+    text: Клас не мае канструктара па змаўчанні
+generate.main.empty.form:
+    text: Форма, прывязаная да гэтага класа, пустая
+generate.main.no.root.binding:
+    text: Форма, прывязаная да класа, не мае карэктнай прывязкі каранёвага кампанента
+uidesigner.generated.code.folding.placeholder.text:
+    text: Код згенераваны UI Designer
+node.button.groups:
+    text: Группы кнопок
+node.suppressed.inspections:
+    text: Адключаныя праверкі
+button.group.name.label:
+    text: 'Імя:'
+button.group.bound.checkbox:
+    text: Прывязаць да поля
+error.binding.not.unique:
+    text: Прывязка не ўнікальная
+new.form.base.layout.manager.label:
+    text: 'Базовый layout manager [&L]:'
+combobox.group:
+    text: 'Группа [&O]:'
+checkbox.is.container:
+    text: Является контейнером [&C]
+command.set.property.value:
+    text: Усталяваць значэнне ўласцівасці
+command.flatten:
+    text: Згладзіць
+command.drop.components:
+    text: Размясціць кампаненты
+command.insert.component:
+    text: Уставіць кампанент
+command.delete.selection:
+    text: Выдаліць вылучэнне
+command.cut:
+    text: Вырезать
+command.delete.row:
+    text: Выдаліць радок
+command.delete.column:
+    text: Выдаліць слупок
+command.edit.string.property:
+    text: Рэдагаваць радковую ўласцівасць
+command.duplicate:
+    text: Дубліраваць
+group.buttons.title:
+    text: Групоўка кнопак
+group.buttons.name.prompt:
+    text: 'Увядзіце імя групы кнопак:'
+inspection.no.label.for.command:
+    text: Прызначыць метку для кампанента
+error.recursive.form.nesting:
+    text: Немагчыма загрузіць форму з-за рэкурсіўнага ўкладання форм
+error.instantiating.nested.form:
+    text: 'Памылка пры стварэнні экзэмпляра ўкладзенай формы {0}: {1}'
+ui.is.bound.header:
+    text: UI прывязаны да<br>
+error.getting.value:
+    text: 'Памылка пры атрыманні значэння: {0}'
+error.setting.value:
+    text: 'Памылка пры ўсталяванні значэння: {0}'
+error.no.message:
+    text: Няма паведамлення
+inspection.invalid.property.in.form.quickfix.error.bundle.not.specified:
+    text: Bundle не указан
+inspection.invalid.property.in.form.quickfix.error.property.key.not.specified:
+    text: Ключ свойства не указан
+inspection.invalid.property.in.form.quickfix.error.bundle.not.found:
+    text: Bundle ''{0}'' не найден
+inspection.invalid.property.in.form.quickfix.error.key.not.found:
+    text: Ключ ''{0}'' не знойдзены ў bundle ''{1}'' для лакалі ''{2}''
+inspection.i18n.message.in.form:
+    text: 'Жорстка закадаваны радковы літарал у форме: ''''{0}'''''
+command.paste:
+    text: Уставіць
+add.component.error.qualified.name.required:
+    text: Калі ласка, увядзіце поўнае імя класа
+add.component.error.component.required:
+    text: Калі ласка, выберыце клас, вытворны ад JComponent
+form.usage.type:
+    text: Выкарыстанне ў GUI форме
+unsupported.component.class.version:
+    text: Непадтрымлівальная версія класа кампанента
+field.is.overwritten.by.generated.code:
+    text: Поле ''{0}'' перазапісваецца згенераваным кодам
+bound.field.type.mismatch:
+    text: Тып GUI кампанента (''{0}'') не адпавядае тыпу прывязанага поля (''{1}'')
+action.GuiDesigner.PreviewForm.text:
+    text: Предпросмотр
+action.GuiDesigner.PreviewForm.description:
+    text: Предпросмотр формы
+action.GuiDesigner.DataBindingWizard.text:
+    text: Майстар прывязкі даных…
+action.GuiDesigner.ChooseLocale.text:
+    text: Выбрать локаль для UI Designer
+action.GuiDesigner.ExpandSelection.text:
+    text: Пашырыць вылучэнне
+action.GuiDesigner.ExpandSelection.description:
+    text: Пашырыць вылучэнне структурна
+action.GuiDesigner.ShrinkSelection.text:
+    text: Сціснуць вылучэнне
+action.GuiDesigner.ShrinkSelection.description:
+    text: Сціснуць вылучэнне структурна
+action.GuiDesigner.IncreaseIndent.text:
+    text: Павялічыць водступ
+action.GuiDesigner.IncreaseIndent.description:
+    text: Павялічыць водступ выбраных кампанентаў
+action.GuiDesigner.DecreaseIndent.text:
+    text: Паменшыць водступ
+action.GuiDesigner.DecreaseIndent.description:
+    text: Паменшыць водступ выбраных кампанентаў
+action.GuiDesigner.GroupButtons.text:
+    text: Згрупаваць кнопкі
+action.GuiDesigner.GroupButtons.description:
+    text: Дадаць выбраныя кнопкі ў групу кнопак
+action.GuiDesigner.UngroupButtons.text:
+    text: Разгрупаваць кнопкі
+action.GuiDesigner.UngroupButtons.description:
+    text: Выдаліць выбраныя кнопкі з групы кнопак
+action.GuiDesigner.QuickJavadoc.text:
+    text: Быстрый JavaDoc [_Q]
+action.GuiDesigner.QuickJavadoc.description:
+    text: Паказаць усплывальнае акно з JavaDoc для выбранай уласцівасці
+action.GuiDesigner.Pack.text:
+    text: Упаковать
+action.GuiDesigner.Pack.description:
+    text: Сціснуць кантэйнер да мінімальнага памеру
+action.GuiDesigner.ShowGrid.text:
+    text: Показать сетку
+action.GuiDesigner.ShowGrid.description:
+    text: Пераключыць бачнасць сеткі кампаноўкі кантэйнера
+action.GuiDesigner.ShowComponentTags.text:
+    text: Паказаць тэгі кампанентаў
+action.GuiDesigner.ShowComponentTags.description:
+    text: Пераключыць бачнасць тэгаў на вялікіх кампанентах без тэксту
+action.GuiDesigner.ResetValue.text:
+    text: Скінуць да значэння па змаўчанні
+action.GuiDesigner.ResetValue.description:
+    text: Аднавіць значэнне па змаўчанні для выбранай уласцівасці
+action.GuiDesigner.AddGroup.text:
+    text: Дадаць групу
+action.GuiDesigner.AddGroup.description:
+    text: Дадаць групу
+action.GuiDesigner.EditGroup.text:
+    text: Рэдагаваць групу
+action.GuiDesigner.EditGroup.description:
+    text: Рэдагаваць групу
+action.GuiDesigner.DeleteGroup.text:
+    text: Выдаліць групу
+action.GuiDesigner.DeleteGroup.description:
+    text: Выдаліць групу
+action.GuiDesigner.AddComponent.text:
+    text: Дадаць кампанент у палітру…
+action.GuiDesigner.AddComponent.description:
+    text: Дадаць кампанент
+action.GuiDesigner.EditComponent.text:
+    text: Рэдагаваць кампанент
+action.GuiDesigner.EditComponent.description:
+    text: Рэдагаваць кампанент
+action.GuiDesigner.DeleteComponent.text:
+    text: Выдаліць кампанент
+action.GuiDesigner.DeleteComponent.description:
+    text: Выдаліць кампанент
+action.GuiDesigner.Duplicate.text:
+    text: Дубліраваць
+action.GuiDesigner.Duplicate.description:
+    text: Дубліраваць кампанент
+action.GuiDesigner.SurroundPopup.text:
+    text: Акружыць…
+action.GuiDesigner.SurroundPopup.description:
+    text: Акружыць выбраныя элементы кіравання кантэйнерам
+action.GuiDesigner.AddTab.text:
+    text: Дадаць укладку
+action.GuiDesigner.AddTab.description:
+    text: Дадаць новую ўкладку ў выбраную панэль з укладкамі
+action.GuiDesigner.GoToListener.text:
+    text: Перайсці да слухача
+action.GuiDesigner.GoToListener.description:
+    text: Перайсці да класа слухача, прымацаванага да кампанента
+action.GuiDesigner.CreateListener.text:
+    text: Создать слушатель
+action.GuiDesigner.CreateListener.description:
+    text: Згенераваць клас слухача і прымацаваць яго да кампанента
+action.GuiDesigner.CreateComponent.text:
+    text: Создать компонент
+action.GuiDesigner.CreateComponent.description:
+    text: Выбраць клас кампанента і дадаць яго ў форму
+action.GuiDesigner.Flatten.text:
+    text: Згладзіць
+action.GuiDesigner.Flatten.description:
+    text: Выдаліць выбраны кантэйнер і перамясціць яго змесціва ў бацькоўскі кантэйнер
+action.GuiDesigner.Morph.text:
+    text: Преобразовать компонент…
+action.GuiDesigner.Morph.description:
+    text: Пераўтварыць гэты кампанент у іншы клас, захаваўшы ўласцівасці
+action.GuiDesigner.GenerateMain.text:
+    text: Форма main()
+action.GuiDesigner.GenerateMain.description:
+    text: Згенераваць метад main() для адлюстравання UI формы
+action.GuiDesigner.ReloadCustomComponents.text:
+    text: Перазагрузіць карыстальніцкія кампаненты
+action.GuiDesigner.ReloadCustomComponents.description:
+    text: Перазагрузіць змененыя класы карыстальніцкіх кампанентаў і перастварыць форму
+action.GuiDesigner.FormSource.text:
+    text: Зыходны код формы
+action.GuiDesigner.FormSource.description:
+    text: Паказаць XML-змесціва формы
+action.NewDialog.text:
+    text: Дыялог
+action.NewForm.text:
+    text: GUI форма
+default.field.accessibility:
+    text: 'Даступнасць палёў UI прывязкі па змаўчанні [&F]:'
+group.GuiDesigner.MainToolbarActions.text:
+    text: Дзеянні панэлі інструментаў UI Designer

@@ -1,0 +1,9 @@
+<consulo-plugin url="https://github.com/consulo/consulo-localize_be">
+	<id>consulo.localize_be</id>
+	<name>Localize (be)</name>
+	<version>SNAPSHOT</version>
+	<category>Localization</category>
+	<tags>
+		<tag>localization</tag>
+	</tags>
+</consulo-plugin>

@@ -1,0 +1,136 @@
+add.implicit.variable.fix.name:
+    text: Вызначыць няяўную пераменную ў каментарыі
+add.implicit.variable.fix.name.external:
+    text: Вызначыць няяўную пераменную звонку (толькі для гэтага файла)
+add.implicit.variable.fix.name.local:
+    text: Вызначыць няяўную пераменную (у каментарыі бягучага файла)
+add.implicit.variable.fix.name.module.wide:
+    text: Вызначыць няяўную пераменную звонку (для ўсяго модуля)
+add.macro.library.ref.fix.name:
+    text: Вызначыць спасылку на бібліятэку макрасаў у каментарыі
+add.macro.library.ref.fix.name.external:
+    text: Вызначыць спасылку на бібліятэку макрасаў звонку (толькі для гэтага файла)
+add.macro.library.ref.fix.name.local:
+    text: Вызначыць спасылку на бібліятэку макрасаў (у каментарыі бягучага файла)
+add.macro.library.ref.fix.name.module.wide:
+    text: Вызначыць спасылку на бібліятэку макрасаў звонку (для ўсяго модуля)
+add.velocity.properties.ref.fix.name:
+    text: Вызначыць спасылку на файл velocity.properties у каментарыі
+add.velocity.properties.ref.fix.name.external:
+    text: Вызначыць спасылку на файл velocity.properties звонку (толькі для гэтага файла)
+add.velocity.properties.ref.fix.name.local:
+    text: Вызначыць спасылку на файл velocity.properties (у каментарыі бягучага файла)
+add.velocity.properties.ref.fix.name.module.wide:
+    text: Вызначыць спасылку на файл velocity.properties звонку (для ўсяго модуля)
+argument.list.expected:
+    text: Чакаецца спіс аргументаў
+assignment.of.void:
+    text: Прысвойванне void не мае эфекту
+assignment.to.method.call:
+    text: Прысвойванне выкліку метаду не мае эфекту
+choose.external.definitions.file:
+    text: Выберыце знешні файл вызначэнняў няяўных пераменных
+defined.variable.expected:
+    text: Чакаецца вызначаная пераменная
+error.cannot.resolve.macro:
+    text: Немагчыма вызначыць макрас ''{0}''
+error.cannot.resolve.method:
+    text: Немагчыма вызначыць метад ''{0}'' класа ''{1}''
+error.cannot.resolve.property:
+    text: Немагчыма вызначыць уласцівасць ''{0}'' класа ''{1}''
+error.cannot.resolve.variable:
+    text: Немагчыма вызначыць пераменную ''{0}''
+error.no.applicable.method:
+    text: У ''{1}'' няма метаду ''{0}'', які прымяняецца да {2}
+error.wrong.number.of.arguments.for.macro:
+    text: Выклік ''{0}'' з няправільнай колькасцю аргументаў
+expression.expected:
+    text: Чакаецца выраз
+identifier:
+    text: ідэнтыфікатар
+illegal.iterable.expression.type:
+    text: 'Недапушчальны тып ітэруемага выразу: ''''{0}'''''
+invalid.java.type:
+    text: Недапушчальны тып Java
+invalid.operand.type:
+    text: 'Недапушчальны тып аперанда: ''''{0}'''''
+invalid.operands.type:
+    text: 'Недапушчальныя тыпы аперандаў: ''''{0}'''' і ''''{1}'''''
+invalid.token:
+    text: Недапушчальны токен ''{0}''
+loop.variable.expected:
+    text: Чакаецца пераменная цыкла
+macro.declaration.expected:
+    text: Чакаецца імя макраса і спіс параметраў
+macro.declaration.will.be.ignored:
+    text: Макрас ''{0}'' ужо вызначаны ў ''{1}'' і будзе праігнараваны ў ''{2}''
+macro.is.already.defined:
+    text: Макрос ''{0}'' уже определен в ''{1}''
+number:
+    text: лік
+operand.expected:
+    text: Чакаецца аперанд
+operation.not.allowed:
+    text: Аперацыя не дазволена
+parameter.expected:
+    text: Чакаецца аб'яўленне параметра
+token.expected:
+    text: Чакаецца ''{0}''
+type.name.loop.variable:
+    text: пераменная цыкла
+type.name.macro:
+    text: макрос
+type.name.macro.parameter:
+    text: параметр макроса
+type.name.variable:
+    text: переменная
+unclosed.directive:
+    text: Незакрытая дырэктыва
+variable.name.expected:
+    text: Чакаецца імя пераменнай
+velocity.color.bad.character:
+    text: Некарэктны сімвал
+velocity.color.braces:
+    text: Фігурныя дужкі
+velocity.color.brackets:
+    text: Квадратныя дужкі
+velocity.color.comma:
+    text: Запятая
+velocity.color.comment:
+    text: Каментарый
+velocity.color.directive:
+    text: Убудаваная дырэктыва
+velocity.color.dot:
+    text: Точка
+velocity.color.escape:
+    text: Экрануючы сімвал
+velocity.color.keyword:
+    text: Ключевое слово
+velocity.color.number:
+    text: Лікавы літарал
+velocity.color.operation.sign:
+    text: Знак аперацыі
+velocity.color.parenths:
+    text: Круглыя дужкі
+velocity.color.reference:
+    text: Спасылка і выклік макраса
+velocity.color.scripting.background:
+    text: Фон скрыпта
+velocity.color.semicolon:
+    text: Точка с запятой
+velocity.color.string:
+    text: Радковы літарал
+vtl.directive.args.inspection:
+    text: Праверка аргументаў дырэктыў
+vtl.file.references.inspection:
+    text: Проверка ссылок на файлы
+vtl.formal.notation.is.not.allowed:
+    text: Фармальная натацыя тут не дазволена
+vtl.only.first.parse.argument.will.be.parsed:
+    text: 'В #parse будет обработан только первый файл'
+vtl.references.inspection:
+    text: Проверка ссылок
+vtl.types.inspection:
+    text: Праверка тыпаў
+will.be.considered.as.macro.call:
+    text: Будзе разглядацца як выклік макраса, чакаецца '('

@@ -1,0 +1,456 @@
+module.ruby.title:
+    text: Модуль Ruby
+module.ruby.description:
+    text: Модулі Ruby выкарыстоўваюцца для распрацоўкі прыкладанняў на <b>Ruby</b> і <b>Ruby on Rails</b>.
+ruby.configuration.gems.bin.dir.path:
+    text: 'Дырэкторыя bin для gems:'
+ruby.configuration.gems.bin.dir.path.tooltip:
+    text: Шлях усталявання выканальных скрыптоў gems
+ruby.configuration.gems.bin.dir.select.path:
+    text: Выбраць дырэкторыю bin для gems
+sdk.no.specified:
+    text: SDK не указан
+sdk.type.incorrect:
+    text: Няправільны тып SDK для модуля плагіна ''{0}''
+sdk.error.isnt.valid:
+    text: SDK ''{0}'' не является корректным Ruby SDK
+sdk.error.gems.bindir.doesnt.exist:
+    text: Дырэкторыя bin для gems не існуе
+sdk.error.gems.bindir.isnt.directory:
+    text: Дырэкторыя bin для gems не з'яўляецца дырэкторыяй
+sdk.error.no.rails.found:
+    text: '[Rails не найден в SDK]'
+execution.error.title:
+    text: Памылка выканання
+execution.ruby.script.get.available.generators:
+    text: "Скрыпт атрымання даступных генератараў выконваецца з памылкамі:\n{0}"
+run.configuration.test.name:
+    text: Тесты Kotlin Mobile
+run.configuration.messages.select.working.dir:
+    text: Выберыце рабочую дырэкторыю
+run.configuration.messages.script.args:
+    text: Аргументы скрыпта
+run.configuration.messages.select.module:
+    text: 'Выбраць SDK з модуля:'
+run.configuration.messages.working.dir:
+    text: 'Рабочая дырэкторыя:'
+run.configuration.messages.ruby.args:
+    text: Аргументы Ruby
+run.configuration.messages.script.path:
+    text: 'Ruby скрыпт:'
+run.configuration.messages.folder.path:
+    text: 'Папка:'
+run.configuration.messages.select.folder.path:
+    text: Выбрать папку
+run.configuration.tests.messages.method.name:
+    text: 'Метод:'
+run.configuration.test.form.testtype.title:
+    text: 'Рэжым:'
+run.configuration.tests.dialog.components.folder:
+    text: Папка з тэстамі
+run.configuration.tests.dialog.components.search.mask:
+    text: 'Маска імя тэставага файла:'
+run.configuration.tests.dialog.components.file:
+    text: Ruby скрыпт
+run.configuration.tests.dialog.components.method:
+    text: Фільтр імя тэста
+run.configuration.tests.dialog.rb.allInFolder:
+    text: '&Все тесты в папке [&A]'
+run.configuration.tests.dialog.rb.method:
+    text: Тестовый &метод [&M]
+rails.run.configuration.type.description:
+    text: Канфігурацыя запуску Rails
+run.configuration.server.dialog.port:
+    text: Порт
+run.configuration.server.dialog.ip:
+    text: IP-адрес
+run.configuration.server.dialog.environment:
+    text: Асяроддзе
+run.configuration.server.dialog.server:
+    text: Сервер
+run.configuration.server.args:
+    text: Аргументы сервера
+rspec.run.configuration.type.description:
+    text: Канфігурацыя запуску прыкладаў RSpec
+rspec.run.configuration.tests.dialog.components.search.mask:
+    text: 'Маска імя файла:'
+rspec.run.configuration.tests.dialog.components.folder:
+    text: Папка спецыфікацый
+rspec.run.configuration.tests.dialog.rb.allInFolder:
+    text: '&Усе спецыфікацыі ў папцы [&A]'
+rspec.run.configuration.tests.dialog.rb.file:
+    text: '&Скрыпт спецыфікацыі [&S]'
+rspec.run.configuration.tests.form.testtype.title:
+    text: 'Рэжым:'
+rspec.run.configuration.messages.script.path:
+    text: 'Скрыпт спецыфікацыі:'
+rspec.run.configuration.tests.dialog.components.select.spec.custom.runner:
+    text: Выбраць карыстальніцкі скрыпт запуску RSpec
+rspec.run.configuration.tests.dialog.components.spec.custom.use:
+    text: 'Выкарыстоўваць карыстальніцкі скрыпт запуску RSpec:'
+run.configuration.script.port.bad.format:
+    text: Некарэктнае значэнне 'Port'
+run.configuration.script.ip.bad.format:
+    text: Некарэктнае значэнне 'IP address'
+run.configuration.script.not.specified:
+    text: Ruby скрыпт не ўказаны
+run.configuration.script.not.exists:
+    text: Ruby скрыпт не існуе
+run.configuration.script.is.not.file:
+    text: Ruby скрыпт не з'яўляецца файлам
+run.configuration.no.module.specified:
+    text: Модуль плагіна не ўказаны для канфігурацыі
+run.configuration.working.directory.not.exists:
+    text: Рабочая дырэкторыя не існуе
+run.configuration.working.directory.error:
+    text: Рабочая дырэкторыя не з'яўляецца дырэкторыяй
+run.configuration.test.folder.not.exists:
+    text: Папка з тэстамі не існуе
+run.configuration.test.folder.not.dir:
+    text: Папка з тэстамі не з'яўляецца дырэкторыяй
+run.configuration.test.no.mask:
+    text: 'Вызначце маску для імёнаў тэстаў, напрыклад: {0}'
+run.configuration.test.script.not.exists:
+    text: Тэставы скрыпт не існуе
+run.configuration.test.script.is.dir:
+    text: Тэставы скрыпт з'яўляецца дырэкторыяй
+run.configuration.test.default.name:
+    text: 'Все тесты в {0}: {1}'
+rspec.run.configuration.test.folder.not.exists:
+    text: Папка спецыфікацый не існуе
+rspec.run.configuration.test.folder.not.dir:
+    text: Папка спецыфікацый не з'яўляецца дырэкторыяй
+rspec.run.configuration.test.script.not.exists:
+    text: Скрыпт тэставай спецыфікацыі не існуе
+rspec.run.configuration.test.custom.runner.not.exists:
+    text: Карыстальніцкі скрыпт запуску RSpec не існуе
+rspec.run.configuration.test.script.is.dir:
+    text: Скрыпт спецыфікацыі з'яўляецца дырэкторыяй
+rspec.run.configuration.test.default.name:
+    text: 'Усе спецыфікацыі ў {0}: {1}'
+new.generate.common.action.prompt.title:
+    text: Згенераваць ''{0}''
+new.generate.common.error.title:
+    text: Памылка генерацыі
+new.generate.common.action.title:
+    text: Згенераваць ''{0}''
+new.generate.common.generating.title:
+    text: згенераваць скрыпт
+new.generate.common.error.script.arguments.should.be.specified:
+    text: Неабходна ўказаць аргументы скрыпта.
+new.generate.common.error.no.rails:
+    text: Скрыпт Rails не знойдзены ў вашым SDK. Без усталяванага Rails вы не можаце выкарыстоўваць генератары Rails. Выберыце іншы SDK у наладах модуля або ўсталюйце Rails.
+dialog.generate.common.label.arguments.text:
+    text: 'Аргументы генератора [&A]:'
+dialog.generate.common.checkBox.pretend.text:
+    text: Імітацыя [&P]
+dialog.generate.common.checkBox.pretend.tooltip:
+    text: Запусціць, але не ўносіць змены.
+dialog.generate.common.checkBox.force.text:
+    text: Прымусова [&F]
+dialog.generate.common.checkBox.force.tooltip:
+    text: Перазапісаць існуючыя файлы.
+dialog.generate.common.checkBox.skip.text:
+    text: Прапусціць [&S]
+dialog.generate.common.checkBox.skip.tooltip:
+    text: Прапускаць існуючыя файлы.
+dialog.generate.common.checkBox.backtrace.text:
+    text: Бэктрейс [&B]
+dialog.generate.common.checkBox.backtrace.tooltip:
+    text: 'Адладка: паказваць бэктрэйс пры памылках.'
+dialog.generate.common.checkBox.svn.tooltip:
+    text: 'Змяняць файлы з дапамогай Subversion. (Заўвага: svn павінен быць у path).'
+dialog.generate.common.help.title:
+    text: 'Справка для: ''''{0}'''''
+progress.dialog.generate.common.help.wait.title:
+    text: Загрузка даведкі…
+new.generate.controller.description:
+    text: Згенераваць кантролер для Rails прыкладання
+new.generate.controller.action.prompt.title:
+    text: Дадаць новы кантролер
+new.generate.controller.error.title:
+    text: Памылка генерацыі кантролера
+dialog.generate.controller.label.dir.text:
+    text: 'Дырэкторыя [&D]: (напрыклад, ''admin'')'
+dialog.generate.controller.label.name.text:
+    text: 'Імя &{0}: (напрыклад, ''''CreditCard'''')'
+new.generate.model.description:
+    text: Генеруе модель для Rails прыкладання
+new.generate.model.action.prompt.title:
+    text: Дадаць новую модель
+new.generate.model.error.title:
+    text: Памылка генерацыі мадэлі
+rails.actions.execution.run.rails.script.title:
+    text: Запусціць скрыпт Rails
+rails.actions.execution.run.rails.script.dialog.button.ok.caption:
+    text: Запусціць
+rails.actions.execution.run.rails.script.dialog.description.caption:
+    text: Вы можаце запускаць скрыпты Rails з дырэкторыі "[{0}]/script"
+rails.actions.execution.run.rails.script.dialog.component.script.args.caption:
+    text: Аргументы
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption:
+    text: Скрыпт
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption.select:
+    text: Выбраць скрыпт
+rails.actions.execution.run.rails.script.error.no.scripts.folder:
+    text: Немагчыма выканаць скрыпт Rails. Дырэкторыя "[{0}]/script" не знойдзена!
+rails.actions.execution.run.rails.script.error.script.want.found:
+    text: Немагчыма выканаць скрыпт Rails. Скрыпт "{0}" не знойдзены!
+action.registered.shortcut.execute.disabled.title:
+    text: Некарэктнае дзеянне
+color.settings.ruby.keyword:
+    text: Ключевое слово
+color.settings.ruby.comment:
+    text: Каментарый
+color.settings.ruby.number:
+    text: Лік
+color.settings.ruby.string:
+    text: Радкі і сімвалы//Радок
+color.settings.ruby.operation:
+    text: Дужкі і аператары//Знак аперацыі
+color.settings.ruby.brackets:
+    text: Дужкі і аператары//Квадратныя дужкі
+color.settings.ruby.bad_character:
+    text: Некарэктны сімвал
+color.settings.ruby.comma:
+    text: Дужкі і аператары//Коска
+color.settings.ruby.semicolon:
+    text: Дужкі і аператары//Кропка з коскай
+color.settings.ruby.symbol:
+    text: Радкі і сімвалы//Сімвал
+color.settings.ruby.hash_assoc:
+    text: Хэшы//Хэш-ракета
+color.settings.ruby.line_continuation:
+    text: Дужкі і аператары//Працяг радка
+color.settings.ruby.regexp:
+    text: Радкі і сімвалы//RegExp//Мяжа
+color.settings.ruby.words:
+    text: Радкі і сімвалы//Слова
+color.settings.ruby.identifier:
+    text: Ідэнтыфікатары//Ідэнтыфікатар
+color.settings.ruby.local.variable:
+    text: Переменные//Локальная переменная
+color.settings.ruby.constant:
+    text: Константы//Константа
+color.settings.ruby.nth_ref:
+    text: Радкі і сімвалы//RegExp//Спасылка на групу
+sdk.select.prompt.title:
+    text: Выберыце SDK
+module.rails.create.rake.tasks.title:
+    text: Загрузка задач Rake…
+module.rails.create.rake.generators.title:
+    text: Загрузка генераторов Rails…
+parsing.error.expression:
+    text: выраз
+parsing.symbol.content:
+    text: змесціва сімвала
+parsing.alias.object:
+    text: аб'ект псеўданіма
+parsing.operation:
+    text: аперацыя
+parsing.method.name:
+    text: імя метаду
+parsing.module.name:
+    text: імя модуля
+parsing.class.name:
+    text: імя класа
+parsing.singleton:
+    text: сінглтон
+select.in.rails:
+    text: Прадстаўленне праекта Rails
+rails.project.module.view.nodes.controllers.presentable:
+    text: Контроллеры
+rails.project.module.view.nodes.model.presentable:
+    text: Мадэлі
+rails.project.module.view.nodes.partials.presentable:
+    text: Партыялы
+rails.project.module.view.nodes.shared.partials.presentable:
+    text: Агульныя партыялы
+rails.project.module.view.nodes.migrations.presentable:
+    text: Міграцыі
+ruby.intentions.relative.path.to.absolute:
+    text: Преобразовать в абсолютный путь
+ruby.intentions.string.to.symbol:
+    text: Пераўтварыць у сімвал
+ruby.intentions.qualified.name.to.import:
+    text: Імпартаваць Java-клас
+progress.indicator.title.directories.scanning:
+    text: Сканіраванне дырэкторый.
+progress.indicator.title.please.wait:
+    text: Калі ласка, пачакайце…
+progress.backgnd.indicator.title.please.wait:
+    text: '{0}. Калі ласка, пачакайце…'
+settings.title:
+    text: Налады падключэння AWS
+error.report.to.jetbrains.action:
+    text: Паведаміць у JetBrains [&R]
+codeInsight.rails.switch.to.view.title:
+    text: Перайсці да прадстаўлення
+codeInsight.rails.switch.to.controller.title:
+    text: Перайсці да кантролера
+codeInsight.rails.navigation.title.action.view:
+    text: Выбраць прадстаўленне
+codeInsight.rails.switch.to.view.cant.navigate:
+    text: Немагчыма перайсці да адпаведнага прадстаўлення
+codeInsight.rails.switch.to.controller.cant.navigate:
+    text: Немагчыма перайсці да адпаведнага кантролера
+annotation.error.cannot.make.alias.for.nth.variable:
+    text: Немагчыма стварыць аліас для лікавых пераменных
+annotation.error.class.module.name.must.be.constant:
+    text: Імя класа/модуля павінна быць КАНСТАНТАЙ
+annotation.error.class.in.method:
+    text: Вызначэнне класа ў целе метаду
+annotation.error.module.in.method:
+    text: Вызначэнне модуля ў целе метаду
+annotation.error.formal.arg.cannot.be.constant:
+    text: Формальный аргумент не может быть константой
+annotation.error.formal.arg.cannot.be.inst.var:
+    text: Формальный аргумент не может быть переменной экземпляра
+annotation.error.formal.arg.cannot.be.global.var:
+    text: Формальный аргумент не может быть глобальной переменной
+annotation.error.formal.arg.cannot.be.class.var:
+    text: Формальный аргумент не может быть переменной класса
+in:
+    text: в
+parameter:
+    text: параметр
+local.variable:
+    text: локальная переменная
+constant:
+    text: константа
+global.variable:
+    text: глобальная переменная
+class.variable:
+    text: переменная класса
+instance.variable:
+    text: переменная экземпляра
+field.write:
+    text: запіс поля
+call:
+    text: вызов
+rename.incorrect.name:
+    text: 'Некарэктнае імя: ''''{0}'''''
+ruby.doc.module:
+    text: модуль
+ruby.doc.class:
+    text: класс
+ruby.doc.method.class:
+    text: метод класса
+ruby.doc.method.instance:
+    text: метод экземпляра
+inspection.resolve.name:
+    text: Неразрешённая ссылка
+inspection.resolve.cannot.find:
+    text: Не ўдаецца знайсці ''{0}''
+inspection.scopes.name:
+    text: Вобласць бачнасці пераменнай/параметра
+inspection.scopes.parameter.shadows.outer:
+    text: Параметр ''{0}'' хавае знешні параметр або лакальную пераменную
+inspection.implement.interface.name:
+    text: У класе адсутнічае рэалізацыя метадаў Java-інтэрфейсу
+inspection.implement.interface.class.should.implement.method:
+    text: У класе адсутнічае рэалізацыя для ''{0}''
+inspection.wrong.top.level.package:
+    text: Некарэктная спецыфікацыя пакета верхняга ўзроўню
+inspection.wrong.top.level.package.should.be.one.of:
+    text: Пакет Java верхняга ўзроўню павінен быць адным з {0}
+module.create.dialog.init.errors.title:
+    text: 'Модуль ''''{0}'''': Памылка налады'
+module.settings.dialog.load.path.tab.title:
+    text: Шлях загрузкі
+module.settings.dialog.load.path.list.caption:
+    text: '&Шляхі загрузкі:'
+module.toggle.excluded.action:
+    text: Выключаныя
+module.toggle.excluded.action.description:
+    text: Уключыць/выключыць дырэкторыю з модуля
+module.paths.excluded.group:
+    text: Выключаныя папкі
+module.paths.unmark.tests.tooltip:
+    text: Снять пометку тестов
+module.paths.unmark.source.tooltip:
+    text: Зняць пазнаку зыходнікаў
+module.paths.remove.tooltip:
+    text: Выдаліць
+module.paths.include.excluded.tooltip:
+    text: Уключыць
+title.new.filetype:
+    text: Новый {0}
+title.new.from.template:
+    text: Новы {0}
+title.cannot.create.filetype:
+    text: Невозможно создать {0}
+title.cannot.create.file:
+    text: Немагчыма стварыць файл
+command.create.file.from.template:
+    text: Стварыць файл з шаблону
+progress.creating.filetype.in.directory:
+    text: Стварэнне {0} "{1}" у {2}
+progress.deleting:
+    text: Выдаленне
+error.please.enter.a.file.name:
+    text: Пакажыце імя файла
+error.unable.to.parse.template.message:
+    text: "Немагчыма разабраць шаблон \"{0}\",\nпаведамленне пра памылку: {1}"
+tab.chooser.project:
+    text: Праект
+tab.chooser.search.by.name:
+    text: Пошук па імені
+choose.test.method.dialog.title:
+    text: Выберыце метад тэставання
+choose.test.class.dialog.title:
+    text: Выберыце тэставы клас
+set.class.name.message:
+    text: Спачатку задайце імя класа
+cannot.browse.method.dialog.title:
+    text: Немагчыма праглядзець метад
+class.does.not.exists.error.message:
+    text: Клас {0} не існуе
+action.rerun:
+    text: Перазапусціць
+jruby.select.sdk:
+    text: Выберыце JRuby SDK
+rails.facet.wizard.error.no.skd:
+    text: Не выбран Ruby SDK с фреймворком Rails
+rails.facet.wizard.error.skd.without.rails:
+    text: Ваш SDK не змяшчае фрэймворк Rails
+rails.facet.wizard.tab.rails.project.generator.title:
+    text: Прыкладанне Rails
+rails.facet.wizard.tab.rails.project.generator.select.rails.relative.path:
+    text: '<html>Укажыце дырэкторыю, у якой будзе створана прыкладанне. Шлях павінен быць адносным да каранёвай дырэкторыі модуля. Калі пакінуць поле пустым, будзе выкарыстана каранёвая дырэкторыя модуля. (прыклады: ''myapp'' або ''src/rails/myapp'' або пакіньце пустым):</html>'
+rails.facet.wizard.tab.rails.project.generator.select.rails.preconfigure.for.db:
+    text: 'Прадналадзіць для выбранай базы даных [&P]:'
+rails.facet.builder.run.configuration.server.creating:
+    text: Стварэнне канфігурацыі запуску Rails
+rails.facet.builder.rails.application.searching:
+    text: Пошук прыкладання Rails
+rails.facet.builder.rails.application.choose.title:
+    text: Каранёвая папка прыкладання Rails
+rails.facet.builder.rails.application.choose.relative.path:
+    text: Выберыце шлях адносна кораня модуля.
+rails.facet.settings.tab.general.title:
+    text: Інфармацыя
+rails.facet.settings.tab.general.railsHomePath.caption:
+    text: 'Дамашняя дырэкторыя прыкладання Rails:'
+rails.facet.action.regenerate.generators.error.wrong.sdk:
+    text: Немагчыма перазагрузіць даступныя генератары. Для модуля не ўказаны SDK.
+rails.facet.action.regenerate.rakeTasks.error.wrong.sdk:
+    text: Немагчыма перазагрузіць даступныя задачы Rake. Для модуля не ўказаны SDK.
+refactoring.override.methods.title:
+    text: Выберыце метады для пераазначэння
+refactoring.implement.java.methods.title:
+    text: Выберыце метады для рэалізацыі
+exception.text.unknown.error:
+    text: Невядомая памылка
+command.name.open.error.message.view:
+    text: Адкрыць акно паведамлення
+execution.error.title.generators.list:
+    text: '{0}: Атрыманне спісу даступных генератараў'
+execution.error.title.generate.rails.app:
+    text: Генерацыя Rails прыкладання для модуля ''{0}''
+execution.error.title.abstract.script:
+    text: '{0}: Памылка выканання скрыпта'
+find.usages.ruby.declarations.group:
+    text: Аб'яўленне
+error.module.ror.valid.expected:
+    text: 'Чакаецца модуль Ruby, Rails або Java з JRuby Facet, але знойдзены: {0}'

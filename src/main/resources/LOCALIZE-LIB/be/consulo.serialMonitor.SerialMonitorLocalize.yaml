@@ -1,0 +1,122 @@
+connect.title:
+    text: Падключэнне
+disconnect.title:
+    text: Адключэнне
+connect.tooltip:
+    text: Открыть последовательный порт
+send.title:
+    text: Адправіць [&S]
+action.clear.contents.console.description:
+    text: Ачысціць змесціва кансолі
+cancel:
+    text: Отмена
+connecting:
+    text: Падключэнне…
+serial.port.parameters.wrong:
+    text: Не ўдалося ўсталяваць параметры SerialPort
+serial.port.not.found:
+    text: Последовательный порт "{0}" не найден.
+settings.display.name:
+    text: Спецыфікацыі OpenAPI
+port.connect.error:
+    text: Не ўдалося падключыцца да паслядоўнага порта "{0}" - {1}
+uart.parity.odd:
+    text: Нечётный
+uart.parity.even:
+    text: Чётный
+uart.parity.none:
+    text: Нет
+label.port:
+    text: 'Порт [&P]:'
+label.baud:
+    text: 'Скорость:'
+label.bits:
+    text: 'Біты:'
+label.parity:
+    text: 'Четность:'
+label.stop.bits:
+    text: 'Стоп-біты:'
+label.new.line:
+    text: 'Новая строка:'
+label.encoding:
+    text: 'Кадаванне:'
+dialog.title.serial.port.settings:
+    text: '{0} - Параметры последовательного порта'
+presentable.name:
+    text: Профіль паслядоўнага порта
+checkbox.send.eol:
+    text: Отправлять EOL
+action.settings.text:
+    text: Налады…
+notification.group.serial.monitor.notification:
+    text: Манітор паслядоўнага порта
+action.pause.text:
+    text: Пауза
+action.pause.description:
+    text: Прыпыніць вывад
+tab.title.serial.connections:
+    text: Паслядоўныя падключэнні
+tab.title.connect:
+    text: Падключэнне
+action.disconnect.text:
+    text: Адключыць
+action.open.console.text:
+    text: Открыть консоль
+action.connect.text:
+    text: Падключыць
+action.duplicate.profile.text:
+    text: Дубліраваць профіль
+action.remove.profile.text:
+    text: Выдаліць профіль
+dialog.message.are.you.sure:
+    text: Вы уверены?
+dialog.title.delete.profile:
+    text: Выдаліць профіль {0}
+action.create.profile.text:
+    text: Стварыць профіль
+connection.profiles:
+    text: Профілі падключэння
+available.ports:
+    text: Доступные порты
+text.profile.already.exists:
+    text: Профіль ужо існуе
+dialog.message.name:
+    text: 'Імя:'
+dialog.title.new.profile:
+    text: Новы профіль
+label.local.echo:
+    text: 'Локальное эхо:'
+link.label.duplicate.profile:
+    text: Дубліраваць профіль…
+button.connect:
+    text: Падключыць
+button.disconnect:
+    text: Адключыць
+button.open.console:
+    text: Открыть консоль
+link.label.create.profile:
+    text: Стварыць профіль…
+label.profile:
+    text: 'Профіль:'
+dialog.message.port.name:
+    text: Увядзіце імя порта
+dialog.message.port.does.not.exists:
+    text: Порт не існуе
+label.port.name:
+    text: 'Порт:'
+text.enter.unique.profile.name:
+    text: Увядзіце ўнікальнае імя профілю
+port.close.error:
+    text: Не удалось закрыть последовательный порт "{0}" - {1}
+dialog.save.title:
+    text: Захаваць гісторыю
+dialog.save.desc:
+    text: Выберыце месца для захавання гісторыі манітора паслядоўнага порта
+action.save.text:
+    text: Захаваць
+action.save.description:
+    text: Захаваць гісторыю
+action.print.timestamps.text:
+    text: Паказваць часовыя меткі
+action.print.timestamps.description:
+    text: Паказваць часовыя меткі ў пачатку кожнага радка

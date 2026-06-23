@@ -1,0 +1,194 @@
+action.DumbAware.HgCommittedChangesProvider.description.copy.hash.to.clipboard:
+    text: Капіраваць хэш у буфер абмену
+action.DumbAware.HgCommittedChangesProvider.text.copy.hash:
+    text: Капіраваць хэш [&H]
+action.hg4idea.merge.files.description:
+    text: Зліццё існуючых файлаў
+action.hg4idea.merge.files.text:
+    text: Зліццё…
+action.hg4idea.pull.description:
+    text: Pull уваходных коммітаў
+action.hg4idea.resolve.mark.description:
+    text: Пазначыць як вырашаны, выдаліць маркер канфлікту
+action.hg4idea.resolve.mark.text:
+    text: Пазначыць як вырашаны
+action.hg4idea.run.conflict.resolver.description:
+    text: Вырашыць існуючыя канфлікты
+action.hg4idea.run.conflict.resolver.text:
+    text: Запусціць вырашэнне канфліктаў
+action.hg4idea.tag.description:
+    text: Стварыць тэг для бягучай рэвізіі
+action.hg4idea.tag.text:
+    text: Стварыць тэг у рэпазіторыі…
+action.hg4idea.updateTo.description:
+    text: Абнавіць рабочую дырэкторыю рэпазіторыя да ўказанага набору змен.
+action.hg4idea.updateTo.text:
+    text: Абнавіць да…
+checkbox.export.active.bookmarks:
+    text: Экспартаваць актыўныя закладкі
+configurable.UpdateConfigurable.display.name:
+    text: Абнаўленне
+graft:
+    text: Перанесці
+hg4idea.add.body:
+    text: "Дадаць наступны файл у Mercurial?\n{0}\n\nКалі вы выберыце Адмена, вы зможаце дадаць яго пазней уручную."
+hg4idea.add.progress:
+    text: Даданне файлаў у Mercurial
+hg4idea.add.single.title:
+    text: Дадаць файл у Mercurial
+hg4idea.add.title:
+    text: Дадаць файлы ў Mercurial
+hg4idea.branch.bookmarks:
+    text: Закладкі
+hg4idea.branch.bookmarks.in.repo:
+    text: Закладкі ў {0}
+hg4idea.branch.branches.in.repo.separator:
+    text: Галіны ў {0}
+hg4idea.branch.branches.separator:
+    text: Галіны
+hg4idea.changelist.column.branch:
+    text: Ветка
+hg4idea.changesets.checking.progress:
+    text: Праверка ўваходных і выходных змен
+hg4idea.changesets.error:
+    text: Праверка ўваходных/выходных змен адключана
+hg4idea.changesets.error.msg:
+    text: Патрабуецца аўтэнтыфікацыя для праверкі ўваходных/выходных змен у {0}<br/>Вы можаце ўключыць праверку змен <a href=''#''>у наладах</a>.
+hg4idea.changesets.in:
+    text: Уваходныя
+hg4idea.changesets.out:
+    text: Выходныя
+hg4idea.commit:
+    text: Каміт
+hg4idea.commit.error.messageEmpty:
+    text: Укажыце паведамленне коміта
+hg4idea.commit.partial.merge.message:
+    text: Частковыя коміты не дазволены падчас зліцця, наступныя файлы не ўключаны:<ul>{0}</ul>Выканаць коміт, уключыўшы ўсе файлы?
+hg4idea.commit.partial.merge.title:
+    text: Частковы коміт зліцця
+hg4idea.configuration.ignore.whitespace.in.annotate:
+    text: Ігнараваць адрозненні ў прабелах пры анатаванні [&W]
+hg4idea.dialog.login.description:
+    text: Вход в {0}
+hg4idea.dialog.login.password.required:
+    text: Патрабуецца лагін і пароль
+hg4idea.error:
+    text: Памылка
+hg4idea.error.debugancestor.command.description:
+    text: Не ўдалося сабраць інфармацыю пра продка
+hg4idea.error.debugancestor.command.execution:
+    text: Памылка пры выкананні каманды debugancestor
+hg4idea.error.log.command.execution:
+    text: Памылка пры выкананні каманды log
+hg4idea.exception.file.not.under.hg:
+    text: Файл {0} не знаходзіцца пад кіраваннем Mercurial.
+hg4idea.executable.notification.description:
+    text: Магчыма, указаны няправільны шлях да выканальнага файла hg.
+hg4idea.executable.notification.title:
+    text: Не ўдаецца запусціць Mercurial
+hg4idea.file.status.copied:
+    text: Скапіраваны
+hg4idea.file.status.renamed:
+    text: Перайменаваны
+hg4idea.init.already.under.hg.description:
+    text: 'Выбраны каталог <b><code>{0}</code></b> ужо знаходзіцца пад кіраваннем Mercurial: <b><code>{1}</code></b><br/>Стварыць новы рэпазіторый у выбранай папцы або выкарыстоўваць бацькоўскі?'
+hg4idea.init.already.under.hg.dialog.title:
+    text: Каталог знаходзіцца пад кіраваннем hg
+hg4idea.init.already.under.hg.option.create.repo.here:
+    text: Стварыць новы рэпазіторый тут.
+hg4idea.init.already.under.hg.option.use.parent:
+    text: Выкарыстоўваць бацькоўскі рэпазіторый, але працягнуць работу ў гэтым праекце.
+hg4idea.init.already.under.hg.title:
+    text: Гэты каталог ужо знаходзіцца пад кіраваннем hg
+hg4idea.init.created.notification.description:
+    text: Рэпазіторый створаны ў {0}
+hg4idea.init.created.notification.title:
+    text: Рэпазіторый Mercurial створаны
+hg4idea.init.destination.directory.description:
+    text: Выберыце каталог для стварэння новага рэпазіторыя Mercurial.
+hg4idea.init.destination.directory.title:
+    text: Выберыце каталог для каманды hg init
+hg4idea.init.dialog.incorrect.path:
+    text: Указан неверный путь
+hg4idea.init.dialog.option.create.repository.for.whole.project:
+    text: Стварыць рэпазіторый для ўсяго праекта [&C]
+hg4idea.init.dialog.option.select.folder:
+    text: Выбраць размяшчэнне рэпазіторыя [&S]
+hg4idea.init.dialog.title:
+    text: Стварыць рэпазіторый Mercurial
+hg4idea.init.error.description:
+    text: Не ўдалося стварыць рэпазіторый Mercurial у {0}
+hg4idea.init.error.title:
+    text: Памылка стварэння рэпазіторыя Mercurial
+hg4idea.init.this.is.hg.root:
+    text: Выбранная папка {0} уже является корнем Mercurial
+hg4idea.move.progress:
+    text: Перамяшчэнне файлаў у СКВ…
+hg4idea.mq.progress.goto:
+    text: Переход к {0}…
+hg4idea.mq.progress.pop:
+    text: Выдаленне ўсіх прыкладзеных патчаў…
+hg4idea.progress.bookmark:
+    text: Стварэнне закладкі {0}…
+hg4idea.progress.checking.ignored:
+    text: Праверка ігнаруемых файлаў
+hg4idea.progress.countingHeads:
+    text: Праверка колькасці heads…
+hg4idea.progress.pull.with.update:
+    text: Абнаўленне рэпазіторыя
+hg4idea.progress.rebase:
+    text: Рэбэйз рэпазіторыя
+hg4idea.progress.updating:
+    text: Абнаўленне {0}…
+hg4idea.progress.updatingTo:
+    text: Абнаўленне да {0}…
+hg4idea.progress.updatingworkingdir:
+    text: Абнаўленне лакальнай рабочай дырэкторыі
+hg4idea.remove.multiple.title:
+    text: Выдаліць файлы з Mercurial
+hg4idea.remove.progress:
+    text: Выдаленне файлаў з СКВ…
+hg4idea.remove.single.body:
+    text: "Вы хочаце выдаліць наступны файл з Mercurial?\n{0}\n\nКалі вы выберыце \"Адмена\", вы зможаце выдаліць яго пазней уручную."
+hg4idea.remove.single.title:
+    text: Выдаліць файл з Mercurial
+hg4idea.revert:
+    text: Адкаціць [&R]
+hg4idea.run.failed.title:
+    text: Памылка выканання Hg
+hg4idea.run.success.title:
+    text: Hg выполнен успешно
+hg4idea.status.bar.incoming.widget.name:
+    text: Уваходныя Mercurial
+hg4idea.status.bar.outgoing.widget.name:
+    text: Выходныя Mercurial
+hg4idea.status.bar.widget.name:
+    text: Ветка Mercurial
+hg4idea.status.bar.widget.text.graft:
+    text: Графтынг {0}
+hg4idea.status.bar.widget.text.merge:
+    text: Зліццё {0}
+hg4idea.status.bar.widget.text.rebase:
+    text: Ребейз {0}
+hg4idea.unable.to.run.hg:
+    text: 'Не ўдалося запусціць hg: {0}'
+hg4idea.update.error.localchanges:
+    text: незавершаныя незакамічаныя змены ў рэпазіторыі {0}, зліццё з атрыманым HEAD не выконваецца
+hg4idea.update.error.merge.multipleLocalHeads:
+    text: Больш аднаго лакальнага HEAD у рэпазіторыі {0}, зліццё не выконваецца
+hg4idea.update.error.merge.multipleRemoteHeads:
+    text: Атрымана {0} аддаленых HEAD у рэпазіторыі {1}, зліццё не выконваецца
+hg4idea.update.error.uncommittedMerge:
+    text: незавершанае незакамічанае зліццё ў рэпазіторыі {0}, абнаўленне або зліццё не выконваецца
+hg4idea.update.progress.merging:
+    text: Зліццё з атрыманым HEAD
+hg4idea.update.progress.updating.to.pulled.head:
+    text: Абнаўленне да атрыманага HEAD
+hg4idea.update.warning.merge.conflicts:
+    text: Зліццё з канфліктамі ў рэпазіторыі {0}. Праверце канфлікты і закаміце зліццё, калі скончыце
+hg4idea.update.warning.multipleHeadsBeforeUpdate:
+    text: Некалькі HEAD у гэтай галіне ў рэпазіторыі {0} перад абнаўленнем (выкарыстоўвайце "hg heads ." і "hg merge" для зліцця)
+hg4idea.widget.tooltip.title.status.changesets:
+    text: '{0} чейнджсетов'
+no.changes.available:
+    text: Няма даступных змен

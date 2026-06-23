@@ -1,0 +1,28 @@
+list.item.test:
+    text: Тест
+inspection.unreachable.code.display.name:
+    text: Недасягальны код
+attribute.descriptor.number:
+    text: Лік
+attribute.descriptor.line.comment:
+    text: Аднарадковы каментар
+attribute.descriptor.label:
+    text: Метка
+attribute.descriptor.operator:
+    text: Оператор
+attribute.descriptor.keyword:
+    text: Ключевое слово
+attribute.descriptor.attribute:
+    text: Атрыбут
+attribute.descriptor.comma:
+    text: Запятая
+attribute.descriptor.semicolon:
+    text: Точка с запятой
+attribute.descriptor.braces:
+    text: Фігурныя дужкі
+attribute.descriptor.parentheses:
+    text: Круглыя дужкі
+attribute.descriptor.brackets:
+    text: Дужкі
+command.name.introduce.variable:
+    text: Создать переменную

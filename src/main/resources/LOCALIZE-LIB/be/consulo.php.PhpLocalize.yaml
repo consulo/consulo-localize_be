@@ -1,0 +1,40 @@
+filetype.description:
+    text: Файл Meson
+color.settings.escape_sequence:
+    text: Радкі//Экранаваныя паслядоўнасці
+color.settings.operation:
+    text: Дужкі і аператары//Аператары
+color.settings.brackets:
+    text: Дужкі і аператары//Квадратныя дужкі
+color.settings.bad_character:
+    text: Невядомы сімвал
+color.settings.comma:
+    text: Запятая
+color.settings.semicolon:
+    text: Дужкі і аператары//Кропка з коскай
+color.settings.heredoc_content:
+    text: Heredoc//Змесціва Heredoc
+color.settings.var:
+    text: Ідэнтыфікатары//Пераменная
+color.settings.identifier:
+    text: Ідэнтыфікатары//Па змаўчанні
+color.settings.constant:
+    text: Ідэнтыфікатары//Канстанта
+color.settings.doccomment:
+    text: PHPDoc//Текст
+color.settings.doctag:
+    text: PHPDoc//Тег
+color.settings.docmarkup:
+    text: PHPDoc//Разметка
+color.settings.exec_command:
+    text: Shell-команда
+color.settings.predefined.symbols:
+    text: Ідэнтыфікатары//Прадвызначаныя сімвалы
+annotation.variable.variable:
+    text: Переменная переменной
+gutter.overriding.select.title:
+    text: Выберыце бацькоўскі метад для навігацыі
+gutter.overriden.select.subclass.title:
+    text: Выберыце падклас {0}
+gutter.overriden.select.implementation.title:
+    text: Выберыце рэалізацыю {0}

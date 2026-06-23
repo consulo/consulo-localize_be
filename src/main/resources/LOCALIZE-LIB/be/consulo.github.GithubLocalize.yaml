@@ -1,0 +1,578 @@
+account.choose.as.default:
+    text: Усталяваць як акаўнт па змаўчанні для бягучага праекта
+account.choose.button:
+    text: Выбрать
+account.choose.for:
+    text: 'Выберыце акаўнт GitHub для: {0}'
+account.choose.not.selected:
+    text: Аккаунт не выбран
+account.choose.title:
+    text: Выбрать аккаунт GitHub
+accounts.add.button:
+    text: Дадаць акаўнт
+accounts.add.dropdown.link:
+    text: Дадаць акаўнт
+accounts.default.missing:
+    text: Адсутнічае акаўнт GitHub па змаўчанні
+accounts.relogin:
+    text: Увайсці паўторна
+action.Github.Accounts.AddGHAccount.text:
+    text: Увайсці праз GitHub…
+action.Github.Accounts.AddGHAccountWithToken.text:
+    text: Увайсці з дапамогай токена…
+action.Github.Accounts.AddGHEAccount.text:
+    text: Увайсці ў GitHub Enterprise…
+action.Github.Pull.Request.Branch.Update.text:
+    text: Абнавіць для ўключэння рэжыму рэв'ю…
+action.Github.Pull.Request.Review.In.Editor.Toggle.text:
+    text: Рэжым рэв'ю
+action.Github.Pull.Request.Show.In.Toolwindow.text:
+    text: Паказаць Pull Request у інструментальным акне
+action.Github.PullRequest.Copy.Link.text:
+    text: Капіраваць URL Pull Request
+action.Github.PullRequest.Open.Link.text:
+    text: Открыть Pull Request в браузере
+action.Github.Share.description:
+    text: Стварыць рэпазіторый на GitHub і адправіць туды вашы коміты
+action.Github.Share.text:
+    text: Падзяліцца праектам на GitHub
+action.comment.text:
+    text: Каментаваць
+button.use.token:
+    text: Выкарыстоўваць токен…
+cannot.configure.remote:
+    text: "Немагчыма настроіць выдалены рэпазіторый ''{0}'':\n{1}"
+cannot.create.gist:
+    text: Невозможно создать Gist
+cannot.display.item:
+    text: Немагчыма адлюстраваць элемент - {0}
+cannot.load.changes:
+    text: Не ўдаецца загрузіць змены
+cannot.load.commits:
+    text: Не ўдаецца загрузіць коміты
+cannot.load.data:
+    text: Не ўдаецца загрузіць дадзеныя
+cannot.load.details:
+    text: Не ўдаецца загрузіць падрабязнасці
+cannot.load.repo.info:
+    text: Не ўдаецца загрузіць інфармацыю пра рэпазіторый
+create.gist.dialog.copy.url:
+    text: Капіраваць URL
+create.gist.dialog.create.for.field:
+    text: 'Создать для:'
+create.gist.dialog.description.field:
+    text: 'Апісанне:'
+create.gist.dialog.filename.field:
+    text: 'Імя файла:'
+create.gist.dialog.open.browser:
+    text: Открыть в браузере
+create.gist.dialog.secret:
+    text: Секретный
+create.gist.dialog.title:
+    text: Создать Gist
+create.gist.error.binary.file:
+    text: 'Немагчыма загрузіць бінарны файл: {0}'
+create.gist.error.content.read:
+    text: Не ўдалося прачытаць змесціва файла {0}
+create.gist.error.empty:
+    text: Невозможно создать пустой gist
+create.gist.process:
+    text: Стварэнне gist…
+create.gist.success:
+    text: Gist успешно создан
+credentials.button.generate:
+    text: Згенераваць…
+credentials.incorrect:
+    text: "Неверные учетные данные.\n{0}"
+credentials.invalid.auth.data:
+    text: "Несапраўдныя дадзеныя аўтэнтыфікацыі.\n{0}"
+credentials.invalid.server.path:
+    text: Несапраўдны шлях сервера
+credentials.server.cannot.be.empty:
+    text: Сервер не может быть пустым
+credentials.server.field:
+    text: 'Сервер:'
+credentials.server.path.invalid:
+    text: URL сервера несапраўдны
+credentials.token.field:
+    text: 'Токен:'
+dialog.message.account.cannot.be.empty:
+    text: Аккаунт не может быть пустым
+dialog.message.login.to.continue:
+    text: Увайдзіце ў GitHub для працягу
+dialog.title.add.github.account:
+    text: Дадаць акаўнт GitHub
+gql.error.in.field:
+    text: Памылка {0} у полі {1} {2}
+group.GitHub.Copy.Link.CopyReferencePopup.text:
+    text: URL рэпазіторыя GitHub
+group.GitHub.Copy.Link.text:
+    text: Капіраваць спасылку на рэпазіторый GitHub
+group.Github.PullRequest.Details.Commit.Tree.ViewOptions.text:
+    text: Параметры просмотра
+group.Github.PullRequest.Diff.Thread.View.Options.text:
+    text: Паказаць абмеркаванні рэв'ю
+issue.state.closed:
+    text: Закрыт
+issue.state.open:
+    text: Открыт
+label.login.option.separator:
+    text: або
+label.login.progress:
+    text: Выполняется вход…
+link.label.use.token:
+    text: Выкарыстоўваць токен…
+login.account.already.added:
+    text: Аккаунт ''{0}'' уже добавлен
+login.to.github:
+    text: Увайсці ў GitHub
+login.to.github.enterprise:
+    text: Увайсці ў GitHub Enterprise
+login.to.github.enterprise.action:
+    text: Увайсці ў GitHub Enterprise…
+login.token.cannot.be.empty:
+    text: Токен не может быть пустым
+login.via.github.action:
+    text: Увайсці праз GitHub…
+open.on.github.action:
+    text: Открыть на GitHub
+open.on.github.action.description:
+    text: Адкрыць адпаведную спасылку ў браўзеры
+progress.text.loading.protected.branches:
+    text: Загрузка правіл абароны галін GitHub
+pull.request.adding.reviewers:
+    text: Дадаванне рэв'юераў
+pull.request.adjustment.failed:
+    text: Не ўдалося настроіць спіс
+pull.request.assignees:
+    text: 'Назначенные:'
+pull.request.assignees.popup:
+    text: '{0, choice, 1#Назначенный|2#Назначенные}'
+pull.request.change.remote.or.account:
+    text: Змяніць рэпазіторый або акаўнт…
+pull.request.close.action:
+    text: Закрыть Pull Request
+pull.request.comment.hint:
+    text: '{0} для каментавання'
+pull.request.comment.suggested.changes.applying:
+    text: Прымяненне патча
+pull.request.comment.suggested.changes.committing:
+    text: Прымяненне і коміт зменаў
+pull.request.comment.suggested.changes.resolving:
+    text: Вырашэнне абмеркавання
+pull.request.commit.does.not.contain.changes:
+    text: Коміт не змяшчае зменаў
+pull.request.commits:
+    text: Коміты
+pull.request.conflicts.merge.tooltip:
+    text: Pull Request не можа быць аб'яднаны
+pull.request.create.action:
+    text: Создать Pull Request
+pull.request.create.already.exists:
+    text: Pull Request ужо існуе
+pull.request.create.already.exists.view:
+    text: Просмотреть
+pull.request.create.checking.branches:
+    text: Проверка веток Pull Request
+pull.request.create.creating:
+    text: Стварэнне Pull Request
+pull.request.create.description:
+    text: Апісанне
+pull.request.create.draft.action:
+    text: Стварыць чарнавік Pull Request
+pull.request.create.error:
+    text: Не удалось создать pull request
+pull.request.create.error.details:
+    text: Падрабязнасці
+pull.request.create.failed.to.check.branches:
+    text: Не ўдалося праверыць галіны pull request
+pull.request.create.failed.to.load.changes:
+    text: Не ўдалося загрузіць змены
+pull.request.create.failed.to.load.commits:
+    text: Не ўдалося загрузіць коміты
+pull.request.create.input.remote.branch.comment:
+    text: Вашы змены будуць адпраўлены ў выдалены рэпазіторый для стварэння pull request
+pull.request.create.input.remote.branch.name:
+    text: 'Імя выдаленай галіны:'
+pull.request.create.input.remote.branch.title:
+    text: Новая удалённая ветка для Pull Request
+pull.request.create.no.changes:
+    text: Няма зменаў паміж ''{0}'' і ''{1}''
+pull.request.create.no.commits:
+    text: Няма комітаў
+pull.request.create.process.title:
+    text: Стварэнне pull request…
+pull.request.create.pushing:
+    text: Адпраўка галіны pull request
+pull.request.create.select.branches:
+    text: Выберыце base і head галіны pull request для прагляду зменаў
+pull.request.create.setting.metadata:
+    text: Абнаўленне палёў pull request
+pull.request.create.title:
+    text: Заголовок
+pull.request.details.adjusting.assignees:
+    text: Настройка выканаўцаў…
+pull.request.details.adjusting.labels:
+    text: Настройка меток…
+pull.request.details.adjusting.reviewers:
+    text: Настройка ревьюеров…
+pull.request.diff.editor.title:
+    text: 'Diff для Pull Request #{0,number,#}'
+pull.request.discard.pending.comments:
+    text: Адмяніць чакальныя каментарыі
+pull.request.discard.pending.comments.dialog.msg:
+    text: Вы ўпэўнены, што хочаце выдаліць усе чакальныя каментарыі?
+pull.request.discard.pending.comments.dialog.title:
+    text: Адмяніць чакальнае рэв'ю
+pull.request.does.not.contain.changes:
+    text: Pull request не змяшчае зменаў
+pull.request.does.not.contain.commits:
+    text: Pull request не змяшчае комітаў
+pull.request.editor.timeline:
+    text: Таймлайн Pull Request
+pull.request.files:
+    text: Файлы
+pull.request.info:
+    text: Інфармацыя
+pull.request.labels:
+    text: 'Меткі:'
+pull.request.labels.popup:
+    text: '{0, choice, 1#Метка|2#Меткі}'
+pull.request.list.cannot.load:
+    text: Не ўдаецца загрузіць pull request
+pull.request.list.error.authorization:
+    text: Памылка аўтарызацыі карыстальніка
+pull.request.list.filter.assignee:
+    text: Выканаўца
+pull.request.list.filter.author:
+    text: Автор
+pull.request.list.filter.label:
+    text: Метка
+pull.request.list.filter.quick.assigned:
+    text: Назначенные вам
+pull.request.list.filter.quick.open:
+    text: Открыть
+pull.request.list.filter.quick.review.requests:
+    text: Запросы на ревью
+pull.request.list.filter.quick.yours:
+    text: Вашы pull request
+pull.request.list.filter.review:
+    text: Ревью
+pull.request.list.filter.review.approved.full:
+    text: Одобренные ревью
+pull.request.list.filter.review.approved.short:
+    text: Одобренные ревью
+pull.request.list.filter.review.awaiting.full:
+    text: Чакае вашага рэв'ю
+pull.request.list.filter.review.awaiting.short:
+    text: Чакае рэв'ю
+pull.request.list.filter.review.change.requested.full:
+    text: Запрошаны змены
+pull.request.list.filter.review.change.requested.short:
+    text: Запрошаны змены
+pull.request.list.filter.review.no.full:
+    text: Без ревью
+pull.request.list.filter.review.no.short:
+    text: Без ревью
+pull.request.list.filter.review.not.full:
+    text: Не праверана вамі
+pull.request.list.filter.review.not.short:
+    text: Не проверено
+pull.request.list.filter.review.required.full:
+    text: Требуется ревью
+pull.request.list.filter.review.required.short:
+    text: Требуется ревью
+pull.request.list.filter.review.reviewed.full:
+    text: Праверана вамі
+pull.request.list.filter.review.reviewed.short:
+    text: Проверено
+pull.request.list.filter.state:
+    text: Стан
+pull.request.list.filter.state.closed:
+    text: Закрытые
+pull.request.list.filter.state.merged:
+    text: Злітыя
+pull.request.list.filter.state.open:
+    text: Открытые
+pull.request.list.filters.clear:
+    text: Ачысціць фільтры
+pull.request.list.no.matches:
+    text: Няма pull request, якія адпавядаюць фільтрам.
+pull.request.list.nothing.loaded:
+    text: Нет pull request в {0}
+pull.request.list.outdated:
+    text: Спіс састарэў.
+pull.request.list.refresh:
+    text: Абнавіць
+pull.request.loading.status:
+    text: Загрузка статуса pull request
+pull.request.merge.commit.action:
+    text: Зліць Pull Request…
+pull.request.merge.disabled:
+    text: Зліццё адключана для гэтага праекта
+pull.request.merge.pull.request:
+    text: 'Зліць pull request #{0,number,#}'
+pull.request.new.diff.editor.title:
+    text: Diff для нового Pull Request
+pull.request.no.labels:
+    text: Нет меток
+pull.request.no.reviewers:
+    text: Нет ревьюеров
+pull.request.notification.create.action:
+    text: Создать pull request
+pull.request.on.branch:
+    text: '#{0,number,#} в {1}'
+pull.request.on.branch.description:
+    text: 'Для бягучай галіны {1} існуе pull request #{0,number,#}'
+pull.request.on.branch.error:
+    text: 'Для бягучай галіны {1} існуе pull request #{0,number,#}, але не ўдалося загрузіць дэталі pull request'
+pull.request.on.branch.loading:
+    text: 'Загрузка зменаў для pull request #{0,number,#}'
+pull.request.on.branch.out.of.sync:
+    text: 'Для бягучай галіны {1} існуе pull request #{0,number,#}, але лакальная галіна не сінхранізавана з выдаленай'
+pull.request.on.branch.update.failed.title:
+    text: Не ўдалося абнавіць галіну Pull Request
+pull.request.open.action:
+    text: Просмотр Pull Request
+pull.request.open.action.description:
+    text: Прагляд інфармацыі і таймлайна pull request
+pull.request.post.action:
+    text: Апублікаваць Pull Request
+pull.request.refresh.details.action:
+    text: Абнавіць Pull Request
+pull.request.refresh.list.action:
+    text: Абнавіць спіс
+pull.request.removing.reviewers:
+    text: Выдаленне рэв'юераў
+pull.request.reopen.action:
+    text: Переоткрыть Pull Request
+pull.request.repo.access.required:
+    text: Патрабуецца доступ да рэпазіторыя для кіравання pull request
+pull.request.repo.write.access.required:
+    text: Патрабуецца доступ на запіс у рэпазіторый для зліцця pull request
+pull.request.resolveConflicts.error.remoteNotFound:
+    text: 'Выдалены рэпазіторый {0} не знойдзены: {1}'
+pull.request.resolveConflicts.error.repositoryNotFound:
+    text: Рэпазіторый {0} не знойдзены
+pull.request.review.actions.submit:
+    text: '{0, choice, 0#Адправіць рэв''ю…|1#Адправіць рэв''ю ({0})…}'
+pull.request.review.editor.add.review.comment:
+    text: Дадаць каментарый да рэв'ю
+pull.request.review.editor.add.single.comment:
+    text: Дадаць каментарый
+pull.request.review.editor.start.review:
+    text: Начать ревью
+pull.request.review.refresh.data.task:
+    text: Абнавіць дадзеныя рэв'ю
+pull.request.review.refresh.data.task.description:
+    text: Абнавіць інфармацыю пра рэв'ю GitHub pull request
+pull.request.review.submit.action.description:
+    text: Адправіць рэв'ю pull request
+pull.request.review.submit.approve.button:
+    text: Ухваліць
+pull.request.review.submit.comment.button:
+    text: Каментаваць
+pull.request.review.submit.comment.description:
+    text: Адправіць агульны водгук без яўнага ўхвалення
+pull.request.review.submit.request.changes:
+    text: Запатрабаваць змены
+pull.request.reviewers:
+    text: 'Ревьюеры:'
+pull.request.reviewers.popup:
+    text: '{0, choice, 1#Ревьюер|2#Ревьюеры}'
+pull.request.select.action:
+    text: Выбрать открытый пулл-реквест
+pull.request.timeline.approved.changes:
+    text: ухваліў змены
+pull.request.timeline.branch.deleted:
+    text: выдаліў галіну {0}
+pull.request.timeline.branch.force.pushed:
+    text: выканаў force-push галіны {0}
+pull.request.timeline.branch.head.restored:
+    text: аднавіў галіну head
+pull.request.timeline.cannot.load:
+    text: Не ўдаецца загрузіць элементы таймлайна
+pull.request.timeline.changed.base.branch:
+    text: змяніў базавую галіну
+pull.request.timeline.closed:
+    text: закрыл это
+pull.request.timeline.comment.suggested.changes:
+    text: Прапанаванае змяненне
+pull.request.timeline.comment.suggested.changes.action.commit.name:
+    text: Каміт…
+pull.request.timeline.comment.suggested.changes.button:
+    text: Прымяніць лакальна
+pull.request.timeline.comment.suggested.changes.progress.bar.apply:
+    text: Прымяненне прапанаванага змянення
+pull.request.timeline.comment.suggested.changes.progress.bar.commit:
+    text: Каміт прапанаванага змянення
+pull.request.timeline.comment.suggested.changes.tooltip.different.branch:
+    text: Немагчыма прымяніць прапанаванае змяненне з пул-рэквеста ў іншай галіне
+pull.request.timeline.comment.suggested.changes.tooltip.outdated:
+    text: Састарэлыя прапановы не могуць быць прыменены
+pull.request.timeline.comment.suggested.changes.tooltip.resolved:
+    text: Гэта прапанова была прынята
+pull.request.timeline.commit.added:
+    text: дадаў коміт у гэты пул-рэквест
+pull.request.timeline.commits.added:
+    text: дадаў {0} комітаў у гэты пул-рэквест
+pull.request.timeline.connected:
+    text: звязаў issue, якая можа быць закрыта гэтым
+pull.request.timeline.disconnected:
+    text: выдаліў спасылку на issue
+pull.request.timeline.event.assigned:
+    text: прызначыў {0}
+pull.request.timeline.event.assigned.and.unassigned:
+    text: прызначыў {0} і адмяніў прызначэнне {1}
+pull.request.timeline.event.labels.added:
+    text: дадаў меткі {0}
+pull.request.timeline.event.labels.added.and.removed:
+    text: дадаў меткі {0} і выдаліў меткі {1}
+pull.request.timeline.event.labels.removed:
+    text: выдаліў меткі {0}
+pull.request.timeline.event.removed.review.request:
+    text: адмяніў запыт рэв'ю ў {0}
+pull.request.timeline.event.requested.review:
+    text: запатрабаваў рэв'ю ў {0}
+pull.request.timeline.event.requested.review.and.removed.review.request:
+    text: запатрабаваў рэв'ю ў {0} і адмяніў запыт рэв'ю ў {1}
+pull.request.timeline.event.unassigned:
+    text: адмяніў прызначэнне {0}
+pull.request.timeline.marked.as.draft:
+    text: пазначыў гэты пул-рэквест як чарнавік
+pull.request.timeline.marked.as.ready:
+    text: пазначыў гэты пул-рэквест як гатовы да рэв'ю
+pull.request.timeline.mentioned:
+    text: упомянул этот пулл-реквест
+pull.request.timeline.merged:
+    text: выканаў merge
+pull.request.timeline.merged.commit:
+    text: выканаў merge коміта {0} у {1}
+pull.request.timeline.no.description:
+    text: Апісанне не прадастаўлена
+pull.request.timeline.refresh.action:
+    text: Абнавіць таймлайн
+pull.request.timeline.refresh.action.description:
+    text: Праверыць наяўнасць новых падзей у таймлайне
+pull.request.timeline.renamed:
+    text: перайменаваў гэты пул-рэквест з ''{0}'' на ''{1}''
+pull.request.timeline.reopened:
+    text: переоткрыл это
+pull.request.timeline.requested.changes:
+    text: запатрабаваў змены
+pull.request.timeline.reviewed:
+    text: праверыў змены
+pull.request.timeline.stale.review.dismissed:
+    text: адхіліў састарэлае рэв'ю ад <b>{0}</b>
+pull.request.timeline.started.review:
+    text: начал ревью
+pull.request.unassigned:
+    text: Не назначен
+pull.request.unresolved.comments:
+    text: '{0,choice,0#Няма нявырашаных каментарыяў|1#{0} нявырашаны каментарый|2#{0} нявырашаныя каментарыі|3#{0} нявырашаных каментарыяў}'
+pull.request.view.conversations.action.description:
+    text: Просмотр таймлайна пулл-реквеста
+pull.request.view.list:
+    text: Просмотр пулл-реквестов
+rebase.error:
+    text: Не ўдалося выканаць rebase GitHub
+rebase.error.failed.to.match.gh.repo:
+    text: Не ўдалося супаставіць лакальны рэпазіторый і рэпазіторый GitHub
+rebase.error.multi.repo.not.supported:
+    text: Праекты з некалькімі рэпазіторыямі не падтрымліваюцца
+rebase.error.no.default.branch:
+    text: Немагчыма вызначыць галіну upstream - не зададзена галіна па змаўчанні для рэпазіторыя
+rebase.error.no.suitable.account.found:
+    text: Не знойдзены прыдатны акаўнт GitHub
+rebase.error.remote.origin.not.found:
+    text: Выдалены рэпазіторый Git 'origin' не знойдзены
+rebase.error.repo.not.found:
+    text: Рэпазіторый {0} не знойдзены
+rebase.error.upstream.not.found:
+    text: Выдалены рэпазіторый {0} не дададзены
+rebase.process:
+    text: Выполняется rebase форка GitHub…
+rebase.process.adding.github.parent.as.remote.host:
+    text: Дадаванне бацькоўскага рэпазіторыя GitHub як выдаленага хоста…
+rebase.process.configuring.upstream.remote:
+    text: Настройка удалённого upstream…
+rebase.process.fetching.upstream:
+    text: Атрыманне зменаў з upstream…
+rebase.process.operation.title:
+    text: Выполняется rebase
+rebase.process.rebasing.branch.onto:
+    text: Выконваецца rebase бягучай галіны на ''{0}''…
+rebase.process.success:
+    text: Успешно выполнен rebase GitHub форка
+request.response.0:
+    text: 'Ответ запроса: {0}.'
+retry.action:
+    text: Паўтарыць
+retry.link:
+    text: Паўтарыць
+server.unreachable:
+    text: Сервер недоступен
+settings.automatically.mark.as.viewed:
+    text: Аўтаматычна пазначаць адкрытыя файлы як прагледжаныя
+settings.clone.ssh:
+    text: Кланаваць Git-рэпазіторыі праз SSH
+settings.enable.pr.seen.markers:
+    text: Уключыць маркеры непрачытаных Pull Request у спісе
+settings.timeout:
+    text: 'Таймаут злучэння:'
+settings.timeout.seconds:
+    text: секунд
+share.button:
+    text: Падзяліцца
+share.dialog.account.info.load.error.prefix:
+    text: 'Не ўдалося загрузіць інфармацыю для {0}:'
+share.dialog.account.info.load.process.canceled:
+    text: Процесс отменен
+share.dialog.description:
+    text: 'Апісанне:'
+share.dialog.private:
+    text: Прыватны
+share.dialog.remote:
+    text: 'Удалённый:'
+share.dialog.repo.name:
+    text: 'Назва рэпазіторыя:'
+share.dialog.share.by:
+    text: 'Падзяліцца ад:'
+share.error.private.repos.not.supported:
+    text: Ваш акаўнт не падтрымлівае прыватныя рэпазіторыі
+share.error.remote.with.selected.name.exists:
+    text: Выдалены рэпазіторый з выбраным імем ужо існуе
+share.error.repo.with.selected.name.exists:
+    text: Рэпазіторый з выбраным імем ужо існуе
+share.on.github:
+    text: Падзяліцца праектам на GitHub
+share.validation.invalid.repo.name:
+    text: Няправільная назва рэпазіторыя. Назва павінна складацца з літар, лічбаў, дэфісаў, кропак і падкрэсліванняў
+share.validation.no.remote.name:
+    text: Не выбрана імя выдаленага рэпазіторыя
+share.validation.no.repo.name:
+    text: Не выбрана назва рэпазіторыя
+tab.title.pull.requests.new:
+    text: Новый Pull Request в {0}
+task.comment.author:
+    text: 'Автор:'
+task.comment.date:
+    text: 'Дата:'
+task.repo.host.field:
+    text: 'Хост:'
+task.repo.name.field.empty.hint:
+    text: Назва рэпазіторыя
+task.repo.owner.field.empty.hint:
+    text: Уладальнік рэпазіторыя
+task.repo.repository.field:
+    text: 'Рэпазіторый:'
+task.repo.token.create.button:
+    text: Создать API токен
+task.repo.token.field:
+    text: 'API токен:'
+task.repo.token.field.empty.hint:
+    text: OAuth2 токен
+unknown.host.error:
+    text: 'Невядомы хост: {0}'
+unknown.loading.error:
+    text: Невядомая памылка загрузкі

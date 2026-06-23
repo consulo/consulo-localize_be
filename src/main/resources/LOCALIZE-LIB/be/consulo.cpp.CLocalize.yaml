@@ -1,0 +1,10 @@
+identifier.expected:
+    text: Чакаецца ідэнтыфікатар
+expression.expected:
+    text: Чакаецца выраз
+constant.expected:
+    text: Чакаецца канстанта {0}
+number:
+    text: лік
+constant:
+    text: константа

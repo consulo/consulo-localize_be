@@ -1,0 +1,74 @@
+hb.page.colors.descriptor.mustaches.key:
+    text: Усы
+hb.page.colors.descriptor.identifiers.key:
+    text: Ідэнтыфікатары
+hb.page.colors.descriptor.comments.key:
+    text: Каментарыі
+hb.page.colors.descriptor.operators.key:
+    text: Операторы
+hb.page.colors.descriptor.values.key:
+    text: Прымітывы
+hb.page.colors.descriptor.strings.key:
+    text: Радкі
+hb.page.colors.descriptor.data.prefix.key:
+    text: Прэфікс дадзеных
+hb.page.colors.descriptor.escape.key:
+    text: Экрануючы сімвал
+hb.parsing.invalid:
+    text: Недапушчальна
+hb.parsing.expected.path.or.data:
+    text: Чакаецца шлях, String, Number, Boolean, Null, Undefined або @data
+hb.parsing.expected.parameter:
+    text: Чакаецца параметр
+hb.parsing.expected.hash:
+    text: Чакаецца хэш
+hb.parsing.element.expected.content:
+    text: Чакаецца змесціва шаблона
+hb.parsing.element.expected.outer_element_type:
+    text: Чакаецца змесціва Handlebars
+hb.parsing.element.expected.white_space:
+    text: Чакаецца прабел
+hb.parsing.element.expected.comment:
+    text: Чакаецца каментарый
+hb.parsing.element.expected.equals:
+    text: Чакаецца знак роўнасці "="
+hb.parsing.element.expected.id:
+    text: Чакаецца ID
+hb.parsing.element.expected.data:
+    text: Чакаецца ідэнтыфікатар дадзеных
+hb.parsing.element.expected.separator:
+    text: Чакаецца раздзяляльнік "/" або "."
+hb.parsing.element.expected.close:
+    text: Чакаецца закрывальны "}}"
+hb.parsing.element.expected.boolean:
+    text: Чакаецца "true" або "false"
+hb.parsing.element.expected.integer:
+    text: Чакаецца цэлы лік
+hb.parsing.element.expected.string:
+    text: Чакаецца радок
+hb.parsing.element.expected.invalid:
+    text: Нечаканы токен
+hb.pages.options.generate.closing.tag:
+    text: '&Аўтаматычна ўстаўляць закрывальны тэг [&A]'
+hb.pages.options.formatter:
+    text: '&Уключыць фарматаванне [&E]'
+hb.pages.folding.auto.collapse.blocks:
+    text: Блокі
+hb.page.options.commenter.language:
+    text: '&Мова для каментарыяў [&L]:'
+hb.page.options.commenter.language.tooltip:
+    text: Вызначае сінтаксіс каментарыяў якой мовы выкарыстоўваць для дзеянняў "Закаментаваць блокам" і "Закаментаваць радком"
+hb.parsing.comment.unclosed:
+    text: Незакрыты каментарый
+hb.block.mismatch.intention.rename.open:
+    text: Змяніць пачатак блока ''{0}'' на ''{1}''
+hb.block.mismatch.intention.rename.close:
+    text: Змяніць канец блока ''{0}'' на ''{1}''
+hb.block.mismatch.inspection.open.block:
+    text: '''''{0}'''' не адпавядае ''''{1}'''' з канца блока'
+hb.block.mismatch.inspection.close.block:
+    text: '''''{1}'''' не адпавядае ''''{0}'''' з пачатку блока'
+hb.block.mismatch.inspection.missing.end.block:
+    text: Блок ''{0}'' не закрыт
+hb.block.mismatch.inspection.missing.start.block:
+    text: Отсутствует начало блока для ''{0}''

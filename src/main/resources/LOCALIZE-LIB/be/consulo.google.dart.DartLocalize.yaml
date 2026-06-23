@@ -1,0 +1,110 @@
+all.tests.in.0:
+    text: Тесты в {0}
+choose.dart.main.file:
+    text: Выбрать Dart файл
+dart.color.settings.description.bad.character:
+    text: Некарэктны сімвал
+dart.color.settings.description.block.comment:
+    text: Блочны каментарый
+dart.color.settings.description.braces:
+    text: Фігурныя дужкі
+dart.color.settings.description.brackets:
+    text: Квадратныя дужкі
+dart.color.settings.description.class:
+    text: Класс
+dart.color.settings.description.comma:
+    text: Запятая
+dart.color.settings.description.doc.comment:
+    text: Дакументацыйны каментарый
+dart.color.settings.description.dot:
+    text: Точка
+dart.color.settings.description.invalid.string.escape:
+    text: Недапушчальная escape-паслядоўнасць
+dart.color.settings.description.keyword:
+    text: Ключевое слово
+dart.color.settings.description.label:
+    text: Метка
+dart.color.settings.description.line.comment:
+    text: Радковы каментарый
+dart.color.settings.description.number:
+    text: Лік
+dart.color.settings.description.operator:
+    text: Оператор
+dart.color.settings.description.semicolon:
+    text: Точка с запятой
+dart.color.settings.description.string:
+    text: Строка
+dart.color.settings.description.valid.string.escape:
+    text: Escape-последовательность
+dart.commandline.app.title:
+    text: Кансольнае прыкладанне Dart
+dart.file.not.found:
+    text: 'Dart файл не найден: {0}'
+dart.fix.getter.none.found:
+    text: Не знойдзены прыватныя палі для генерацыі getter
+dart.fix.implement.none.found:
+    text: Не знойдзены метады для рэалізацыі
+dart.fix.override.none.found:
+    text: Не знойдзены метады для пераазначэння
+dart.fix.setter.none.found:
+    text: Не знойдзены прыватныя палі для генерацыі setter
+dart.generate.constructor:
+    text: Згенераваць канструктар
+dart.line.breakpoints.title:
+    text: Пункты спынення Dart
+dart.pub.exception:
+    text: 'Выключэнне: {0}'
+dart.refactoring.extract.method.error:
+    text: Памылка вынясення метаду
+dart.sdk.bad.dartpub.path:
+    text: "Выканальны файл не знойдзены:\n{0}"
+dart.sdk.is.not.configured:
+    text: Dart SDK не настроен
+dart.sdk.path.label:
+    text: 'Путь к Dart SDK [&D]:'
+dart.support.is.not.enabled.for.module.0:
+    text: Поддержка Dart не включена для модуля ''{0}''
+dart.support.is.not.enabled.for.project:
+    text: Поддержка Dart не включена для проекта
+dart.web.app.title:
+    text: Веб-прыкладанне Dart
+enable.dart.support:
+    text: Уключыць падтрымку Dart
+error.folder.specified.as.sdk.not.exists:
+    text: 'Памылка: папка, указаная як хатняя дырэкторыя Dart SDK, не існуе.'
+error.path.to.sdk.not.specified:
+    text: 'Памылка: шлях да Dart SDK не ўказаны.'
+error.sdk.not.found.in.specified.location:
+    text: 'Памылка: Dart SDK не знойдзены па ўказаным шляху.'
+fields.to.generate.getters:
+    text: Выберыце палі для генерацыі гетараў
+fields.to.generate.getters.setters:
+    text: Выберыце палі для генерацыі гетараў і сетараў
+fields.to.generate.setters:
+    text: Выберыце палі для генерацыі сетараў
+implements.method.in:
+    text: Рэалізаваць метад ''{0}'' у ''{1}''
+livetemplate.description.itar:
+    text: Ітэрацыя па элементах масіва
+livetemplate.description.iter:
+    text: Ітэрацыя (for..in)
+open.dart.settings:
+    text: Адкрыць налады Dart
+overrides.method.in:
+    text: Пераазначыць метад ''{0}'' у ''{1}''
+path.to.dart.file.not.set:
+    text: Шлях да зыходнага кода Dart не зададзены
+project.0:
+    text: Проект {0}
+runner.command.line.configuration.name:
+    text: Кансольнае прыкладанне Dart
+setup.dart.sdk:
+    text: Наладзіць Dart SDK
+test.0.in.1:
+    text: '{0} (в {1})'
+version.label:
+    text: 'Версія:'
+warning.no.modules.selected.dart.support.will.be.disabled:
+    text: 'Папярэджанне: Модулі не выбраны. Падтрымка Dart будзе адключана для гэтага праекта.'
+work.dir.does.not.exist:
+    text: 'Рабочая дырэкторыя не існуе: {0}'

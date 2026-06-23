@@ -1,0 +1,18 @@
+overrides.method.in:
+    text: Пераазначыць метад ''{0}'' у ''{1}''
+implements.method.in:
+    text: Рэалізаваць метад ''{0}'' у ''{1}''
+fields.to.generate.getters:
+    text: Выберыце палі для генерацыі гетараў
+fields.to.generate.setters:
+    text: Выберыце палі для генерацыі сетараў
+fields.to.generate.getters.setters:
+    text: Выберыце палі для генерацыі гетараў і сетараў
+choose.class.to.import.title:
+    text: Клас для імпарту
+livetemplate.description.iter:
+    text: Ітэрацыя (for..in)
+livetemplate.description.itar:
+    text: Ітэрацыя па элементах масіва
+refactoring.introduce.selection.error:
+    text: Немагчыма выканаць рэфактарынг для выбранага элемента

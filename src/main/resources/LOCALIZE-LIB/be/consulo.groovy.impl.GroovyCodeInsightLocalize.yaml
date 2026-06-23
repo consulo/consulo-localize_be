@@ -1,0 +1,12 @@
+generate.equals.compare.nested.arrays.comment:
+    text: // Параўнаць укладзеныя масівы - значэнні {0} тут
+generate.equals.compare.arrays.comment:
+    text: // Магчыма некарэктна - параўнанне масіваў Object[] з дапамогай Arrays.equals
+generate.property.missing.already.defined.warning:
+    text: propertyMissing() уже определен
+generate.property.missing.already.defined.title:
+    text: propertyMissing() уже определен
+generate.method.missing.already.defined.warning:
+    text: methodMissing() уже определен
+generate.method.missing.already.defined.title:
+    text: methodMissing() уже определен

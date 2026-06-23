@@ -1,0 +1,24 @@
+ANN.duplicate.target:
+    text: Паўторнае яўнае мэтавае імя ''{0}''
+ANN.inline.block:
+    text: Пасля літаральнага блока патрабуецца пусты радок
+ANN.unknown.target:
+    text: Невядомае мэтавае імя ''{0}''
+ANN.unusable.anonymous.target:
+    text: Ананімная гіперспасылка не мае спасылкі
+INSP.role.not.defined:
+    text: Роль не определена
+runcfg.dlg.select.script.path:
+    text: 'Выберыце шлях:'
+runcfg.docutils.command:
+    text: 'Команда:'
+runcfg.docutils.description:
+    text: Канфігурацыя запуску Python дакументацыі
+runcfg.docutils.display_name:
+    text: Python дакументацыя
+runcfg.docutils.input:
+    text: 'Ввод:'
+runcfg.docutils.options:
+    text: 'Опцыі:'
+runcfg.docutils.output:
+    text: 'Вывод:'

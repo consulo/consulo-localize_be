@@ -1,0 +1,184 @@
+all.invocations.and.remove.the.method:
+    text: Убудаваць усе выклікі і выдаліць метад [&A]
+all.invocations.in.project:
+    text: Убудаваць &усе выкарыстанні ў праекце [&A]
+cannot.find.a.single.definition.to.inline.field:
+    text: Адсутнічае ініцыялізатар для поля
+cannot.find.a.single.definition.to.inline.local.var:
+    text: Не ўдаецца знайсці адзінае вызначэнне для ўбудоўвання лакальнай пераменнай
+cannot.inline.0.:
+    text: Немагчыма ўбудаваць {0}
+cannot.inline.reference.0:
+    text: Немагчыма ўбудаваць спасылку ''{0}''
+cannot.introduce.field.in.interface:
+    text: Немагчыма стварыць поле ў інтэрфейсе
+cannot.introduce.field.in.script:
+    text: У вобласці бачнасці няма класа
+cannot.rename.property.0:
+    text: Немагчыма перайменаваць уласцівасць <bold>''{0}''</bold>, якая пераазначае метад <bold>''{1}''</bold>
+cannot.rename.script.class.to.0:
+    text: Немагчыма перайменаваць клас скрыпта ''{0}'' у ''{1}''
+changeSignature.no.type.for.exception:
+    text: Укажыце тып для выключэння
+changeSignature.not.throwable.type:
+    text: 'Няправільны тып: ''''{0}'''' для выключэння, павінен пашыраць java.lang.Throwable'
+changeSignature.refactoring.name:
+    text: Змяніць сігнатуру
+changeSignature.wrong.type.for.exception:
+    text: 'Няправільны тып: ''''{0}'''' для выключэння'
+changing.signature.of.0:
+    text: Змяненне сігнатуры {0}
+class.does.not.exist.in.the.module:
+    text: Клас не існуе ў модулі. Стварыць яго?
+class.language.is.not.groovy:
+    text: Язык целевого класса не Groovy
+closure.uses.external.variables:
+    text: Замыканне выкарыстоўвае знешнія неканстантныя пераменныя
+column.name.default.value:
+    text: 'Значэнне па змаўчанні:'
+column.name.name:
+    text: Імя
+column.name.type:
+    text: Тып
+convert.to.java.can.work.only.with.groovy:
+    text: Пераўтварэнне ў Java працуе толькі з файламі Groovy
+convert.to.java.refactoring.name:
+    text: Преобразовать в Java
+converting.files.to.java:
+    text: Пераўтварэнне файлаў у Java
+declare.final:
+    text: Аб'явіць final [&F]
+expression.contains.errors:
+    text: Выраз змяшчае памылкі
+field.0.is.already.defined:
+    text: Поле {0} уже определено
+field.cannot.be.initialized.in.field.declaration:
+    text: Поле не можа быць ініцыялізавана ў аб'яўленні
+field.is.not.accessible.form.context.0:
+    text: Поле {0}, якое выкарыстоўваецца ва ўбудоўваным метадзе, недаступна з месца выкліку
+files.to.be.converted:
+    text: Файлы для пераўтварэння
+final.field.cant.be.initialized.in.cur.method:
+    text: Поле final не можа быць ініцыялізавана ў бягучым метадзе
+inline.local.variable.prompt.0.1:
+    text: Убудаваць лакальную пераменную ''{0}''?
+inline.method.border.title:
+    text: Убудоўванне
+inline.method.label:
+    text: Убудаваць метад ''{0}''
+inline.method.title:
+    text: Убудаваць метад
+inline.variable.title:
+    text: Убудаваць пераменную
+introduce.closure.parameter.elements.header:
+    text: Дадаванне параметра ў замыканне
+introduce.variable.title:
+    text: Создать переменную
+introduced.variable.conflicts.with.parameter.0:
+    text: Ствараемая пераменная канфліктуе з параметрам {0}
+introduced.variable.conflicts.with.variable.0:
+    text: Ствараемая пераменная канфліктуе з лакальнай пераменнай {0}
+method.duplicate:
+    text: Метад з сігнатурай {0} ужо вызначаны ў {1}
+method.is.already.defined.in.class:
+    text: Метод {0} уже определен в классе {1}.
+method.is.already.defined.in.script:
+    text: Метад {0} ужо вызначаны ў скрыпце {1}.
+method.is.not.accessible.form.context.0:
+    text: Метад {0}, які выкарыстоўваецца ва ўбудоўваным метадзе, недаступны з месца выкліку
+multiple.output.values:
+    text: Для вылучанага фрагмента кода існуе некалькі выходных значэнняў
+name.is.wrong:
+    text: Імя ''{0}'' некарэктнае
+name.label:
+    text: 'Імя [&N]:'
+no.occurrences.found:
+    text: Супадзенняў не знойдзена
+only.in.groovy.files:
+    text: Дадзены рэфактарынг даступны толькі ў файлах Groovy
+parameters.border.title:
+    text: Параметры
+ref.0.will.not.be.resolved.outside.of.current.context:
+    text: Спасылка ''{0}'' не будзе вызначана за межамі бягучага кантэксту
+refactored.method.will.cover.closure.property:
+    text: Рэфактарынг метаду пераазначыць уласцівасць замыкання ''{0}'' у {1}
+refactoring.cannot.be.applied.no.sources.attached:
+    text: 'Рэфактарынг не можа быць ужыты: зыходны код не прымацаваны'
+refactoring.cannot.be.applied.to.abstract.methods:
+    text: Рэфактарынг не можа быць ужыты да абстрактных метадаў
+refactoring.cannot.be.applied.to.constructors:
+    text: Рэфактарынг не можа быць ужыты да канструктараў
+refactoring.is.available.only.for.method.calls:
+    text: Рэфактарынг даступны толькі для выклікаў метадаў
+refactoring.is.not.supported.in.method.parameters:
+    text: Рэфактарынг не падтрымліваецца ў параметрах замыкання або метаду
+refactoring.is.not.supported.in.parameter.initializers:
+    text: Рэфактарынг не падтрымліваецца ў ініцыялізатарах параметраў
+refactoring.is.not.supported.in.the.current.context:
+    text: Рэфактарынг не падтрымліваецца ў бягучым кантэксце
+refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
+    text: Рэфактарынг не падтрымліваецца, калі аператар return перарывае паток выканання
+reference.to.accessor.0.is.used:
+    text: Ссылка на аксессор <bold>{0}<bold> не может быть встроена.
+remove.parameter.0.no.longer.used:
+    text: Выдаліць невыкарыстаны параметр ''{0}''
+rename.groovy.property:
+    text: Перайменаваць уласцівасць Groovy [&G]
+rename.is.not.applicable.to.implicit.elements:
+    text: Няяўныя элементы не могуць быць перайменаваны
+rename.member:
+    text: Перайменаваць {0}
+rename.property:
+    text: Перайменаваць уласцівасць ''{0}''
+replace.getter.for.property:
+    text: Стандартны гетар для ўласцівасці ''{0}'' будзе перазапісаны
+replace.setter.for.property:
+    text: Стандартны сетар для ўласцівасці ''{0}'' будзе перазапісаны
+return.type.is.wrong:
+    text: Няправільны тып значэння, якое вяртаецца
+row.move.down:
+    text: Уніз [&D]
+row.move.up:
+    text: Вверх [&U]
+selected.block.contains.invocation.of.another.class.constructor:
+    text: Вылучаны блок змяшчае выклік канструктара іншага класа
+selected.block.should.represent.a.statement.set:
+    text: Вылучаны блок павінен прадстаўляць набор аператараў або выраз
+selected.block.should.represent.an.expression:
+    text: Вылучаны блок павінен прадстаўляць выраз
+selected.expression.has.void.type:
+    text: Вылучаны выраз мае тып void
+selected.expression.should.not.be.lvalue:
+    text: Вылучаны выраз не павінен знаходзіцца ў левай частцы прысвойвання
+selected.variable.is.used.for.write:
+    text: Выбраная пераменная выкарыстоўваецца для запісу
+signature.preview.border.title:
+    text: Папярэдні прагляд сігнатуры
+specify.default.value:
+    text: Укажыце значэнне па змаўчанні або ініцыялізатар для параметра ''{0}''
+specify.type.label:
+    text: Яўна ўказаць тып, які вяртаецца [&T]
+super.reference.is.used:
+    text: Выклік super, які выкарыстоўваецца ва ўбудоўваным метадзе, стане несапраўдным пасля ўбудоўвання.
+target.class.must.not.be.script:
+    text: Мэтавы клас не павінен быць скрыптом
+there.is.no.method.or.closure:
+    text: Няма метаду або замыкання, які змяшчае
+this.invocation.only.and.keep.the.method:
+    text: Убудаваць толькі гэты выклік і захаваць метад [&K]
+type.for.parameter.is.incorrect:
+    text: Некарэктны тып для параметра ''{0}''
+variable.conflicts.with.field.0:
+    text: Выбранае імя будзе канфліктаваць з полем {0}
+variable.conflicts.with.parameter.0:
+    text: Выбранае імя канфліктуе з параметрам {0}
+variable.conflicts.with.variable.0:
+    text: Выбранае імя будзе канфліктаваць з лакальнай пераменнай {0}
+variable.is.accessed.for.writing:
+    text: Пераменная ''{0}'' выкарыстоўваецца для запісу
+variable.of.type:
+    text: 'Пераменная тыпу [&T]:'
+visibility.border.title:
+    text: Бачнасць
+you.cannot.pass.as.parameter.0.because.you.remove.1.from.base.method:
+    text: Вы не можаце перадаць {0} у якасці параметра, бо вы выдаляеце звязаны з ім параметр {1} з метаду. Вы павінны зняць выбар з "Выдаліць невыкарыстаны параметр {0}" або зняць выбар з параметра {1} у табліцы параметраў.

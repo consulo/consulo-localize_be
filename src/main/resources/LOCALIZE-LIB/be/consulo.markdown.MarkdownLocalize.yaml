@@ -1,0 +1,72 @@
+markdown.editor.colors.auto_link:
+    text: Спасылкі//Аўтаматычная спасылка
+markdown.editor.colors.blockquote:
+    text: Цытата//Блок цытаты
+markdown.editor.colors.blockquote_marker:
+    text: Цытата//Маркер цытаты
+markdown.editor.colors.bold:
+    text: Стыль//Тоўсты тэкст
+markdown.editor.colors.bold_marker:
+    text: Стыль//Маркер тоўстага тэксту
+markdown.editor.colors.code_block:
+    text: Код//Блок кода
+markdown.editor.colors.code_fence:
+    text: Код//Агароджа кода
+markdown.editor.colors.code_span:
+    text: Код//Встроенный код
+markdown.editor.colors.code_span_marker:
+    text: Код//Маркер встроенного кода
+markdown.editor.colors.explicit_link:
+    text: Спасылкі//Яўная спасылка
+markdown.editor.colors.header_level_1:
+    text: Заголовок//Заголовок 1-го уровня
+markdown.editor.colors.header_level_2:
+    text: Заголовок//Заголовок 2-го уровня
+markdown.editor.colors.header_level_3:
+    text: Заголовок//Заголовок 3-го уровня
+markdown.editor.colors.header_level_4:
+    text: Заголовок//Заголовок 4-го уровня
+markdown.editor.colors.header_level_5:
+    text: Заголовок//Заголовок 5-го уровня
+markdown.editor.colors.header_level_6:
+    text: Заголовок//Заголовок 6-го уровня
+markdown.editor.colors.header_marker:
+    text: Заголовок//Маркер заголовка
+markdown.editor.colors.hrule:
+    text: Гарызантальная лінія
+markdown.editor.colors.html_block:
+    text: HTML//HTML-блок
+markdown.editor.colors.image:
+    text: Спасылкі//Выява
+markdown.editor.colors.inline_html:
+    text: HTML//Встроенный HTML
+markdown.editor.colors.italic:
+    text: Стыль//Курсіўны тэкст
+markdown.editor.colors.italic_marker:
+    text: Стыль//Маркер курсіву
+markdown.editor.colors.link_definition:
+    text: Спасылкі//Вызначэнне спасылкі
+markdown.editor.colors.link_destination:
+    text: Спасылкі//Адрас спасылкі
+markdown.editor.colors.link_label:
+    text: Спасылкі//Метка спасылкі
+markdown.editor.colors.link_text:
+    text: Спасылкі//Тэкст спасылкі
+markdown.editor.colors.link_title:
+    text: Спасылкі//Загаловак спасылкі
+markdown.editor.colors.list_item:
+    text: Спісы//Элемент спісу
+markdown.editor.colors.list_marker:
+    text: Спісы//Маркер спісу
+markdown.editor.colors.ordered_list:
+    text: Спісы//Нумараваны спіс
+markdown.editor.colors.reference_link:
+    text: Спасылкі//Спасылка-reference
+markdown.editor.colors.strikethrough:
+    text: Стыль//Закрэслены тэкст
+markdown.editor.colors.table_separator:
+    text: Падзельнік табліцы
+markdown.editor.colors.text:
+    text: Текст
+markdown.editor.colors.unordered_list:
+    text: Спісы//Маркіраваны спіс

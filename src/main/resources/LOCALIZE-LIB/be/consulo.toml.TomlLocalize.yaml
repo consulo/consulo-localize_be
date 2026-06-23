@@ -1,0 +1,18 @@
+color.settings.toml.boolean:
+    text: Лагічнае значэнне
+color.settings.toml.comments:
+    text: Каментарыі
+color.settings.toml.date:
+    text: Дата
+color.settings.toml.keys:
+    text: Ключы
+inspection.toml.message.inline.tables.on.single.line:
+    text: Убудаваныя табліцы павінны размяшчацца ў адным радку
+inspection.toml.message.trailing.commas.in.inline.tables:
+    text: Замыкальныя коскі не дазволены ва ўбудаваных табліцах
+inspection.toml.unresolved.reference.display.name:
+    text: Неразрешённая ссылка
+intention.toml.name.expand.into.separate.table:
+    text: Разгарнуць у асобную табліцу
+intention.toml.name.remove.trailing.comma:
+    text: Выдаліць замыкальную коску

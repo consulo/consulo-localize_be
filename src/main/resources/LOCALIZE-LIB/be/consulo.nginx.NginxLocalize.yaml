@@ -1,0 +1,4 @@
+parser.expected:
+    text: 'Чакаецца: {0}'
+parser.unexpected:
+    text: 'Нечакана: {0}'

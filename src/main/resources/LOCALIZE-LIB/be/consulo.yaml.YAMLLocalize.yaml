@@ -1,0 +1,116 @@
+YAMLDuplicatedKeysInspection.duplicated.key:
+    text: Ключ ''{0}'' дублюецца
+YAMLDuplicatedKeysInspection.merge.quickfix.name:
+    text: Аб'яднаць дублюючыя раздзелы
+YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
+    text: Выдаліць ключ
+YamlBooleanType.validation.error.quoted.value:
+    text: Чакаецца лагічнае значэнне
+YamlDeprecatedKeysInspectionBase.deprecated.key:
+    text: Ключ ''{0}'' устарел
+YamlEnumType.validation.error.value.unknown:
+    text: Значэнне ''{0}'' не чакаецца ў гэтым месцы
+YamlEnumType.validation.warning.value.deprecated:
+    text: Значэнне ''{0}'' састарэла
+YamlIntegerType.error.integer.value:
+    text: Чакаецца цэлалікавае значэнне
+YamlMetaClass.error.scalar.value:
+    text: Скалярнае значэнне тут не дапускаецца
+YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
+    text: Дадаць адсутныя ключы
+YamlMissingKeysInspectionBase.missing.keys:
+    text: 'Адсутнічаюць абавязковыя ключы: ''''{0}'''''
+YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
+    text: Выдаліць усе нерэдагуемыя ключы з файла
+YamlNonEditableKeysInspectionBase.noneditable.key:
+    text: Ключ ''{0}'' не можа быць зменены карыстальнікам
+YamlNumberType.error.numeric.value:
+    text: Чакаецца лікавае значэнне
+YamlScalarType.error.scalar.value:
+    text: Чакаецца скалярнае значэнне
+YamlUnknownKeysInspectionBase.unknown.key:
+    text: Ключ ''{0}'' не чакаецца ў гэтым месцы
+YamlUnknownValuesInspectionBase.error.array.is.required:
+    text: Патрабуецца масіў
+YamlUnknownValuesInspectionBase.error.array.not.allowed:
+    text: Чакаецца адзіночнае значэнне
+YamlUnknownValuesInspectionBase.error.value.is.required:
+    text: Патрабуецца значэнне
+annotator.same.line.composed.value.message:
+    text: Забаронена ўказваць састаўное блочнае значэнне ў тым жа радку, што і ключ
+color.settings.yaml.comment:
+    text: Каментарый
+color.settings.yaml.dstring:
+    text: Строка в двойных кавычках
+color.settings.yaml.key:
+    text: Ключ
+color.settings.yaml.scalar.list:
+    text: Блок '|'
+color.settings.yaml.scalar.text:
+    text: Блок '>'
+color.settings.yaml.sign:
+    text: 'Сімвалы: дужкі, коскі і г.д.'
+color.settings.yaml.string:
+    text: Строка
+color.settings.yaml.text:
+    text: Текст
+element.presentation.document.type:
+    text: YAML документ
+find.usages.document:
+    text: документ
+find.usages.key.value:
+    text: ключ-значэнне
+find.usages.mapping:
+    text: адлюстраванне
+find.usages.scalar:
+    text: скаляр
+find.usages.sequence:
+    text: последовательность
+find.usages.unnamed:
+    text: <без імя>
+inspections.duplicated.keys.name:
+    text: Дублюючыя ключы YAML
+inspections.incompatible.types.message:
+    text: Тып значэння ''{0}'', у той час як іншыя значэнні выкарыстоўваюць тып ''{1}''
+inspections.incompatible.types.quickfix.wrap.all.quotes.message:
+    text: Абгарнуць усе скаляры ў паслядоўнасці ў двукоссі
+inspections.incompatible.types.quickfix.wrap.quotes.message:
+    text: Абгарнуць у двукоссі
+inspections.invalid.child.in.block.mapping:
+    text: Недапушчальны даччыны элемент у блочным адлюстраванні
+inspections.invalid.child.in.block.sequence:
+    text: Недапушчальны даччыны элемент у блочнай паслядоўнасці
+inspections.invalid.key.indent:
+    text: Недапушчальны водступ ключа блочнага адлюстравання
+inspections.invalid.list.item.indent:
+    text: Недапушчальны водступ элемента спісу
+inspections.recursive.alias.message:
+    text: Аліас не можа быць рэкурсіўным
+inspections.recursive.alias.name:
+    text: Рэкурсіўны аліас
+inspections.schema.deprecation.name:
+    text: Састарэлы ключ YAML
+inspections.schema.deprecation.text:
+    text: 'Ключ ''''{0}'''' устарел: {1}'
+inspections.schema.validation.name:
+    text: Валідацыя па JSON Schema
+inspections.schema.validation.prefix:
+    text: 'Валідацыя схемы:'
+inspections.types.mismatch.name:
+    text: Падазроная неадпаведнасць тыпаў
+inspections.unresolved.alias.message:
+    text: Немагчыма вырашыць аліас {0}
+inspections.unresolved.alias.name:
+    text: Невырашаны аліас
+inspections.unused.anchor.message:
+    text: Якар {0} ніколі не выкарыстоўваецца
+inspections.unused.anchor.name:
+    text: Нявыкарыстаны якар
+inspections.unused.anchor.quickfix.name:
+    text: Выдаліць якар
+new.name.conflicts.with:
+    text: 'Ключ канфліктуе з існуючым: ''''{0}'''''
+parsing.error.sequence.item.expected:
+    text: Чакаецца элемент паслядоўнасці
+rename.same.name:
+    text: Такое ж імя

@@ -1,0 +1,74 @@
+model.object.type.attribute:
+    text: Атрыбут
+inspection.name.hibernate.configuration:
+    text: Няправільная XML-канфігурацыя Hibernate
+inspection.name.hibernate.configuration.facet:
+    text: XML-канфігурацыя Hibernate не дададзена ў фасет
+inspection.name.hibernate.mapping:
+    text: Няправільныя XML-мапінгі Hibernate
+inspection.name.hibernate.datasource.mapping:
+    text: Няправільныя XML-мапінгі Hibernate, звязаныя з БД
+tab.title.hibernate.general.settings:
+    text: Агульныя налады Hibernate
+group.title.descriptors:
+    text: Дэскрыптары
+hibernate.quickfix.family:
+    text: Хуткае выпраўленне мадэлі Hibernate
+warning.cfg.xml.not.in.any.facet:
+    text: Файл не настроены як дэскрыптар JPA facet
+name.fix.add.to.facet.configuration:
+    text: Дадаць у канфігурацыю JPA Facet
+name.fix.create.facet.and.add.to.facet.configuration:
+    text: Стварыць JPA facet і дадаць файл у яго канфігурацыю
+popup.title.choose.module.and.facet:
+    text: Выберыце Модуль/Facet
+cannot.resolve.cascade.type.0:
+    text: Не ўдаецца вызначыць тып каскадавання ''{0}''
+cannot.resolve.file.0:
+    text: Не ўдаецца вызначыць файл ''{0}''
+message.0.should.not.be.specified.for.nested.1:
+    text: '''''{0}'''' не должен быть указан для вложенного ''''{1}'''''
+action.name.create.session.factory:
+    text: Создать Session Factory
+action.name.create.mapping:
+    text: Стварыць мапінгі Hibernate
+action.name.create.hibernate.class:
+    text: Создать класс Hibernate
+action.name.create.hibernate.subclass:
+    text: Создать подкласс Hibernate
+action.name.create.hibernate.joined.subclass:
+    text: Создать joined-подкласс Hibernate
+action.name.create.hibernate.union.subclass:
+    text: Создать union-подкласс Hibernate
+type.hibernate.mappings:
+    text: Мапінгі Hibernate
+type.hibernate.class:
+    text: Класс Hibernate
+type.hibernate.subclass:
+    text: Подкласс Hibernate
+type.hibernate.joined.subclass:
+    text: Joined-подкласс Hibernate
+type.hibernate.union.subclass:
+    text: Union-подкласс Hibernate
+type.hibernate.component:
+    text: Компонент Hibernate
+type.hibernate.attr.property:
+    text: Свойство
+type.hibernate.attr.version:
+    text: Версія
+type.hibernate.attr.composite.id:
+    text: Составной ID
+type.hibernate.attr.component:
+    text: Компонент
+type.hibernate.attr.elements:
+    text: Элементы
+type.hibernate.attr.composite.elements:
+    text: Составные элементы
+type.hibernate.attr.dynamic.component:
+    text: Дынамічны кампанент
+title.new.hibernate.cfg.xml:
+    text: Выберыце або стварыце канфігурацыйны файл Hibernate
+framework.configurable.generate.main.and.config:
+    text: Стварыць канфігурацыю Hibernate і галоўны клас па змаўчанні
+framework.configurable.import.database:
+    text: Імпарт схемы базы дадзеных

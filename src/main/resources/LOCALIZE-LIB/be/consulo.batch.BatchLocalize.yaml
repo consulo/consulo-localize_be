@@ -1,0 +1,12 @@
+runcfg.labels.script_parameters:
+    text: 'Параметры [&P]:'
+runcfg.labels.environment_variables:
+    text: 'Зменныя асяроддзя [&E]:'
+runcfg.labels.working_directory:
+    text: 'Працоўны каталог [&W]:'
+runcfg.labels.interpreter_options:
+    text: '[&O] параметры інтэрпрэтатара:'
+runcfg.captions.script_parameters_dialog:
+    text: Увядзіце параметры сцэнарыя
+runcfg.captions.interpreter_options_dialog:
+    text: Увядзіце параметры інтэрпрэтатара

@@ -1,0 +1,114 @@
+action.prototext.InsertSchemaDirective.description:
+    text: Уставіць спасылку на каранёвае protobuf-паведамленне гэтага файла, уключыўшы аўтадапаўненне, валідацыю і іншыя функцыі
+action.prototext.InsertSchemaDirective.text:
+    text: Уставіць анатацыю схемы
+attribute.descriptor.block.comment:
+    text: Блочны каментарый
+attribute.descriptor.braces:
+    text: Фігурныя дужкі
+attribute.descriptor.brackets:
+    text: Дужкі
+attribute.descriptor.comma:
+    text: Запятая
+attribute.descriptor.dot:
+    text: Точка
+attribute.descriptor.enum:
+    text: Значэнне enum
+attribute.descriptor.identifier:
+    text: Ідэнтыфікатар
+attribute.descriptor.invalid.escape.sequence:
+    text: Некорректная escape-последовательность
+attribute.descriptor.keyboard:
+    text: Ключевое слово
+attribute.descriptor.line.comment:
+    text: Аднарадковы каментар
+attribute.descriptor.number:
+    text: Лік
+attribute.descriptor.operator:
+    text: Оператор
+attribute.descriptor.parentheses:
+    text: Круглыя дужкі
+attribute.descriptor.semicolon:
+    text: Точка с запятой
+attribute.descriptor.string:
+    text: Строка
+attribute.descriptor.valid.escape.sequence:
+    text: Корректная escape-последовательность
+location:
+    text: Размяшчэнне
+prefix:
+    text: Прэфікс
+proto.type.enum.value:
+    text: Значэнне enum
+proto.type.field:
+    text: Поле
+proto.type.file:
+    text: Файл Protocol Buffer
+proto.type.group:
+    text: Группа
+proto.type.message:
+    text: Паведамленне
+proto.type.method:
+    text: Метод
+proto.type.package:
+    text: Пакет
+proto.type.service:
+    text: Сервіс
+proto.type.stream:
+    text: Поток
+proto.type.unknown:
+    text: Невядомы тып
+prototext.missing.schema.ignore:
+    text: Ігнараваць
+prototext.missing.schema.insert.annotation:
+    text: Уставіць анатацыю
+prototext.missing.schema.message:
+    text: Схема не прымацавана; аўтадапаўненне, валідацыя і іншыя функцыі недаступны
+prototext.missing.schema.settings:
+    text: Адкрыць налады
+prototext.settings.missing.schema:
+    text: Папярэджваць пра адсутныя сувязі са схемай
+prototext.settings.project.display:
+    text: Текстовый формат
+prototext.type.braces:
+    text: Фігурныя дужкі
+prototext.type.brackets:
+    text: Квадратныя дужкі
+prototext.type.comma:
+    text: Запятая
+prototext.type.comment.directive:
+    text: Дырэктыва каментара
+prototext.type.dot:
+    text: Точка
+prototext.type.enum.value:
+    text: Значэнне enum
+prototext.type.identifier:
+    text: Ідэнтыфікатар
+prototext.type.invalid.escape.sequence:
+    text: Некорректная escape-последовательность
+prototext.type.keyword:
+    text: Ключевое слово
+prototext.type.line.comment:
+    text: Аднарадковы каментар
+prototext.type.number:
+    text: Лік
+prototext.type.operator:
+    text: Оператор
+prototext.type.semicolon:
+    text: Точка с запятой
+prototext.type.string:
+    text: Строка
+prototext.type.valid.escape.sequence:
+    text: Корректная escape-последовательность
+settings.language.autoconfig:
+    text: Прымяніць іншыя канфігурацыі
+settings.language.descriptor.path:
+    text: Шлях да дэскрыптара
+settings.language.import.paths:
+    text: Шляхі імпарту
+template.type.extend:
+    text: Пашырэнне
+template.type.message:
+    text: Паведамленне
+template.type.service:
+    text: Сервіс

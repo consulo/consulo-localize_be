@@ -1,0 +1,280 @@
+action.AddAntBuildFile.description:
+    text: Дадаць бягучы XML файл у спіс Ant build файлаў праекта
+action.AddAntBuildFile.text:
+    text: Дадаць як A_nt build файл [_N]
+action.RunTargetAction.description:
+    text: Запусціць выбраную Ant цэль
+action.RunTargetAction.text:
+    text: Запусціць Ant цэль
+add.ant.file.action.description:
+    text: Дадаць існуючы файл зборкі Ant у спіс
+add.ant.file.action.name:
+    text: Дадаць
+additional.classpath.tab.add.all.in.directory.button:
+    text: Дадаць усё ў дырэкторыі [&L]
+ant.build.local.history.label:
+    text: 'Выполняется Ant: ''''{0}'''''
+ant.build.message.node.prefix.text:
+    text: 'Сборка:'
+ant.build.progress.dialog.title:
+    text: Працэс зборкі Ant
+ant.build.started.status.message:
+    text: Зборка Ant запушчана
+ant.build.tab.content.title:
+    text: Сборка Ant
+ant.create.meta.target.action.description:
+    text: Захаваць выбраныя цэлі як мета-цэль
+ant.create.meta.target.action.name:
+    text: Создать мета-цель
+ant.create.target.intention.description:
+    text: Создать цель ''{0}''
+ant.event.after.compilation.presentable.name:
+    text: Пасля кампіляцыі
+ant.event.before.compilation.presentable.name:
+    text: Перад кампіляцыяй
+ant.execution.next.error.warning.action.name:
+    text: Наступная памылка/папярэджанне
+ant.execution.previous.error.warning.action.name:
+    text: Папярэдняя памылка/папярэджанне
+ant.explorer.assign.shortcut.action.name:
+    text: Прызначыць спалучэнне клавіш…
+ant.explorer.collapse.all.nodes.action.description:
+    text: Згарнуць усе вузлы файлаў зборкі
+ant.explorer.execute.on.action.group.name:
+    text: Выканаць на
+ant.explorer.expand.all.nodes.action.description:
+    text: Разгарнуць усе вузлы файлаў зборкі
+ant.installation.not.configured.error.message:
+    text: Усталёўка Ant не настроена. Праверце ўласцівасці файла зборкі Ant
+ant.intention.create.property.family.name:
+    text: Создать свойство
+ant.intention.create.target.family.name:
+    text: Создать цель
+ant.is.active.terminate.confirmation.text:
+    text: Працэс Ant з таго ж файла зборкі актыўны. Завяршыць яго?
+ant.jar.is.directory.error.message:
+    text: '{0} з''яўляецца дырэкторыяй'
+ant.jar.not.found.in.directory.error.message:
+    text: ant.jar не знойдзены ў дырэкторыі ''{0}''
+ant.process.is.active.terminate.confirmation.text:
+    text: Працэс Ant актыўны. Завяршыць працэс Ant?
+ant.property.value.editor.insert.macro.tooltip.text:
+    text: Уставіць макрас
+ant.reference.bundled.ant.name:
+    text: Встроенный Ant
+ant.settings.home.label:
+    text: 'Хатняя дырэкторыя [&H]:'
+ant.settings.name.label:
+    text: 'Імя [&N]:'
+ant.setup.dialog.title:
+    text: Настройка Ant
+ant.target:
+    text: цель
+ant.target.before.run.description:
+    text: Выканаць цэль Ant ''{0}''
+ant.target.before.run.description.empty:
+    text: Выканаць цэль Ant
+ant.target.choser.title:
+    text: Выберыце цэль Ant для выканання
+ant.target.message.node.prefix.text:
+    text: 'Цель:'
+ant.target.name.default.target:
+    text: <цэль па змаўчанні>
+ant.task.message.node.prefix.text:
+    text: 'Задача:'
+ant.unknown.version.string.presentation:
+    text: Невядомая версія
+ant.verbose.show.all.messages.action.description:
+    text: Паказаць усе паведамленні, створаныя зборкай ant
+ant.verbose.show.all.messages.action.name:
+    text: Паказаць усе паведамленні
+ant.view.pause.output.action.name:
+    text: Прыпыніць вывад
+ant.view.toggle.tree.text.action.name:
+    text: Пераключыць рэжым дрэва/тэксту
+apache.ant.with.version.string.presentation:
+    text: Apache Ant версія {0}
+build.file.properties.action.description:
+    text: Паказаць дыялог налад Phing
+build.file.properties.action.name:
+    text: Налады
+build.file.properties.close.message.view.checkbox:
+    text: Закрыць акно паведамленняў калі няма памылак [&C]
+build.file.properties.dialog.title:
+    text: Уласцівасці файла зборкі
+build.file.properties.make.in.background.cjeclbox:
+    text: Выполнять сборку в фоне [&B]
+build.file.properties.maximum.heap.size.label:
+    text: 'Максімальны памер heap (Mb) [&H]:'
+build.file.properties.maximum.stack.size.label:
+    text: 'Максімальны памер стэка (Mb) [&S]:'
+build.finished.status.ant.build.aborted:
+    text: Сборка Ant прервана в {1} за {0}
+build.finished.status.ant.build.completed.successfully:
+    text: Сборка Ant успешно завершена в {1} за {0}
+build.finished.status.ant.build.completed.with.errors.warnings:
+    text: Зборка Ant завершана ў {3} за {2} з {0, choice, 0#без памылак|1#1 памылкай|2#{0} памылкамі} і {1, choice, 0#без папярэджанняў|1#1 папярэджаннем|2#{1} папярэджаннямі}
+build.finished.status.ant.build.completed.with.warnings:
+    text: Зборка Ant завершана ў {2} за {1} з {0, choice, 0#без папярэджанняў|1#1 папярэджаннем|2#{0} папярэджаннямі}
+button.add:
+    text: Дадаць
+button.move.down:
+    text: Уніз [&D]
+button.move.up:
+    text: Уверх [&U]
+button.remove:
+    text: Выдаліць [&R]
+cancel.button:
+    text: Отмена [&N]
+canceled.by.user.error.message:
+    text: Отменено пользователем
+cannot.add.ant.files.dialog.title:
+    text: Немагчыма дадаць файлы
+cannot.add.build.file.dialog.title:
+    text: Немагчыма дадаць файл зборкі
+cannot.add.build.files.from.excluded.directories.error.message:
+    text: "Немагчыма дадаць файлы зборкі з выключаных дырэкторый\n{0}"
+cannot.resolve.refid:
+    text: Немагчыма вызначыць refid ''{0}''
+cannot.resolve.target:
+    text: Цэль ''{0}'' невядомая
+cannot.start.build.name.error.message:
+    text: Немагчыма запусціць {0}
+cant.add.file.error.message:
+    text: 'Немагчыма дадаць файл {0}: {1}'
+cant.read.from.ant.jar.error.message:
+    text: Немагчыма прачытаць з {0}
+cant.run.ant.ant.reference.is.not.configured.error.message:
+    text: Ant ''{0}'' не настроен
+cant.run.ant.no.ant.configured.error.message:
+    text: Ant не настроен
+close.ant.build.messages.dialog.title:
+    text: Закрыць паведамленні зборкі Ant
+configure.ant.dialog.title:
+    text: Настройка Ant
+confirm.remove.dialog.title:
+    text: Пацвердзіце выдаленне
+delete.selected.ant.configuration.confirmation.text:
+    text: Выдаліць выбраную канфігурацыю Ant?
+delete.selected.ant.configurations.confirmation.text:
+    text: Выдаліць выбраныя канфігурацыі Ant?
+edit.ant.properties.additional.classpath.tab.display.name:
+    text: Дадатковы classpath
+edit.ant.properties.description.column.name:
+    text: Апісанне
+edit.ant.properties.execution.tab.display.name:
+    text: Выкананне
+edit.ant.properties.filters.tab.display.name:
+    text: Фільтры
+edit.ant.properties.name.column.name:
+    text: Імя
+edit.ant.properties.tab.display.name:
+    text: Свойства
+edit.ant.properties.value.column.name:
+    text: Значэнне
+execute.target.wrong.name.format.error.message:
+    text: 'Няправільны фармат імя: {0}'
+executes.before.run.debug.acton.name:
+    text: Перед запуском/отладкой…
+executing.task.tag.value.status.text:
+    text: 'Выполняется задача: {0}'
+failed.to.load.types:
+    text: Не ўдалося загрузіць тыпы
+filter.ant.targets.action.description:
+    text: Фільтраваць цэлі
+filter.ant.targets.action.name:
+    text: Фільтраваць цэлі
+integer.attribute.has.invalid.value:
+    text: Атрыбут ''{0}'' павінен мець цэлалікавае значэнне
+intention.configure.highlighting.family.name:
+    text: Наладзіць падсветку
+intention.configure.highlighting.text:
+    text: Наладзіць падсветку
+jdk.with.name.bad.configured.error.message:
+    text: JDK ({0}), неабходны для запуску гэтай цэлі Ant, настроены няправільна. Абнавіце налады ў дыялогу "Структура праекта".
+jdk.with.name.not.configured.error.message:
+    text: JDK ({0}), неабходны для запуску гэтай цэлі Ant, не настроены. Абнавіце налады ў дыялогу "Структура праекта".
+lib.directory.not.found.in.ant.path.error.message:
+    text: Дырэкторыя lib не знойдзена ў {0}
+meta.target.build.sequence.name.display.name:
+    text: Паслядоўнасць зборкі {0}
+path.to.ant.does.not.exist.error.message:
+    text: Шлях {0} не існуе
+project.jdk.not.specified.error.message:
+    text: JDK проекта не указан
+remove.action.name:
+    text: Выдаліць
+remove.ant.file.action.description:
+    text: Выдаліць выбраны файл зборкі са спіса
+remove.ant.file.action.name:
+    text: Выдаліць
+remove.build.file.action.name:
+    text: Выдаліць
+remove.meta.target.action.name:
+    text: Выдаліць мета-цэль
+remove.meta.targets.action.description:
+    text: Выдаліць выбраныя мета-цэлі
+remove.meta.targets.action.name:
+    text: Выдаліць
+remove.selected.build.file.action.name:
+    text: Выдаліць файл зборкі
+remove.selected.meta.targets.action.name:
+    text: Выдаліць мета-цэлі
+remove.the.reference.to.file.confirmation.text:
+    text: Вы хочаце выдаліць {1}?
+rerun.ant.action.name:
+    text: Перазапусціць
+run.ant.build.action.name:
+    text: Запусціць зборку
+run.ant.file.or.target.action.description:
+    text: Запусціць выбраны файл зборкі або цэль з дапамогай Ant
+run.ant.file.or.target.action.name:
+    text: Запусціць
+run.ant.target.action.name:
+    text: Запусціць цэль
+run.ant.targets.action.name:
+    text: Запусціць цэлі
+run.execution.tab.ant.command.line.dialog.title:
+    text: Командная строка Ant
+run.execution.tab.ant.command.line.hint:
+    text: Выкарыстоўвайце прэфікс "-J" для ўказання аргументаў JVM
+run.execution.tab.ant.command.line.label:
+    text: 'Командная строка Ant [&L]:'
+run.execution.tab.run.under.jdk.label:
+    text: 'Запусціць пад JDK [&J]:'
+run.execution.tab.run.with.ant.border:
+    text: 'Запусціць з Ant:'
+run.execution.tab.set.default.button:
+    text: Усталяваць па змаўчанні [&S]…
+run.execution.tab.use.custom.ant.radio:
+    text: 'Выкарыстоўваць карыстальніцкі Ant [&U]:'
+run.execution.tab.use.project.default.ant.radio:
+    text: 'Выкарыстоўваць Ant праекта па змаўчанні [&D]:'
+save.meta.data.name.label:
+    text: 'Імя [&N]:'
+save.meta.data.such.sequence.of.targets.already.exists.error.message:
+    text: Такая паслядоўнасць цэлей ужо існуе
+save.meta.data.targets.label:
+    text: 'Цэлі:'
+select.ant.build.file.dialog.description:
+    text: Выберыце адзін або некалькі файлаў build.xml для дадання ў спіс
+select.ant.build.file.dialog.title:
+    text: Выбраць файл зборкі Ant
+starting.ant.build.dialog.title:
+    text: Запуск зборкі Ant
+stop.ant.action.name:
+    text: Спыніць
+target.is.duplicated:
+    text: Цэль ''{0}'' дублюецца
+target.is.duplicated.in.imported.file:
+    text: Цэль ''{0}'' дублюецца ў файле ''{1}''
+target.tag.name.status.text:
+    text: 'Цель: {0}'
+unknown.macro.attribute:
+    text: Невядомы макра-атрыбут ''{0}''
+unknown.property:
+    text: Невядомая ўласцівасць ''{0}''
+user.inout.request.ant.build.input.dialog.title:
+    text: Увод для зборкі Ant
+using.definition.which.type.failed.to.load:
+    text: Выкарыстанне вызначэння, тып якога не ўдалося загрузіць

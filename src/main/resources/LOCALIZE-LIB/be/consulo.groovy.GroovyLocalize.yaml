@@ -1,0 +1,384 @@
+0.expressions.on.trait.fields.properties.are.not.supported.in.traits:
+    text: Выразы {0} для палёў/уласцівасцей трэйта не падтрымліваюцца ў трэйтах
+0.is.deprecated:
+    text: '''''{0}'''' устарел'
+Constructor:
+    text: Конструктор
+Inner.methods.are.not.supported:
+    text: Унутраныя метады не падтрымліваюцца
+abstract.methods.must.not.have.body:
+    text: Абстрактныя метады не павінны мець цела
+add.dynamic.element:
+    text: Дадаць дынамічны элемент
+add.dynamic.method:
+    text: Дадаць дынамічны метад
+add.dynamic.method.0:
+    text: Дадаць дынамічны метад ''{0}''
+add.dynamic.property:
+    text: Дадаць дынамічную ўласцівасць ''{0}''
+ambiguous.code.block:
+    text: Неоднозначный блок кода
+annotation.collector.cannot.have.attributes:
+    text: Тып анатацыі з @AnnotationCollector не можа мець атрыбуты
+annotation.field.can.only.be.used.within.a.script:
+    text: Анатацыя @Field можа выкарыстоўвацца толькі ўнутры скрыпта
+annotation.field.can.only.be.used.within.a.script.body:
+    text: Анатацыя @Field можа выкарыстоўвацца толькі ўнутры цела скрыпта
+annotation.type.cannot.be.inner:
+    text: Тып анатацыі не можа быць унутраным
+annotation.types.may.not.have.extends.clause:
+    text: Тыпы анатацый не могуць мець выраз 'extends'
+annotation.types.may.not.have.implements.clause:
+    text: Тыпы анатацый не могуць мець выраз 'implements'
+anonymous.class.cannot.have.abstract.method:
+    text: Ананімны клас не можа мець абстрактны метад
+anonymous.class.derived.from.0:
+    text: ананімны клас, вытворны ад {0}
+anonymous.classes.cannot.be.created.from.traits:
+    text: Ананімныя класы з трэйтаў даступныя пачынаючы з Groovy 2.5.2
+are.you.sure.to.delete.dynamic.property:
+    text: Вы ўпэўнены, што хочаце выдаліць ''{0}''?
+are.you.sure.to.delete.elements:
+    text: Вы ўпэўнены, што хочаце выдаліць ''{0}'' элементаў?
+at.interface.0.does.not.contain.attribute:
+    text: '@interface ''''{0}'''' не змяшчае атрыбут ''''{1}'''''
+attribute.name.expected:
+    text: Чакаецца імя атрыбута
+break.outside.loop:
+    text: Аператар break з найменнымі меткамі дазволены толькі ўнутры цыклаў
+break.outside.loop.or.switch:
+    text: Аператар 'break' дазволены толькі ўнутры цыклаў або switch-выразаў з двукроп'ем
+cannot.access:
+    text: Доступ к ''{0}'' превышает права доступа
+cannot.apply.constructor:
+    text: Канструктар ''{0}'' у ''{1}'' не можа быць ужыты да ''{2}''
+cannot.apply.default.constructor:
+    text: Немагчыма ўжыць канструктар па змаўчанні для класа ''{0}''
+cannot.apply.method.or.closure:
+    text: '''''{0}'''' не можа быць ужыты да ''''{1}'''''
+cannot.apply.method1:
+    text: '''''{0}'''' у ''''{1}'''' не можа быць ужыты да ''''{2}'''''
+cannot.assign:
+    text: Немагчыма прысвоіць ''{0}'' значэнню ''{1}''
+cannot.assign.a.value.to.final.field.0:
+    text: Немагчыма прысвоіць значэнне final полю ''{0}''
+cannot.assign.a.value.to.final.parameter.0:
+    text: Немагчыма прысвоіць значэнне final параметру ''{0}''
+cannot.assign.string.to.enum.0:
+    text: Немагчыма прысвоіць радок пералічэнню ''{0}''
+cannot.cast:
+    text: Немагчыма прывесці ''{0}'' да тыпу ''{1}''
+cannot.create.class.error.text:
+    text: 'Невозможно создать класс ''''{0}'''': {1}'
+cannot.create.class.error.title:
+    text: Невозможно создать класс
+cannot.find.enum.constant.0.in.enum.1:
+    text: Немагчыма знайсці канстанту ''{0}'' у пералічэнні ''{1}''
+cannot.infer.argument.types:
+    text: Немагчыма вывесці тыпы аргументаў
+cannot.instantiate.abstract.class:
+    text: Невозможно создать экземпляр абстрактного класса ''{0}''
+cannot.instantiate.interface:
+    text: Немагчыма стварыць экзэмпляр інтэрфейсу ''{0}''
+cannot.reference.non.static:
+    text: Немагчыма звярнуцца да нестатычнага сімвала ''{0}'' са статычнага кантэксту
+cannot.return.from.constructor:
+    text: Немагчыма вярнуць аб'ект з канструктара
+cannot.return.from.void.method:
+    text: Немагчыма вярнуць аб'ект з метаду, які вяртае 'void'
+cannot.return.type:
+    text: Немагчыма вярнуць ''{0}'' з метаду, які вяртае ''{1}''
+catch.statement.parameter.type.should.be.a.subclass.of.throwable:
+    text: Тып параметра catch павінен быць падкласам Throwable
+catch.without.try:
+    text: '''catch'' без ''try'''
+change.implements.and.extends.classes:
+    text: Нармалізаваць спісы extends і implements
+change.modifier.family.name:
+    text: Змяніць мадыфікатары
+change.modifier.not:
+    text: Сделать ''{0}'' не {1}
+class.definition.is.not.expected.here:
+    text: Вызначэнне класа тут не чакаецца
+class.is.not.annotation:
+    text: '''''{0}'''' не з''яўляецца анатацыяй'
+closure.is.too.complex.to.analyze:
+    text: "Замыканне занадта складанае для аналізу.\nТыпы лакальных пераменных не выведзены."
+collection.literal.contains.named.argument.and.expression.items:
+    text: Літарал калекцыі змяшчае адначасова найменныя аргументы і выразы
+configure.groovy.library:
+    text: Наладзіць Groovy SDK…
+constructor.cannot.have.static.modifier:
+    text: Конструктор не может быть static
+constructors.are.not.allowed.in.anonymous.class:
+    text: Канструктары не дазволены ў ананімным класе
+constructors.are.not.allowed.in.interface:
+    text: Канструктары не дазволены ў інтэрфейсе
+constructors.cannot.have.return.type:
+    text: Элемент тыпу, які вяртаецца, не дазволены ў канструктары
+continue.outside.loop:
+    text: Аператар continue дазволены толькі ўнутры цыклаў
+create.annotation.text:
+    text: Анатаваць як @{0}
+create.class.family.name:
+    text: Создать класс
+create.class.text:
+    text: Создать класс ''{0}''
+create.enum:
+    text: Создать enum ''{0}''
+create.field.from.usage:
+    text: Создать поле ''{0}''
+create.interface.text:
+    text: Стварыць інтэрфейс ''{0}''
+create.method.from.usage:
+    text: Создать метод ''{0}''
+create.parameter.from.usage:
+    text: Создать параметр ''{0}''
+create.trait:
+    text: Создать трейт ''{0}''
+create.variable.from.usage:
+    text: Создать переменную ''{0}''
+cyclic.inheritance.involving.0:
+    text: Цыклічнае наследаванне з удзелам ''{0}''
+debug.option:
+    text: Уключыць адладачны стэк-трэйс [&D]
+default.initializers.are.not.allowed.in.abstract.method:
+    text: Ініцыялізатары па змаўчанні не дазволены ў абстрактных метадах
+doc.end.expected:
+    text: Чакаецца '*/'
+duplicate.attribute:
+    text: Паўторны атрыбут
+duplicate.class:
+    text: 'Дублюючы клас: ''''{0}'''''
+duplicate.element.in.the.map:
+    text: Паўторны элемент ''{0}'' у мапе
+duplicate.inner.class:
+    text: 'Паўторны клас: ''''{0}'''''
+duplicate.modifier:
+    text: Паўторны мадыфікатар ''{0}''
+duplicated.named.parameter:
+    text: Знойдзены паўторны найменны параметр ''{0}''
+dynamic.element.deletion:
+    text: Выдаленне дынамічнага элемента
+dynamic.method.property.type:
+    text: 'Тып уласцівасці [&T]:'
+dynamic.method.return.type:
+    text: 'Тып, які вяртаецца [&T]:'
+dynamic.name:
+    text: Імя
+dynamic.properties.table.name:
+    text: Аргументы метода
+dynamic.property.deletion:
+    text: Выдаленне дынамічнай уласцівасці
+dynamic.tool.window.id:
+    text: Дынамічныя члены
+dynamic.type:
+    text: Тып
+ellipsis.type.is.not.allowed.here:
+    text: Тып шматкроп'я тут не дазволены
+else.without.if:
+    text: '''else'' без ''if'''
+enums.may.not.have.extends.clause:
+    text: Пералічэнні не могуць мець аператар 'extends'
+exception.0.has.already.been.caught:
+    text: Выключэнне ''{0}'' ужо было перахоплена
+expected.0.to.be.inline.constant:
+    text: Чакалася, што ''{0}'' будзе ўбудаванай канстантай
+explicit.constructors.are.not.allowed.in.immutable.class:
+    text: Явные конструкторы не разрешены для класса @Immutable
+expression.expected:
+    text: Чакаецца выраз
+field.already.defined:
+    text: Поле ''{0}'' уже определено
+final.class.cannot.be.extended:
+    text: Клас final не можа быць пашыраны
+finally.without.try:
+    text: '''finally'' без ''try'''
+fix.package.name:
+    text: Выправіць імя пакета
+groovy.debug.disable.specific.methods:
+    text: Не заходзіць у пэўныя класы Groovy [&I]
+groovy.does.not.support.constructor.type.arguments:
+    text: Groovy не падтрымлівае аргументы тыпу канструктара
+groovy.file.0:
+    text: Groovy файл ''{0}''
+groovy.file.extension.is.not.mapped.to.groovy.file.type:
+    text: "Файлы *.groovy супастаўлены з ''{0}''.\nВы можаце супаставіць іх з Groovy у Налады | Тыпы файлаў"
+groovy.library.is.not.configured.for.module:
+    text: Groovy SDK не настроен для модуля ''{0}''
+identifier.expected:
+    text: Чакаецца ідэнтыфікатар
+identifier.or.block.expected:
+    text: Чакаецца ідэнтыфікатар або блок кода
+illegal.combination.of.modifiers:
+    text: Недапушчальная камбінацыя мадыфікатараў
+illegal.combination.of.modifiers.abstract.and.final:
+    text: Недапушчальная камбінацыя мадыфікатараў 'abstract' і 'final'
+illegal.combination.of.modifiers.volatile.and.final:
+    text: Недапушчальная камбінацыя мадыфікатараў 'volatile' і 'final'
+illegal.escape.character.in.string.literal:
+    text: Недапушчальны escape-сімвал у радковым літарале
+import.statement.cannot.have.modifiers:
+    text: Аператар import не можа мець мадыфікатараў
+incorrect.number.of.values:
+    text: 'Няправільная колькасць значэнняў. Чакалася: {0}, Атрымана: {1}'
+incorrect.variable.name:
+    text: Няправільнае імя пераменнай
+initializer.cannot.be.0:
+    text: Ініцыялізатар не можа быць {0}
+initializer.cannot.have.annotations:
+    text: Ініцыялізатары не могуць мець анатацыі
+initializers.are.not.allowed.in.interface:
+    text: Ініцыялізатары не дазволены ў інтэрфейсе
+injection.should.not.contain.line.feeds:
+    text: GString-ін'екцыя не павінна змяшчаць пераносы радкоў
+interface.members.are.not.allowed.to.be:
+    text: Члены інтэрфейсу не могуць быць {0}
+interface.must.have.no.static.method:
+    text: Інтэрфейс не можа мець static метад
+invalid.lvalue:
+    text: Недапушчальнае значэнне для прысвойвання
+invoke.completion.second.time.to.show.skipped.methods:
+    text: Выклічце аўтадапаўненне паўторна для адлюстравання прапушчаных метадаў
+is.not.enclosing.class:
+    text: '''''{0}'''' не з''яўляецца знешнім класам'
+java.style.for.each.statement.requires.a.type.declaration:
+    text: For-each у стылі Java патрабуе аб'яўлення тыпу
+label.already.used:
+    text: Метка ''{0}'' ужо выкарыстоўваецца
+method.0.cannot.have.weaker.access.privileges.1.than.2.in.3.4:
+    text: Метад ''{0}'' не можа мець больш слабыя правы доступу (''{1}'') чым ''{2}'' у ''{3}'' (''{4}'')
+method.0.cannot.override.method.1.in.2.overridden.method.is.final:
+    text: Метад ''{0}'' не можа пераазначыць метад ''{1}'' у ''{2}''; пераазначальны метад з'яўляецца final
+method.0.is.too.complex.too.analyze:
+    text: "Метад ''{0}'' занадта складаны для аналізу.\nТыпы лакальных пераменных не выведзены."
+method.call.is.ambiguous:
+    text: Неоднозначный вызов метода
+method.duplicate:
+    text: Метад з сігнатурай {0} ужо вызначаны ў класе ''{1}''
+method.has.incorrect.modifier.volatile:
+    text: Метад мае некарэктны мадыфікатар 'volatile'
+method.is.not.implemented:
+    text: Метад ''{0}'' не рэалізаваны
+method.with.type.parameters.should.have.return.type:
+    text: Метад з параметрамі тыпу павінен мець тып, які вяртаецца
+missed.attributes:
+    text: 'Прапушчаныя атрыбуты: {0}'
+mixing.private.and.public.protected.methods.of.the.same.name:
+    text: Змешванне private і public/protected метадаў з аднолькавым імем
+modifier.transient.not.allowed.here:
+    text: Мадыфікатар 'transient' тут не дапускаецца
+modifier.volatile.not.allowed.here:
+    text: Мадыфікатар 'volatile' тут не дапускаецца
+move.class.0.from.method:
+    text: Перамясціць ''{0}'' у правільнае месца
+move.class.from.method.family.name:
+    text: Хуткае выпраўленне "Перамясціць у правільнае месца"
+multiple.assignments.without.list.expr:
+    text: Множныя прысвойванні без спісавых выразаў справа не падтрымліваюцца ў рэжыме статычнай праверкі тыпаў
+named.arguments.are.not.allowed.inside.index.operations:
+    text: Найменныя аргументы не дапускаюцца ўнутры індэксных аперацый
+native.methods.cannot.have.body:
+    text: Натыўныя метады не могуць мець цела
+new.class.dialog.title:
+    text: Новый класс Groovy
+new.class.list.item.annotation:
+    text: Анатацыя
+new.class.list.item.class:
+    text: Класс
+new.class.list.item.interface:
+    text: Інтэрфейс
+new.class.list.item.trait:
+    text: Трейт
+new.script.list.item.script:
+    text: Groovy скрыпт
+new.script.list.item.script.dsl:
+    text: GroovyDSL скрыпт
+no.class.expected.here:
+    text: Тут не чакаецца клас
+no.class.in.file.template:
+    text: Класс не найден в шаблоне файла
+no.implements.clause.allowed.for.interface:
+    text: Інтэрфейсы не могуць мець аператар 'implements'
+no.interface.expected.here:
+    text: Тут не чакаецца інтэрфейс
+no.such.property:
+    text: Уласцівасць ''{0}'' не існуе
+no.super.classes.found:
+    text: Суперклассы не найдены
+no.super.method.found:
+    text: Методы super не найдены
+not.abstract.method.should.have.body:
+    text: Неабстрактны метад павінен мець цела
+only.abstract.class.can.have.abstract.method:
+    text: Толькі абстрактны клас можа мець абстрактны метад
+only.traits.expected.here:
+    text: Тут чакаюцца толькі трэйты
+package.definition.cannot.have.modifiers:
+    text: Вызначэнне пакета не можа мець мадыфікатараў
+packageLocal.visibility.presentation:
+    text: default бачнасць
+primitive.bound.types.are.not.allowed:
+    text: Прымітыўныя абмежавальныя тыпы не дазволены
+primitive.type.parameters.are.not.allowed:
+    text: Прымітыўныя тыпы параметраў не дазволены ў спісе параметраў тыпу
+property.name.expected:
+    text: Чакаецца імя ўласцівасці
+qualified.0.is.allowed.only.in.nested.or.inner.classes:
+    text: Кваліфікаваны {0} дазволены толькі ва ўкладзеных/унутраных класах
+qualified.new.of.static.class:
+    text: Кваліфікаванае стварэнне static класа
+recursive.constructor.invocation:
+    text: Рэкурсіўны выклік канструктара
+repetitive.method.name.0:
+    text: Паўторнае імя метаду ''{0}''
+return.type.is.incompatible:
+    text: Тып, які вяртаецца, {0} у {1} несумяшчальны з {2} у {3}
+script.cannot.have.modifier.native:
+    text: Скрыпт не можа мець мадыфікатар 'native'
+script.generated.with.same.name:
+    text: Для кода скрыпта згенераваны сінтэтычны клас ''{0}''
+script.method.cannot.have.modifier.abstract:
+    text: Метад скрыпта не можа мець мадыфікатар 'abstract'
+shows.parameter.names.at.function.call.sites:
+    text: Паказвае імёны параметраў у месцах выкліку функцый.
+statement.expected:
+    text: Чакаецца выраз
+string.end.expected:
+    text: Чакаецца канец радка
+super.cannot.be.used.in.static.context:
+    text: '''super'' нельга выкарыстоўваць у статычным кантэксце'
+the.usage.of.a.map.entry.expression.to.initialize.an.enum.is.currently.not.supported:
+    text: Выкарыстанне выразу map entry для ініцыялізацыі Enum у цяперашні час не падтрымліваецца
+there.is.no.default.constructor.available.in.class.0:
+    text: У класе ''{0}'' няма даступнага канструктара па змаўчанні
+throws.clause.is.not.allowed.in.at.interface:
+    text: Канструкцыя 'throws' не дазволена ў членах @interface
+trait.method.cannot.be.protected:
+    text: Методы трейта не могут быть protected
+tuple.cant.be.placed.in.class:
+    text: Множнае прысвойванне не дазволена для палёў
+tuple.declaration.should.end.with.def.modifier:
+    text: Аб'яўленне картэжа павінна заканчвацца мадыфікатарам 'def'
+type.argument.0.is.not.in.its.bound.should.extend.1:
+    text: Параметр тыпу ''{0}'' па-за сваімі межамі; павінен пашыраць ''{1}''
+type.argument.list.is.not.allowed.here:
+    text: Спіс аргументаў тыпу тут не дазволены
+type.parameters.are.unexpected:
+    text: Нечаканыя параметры тыпу
+undefined.label:
+    text: Неопределённая метка ''{0}''
+unexpected.attribute.type.0:
+    text: 'Нечаканы тып атрыбута: ''''{0}'''''
+unknown.class:
+    text: 'Невядомы клас: ''''{0}'''''
+unnecessary.type:
+    text: Лішняе выключэнне ''{0}''. ''{1}'' ужо аб'яўлена
+variable.0.might.not.have.been.initialized:
+    text: Пераменная ''{0}'' можа быць не ініцыялізавана
+variable.already.defined:
+    text: Переменная ''{0}'' уже определена
+wildcards.are.not.allowed.in.extends.list:
+    text: Супертып не можа змяшчаць wildcard-тып
+wrong.number.of.type.arguments:
+    text: 'Няправільная колькасць аргументаў тыпу: {0}; патрабуецца: {1}'

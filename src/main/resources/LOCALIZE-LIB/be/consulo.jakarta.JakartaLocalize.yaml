@@ -1,0 +1,828 @@
+Form.TransportManagerConfigurable.host:
+    text: 'Хост:'
+Form.TransportManagerConfigurable.type:
+    text: 'Тып:'
+LocalTransportHost.name:
+    text: Тая ж файлавая сістэма
+ScriptInfo.error.shutdown.script.not.found:
+    text: Скрыпт завяршэння не знойдзены
+ScriptInfo.error.startup.script.not.found:
+    text: Скрыпт запуску не знойдзены
+action.CreateEJBInterceptor.text:
+    text: Інтэрсэптар [_I]
+action.CreateFilterAction.description:
+    text: Стварыць новы фільтр
+action.CreateFilterAction.text:
+    text: Фільтр [_F]
+action.CreateListenerAction.description:
+    text: Создать новый слушатель
+action.CreateListenerAction.text:
+    text: Слушатель [_L]
+action.CreateServletAction.description:
+    text: Создать новый сервлет
+action.EditInterceptorBindingsAction.text:
+    text: Рэдагаваць прывязкі інтэрсэптараў [_B]…
+action.GenerateEJBFinderOrSelectorMethod.text:
+    text: Метад пошуку/выбару EJB…
+action.GenerateEJBReference.text:
+    text: Ссылка @EJB
+action.GenerateEntityListenerMethods.text:
+    text: Методы Entity Listener…
+action.GenerateInterceptorMethods.text:
+    text: Метады перахопніка…
+action.OpenPersistenceERDiagramAction.text:
+    text: Дыяграма сувязей сутнасцей
+action.PackageFile.description:
+    text: Дадаць выбраны файл у распакаваную дырэкторыю разгортвання або архіў Java EE
+action.PackageFile.text:
+    text: Упаковать файл [_P]
+action.ValidateJsp.description:
+    text: Праверыць выбраныя JSP файлы
+action.ValidateJsp.text:
+    text: Праверыць JSP [_V]
+action.description.add.application.server:
+    text: Дадаць сервер прыкладанняў
+action.description.build.on.frame.deactivation:
+    text: Абнаўляць рэсурсы, звязаныя з гэтым працэсам, пры дэактывацыі акна
+action.description.create.new.ejb.relationship:
+    text: Стварыць новую сувязь EJB
+action.description.create.new.servlet:
+    text: Создать новый сервлет
+action.description.remove.application.server:
+    text: Выдаліць сервер прыкладанняў
+action.name.build.on.frame.deactivation:
+    text: Абнаўляць рэсурсы пры дэактывацыі акна
+action.name.configure.j2ee.names:
+    text: Java EE імёны [_J]…
+action.name.create.bmp.entity.bean:
+    text: Создать BMP Entity Bean
+action.name.create.cmp.entity.bean:
+    text: Создать CMP Entity Bean
+action.name.create.interceptor:
+    text: Стварыць інтэрсэптар
+action.name.create.message.bean:
+    text: Создать Message Bean
+action.name.create.new.filter:
+    text: Веб-фільтр
+action.name.create.new.listener:
+    text: Веб-слушатель
+action.name.create.new.servlet:
+    text: Сервлет
+action.name.create.singleton.bean:
+    text: Создать Singleton Session Bean
+action.name.create.stateful.bean:
+    text: Создать Stateful Session Bean
+action.name.create.stateless.bean:
+    text: Создать Stateless Session Bean
+action.name.delete:
+    text: Выдаліць
+action.name.deploy.selected:
+    text: Развернуть
+action.name.edit.deployment.descriptor:
+    text: Рэдагаваць дэскрыптар разгортвання…
+action.name.new.ejb.relationship:
+    text: Новая сувязь EJB
+action.name.validate.location:
+    text: Праверыць {0}
+action.text.select.all:
+    text: Выбрать все
+action.text.unselect.all:
+    text: Адмяніць выбар
+action.text.validate.facet:
+    text: Праверыць усе файлы ў фасеце ''{0}''
+add.web.root:
+    text: Наладзіць {0} як веб-корань
+additional.deployment.descriptor.file.description.additional.resource:
+    text: Дадатковы рэсурс
+application.servers.configurable.display.name:
+    text: Серверы прыкладанняў
+appserver.library.display.name:
+    text: Сервер прыкладанняў {0, choice, 1#бібліятэка|2#бібліятэкі}
+appserver.validator.presentable.text:
+    text: '{0} для {1}'
+border.edit.deployment.descriptors.deployment.descriptors.group:
+    text: Дэскрыптары разгортвання
+border.edit.web.module.web.resource.directories:
+    text: Дырэкторыі веб-рэсурсаў
+border.interceptor.binding:
+    text: Прывязкі інтэрсэптараў
+border.pk.class.dialog.primary.key.class.name:
+    text: 'Імя класа першаснага ключа:'
+border.pk.class.dialog.primary.key.class.package:
+    text: 'Пакет класа першаснага ключа:'
+border.relationship.editor.role.1:
+    text: Роль 1
+border.relationship.editor.role.2:
+    text: Роль 2
+border.run.configuration.editor.environment.variables:
+    text: Пераменныя асяроддзя
+border.run.configuration.editor.remote.connection.settings.group:
+    text: Налады выдаленага падключэння
+browser.no.suitable.configuration.running:
+    text: Не знойдзена настроеных/запушчаных веб-сервераў! Запусціце любую веб-канфігурацыю і націсніце кнопку "Абнавіць"!
+browser.web.faced.not.configured:
+    text: Пожалуйста, сначала настройте веб-фасет!
+button.add.appserver.descriptor:
+    text: Дадаць спецыфічны дэскрыптар сервера прыкладанняў [&S]…
+button.configure.acclication.server:
+    text: '&Наладзіць…'
+button.configure.application.server:
+    text: Наладзіць…
+button.delete:
+    text: Выдаліць
+button.help:
+    text: Даведка [&H]
+checkbox.also.delete.file.from.disk.text:
+    text: Таксама выдаліць файл з дыска [&A]
+checkbox.cmp.field.properties.generate.getter.in.local.interface:
+    text: Лакальны інтэрфейс [&L]
+checkbox.cmp.field.properties.generate.getter.in.remote.interface:
+    text: Выдалены інтэрфейс [&R]
+checkbox.cmp.field.properties.generate.setter.in.local.interface:
+    text: Лакальны інтэрфейс [&I]
+checkbox.cmp.field.properties.generate.setter.in.remote.interface:
+    text: Выдалены інтэрфейс [&E]
+checkbox.create.transfer.object.generate.getter.in.interface:
+    text: Стварыць getter у інтэрфейсе {0} [&G]
+checkbox.create.transfer.object.generate.setter.in.interface:
+    text: Стварыць setter у інтэрфейсе {0} [&S]
+checkbox.default.interceptor:
+    text: Інтэрсэптар па змаўчанні [&D]
+checkbox.delete.ejb.delete.following.classes:
+    text: 'Выдаліць наступныя класы [&D]:'
+checkbox.edit.cmp.field.primary.key:
+    text: Першасны ключ [&P]
+checkbox.edit.ejb.class.enable.local.interface:
+    text: Лакальны інтэрфейс [&L]
+checkbox.edit.ejb.class.enable.remote.interface:
+    text: Выдалены інтэрфейс [&R]
+checkbox.edit.relationship.cascade.delete:
+    text: Каскаднае выдаленне
+checkbox.edit.relationship.enable.cmr.field:
+    text: Поле CMR
+checkbox.edit.script.properties.use.default:
+    text: Выкарыстоўваць па змаўчанні
+checkbox.run.configuration.editor.pass.environment.variables:
+    text: Перадаваць пераменныя асяроддзя
+class.role.business.local.interface:
+    text: Лакальны бізнес-інтэрфейс
+class.role.business.remote.interface:
+    text: Выдалены бізнес-інтэрфейс
+class.role.ejb.class:
+    text: Класс EJB
+class.role.home.interface:
+    text: Home-інтэрфейс
+class.role.interceptor.class:
+    text: Інтэрсэптар
+class.role.local.home.interface:
+    text: Лакальны Home-інтэрфейс
+class.role.local.interface:
+    text: Лакальны інтэрфейс
+class.role.remote.interface:
+    text: Выдалены інтэрфейс
+class.role.service.endpoint.interface:
+    text: Інтэрфейс Service Endpoint
+class.role.unknown.ejb.class:
+    text: Невядомы клас EJB
+column.name.description:
+    text: Апісанне
+column.name.edit.deployment.descriptors.path:
+    text: Путь
+column.name.edit.deployment.descriptors.type:
+    text: Тып
+column.name.edit.web.roots..relative.to.deployment.root:
+    text: Шлях адносна кораня разгортвання
+column.name.edit.web.roots.web.resource.directory:
+    text: Дырэкторыя веб-рэсурсаў
+column.name.ejb.business.tree.intercept:
+    text: Перехват
+column.name.ejb.business.tree.name:
+    text: Імя
+combobox.deployment.descriptor.version:
+    text: Версія дэскрыптара разгортвання [&V]
+command.apply.interceptor.bindings.command:
+    text: Змяніць прывязкі інтэрсэптараў
+command.name.create.0.1:
+    text: Создать {0} ''{1}''
+command.name.create.directory:
+    text: Создать каталог
+command.name.create.transfer.object:
+    text: Создать Transfer Object
+command.name.creating.web.root.dir:
+    text: стварэнне дырэкторыі
+command.name.delete.ejb.class:
+    text: Выдаліць клас EJB
+confirmation.text.class.does.not.exist.create.it:
+    text: Клас {0} не існуе. Стварыць яго?
+confirmation.text.classes.do.not.exist.create.them:
+    text: "Класы\n{0}\nне існуюць. Стварыць іх?"
+confirmation.text.create.directory:
+    text: Стварыць дырэкторыю ''{0}''?
+confirmation.text.regenerate.equals.and.hashcode.for.class:
+    text: Перастварыць метады equals і hashCode для класа ''{0}''?
+default.run.configuration.name.unnamed:
+    text: Без імя
+deployment.descriptor.panel.directory.path.relative.to.deployment.root.label:
+    text: 'Шлях дырэкторыі адносна кораня разгортвання [&P]:'
+deployment.descriptor.title.application.module:
+    text: Дэскрыптар разгортвання модуля прыкладання
+deployment.descriptor.title.ejb.module:
+    text: Дэскрыптар разгортвання модуля EJB
+deployment.descriptor.title.web.module:
+    text: Дэскрыптар разгортвання WebLogic Web модуля
+deployment.status.description.activating:
+    text: Выконваецца разгортванне артэфакта, калі ласка пачакайце…
+deployment.status.description.deactivating:
+    text: Выконваецца выдаленне артэфакта, калі ласка пачакайце…
+deployment.status.description.deployed:
+    text: Артефакт успешно развёрнут
+deployment.status.description.excluded.from.deployment:
+    text: Артэфакт выключаны з разгортвання. Каб уключыць, перайдзіце ў Выканаць | Змяніць канфігурацыю | Разгортванне і выберыце артэфакт
+deployment.status.description.failed:
+    text: Памылка пры разгортванні артэфакта. Падрабязнасці ў логе сервера.
+deployment.status.description.not.deployed:
+    text: Артэфакт не разгорнуты. Націсніце 'Разгарнуць' для пачатку разгортвання
+deployment.status.description.prepared:
+    text: Выконваецца разгортванне артэфакта, калі ласка пачакайце…
+deployment.status.description.preparing:
+    text: Выконваецца разгортванне артэфакта, калі ласка пачакайце…
+deployment.status.description.unknown:
+    text: Статус невядомы. Націсніце 'Абнавіць' для абнаўлення статусу разгортвання з сервера.
+deployment.status.description.unprepared:
+    text: Выконваецца выдаленне артэфакта, калі ласка пачакайце…
+deployment.status.description.unpreparing:
+    text: Выконваецца выдаленне артэфакта, калі ласка пачакайце…
+deployment.status.name.activating:
+    text: Актывацыя…
+deployment.status.name.deactivating:
+    text: Дэактывацыя…
+deployment.status.name.deployed:
+    text: Развёрнуто
+deployment.status.name.disconnected:
+    text: Отключено
+deployment.status.name.excluded.from.deployment:
+    text: Выключана з разгортвання
+deployment.status.name.failed:
+    text: Памылка
+deployment.status.name.not.deployed:
+    text: Не развёрнуто
+deployment.status.name.prepared:
+    text: Подготовлено
+deployment.status.name.preparing:
+    text: Подготовка…
+deployment.status.name.unknown:
+    text: Невядома
+deployment.status.name.unprepared:
+    text: Не подготовлено
+deployment.status.name.unpreparing:
+    text: Адмена падрыхтоўкі…
+dialog.description.web.resource.directory:
+    text: Выберыце дырэкторыю веб-рэсурсаў для захоўвання веб-файлаў.
+dialog.title.cant.create.class:
+    text: Невозможно создать класс
+dialog.title.choose.class:
+    text: Выбрать класс
+dialog.title.choose.cmp.field.class:
+    text: Выберыце клас поля CMP
+dialog.title.choose.ejb.class:
+    text: Выберыце клас EJB
+dialog.title.choose.ejb.classes.package:
+    text: Выберыце пакет класаў EJB
+dialog.title.choose.ejb.home.interface:
+    text: Выберыце Home-інтэрфейс EJB
+dialog.title.choose.ejb.local.home.interface:
+    text: Выберыце лакальны Home-інтэрфейс EJB
+dialog.title.choose.ejb.local.interface:
+    text: Выберыце лакальны інтэрфейс EJB
+dialog.title.choose.ejb.message.listener.interface:
+    text: Выберыце інтэрфейс Message Listener для EJB
+dialog.title.choose.ejb.primary.key.class:
+    text: Выберыце клас першаснага ключа EJB
+dialog.title.choose.ejb.remote.interface:
+    text: Выберыце выдалены інтэрфейс EJB
+dialog.title.choose.ejb.service.endpoint.interface:
+    text: Выберыце інтэрфейс Service Endpoint для EJB
+dialog.title.choose.entity.bean.primary.key.class:
+    text: Выберыце клас першаснага ключа для Entity Bean
+dialog.title.choose.package:
+    text: Выбрать пакет
+dialog.title.choose.primary.key.class.package:
+    text: Выберыце пакет класа першаснага ключа
+dialog.title.configure.vm.and.program.parameters:
+    text: Настройка параметраў VM і праграмы
+dialog.title.create.appserver.specific.descriptor:
+    text: Стварыць спецыфічны дэскрыптар сервера прыкладанняў
+dialog.title.create.new.0:
+    text: Создать {0}
+dialog.title.create.new.cmp.field:
+    text: Создать поле CMP
+dialog.title.create.new.ejb.0:
+    text: Создать новый EJB ''{0}''
+dialog.title.default.shutdown.script:
+    text: Скрыпт завяршэння па змаўчанні
+dialog.title.default.startup.script:
+    text: Скрыпт запуску па змаўчанні
+dialog.title.deployment.descriptor.location:
+    text: Размяшчэнне дэскрыптара разгортвання
+dialog.title.edit.0:
+    text: Рэдагаваць {0}
+dialog.title.edit.ejb.ql.query:
+    text: Рэдагаваць EJB QL запыт
+dialog.title.edit.interceptor.bindings:
+    text: Рэдагаваць прывязкі інтэрсэптара ''{0}''
+dialog.title.ejb.relationship.properties:
+    text: Уласцівасці сувязі EJB
+dialog.title.new.filter:
+    text: Новы веб-фільтр
+dialog.title.new.listener:
+    text: Новый веб-слушатель
+dialog.title.new.typename:
+    text: Новый {0}
+dialog.title.packaging.choose.facets:
+    text: Выбрать фасеты
+dialog.title.remove.ejb.local.interface:
+    text: Выдаліць лакальны інтэрфейс EJB
+dialog.title.rename.0:
+    text: Перайменаваць {0}
+dialog.title.resource.location:
+    text: Размяшчэнне рэсурсу
+dialog.title.restart.server:
+    text: Перазапусціць сервер
+dialog.title.select.accessors.of.fields.to.include.in.transfer.object:
+    text: Выберыце аксесары палёў для ўключэння ў Transfer Object
+dialog.title.select.startup.script:
+    text: Выбраць скрыпт запуску
+dialog.title.vm.parameters:
+    text: Параметры VM
+dialog.title.web.resource.directory:
+    text: Дырэкторыя веб-рэсурсаў
+dialog.title.web.resource.directory.path:
+    text: Шлях да дырэкторыі веб-рэсурсаў
+directory.description.working.directory:
+    text: Рабочы каталог
+editbox.default.pk.class:
+    text: 'Клас PK па змаўчанні:'
+editbox.j2eenames.ejb.class:
+    text: Класс EJB
+editbox.j2eenames.ejb.name.tag:
+    text: Тег <ejb-name>
+editbox.j2eenames.filter.class:
+    text: Клас фільтра
+editbox.j2eenames.filter.name.tag:
+    text: Тег <filter-name>
+editbox.j2eenames.home.interface:
+    text: Хатні інтэрфейс
+editbox.j2eenames.listener.class:
+    text: Класс слушателя
+editbox.j2eenames.local.home.interface:
+    text: Лакальны хатні інтэрфейс
+editbox.j2eenames.local.interface:
+    text: Лакальны інтэрфейс
+editbox.j2eenames.remote.interface:
+    text: Выдалены інтэрфейс
+editbox.j2eenames.service.endpoint.interface:
+    text: Інтэрфейс канчатковага пункта сервісу
+editbox.j2eenames.servlet.class:
+    text: Класс сервлета
+editbox.j2eenames.servlet.name.tag:
+    text: Тег <servlet-name>
+editbox.j2eenames.transfer.object:
+    text: Аб'ект перадачы
+ejb.interceptor.type:
+    text: Інтэрсэптар
+error.cannot.create.deployment.descriptor:
+    text: "Невозможно создать {0}\n{1}"
+error.deployment.descriptor.already.exists:
+    text: Дэскрыптар разгортвання для файла ''{0}'' ужо існуе
+error.deployment.descriptor.target.in.use:
+    text: Мэтавы файл дэскрыптара разгортвання ''{0}'' выкарыстоўваецца
+error.please.specify.path.to.deployment.descriptor:
+    text: Укажыце шлях да {0}
+exception.text.address.is.in.use:
+    text: Адрас {0} ужо выкарыстоўваецца
+exception.text.alternative.jre.not.specified:
+    text: Альтэрнатыўная JRE не ўказана
+exception.text.application.server.0.not.configured:
+    text: Сервер прыкладанняў ''{0}'' не настроены
+exception.text.application.server.not.specified:
+    text: Сервер прыкладанняў не ўказаны
+exception.text.descriptor.not.defined:
+    text: '''''{0}'''' не определен'
+exception.text.invalid.port.value:
+    text: 'Недапушчальнае значэнне порта: {0}'
+exception.text.malformed.url:
+    text: 'Некорректный URL: ''''{0}'''''
+exception.text.startup.script.is.not.specified:
+    text: скрыпт запуску не ўказаны
+facet.0.in.module.1.text:
+    text: '{0} (в {1})'
+facet.0.in.module.1.text.detailed:
+    text: Фасет ''{0}'' (в модуле ''{1}'')
+generic.application.server.default.name:
+    text: Агульны
+group.GeneratePersistenceMapping.text:
+    text: Згенераваць мапінг персістэнтнасці
+group.JavaeeMigrationGroup.text:
+    text: Дзеянні міграцыі
+group.JspActions.text:
+    text: JSP дзеянні
+group.NewGroupPersistence.text:
+    text: Новая группа Persistence
+inspection.ejb.display.name:
+    text: Памылкі класаў EJB
+inspection.ejb.xml.display.name:
+    text: Дэскрыптар EJB
+inspection.group.display.name.application.server.inspections:
+    text: Серверы прыкладанняў
+inspection.javaee.ejb.ql.display.name:
+    text: Проблемы EJB QL
+inspection.javaee.web.warnings.name:
+    text: Папярэджанні Web.xml
+inspection.javaee.web.xml.mime.type:
+    text: MIME тып
+inspection.javaee.web.xml.mime.type.message:
+    text: '''''{0}'''' не з''яўляецца дапушчальным MIME тыпам'
+inspection.javaee.web.xml.name:
+    text: Памылкі Web.xml
+inspection.javaee.xml.display.name:
+    text: Карэктнасць дэскрыптара прыкладання Java EE
+intention.add.javaee.jar.text:
+    text: Дадаць JAR-файлы {0} у залежнасці модуля
+intention.add.method.to.ejb.class.error.no.impl.class.message:
+    text: Клас рэалізацыі Bean не знойдзены. Метады не былі згенераваны.
+intention.add.method.to.ejb.class.family:
+    text: Дадаць метад у клас EJB
+intention.add.method.to.ejb.class.text:
+    text: Дадаць ''{0}'' у клас рэалізацыі Bean {1}
+intention.add.method.to.ejb.interface.chooser.label:
+    text: Дадаць ''{0}'' у
+intention.add.method.to.ejb.interface.chooser.title:
+    text: Выберыце інтэрфейсы
+intention.add.method.to.ejb.interface.command.name:
+    text: Дадаванне метадаў
+intention.add.method.to.ejb.interface.error.no.home.interface:
+    text: Home-інтэрфейс Bean не знойдзены. Метады не былі згенераваны.
+intention.add.method.to.ejb.interface.error.no.interface:
+    text: Інтэрфейс Bean не знойдзены. Метады не былі згенераваны.
+intention.add.method.to.ejb.interface.family:
+    text: Дадаць метад у інтэрфейс EJB
+intention.add.method.to.ejb.interface.text:
+    text: Дадаць ''{0}'' у інтэрфейс Bean
+interceptor.method.container.node.title:
+    text: Метады інтэрсэптара
+j2ee.facet.fake.file.type:
+    text: Фіктыўны тып файла фасета Java EE
+javaee.facet.settings.display.name:
+    text: Налады {0}
+javaeeapp.facet.display.name:
+    text: JavaEE прыкладанне
+label.application.server.containing.libraries:
+    text: Бібліятэкі
+label.application.server.name:
+    text: 'Імя [&N]:'
+label.appserver.text:
+    text: '&Сервер прыкладанняў:'
+label.choose.or.create.deployment.descriptor.file:
+    text: Выберыце існуючы XML файл для {0} або ўкажыце дырэкторыю для стварэння новага файла.
+label.cmp.field.properties.generate.getter.in:
+    text: 'Згенераваць гетар у:'
+label.cmp.field.properties.generate.setter.in:
+    text: 'Згенераваць сетар у:'
+label.configure.j2ee.names.prefix.and.suffix.are.taken.from:
+    text: прэфікс і суфікс бяруцца з
+label.create.transfer.object.transfer.object.class.name:
+    text: 'Імя класа Transfer Object:'
+label.delete.deployment.descriptor.text:
+    text: Выдаліць выбраны дэскрыптар разгортвання?
+label.deployment.descriptors.wizard.step.text:
+    text: <html><body>Наладзьце дэскрыптары, якія будуць выкарыстоўвацца для разгортвання гэтага фасета.<br>Тут можна дадаць стандартныя, прапрыетарныя і спецыфічныя для сервера прыкладанняў дэскрыптары.</body></html>
+label.deployment.settings.deployment.method:
+    text: 'Метад разгортвання:'
+label.descriptor.type.text:
+    text: '&Дэскрыптар:'
+label.descriptor.version.text:
+    text: '&Версія:'
+label.edit.cmp.field.description:
+    text: 'Апісанне [&D]:'
+label.edit.cmp.field.name:
+    text: 'Імя [&N]:'
+label.edit.cmp.field.type:
+    text: 'Тып [&T]:'
+label.edit.ejb.class.cmp.version:
+    text: Версія CMP [&V]
+label.edit.parameters.program.parameters:
+    text: 'Аргументы программы [&P]:'
+label.edit.relationship.description:
+    text: 'Апісанне [&D]:'
+label.edit.relationship.field.name:
+    text: 'Імя поля:'
+label.edit.relationship.field.type:
+    text: 'Тып поля:'
+label.edit.relationship.multiplicity:
+    text: 'Множественность:'
+label.edit.relationship.relationship.name:
+    text: 'Імя сувязі [&N]:'
+label.edit.relationship.role.name:
+    text: 'Імя ролі:'
+label.ejb.class.properties.ejb.class:
+    text: 'EJB-класс [&C]:'
+label.ejb.class.properties.local:
+    text: 'Локальный [&A]:'
+label.ejb.class.properties.local.home:
+    text: 'Лакальны хатні [&O]:'
+label.ejb.class.properties.message.listener.interface:
+    text: 'Апрацоўшчык паведамленняў [&M]:'
+label.ejb.class.properties.package:
+    text: 'Пакет [&P]:'
+label.ejb.class.properties.primary.key.class:
+    text: 'Клас першаснага ключа [&K]:'
+label.ejb.class.properties.remote:
+    text: 'Удалённый [&E]:'
+label.ejb.class.properties.remote.interface:
+    text: 'Хатні [&H]:'
+label.ejb.class.properties.service.endpoint.interface:
+    text: 'Канчатковы пункт сервісу [&S]:'
+label.ejb.roots.text:
+    text: Каранёвыя каталогі зыходнікаў для EJB-класаў
+label.j2eenames.filter:
+    text: Фільтр
+label.j2eenames.listener:
+    text: Слушатель
+label.new.web.root.web.resource.directory.path:
+    text: 'Шлях да дырэкторыі веб-рэсурсаў [&P]:'
+label.pk.class.dialog.pk.class.cant.contain.compound.primary.key:
+    text: <html>PK-клас ''{0}'' не можа змяшчаць састаўны першасны ключ.<br>Калі ласка:<ul><li>Укажыце клас першаснага ключа, які можа захоўваць усе CMP-палі, або</li><li>Укажыце пакет і імя класа для стварэння новага класа першаснага ключа</li></html>
+label.prefix:
+    text: Прэфікс
+label.properties.class:
+    text: '&Класс:'
+label.run.configuration.editor.add.vm.parameters:
+    text: <html><body>Каб {0} выдалены сервер JVM, яго трэба запусціць з наступнымі<br/>аргументамі каманднага радка (вы можаце іх скапіраваць):</body></html>
+label.run.configuration.editor.host:
+    text: 'Хост [&H]:'
+label.run.configuration.editor.port:
+    text: 'Порт [&P]:'
+label.run.configuration.editor.shutdown.script:
+    text: 'Скрыпт завяршэння працы:'
+label.run.configuration.editor.startup.script:
+    text: 'Скрыпт запуску:'
+label.run.configuration.properties.application.server:
+    text: 'Сервер прыкладанняў [&S]:'
+label.servlet.properties.package:
+    text: '&Пакет:'
+label.suffix:
+    text: 'Суфікс:'
+label.text.creating.ejb:
+    text: Стварэнне EJB ''{0}''
+label.text.no.application.server.selected:
+    text: Сервер прыкладанняў не выбраны
+label.web.root.dialog.relative.path.in.deployment.directory:
+    text: '&Адносны шлях у дырэкторыі разгортвання:'
+label.web.source.roots.text:
+    text: Карані зыходнага кода
+libraries.node.text.application.server:
+    text: Бібліятэкі ўтрымліваюць класы, якія дадаюць розную функцыянальнасць вашым прыкладанням. Бібліятэкі таксама ўключаюць зыходныя файлы і JavaDoc, якія дапамагаюць у распрацоўцы праектаў.<br><br>IntelliJ IDEA выкарыстоўвае бібліятэкі для аўтадапаўнення кода, валідацыі, падсветкі памылак і г.д.<br><br>Бібліятэкі сервера прыкладанняў з'яўляюцца часткай сервера прыкладанняў (WebSphere, WebLogic, Tomcat і інш.) і даступныя для веб- і Java EE прыкладанняў, настроеных для гэтых сервераў.<br><br>Разгарніце вузел і выберыце даччыныя элементы для кіравання бібліятэкамі сервера прыкладанняў, усталяванымі ў вашай сістэме.<br><br>Каб падключыць бібліятэку да модуля, выберыце модуль, націсніце ўкладку "Залежнасці", націсніце "Дадаць" і ўкажыце размяшчэнне бібліятэкі.
+library.configure.appserver.title:
+    text: Настройка бібліятэк сервера прыкладанняў
+link.display.text.configure.j2ee.names:
+    text: Імёны Java EE
+local.vcs.label.name.deleting.ejb.class:
+    text: Выдаленне ejb-класа {0}
+location.to.validate.all.jsps.in.directory:
+    text: все файлы в каталоге ''{0}''
+location.to.validate.all.jsps.in.selected.directories:
+    text: все файлы в выбранных каталогах
+location.to.validate.jsp:
+    text: файл ''{0}''
+location.to.validate.selected.jsps:
+    text: выбранные файлы
+message.text.able.to.bind.yet.able.to.connect.too:
+    text: Магчыма адначасовае падключэнне і прывязка да {0} - сервер прыкладанняў можа канкураваць з іншым ПЗ за порт
+message.text.application.server.already.exists:
+    text: Сервер прыкладанняў ''{0}'' ужо існуе
+message.text.application.server.name.cannot.be.empty:
+    text: Імя сервера прыкладанняў не можа быць пустым
+message.text.cannot.find.file:
+    text: Не ўдаецца знайсці файл ''{0}''
+message.text.cannot.open.url:
+    text: 'Немагчыма адкрыць URL. Калі ласка, праверце правільнасць URL:'
+message.text.cmp.field.exists:
+    text: CMP-поле ''{0}'' ужо існуе.
+message.text.cmp.field.name.not.valid:
+    text: Імя CMP-поля ''{0}'' не з'яўляецца дапушчальным ідэнтыфікатарам.
+message.text.cmp.field.name.should.begin.with.a.lower.case.letter:
+    text: Імя CMP-поля павінна пачынацца з маленькай літары.
+message.text.cmr.field.0.already.defined:
+    text: CMR-поле ''{0}'' уже определено в {1}.
+message.text.cmr.field.name.should.begin.with.a.lower.case.letter:
+    text: Імя CMR-поля павінна пачынацца з маленькай літары.
+message.text.connected.to.server:
+    text: Подключено к серверу
+message.text.connected.to.the.server:
+    text: Подключено к серверу
+message.text.disconnected.from.server:
+    text: Отключено от сервера
+message.text.duplicate.role.names:
+    text: Паўторныя імёны ролей
+message.text.ejb.exists.in.ejb.facet:
+    text: EJB ''{0}'' ужо існуе ў гэтым EJB-фасеце.
+message.text.entity.bean.not.specified.for.cmr.field:
+    text: Неабходна ўказаць імя існуючага Entity EJB
+message.text.error.creating.directory:
+    text: "Памылка пры стварэнні каталога.\n{0}"
+message.text.error.while.creating.temp.file:
+    text: 'Памылка пры стварэнні часовага файла: {0}'
+message.text.existing.web.resource.directory.configured.in.dir.which.includes.dir:
+    text: "<html><body>У ''<b>{0}''</b> ужо настроены каталог веб-рэсурсаў,\nякі ўключае бягучы каталог ''<b>{1}''</b>.</body></html>"
+message.text.existing.web.resource.directory.configured.in.dir.which.will.be.included.in.dir:
+    text: "<html><body>У ''<b>{0}''</b> ужо настроены каталог веб-рэсурсаў,\nякі будзе ўключаны ў бягучы каталог ''<b>{1}''</b>.</body></html>"
+message.text.exists:
+    text: '{0} ''''{1}'''' ужо існуе ў гэтым веб-фасеце.'
+message.text.must.be.cmp.entity.bean.with.local.interface:
+    text: Павінен быць хаця б адзін CMP Entity Bean з лакальным інтэрфейсам
+message.text.name.is.not.valid.identifier:
+    text: '{0} не з''яўляецца дапушчальным ідэнтыфікатарам'
+message.text.recommended.transfer.object.class.agrees.with.pattern:
+    text: "Рэкамендуецца, каб імя класа аб'екта перадачы\nадпавядала наступнаму шаблону: {0}"
+message.text.remove.selected.web.resource.directories:
+    text: Выдаліць выбраныя каталогі веб-рэсурсаў?
+message.text.remove.web.resource.directory:
+    text: Выдаліць каталог веб-рэсурсаў ''{0}''?
+message.text.run.configuration.already.run:
+    text: Канфігурацыя запуску ''{0}'' выконваецца.
+message.text.run.configuration.already.run.do.you.want.to.restart.in.1:
+    text: Канфігурацыя запуску ''{0}'' выконваецца. Хочаце перазапусціць сервер у рэжыме ''{1}''?
+message.text.run.configuration.editor.no.specific.parameters.needed:
+    text: Спецыяльныя параметры не патрабуюцца
+message.text.select.field.to.include.in.transfer.object:
+    text: Выберыце хаця б адно поле для ўключэння ў аб'ект перадачы.
+message.text.type.not.found:
+    text: Тып ''{0}'' не знойдзены.
+message.text.unable.to.connect:
+    text: Немагчыма падключыцца да {0}
+message.text.web.resource.directory.should.be.located.under.module.root:
+    text: "Каталог веб-рэсурсаў павінен знаходзіцца ў корані модуля.\nНацісніце кнопку '…' (шматкроп'е) для прагляду каранёвых каталогаў модуля."
+message.title.cannot.create.relationship:
+    text: Невозможно создать связь
+message.title.change.ejb.classes:
+    text: Змяніць EJB-класы
+message.title.class.not.found:
+    text: Не найден {0}
+message.title.conflicting.directory.found:
+    text: Знойдзены канфліктуючы каталог
+message.title.directory.not.found:
+    text: Каталог не найден
+message.title.directory.not.in.module:
+    text: Каталог не в модуле
+message.title.error:
+    text: Памылка
+message.title.file.not.found:
+    text: Файл не найден
+message.title.no.fields.selected:
+    text: Поля не выбраны
+message.title.open.url:
+    text: Открыть URL
+message.title.primary.key.class.changed:
+    text: Клас першаснага ключа быў зменены
+message.title.remove.web.resource.directory:
+    text: Выдаліць каталог веб-рэсурсаў
+method.role.business.method.declaration:
+    text: Аб'яўленне бізнес-метаду
+method.role.business.method.implementation:
+    text: Рэалізацыя бізнес-метаду
+method.role.cmp.field.getter.declaration:
+    text: Аб'яўленне CMP-поля Getter
+method.role.cmp.field.getter.implementation:
+    text: Рэалізацыя CMP-поля Getter
+method.role.cmp.field.setter.declaration:
+    text: Аб'яўленне CMP-поля Setter
+method.role.cmp.field.setter.implementation:
+    text: Рэалізацыя CMP-поля Setter
+method.role.cmr.field.getter.declaration:
+    text: Аб'яўленне CMR-поля Getter
+method.role.cmr.field.getter.implementation:
+    text: Рэалізацыя CMR-поля Getter
+method.role.cmr.field.setter.declaration:
+    text: Аб'яўленне CMR-поля Setter
+method.role.cmr.field.setter.implementation:
+    text: Рэалізацыя CMR-поля Setter
+method.role.create.method.declaration:
+    text: Аб'яўленне метаду стварэння
+method.role.create.method.implementation:
+    text: Рэалізацыя метаду стварэння
+method.role.finder.method.declaration:
+    text: Аб'яўленне метаду Finder
+method.role.finder.method.implementation:
+    text: Рэалізацыя метаду Finder
+method.role.home.business.method.declaration:
+    text: Аб'яўленне хатняга бізнес-метаду
+method.role.home.business.method.implementation:
+    text: Рэалізацыя хатняга бізнес-метаду
+method.role.method.implementation:
+    text: Рэалізацыя метаду
+method.role.post.create.method.implementation:
+    text: Рэалізацыя метаду пасля стварэння
+method.role.selector.method.implementation:
+    text: Рэалізацыя метаду селектара
+method.role.unknown.method.declaration:
+    text: Аб'яўленне невядомага метаду
+model.object.type.ejb.local.reference:
+    text: Локальная ссылка на EJB
+model.object.type.ejb.message.destination.reference:
+    text: Спасылка на прызначэнне паведамлення
+model.object.type.ejb.reference:
+    text: Ссылка на EJB
+model.object.type.filter:
+    text: Фільтр
+model.object.type.listener:
+    text: Слушатель
+model.object.type.managed.bean:
+    text: Управляемый Bean
+model.object.type.security.role:
+    text: Роля бяспекі
+model.object.type.service.reference:
+    text: Спасылка на веб-сервіс
+not.configured:
+    text: Не настроено
+progress.validating.ejbs.text:
+    text: Проверка EJB…
+quickfix.popup.title.select.an.artifact.to.deploy:
+    text: Выберыце артэфакт для разгортвання
+role.for.ejb.name.string.representation:
+    text: '{0} для EJB ''''{1}'''''
+role.for.interceptor.name.string.representation:
+    text: '{0} для ''''{1}'''''
+run.configuration.local:
+    text: Локальный
+run.configuration.remote:
+    text: Удалённый
+run.tab.title.deployment:
+    text: Разгортванне
+run.tab.title.output:
+    text: Вывод
+run.tab.title.server:
+    text: Сервер
+runtime.configuration.error.description.file.does.not.exist:
+    text: '{0} ''''{1}'''' не існуе.'
+runtime.configuration.error.something.not.specified:
+    text: '{0} не указан.'
+security.role.name.should.accord.to.nmtoken.pattern:
+    text: Імя ролі бяспекі павінна адпавядаць шаблону NMTOKEN
+select.in.j2ee:
+    text: Прадстаўленні фрэймворка
+servlet.reference.canonical.text:
+    text: Не ўдаецца вызначыць servlet ''{0}''.
+template.node.application:
+    text: Прыкладанне
+template.node.deployment.descriptors:
+    text: Дэскрыптары разгортвання
+template.node.java.code.templates:
+    text: Шаблоны Java-кода
+terms.web.directory:
+    text: Веб-дырэкторыя
+title.appserver.specific.validators:
+    text: Валідатары для канкрэтнага сервера прыкладанняў
+title.choose.interceptor.method.types:
+    text: Выберыце метады перахопніка для рэалізацыі
+title.edit.deployment.descriptor:
+    text: Рэдагаваць дэскрыптар разгортвання
+title.j2ee.names:
+    text: Імёны Java EE
+title.run.configuration.editor.deployment:
+    text: Разгортванне
+title.run.configuration.editor.server:
+    text: Сервер
+tooltip.text.filter.class:
+    text: Клас фільтра ''{0}''
+tooltip.text.listener.class:
+    text: Класс слушателя ''{0}''
+tooltip.text.primary.key.class:
+    text: Клас першаснага ключа
+tooltip.text.script.parameters:
+    text: Параметры…
+tooltip.text.servlet.class:
+    text: Класс Servlet ''{0}''
+updating.policy.hot.swap.classes:
+    text: Hot Swap классов [&H]
+updating.policy.redeploy:
+    text: Переразвернуть [&R]
+updating.policy.restart.server:
+    text: Перазапусціць сервер [&S]
+updating.policy.update.classes.and.resources:
+    text: Абнавіць класы і рэсурсы [&C]
+updating.policy.update.resources:
+    text: Абнавіць рэсурсы [&U]
+value.should.either.0.or.1:
+    text: Значэнне павінна быць або {0}, або {1}
+warning.delete.deployment.descriptor.title:
+    text: Выдаліць дэскрыптар разгортвання
+warning.duplicate.relative.deployment.path.text:
+    text: Дублюючы адносны шлях разгортвання ''{0}''
+web.context.family:
+    text: Семейство веб-контекста
+web.context.fix:
+    text: Усталяваць папку кантэксту ў ''/'' для {0}
+web.context.fix.for.directory:
+    text: Усталяваць папку кантэксту ў ''/'' для ўсіх файлаў у каталозе {0}
+web.root.family:
+    text: Настройка корня Web

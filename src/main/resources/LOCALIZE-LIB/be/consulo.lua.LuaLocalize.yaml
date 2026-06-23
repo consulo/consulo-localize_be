@@ -1,0 +1,16 @@
+color.settings.bad_character:
+    text: Невядомы сімвал
+color.settings.brackets:
+    text: Дужкі і аператары//Квадратныя дужкі
+color.settings.comma:
+    text: Запятая
+color.settings.identifier:
+    text: Ідэнтыфікатары//Па змаўчанні
+color.settings.operation:
+    text: Дужкі і аператары//Аператары
+color.settings.parameter:
+    text: Функцыі і метады//Параметр
+new.library.file.chooser.title:
+    text: Новыя файлы бібліятэкі
+module.type.name:
+    text: R модуль

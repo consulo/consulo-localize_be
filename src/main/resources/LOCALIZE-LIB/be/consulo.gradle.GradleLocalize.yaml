@@ -1,0 +1,18 @@
+gradle.settings.text.home.path:
+    text: 'Хатняя дырэкторыя Gradle:'
+gradle.settings.text.vm.options:
+    text: 'Параметры Gradle VM:'
+gradle.home.setting.type.explicit.incorrect:
+    text: "Няправільнае размяшчэнне Gradle.\nШлях: {0}"
+gradle.home.setting.type.explicit.empty:
+    text: Не ўказана размяшчэнне Gradle
+gradle.codeInsight.action.apply_plugin.text:
+    text: Дадаць плагін Gradle
+gradle.codeInsight.action.apply_plugin.description:
+    text: Дадаць выбраны плагін Gradle у праект
+gradle.codeInsight.action.apply_plugin.popup.title:
+    text: Выбраць плагін
+gradle.codeInsight.action.add_maven_dependency.text:
+    text: Дадаць залежнасць Maven артэфакта
+gradle.codeInsight.action.add_maven_dependency.description:
+    text: Дадаць выбраную залежнасць Maven артэфакта ў праект

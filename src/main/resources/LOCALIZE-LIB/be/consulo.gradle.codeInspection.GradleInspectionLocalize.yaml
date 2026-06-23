@@ -1,0 +1,4 @@
+multiple.repository.urls:
+    text: Множныя URL рэпазіторыяў
+multiple.repository.urls.fix.name:
+    text: Замяніць множныя URL рэпазіторыяў асобнымі блокамі рэпазіторыяў

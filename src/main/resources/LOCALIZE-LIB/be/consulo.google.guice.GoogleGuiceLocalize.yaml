@@ -1,0 +1,124 @@
+binding.annotation.without.inject.display.name:
+    text: Анатацыя прывязкі без @Inject
+binding.annotation.without.inject.problem.descriptor:
+    text: 'Анатацыя прывязкі без аб''яўленага @Inject #ref #loc'
+conflicting.annotations.display.name:
+    text: Канфлікт анатацый Guice
+conflicting.annotations.problem.descriptor:
+    text: 'Анатацыя #ref канфліктуе з іншымі аб''яўленымі анатацыямі #loc'
+delete.binding:
+    text: Выдаліць прывязку
+interception.annotation.without.runtime.retention.display.name:
+    text: Анатацыя перахопу без захавання падчас выканання
+interception.annotation.without.runtime.retention.problem.descriptor:
+    text: 'Анатацыя #ref не мае захавання падчас выканання #loc'
+invalid.implemented.by.display.name:
+    text: Несапраўдная анатацыя @ImplementedBy
+invalid.implemented.by.problem.descriptor:
+    text: 'Клас #ref не рэалізуе анатаваны клас #loc'
+invalid.provided.by.display.name:
+    text: Несапраўдная анатацыя @ProvidedBy
+invalid.provided.by.problem.descriptor:
+    text: 'Клас #ref не прадастаўляе анатаваны клас #loc'
+invalid.request.parameters.display.name:
+    text: Няправільны тып параметраў для @RequestParameters
+invalid.request.parameters.problem.descriptor:
+    text: 'Пераменная або параметр, пазначаныя як #ref, павінны мець тып Map<String, String[]> #loc'
+make.injection.mandatory:
+    text: Зрабіць анатацыю абавязковай
+make.injection.optional:
+    text: Зрабіць анатацыю апцыянальнай
+move.binding.scope.to.class.family.name:
+    text: Перамясціць вобласць бачнасці прывязкі ў клас
+move.binding.scope.to.class.text:
+    text: Перамясціць вобласць бачнасці прывязкі ў клас
+move.binding.to.class.family.name:
+    text: Перамясціць прывязку ў клас
+move.binding.to.class.text:
+    text: Перамясціць прывязку ў клас
+move.provider.binding.to.class.family.name:
+    text: Перамясціць прывязку правайдэра ў клас
+move.provider.binding.to.class.text:
+    text: Перамясціць прывязку правайдэра ў клас
+multiple.binding.annotations.display.name:
+    text: Некалькі анатацый прывязкі для пераменнай
+multiple.binding.annotations.problem.descriptor:
+    text: 'Пераменная #ref мае некалькі анатацый прывязкі #loc'
+multiple.injected.constructors.for.class.display.name:
+    text: Клас мае некалькі канструктараў з @Inject
+multiple.injected.constructors.for.class.problem.descriptor:
+    text: 'Клас #ref мае некалькі канструктараў з @Inject #loc'
+new.guice.binding.annotation.action.name:
+    text: Стварыць анатацыю прывязкі Guice
+new.guice.binding.annotation.error:
+    text: Не ўдалося стварыць анатацыю прывязкі Guice
+new.guice.binding.annotation.name:
+    text: 'Стварыць анатацыю прывязкі Guice: {0}.{1}'
+new.guice.method.interceptor.action.name:
+    text: Стварыць перахопнік метаду Guice
+new.guice.method.interceptor.error:
+    text: Не ўдалося стварыць перахопнік метаду Guice
+new.guice.method.interceptor.name:
+    text: 'Стварыць перахопнік метаду Guice: {0}.{1}'
+new.guice.module.action.name:
+    text: Создать модуль Guice
+new.guice.module.error:
+    text: Не удалось создать модуль Guice
+new.guice.module.name:
+    text: 'Создать модуль Guice: {0}.{1}'
+new.guice.provider.action.name:
+    text: Создать провайдер Guice
+new.guice.provider.error:
+    text: Не удалось создать провайдер Guice
+new.guice.provider.name:
+    text: 'Создать провайдер Guice: {0}.{1}'
+new.guice.scope.annotation.action.name:
+    text: Стварыць анатацыю вобласці бачнасці Guice
+new.guice.scope.annotation.error:
+    text: Не ўдалося стварыць анатацыю вобласці бачнасці Guice
+pointless.binding.display.name:
+    text: Бескарысная прывязка
+pointless.binding.problem.descriptor:
+    text: 'Прывязка не патрэбна і можа быць выдалена #loc'
+redundant.scope.binding.display.name:
+    text: Лішняя прывязка вобласці бачнасці
+redundant.scope.binding.problem.descriptor:
+    text: 'Лішняя прывязка з вобласцю бачнасці #ref #loc'
+redundant.to.binding.display.name:
+    text: Лішняя прывязка
+redundant.to.binding.problem.descriptor:
+    text: 'Лішняя прывязка да класа #ref #loc'
+redundant.to.provider.binding.display.name:
+    text: Лішняя прывязка правайдэра
+redundant.to.provider.binding.problem.descriptor:
+    text: 'Лішняя прывязка да класа #ref #loc'
+select.provided.class:
+    text: Выберыце клас для прадастаўлення
+session.scoped.injects.request.scoped.display.name:
+    text: Компонент @SessionScoped внедряет компонент @RequestScoped
+session.scoped.injects.request.scoped.problem.descriptor:
+    text: '@Inject класа @RequestScoped #ref паходзіць з класа @SessionScoped #loc'
+singleton.injects.scoped.display.name:
+    text: Кампанент @Singleton укараняе кампанент з вобласцю бачнасці
+singleton.injects.scoped.problem.descriptor:
+    text: '@Inject класа з вобласцю бачнасці #ref паходзіць з класа @Singleton #loc'
+toggle.injection.required.family.name:
+    text: Пераключыць укараненне
+toggle.required:
+    text: Пераключыць 'optional'
+uninstantiable.binding.display.name:
+    text: Немагчыма стварыць экзэмпляр прывязкі
+uninstantiable.binding.problem.descriptor:
+    text: 'Немагчыма стварыць экзэмпляр класа #ref, таму ён не можа быць прывязаны #loc'
+uninstantiable.implemented.by.class.display.name:
+    text: Невозможно создать экземпляр класса @ImplementedBy
+uninstantiable.implemented.by.class.problem.descriptor:
+    text: 'Невозможно создать экземпляр класса #ref, поэтому он не может быть @ImplementedBy #loc'
+uninstantiable.provided.by.class.display.name:
+    text: Невозможно создать экземпляр класса @ProvidedBy
+uninstantiable.provided.by.class.problem.descriptor:
+    text: 'Невозможно создать экземпляр класса #ref, поэтому он не может быть @ProvidedBy #loc'
+unnecessary.static.injection.display.name:
+    text: Непатрэбнае статычнае ўкараненне
+unnecessary.static.injection.problem.descriptor:
+    text: 'Клас #ref не мае статычных членаў з @Inject #loc'

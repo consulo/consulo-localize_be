@@ -1,0 +1,106 @@
+add.pjp.parameter:
+    text: Дадаць параметр ProceedingJoinPoint
+around.advice.call.cannot.proceed:
+    text: 'Выклік advice не можа працягнуцца: магчыма, вы забыліся аб''явіць параметр ProceedingJoinPoint'
+around.advice.should.return.something:
+    text: Значэнне, якое вяртае join point, будзе страчана
+around.advice.style.inspection:
+    text: Праверка стылю around advice
+change.return.type.to.Object:
+    text: Змяніць тып, які вяртае метад, на Object
+empty.popup.text.navigate.to.classes:
+    text: Гэты introduction не адпавядае ні аднаму класу
+empty.popup.text.navigate.to.methods:
+    text: Гэты advice не змяшчае метадаў
+error.0.expected:
+    text: Чакаецца {0}
+error.0.or.1.expected:
+    text: Чакаецца {0} або {1}
+error.anno.expected:
+    text: Тут чакаецца імя @interface
+error.argNames.should.match:
+    text: '{0} павінны адпавядаць імёнам фармальных параметраў метаду'
+error.arrays.not.allowed.here:
+    text: Масівы тут не дазволены
+error.cannot.resolve.parameter:
+    text: Не ўдаецца вызначыць параметр ''{0}''
+error.cannot.resolve.pointcut:
+    text: Не ўдаецца вызначыць pointcut ''{0}''
+error.cannot.resolve.symbol:
+    text: Не ўдаецца вызначыць сімвал ''{0}''
+error.constructor.pattern.expected:
+    text: Чакаецца шаблон канструктара
+error.default.implementation.class.should.be.specified:
+    text: Павінен быць указаны клас рэалізацыі па змаўчанні
+error.double.ellipsis.prohibited:
+    text: Выкарыстанне больш чым аднаго '..' забаронена
+error.field.name.pattern.expected:
+    text: Чакаецца шаблон імя поля
+error.generics.not.allowed.here:
+    text: Generics здесь не разрешены
+error.id.expected:
+    text: Чакаецца ідэнтыфікатар
+error.interface.expected:
+    text: Тут чакаецца інтэрфейс
+error.invalid.number.of.arguments:
+    text: Несумяшчальная колькасць аргументаў pointcut, чакаецца {0}, знойдзена {1}
+error.method.annotation.name.expected:
+    text: Чакаецца імя анатацыі
+error.method.args.pattern.expected:
+    text: Чакаецца шаблон аргументаў метаду
+error.method.name.pattern.expected:
+    text: Чакаецца шаблон імя метаду
+error.method.return.type.expected:
+    text: Чакаецца тып, які вяртае метад
+error.non.abstract.class.implemention.0.expected:
+    text: Чакаецца неабстрактны клас, які рэалізуе {0}
+error.pjp.not.allowed:
+    text: ProceedingJoinPoint в качестве первого параметра разрешен только в @Around advice
+error.pointcut.arguments.expected:
+    text: Чакаюцца аргументы pointcut
+error.pointcut.expression.expected:
+    text: Чакаецца выраз pointcut
+error.recursive.pointcut.reference:
+    text: Рэкурсіўная спасылка pointcut
+error.throwable.expected:
+    text: Параметр throwing павінен мець тып java.lang.Throwable
+error.type.name.pattern.expected:
+    text: Чакаецца шаблон імя тыпу
+error.varargs.not.allowed.here:
+    text: Varargs здесь не разрешены
+error.varargs.not.last:
+    text: Параметр varargs павінен быць апошнім
+error.wildcards.not.allowed.here:
+    text: Wildcards здесь не разрешены
+inspection.display.name.argNames.errors:
+    text: Праверка ўзгодненасці параметраў advice (argNames, returning, throwing)
+inspection.display.name.argNames.warnings:
+    text: 'Папярэджанне: argNames не вызначаны'
+inspection.display.name.declareParents:
+    text: Памылкі introductions (declare parents)
+pointcut.method.style.inspection:
+    text: Стыль метаду pointcut
+pointcut.methods.should.have.empty.body:
+    text: Метады pointcut павінны мець пустое цела
+pointcut.methods.should.have.no.throws.clause:
+    text: Метады pointcut не павінны мець аператар throws
+pointcut.methods.should.have.void.return.type:
+    text: Метады pointcut павінны мець тып, які вяртаецца, void
+quickfix.name.arg.names.correct:
+    text: Выправіць атрыбут {0}
+quickfix.name.arg.names.remove:
+    text: Выдаліць атрыбут {0}
+quickfix.name.define.attribute:
+    text: Вызначыць атрыбут {0}
+tooltip.text.navigate.to.advices:
+    text: Перайсці да AOP Advice
+tooltip.text.navigate.to.classes:
+    text: Перайсці да класаў з Advice
+tooltip.text.navigate.to.introductions:
+    text: Перайсці да AOP Introductions
+tooltip.text.navigate.to.methods:
+    text: Перайсці да метадаў з Advice
+unbound.pointcut.parameter:
+    text: Несвязанный параметр pointcut ''{0}''
+warning.argNames.should.be.defined:
+    text: Атрыбут {0} не вызначаны

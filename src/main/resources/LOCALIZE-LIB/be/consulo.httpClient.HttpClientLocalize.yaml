@@ -1,0 +1,18 @@
+add:
+    text: Дадаць
+close:
+    text: Закрыть
+compare.with:
+    text: Параўнайце з...
+edit:
+    text: Рэдагаваць
+file.created:
+    text: Создан файл <a href="">{0}</a>
+global.variable:
+    text: глобальная переменная
+preview:
+    text: Предпросмотр
+value:
+    text: Значэнне
+variable:
+    text: Переменная

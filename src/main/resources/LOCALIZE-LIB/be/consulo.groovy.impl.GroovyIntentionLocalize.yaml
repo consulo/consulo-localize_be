@@ -1,0 +1,316 @@
+add.return.type.to.method.declaration:
+    text: Дадаць тып значэння, якое вяртаецца, у аб'яўленне метаду
+cannot.create.class:
+    text: Невозможно создать класс
+change.to.end.of.line.comment.intention.family.name:
+    text: Замяніць на каментарый у канцы радка
+change.to.end.of.line.comment.intention.name:
+    text: Замяніць на каментарый у канцы радка
+closure.is.accessed.outside.of.groovy:
+    text: Поле <b>{0}</b> доступно вне Groovy
+closure.used.as.variable:
+    text: Замыканне перадаецца як аргумент. Рэфактарынг можа парушыць семантыку.
+convert.cannot.itself:
+    text: Рэфактарынг недаступны для самога параметра мапы
+convert.closure.to.method.intention.family.name:
+    text: Преобразовать свойство в метод
+convert.closure.to.method.intention.name:
+    text: Преобразовать в метод
+convert.concatenation.to.gstring.intention.family.name:
+    text: Пераўтварыць канкатэнацыю радкоў у GString
+convert.concatenation.to.gstring.intention.name:
+    text: Преобразовать в GString
+convert.from.geese.braces.intention.family.name:
+    text: Фарматаваць фігурныя дужкі на асобных радках
+convert.from.geese.braces.intention.name:
+    text: Фарматаваць фігурныя дужкі на асобных радках
+convert.g.string.to.string.intention.family.name:
+    text: Преобразовать GString в String
+convert.g.string.to.string.intention.name:
+    text: Преобразовать в String
+convert.integer.to.binary.intention.family.name:
+    text: Пераўтварыць у двайковы
+convert.integer.to.binary.intention.name:
+    text: Пераўтварыць у двайковы
+convert.integer.to.decimal.intention.family.name:
+    text: Пераўтварыць у дзесятковы
+convert.integer.to.decimal.intention.name:
+    text: Пераўтварыць у дзесятковы
+convert.integer.to.hex.intention.family.name:
+    text: Пераўтварыць у шаснаццатковы
+convert.integer.to.hex.intention.name:
+    text: Пераўтварыць у шаснаццатковы
+convert.integer.to.octal.intention.family.name:
+    text: Пераўтварыць у васьмярковы
+convert.integer.to.octal.intention.name:
+    text: Пераўтварыць у васьмярковы
+convert.java.style.array.intention.family.name:
+    text: Пераўтварыць стварэнне масіва з Java-стылю ў Groovy-сінтаксіс
+convert.java.style.array.intention.name:
+    text: Пераўтварыць стварэнне масіва ў Java-стылі
+convert.junit.assertion.to.assert.statement.intention.family.name:
+    text: Пераўтварыць JUnit assertion у assert-выраз
+convert.junit.assertion.to.assert.statement.intention.name:
+    text: Пераўтварыць JUnit assertion у assert-выраз
+convert.map.to.class.intention.family.name:
+    text: Пераўтварыць натыўны map Groovy у экзэмпляры класа
+convert.map.to.class.intention.name:
+    text: Преобразовать в класс
+convert.method.to.closure.intention.family.name:
+    text: Пераўтварыць метад у ўласцівасць тыпу замыкання
+convert.method.to.closure.intention.name:
+    text: Пераўтварыць ва ўласцівасць-замыканне
+convert.multiline.string.to.single.line.intention.family.name:
+    text: Преобразовать многострочную строку в однострочную
+convert.multiline.string.to.single.line.intention.name:
+    text: Пераўтварыць у аднарадковы літарал
+convert.param.to.map.entry:
+    text: Преобразовать параметр в элемент мапы
+convert.parameter.to.map.entry.intention.family.name:
+    text: Пераўтварыць параметры метаду або замыкання ў элементы map
+convert.parameter.to.map.entry.intention.name:
+    text: Преобразовать параметр в элемент map
+convert.simple.getter.to.property.intention.family.name:
+    text: Преобразовать простой геттер в свойство
+convert.simple.getter.to.property.intention.name:
+    text: Преобразовать в свойство
+convert.string.to.g.string.intention.family.name:
+    text: Преобразовать String в GString
+convert.string.to.g.string.intention.name:
+    text: Преобразовать в GString
+convert.string.to.multiline.intention.family.name:
+    text: Пераўтварыць літарал у шматрадковы літарал
+convert.string.to.multiline.intention.name:
+    text: Преобразовать в многострочный
+convert.to.geese.braces.intention.family.name:
+    text: Фарматаваць закрывальныя дужкі замыкання ў адзін радок
+convert.to.geese.braces.intention.name:
+    text: Фарматаваць фігурныя дужкі ў адзін радок
+create.parameter.for.field.intention.family.name:
+    text: Дадаць параметр канструктара для поля
+create.parameter.for.field.intention.name:
+    text: Дадаць параметр канструктара для поля
+demorgans.intention.name1:
+    text: Замяніць '\&\&' на '||'
+demorgans.intention.name2:
+    text: Замяніць '||' на '\&\&'
+demorgans.law.intention.family.name:
+    text: Закон де Моргана
+do.you.want.to.change.method.return.type:
+    text: Хочаце змяніць тып, які вяртае метад ''{0}''
+do.you.want.to.change.type.of.parameter.in.method:
+    text: Хочаце змяніць тып параметра ''{0}'' у метадзе ''{1}''
+do.you.want.to.change.variable.type:
+    text: Хочаце змяніць тып ''{0}''
+each.to.for.intention.family.name:
+    text: Замяніць each на for-in
+each.to.for.intention.name:
+    text: Замяніць на for-in
+expand.boolean.intention.family.name:
+    text: Разгарнуць булева выраз
+field.already.exists:
+    text: Поле <b>{0}</b> ужо існуе
+field.is.used.in.argument.label:
+    text: Поле <b>{0}</b> выкарыстоўваецца ў метцы аргумента
+flip.comparison.intention.name:
+    text: Інвертаваць ''{0}'' у ''{1}''
+flip.conditional.intention.family.name:
+    text: Інвертаваць умоўны выраз
+flip.conjunction.intention.family.name:
+    text: Інвертаваць аперанды кан'юнкцыі
+flip.if.intention.family.name:
+    text: Інвертаваць if-выразы
+flip.if.intention.name:
+    text: Інвертаваць if-выразы
+flip.smth.intention.name:
+    text: Інвертаваць ''{0}''
+for.to.each.intention.family.name:
+    text: Замяніць for-in на each
+for.to.each.intention.name:
+    text: Замяніць на ".each"
+gr.alias.import.intention.family.name:
+    text: Імпарт з псеўданімам для статычна імпартаванага члена
+gr.alias.import.intention.name:
+    text: Імпарт з псеўданімам
+gr.break.string.on.line.breaks.intention.family.name:
+    text: Разбіць радок па '\n'
+gr.break.string.on.line.breaks.intention.name:
+    text: Разбіць радок па '\n'
+gr.convert.string.to.char.intention.family.name:
+    text: Прывесці да char
+gr.convert.string.to.char.intention.name:
+    text: Прывесці да char
+gr.convert.type.cast.to.safe.cast.intention.family.name:
+    text: Пераўтварыць выраз прывядзення тыпу ў бяспечнае прывядзенне
+gr.convert.type.cast.to.safe.cast.intention.name:
+    text: Пераўтварыць у бяспечнае прывядзенне тыпу
+gr.copy.string.concatenation.content.intention.family.name:
+    text: Капіраваць тэкст канкатэнацыі радкоў у буфер абмену
+gr.create.missing.switch.branches.intention.family.name:
+    text: Стварыць адсутныя галіны 'switch'
+gr.create.missing.switch.branches.intention.name:
+    text: Стварыць адсутныя галіны 'switch'
+gr.introduce.local.variable.intention.family.name:
+    text: Создать локальную переменную
+gr.introduce.local.variable.intention.name:
+    text: Создать локальную переменную
+gr.make.member.private.intention.family.name:
+    text: Сделать 'private'
+gr.make.member.private.intention.name:
+    text: Сделать 'private'
+gr.make.member.protected.intention.family.name:
+    text: Сделать 'protected'
+gr.make.member.protected.intention.name:
+    text: Сделать 'protected'
+gr.make.member.public.intention.family.name:
+    text: Сделать 'public'
+gr.make.member.public.intention.name:
+    text: Сделать 'public'
+gr.remove.annotation.intention.name:
+    text: Выдаліць
+gr.set.strong.type.intention.family.name:
+    text: Аб'явіць яўны тып
+gr.set.strong.type.intention.name:
+    text: Аб'явіць яўны тып
+gr.split.declaration.intention.family.name:
+    text: Падзяліць аб'яўленне пераменнай
+import.on.demand.intention.family.name:
+    text: Дадаць static import па запыце
+import.on.demand.intention.name:
+    text: Дадаць імпарт па запыце
+import.static.intention.family.name:
+    text: Дадаць static import для аднаго члена
+import.static.intention.name:
+    text: Дадаць static import
+indexed.expression.conversion.intention.family.name:
+    text: Пераўтварыць форму [] у метад індэксацыі
+indexed.expression.conversion.intention.name:
+    text: Преобразовать доступ [] в форму метода
+indexing.method.conversion.intention.family.name:
+    text: Пераўтварыць метад індэксацыі ў форму []
+indexing.method.conversion.intention.name:
+    text: Преобразовать в форму []
+intention.category.closures:
+    text: Groovy/Замыканні
+intention.category.comments:
+    text: Java/Каментарыі
+intention.category.control.flow:
+    text: Java/Паток кіравання
+intention.category.conversions:
+    text: Groovy/Пераўтварэнні выразаў
+intention.category.groovy.declaration:
+    text: Groovy/Аб'яўленні
+intention.category.groovy.other:
+    text: Groovy/Прочее
+intention.category.groovy.style:
+    text: Groovy/Стыль Groovy
+invert.if.intention.family.name:
+    text: Інвертаваць умову 'if'
+invert.if.intention.name:
+    text: Інвертаваць умову 'if'
+java.style.properties.invocation.intention.family.name:
+    text: Змяніць выклік аксесара ў стылі Java на спасылку на ўласцівасць у стылі Groovy
+java.style.properties.invocation.intention.name:
+    text: Змяніць на спасылку на ўласцівасць у стылі Groovy
+make.closure.call.explicit.intention.family.name:
+    text: Зрабіць выклік замыкання яўным
+make.closure.call.explicit.intention.name:
+    text: Зрабіць выклік замыкання яўным
+make.closure.call.implicit.intention.family.name:
+    text: Зрабіць выклік замыкання няяўным
+make.closure.call.implicit.intention.name:
+    text: Зрабіць выклік замыкання няяўным
+map.param.name:
+    text: 'Імя Map-параметра [&N]:'
+merge.else.if.intention.family.name:
+    text: Аб'яднаць else if
+merge.if.and.intention.family.name:
+    text: Аб'яднаць укладзеныя 'if' выразы
+method.is.used.outside.of.groovy:
+    text: Метад выкарыстоўваецца па-за Groovy
+method.with.signature.already.exists:
+    text: Метад з сігнатурай {0} ужо існуе
+move.class.to.new.file.intention.family.name:
+    text: Перамясціць клас у асобны файл
+move.class.to.new.file.intention.name:
+    text: Перамясціць у асобны файл
+move.to.correct.dir:
+    text: Перамясціць у пакет ''{0}''
+move.to.correct.dir.family.name:
+    text: Перамясціць файл у правільны пакет
+negate.comparison.intention.family.name:
+    text: Адмаўляць параўнанне
+perform.refactoring:
+    text: Выканаць рэфактарынг…
+remove.catch.block:
+    text: Выдаліць блок catch
+remove.exception:
+    text: Выдаліць выключэнне
+remove.parameter.0:
+    text: Выдаліць параметр ''{0}''
+remove.parentheses.from.method.call.intention.family.name:
+    text: Выдаліць лішнія дужкі з выкліку метаду
+remove.parentheses.from.method.call.intention.name:
+    text: Выдаліць лішнія дужкі
+remove.redundant.class.property.intention.family.name:
+    text: Выдаліць лішняе .class
+remove.redundant.class.property.intention.name:
+    text: Выдаліць лішняе .class
+remove.unnecessary.braces.in.g.string.intention.family.name:
+    text: Выдаліць лішнія фігурныя дужкі ў GString
+remove.unnecessary.braces.in.g.string.intention.name:
+    text: Выдаліць лішнія фігурныя дужкі ў GString
+remove.unnecessary.escape.characters.intention.family.name:
+    text: Выдаліць лішнія экрануючыя сімвалы
+remove.unnecessary.escape.characters.intention.name:
+    text: Выдаліць лішнія экрануючыя сімвалы
+remove.unnecessary.return.intention.family.name:
+    text: Выдаліць лішняе ключавое слова 'return'
+remove.unnecessary.return.intention.name:
+    text: Выдаліць ключавое слова 'return'
+remove.unused.parameter:
+    text: Выдаліць невыкарыстаны параметр
+rename.file.to.0:
+    text: Перайменаваць файл у ''{0}''
+rename.file.with.class.intention.family.name:
+    text: Перайменаваць файл па адпаведным імені класа
+rename.file.with.class.intention.name:
+    text: Перайменаваць файл па імені класа
+replace.abstract.class.instance.by.map.intention.family.name:
+    text: Замяніць ананімны клас на дынамічную інстанцыяцыю
+replace.abstract.class.instance.by.map.intention.name:
+    text: Замяніць на дынамічную інстанцыяцыю
+replace.if.with.ternary.intention.family.name:
+    text: Замяніць аператар if на тэрнарны аператар
+replace.if.with.ternary.intention.name:
+    text: 'Замяніць на ?:'
+replace.primitive.type.with.wrapper:
+    text: Замяніць прымітыўны тып на абгортку
+replace.qualified.reference.with.import.intention.family.name:
+    text: Замяніць поўнае імя на імпарт
+replace.qualified.reference.with.import.intention.name:
+    text: Замяніць на імпарт
+replace.ternary.with.if.else.intention.family.name:
+    text: Замяніць '?:' на if else
+replace.ternary.with.if.else.intention.name:
+    text: Замяніць '?:' на if else
+replace.with.wrapper:
+    text: Замяніць на ''{0}''
+simplify.ternary.operator.intention.family.name:
+    text: Спрасціць умоўны выраз
+simplify.ternary.operator.intention.name:
+    text: Спрасціць умоўны выраз
+split.else.if.intention.family.name:
+    text: Падзяліць else if
+split.if.intention.family.name:
+    text: Падзяліць на 2 аператары 'if'
+split.if.intention.name:
+    text: Падзяліць на 2 аператары 'if'
+split.into.declaration.and.assignment:
+    text: Падзяліць на аб'яўленне і прысвойванне
+split.into.separate.declaration:
+    text: Падзяліць на асобнае аб'яўленне
+try.catch.fix:
+    text: Выпраўленне try-catch
+write.access.to.closure.variable:
+    text: Доступ на запіс да поля <b>{0}</b>

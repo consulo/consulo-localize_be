@@ -1,0 +1,762 @@
+subversion.executable.notification.title:
+    text: Немагчыма выкарыстоўваць кліент каманднага радка Subversion
+subversion.executable.notification.description:
+    text: Магчыма, указаны няправільны шлях да выканальнага файла Subversion.
+subversion.executable.too.old:
+    text: Версія кліента каманднага радка Subversion састарэла ({0}).
+subversion.roots.detection.errors.found.description:
+    text: Пры выяўленні рабочых копій Subversion знойдзены памылкі.
+action.Subversion.BrowseSVNRepository.text:
+    text: Агляд рэпазіторыя Subversion [_W]…
+action.Subversion.BrowseSVNRepository.description:
+    text: Агляд рэпазіторыя Subversion
+group.IgnoreChoicesGroup.text:
+    text: Ігнараваць
+group.RevertIgnoreChoicesGroup.text:
+    text: Выдаліць са спіса ігнаруемых
+action.Subversion.UndoIgnore.text:
+    text: Выбраныя імёны файлаў
+action.Subversion.UndoIgnore.description:
+    text: Выдаліць імя файла/маску са спіса ігнаруемых папкі
+action.Subversion.Ignore.ExactMatch.text:
+    text: Выбраныя імёны файлаў
+action.Subversion.Ignore.ExactMatch.description:
+    text: Дадаць імёны ўсіх выбраных файлаў у спіс ігнаруемых папкі
+action.Subversion.Ignore.MatchExtension.description:
+    text: Дадаць маску {0} у спіс ігнаруемых папкі
+action.Subversion.SetProperty.text:
+    text: Усталяваць уласцівасць [_T]…
+action.Subversion.SetProperty.description:
+    text: Усталяваць версійную ўласцівасць для файла або каталога
+action.Subversion.Resolve.text:
+    text: Вырашыць тэкставы канфлікт [_S]…
+action.Subversion.Resolve.description:
+    text: Вырашыць тэкставы канфлікт у файле
+action.Subversion.MarkResolved.text:
+    text: Пазначыць як вырашаны [_M]…
+action.Subversion.MarkResolved.description:
+    text: Пазначыць тэкставыя канфлікты і канфлікты ўласцівасцей як вырашаныя
+action.Subversion.Clenaup.text:
+    text: Ачыстка [_E]
+action.Subversion.Clenaup.description:
+    text: Разблакіраваць заблакіраваныя каталогі і выканаць усе пакінутыя незавершаныя аперацыі
+action.Subversion.Copy.text:
+    text: Галіна або тэг [_B]…
+action.Subversion.Copy.description:
+    text: Капіраваць выбраны файл або каталог у новае размяшчэнне рэпазіторыя
+action.Subversion.Lock.text:
+    text: Заблакіраваць [_L]…
+action.Subversion.Lock.description:
+    text: Заблакіраваць файлы
+action.Subversion.Unlock.text:
+    text: Разблакіраваць [_O]
+action.Subversion.Unlock.description:
+    text: Разблакіраваць файлы
+action.name.refresh:
+    text: Абнаўленне
+action.Subversion.ImportToSVNRepository.text:
+    text: Імпарт у Subversion [_M]…
+action.Subversion.Share.text:
+    text: Апублікаваць каталог [_S]…
+action.Subversion.ShowProperties.text:
+    text: Рэдагаваць уласцівасці [_P]
+action.Subversion.ConfigureBranches.text:
+    text: Наладзіць галіны…
+action.Subversion.CompareWithBranch.text:
+    text: Параўнаць з галінай…
+action.Subversion.Relocate.text:
+    text: Перамясціць…
+action.Subversion.Relocate.description:
+    text: Перамясціць рабочую копію на іншы URL
+action.Subversion.CleanupProject.text:
+    text: Ачысціць праект
+action.Subversion.CleanupProject.description:
+    text: Выканаць ачыстку для ўсіх каталогаў рабочых копій у праекце
+dialog.title.branch:
+    text: Стварыць галіну або тэг
+label.copy.from:
+    text: Капіраваць з
+label.copy.to:
+    text: Капіраваць у
+label.copy.from.revision:
+    text: 'Рэвізія [&V]:'
+radio.copy.working.copy:
+    text: Рабочая копія [&W]
+label.copy.comment:
+    text: '&Каментарый'
+label.copy.select.location.dialog.copy.as:
+    text: 'Капіраваць як [&A]:'
+dialog.title.lock.files:
+    text: Заблакіраваць файлы
+dialog.title.lock.file:
+    text: Заблакіраваць файл
+label.lock.comment:
+    text: '&Каментарый блакіроўкі [&L]:'
+label.locl.steal.existing:
+    text: '&Перахапіць існуючую блакіроўку [&S]:'
+label.ssh.key.file:
+    text: 'Файл ключа [&F]:'
+label.ssh.passphrase:
+    text: 'Парольная фраза [&R]:'
+label.ssl.certificate.path:
+    text: 'Шлях да сертыфіката:'
+label.ssl.certificate.password:
+    text: 'Парольная фраза сертыфіката:'
+checkbox.ssl.keep.for.current.session:
+    text: Захаваць уліковыя дадзеныя [&S]
+progress.text.create.remote.folder:
+    text: Создать удалённую папку
+message.text.error:
+    text: Памылка
+progress.title.browser.delete:
+    text: Выдаліць
+progress.text.browser.creating:
+    text: Стварэнне {0}
+progress.text.browser.moving:
+    text: Перамяшчэнне {0}
+progress.text.browser.copying:
+    text: Капіраванне {0}
+progress.text.browser.remote.destination:
+    text: В {0}
+progress.title.browser.move:
+    text: Перамясціць
+progress.title.browser.copy:
+    text: Капіраваць
+label.auth.authentication.realm:
+    text: 'Вобласць аўтэнтыфікацыі: ''''{0}'''''
+label.auth.user.name:
+    text: '&Імя карыстальніка [&U]:'
+label.auth.password:
+    text: '&Пароль [&P]:'
+checkbox.auth.keep.for.current.session:
+    text: Захаваць уліковыя дадзеныя [&S]
+dialog.title.authentication.required:
+    text: Патрабуецца аўтэнтыфікацыя
+progress.text2.collecting.history:
+    text: Збор гісторыі рэвізій для ''{0}''
+checkbox.changes.filter.filter.by.author:
+    text: 'Автор [&U]:'
+progress.text2.processing.revision:
+    text: Апрацоўка рэвізіі ''{0}''
+progress.text.changes.collecting.changes:
+    text: Збор інфармацыі пра змены
+progress.text2.changes.establishing.connection:
+    text: Усталяванне злучэння з ''{0}''
+progress.text2.revision.processed:
+    text: Рэвізія ''{0}'' апрацавана
+status.group.name.replaced:
+    text: Заменено
+status.group.name.switched:
+    text: Пераключыўся
+dialog.title.select.configuration.directory:
+    text: Выбраць дырэкторыю канфігурацыі
+action.title.select.configuration.directory:
+    text: Змяніць каталог канфігурацыі
+dialog.description.select.configuration.directory:
+    text: Выберыце каталог канфігурацыі Subversion або стварыце новы
+button.text.clear.authentication.cache:
+    text: Ачысціць кэш аўтэнтыфікацыі [&C]
+label.text.delete.stored.credentials:
+    text: Выдаліць усе захаваныя ўліковыя дадзеныя для пратаколаў 'http', 'svn' і 'svn+ssh'
+button.text.edit.proxies:
+    text: Змяніць параметры сеткі [&O]…
+dialog.title.edit.http.proxies.settings:
+    text: Рэдагаваць параметры Subversion, звязаныя з сеткавымі ўзроўнямі
+dialog.edit.http.proxies.settings.error.same.group.names.text:
+    text: 'Выяўлены групы з аднолькавымі імёнамі: ''''{0}'''''
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.text:
+    text: 'Знойдзены URL рэпазіторыяў, якія адпавядаюць некалькім групам: {0}'
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.to.text:
+    text: URL {0} соответствует {1}
+dialog.edit.http.proxies.settings.tab.edit.user.file.title:
+    text: Карыстальніцкі файл
+dialog.edit.http.proxies.settings.tab.edit.system.file.title:
+    text: Сістэмны файл
+dialog.edit.http.proxies.settings.port.must.be.number.error:
+    text: Порт павінен быць лікам (група ''{0}'')
+dialog.edit.http.proxies.settings.timeout.must.be.number.error:
+    text: HTTP таймаут павінен быць лікам (група ''{0}'')
+dialog.edit.http.proxies.settings.dialog.select.ssl.client.certificate.path.title:
+    text: Выберыце шлях да сертыфіката
+dialog.edit.http.proxies.settings.panel.proxy.title:
+    text: Налады HTTP проксі
+dialog.edit.http.proxies.settings.panel.ssl.title:
+    text: Налады SSL
+dialog.edit.http.proxies.settings.panel.repositories.title:
+    text: Рэпазіторыі
+dialog.edit.http.proxies.settings.patterns.text:
+    text: 'Шаблоны URL [&R]:'
+dialog.edit.http.proxies.settings.exceptions.text:
+    text: 'Выключэнні [&X]:'
+dialog.edit.http.proxies.settings.server.text:
+    text: 'Сервер [&S]:'
+dialog.edit.http.proxies.settings.user.text:
+    text: 'Пользователь [&U]:'
+dialog.edit.http.proxies.settings.port.text:
+    text: 'Порт [&O]:'
+dialog.edit.http.proxies.settings.password.text:
+    text: 'Пароль [&W]:'
+dialog.edit.http.proxies.settings.connection.timeout.text:
+    text: 'Таймаут злучэння [&I]:'
+dialog.edit.http.proxies.settings.seconds.text:
+    text: секунд
+dialog.edit.http.proxies.settings.paths.to.authority.certificates.text:
+    text: 'Падзеленыя коскамі шляхі да файлаў сертыфікатаў CA [&P]:'
+dialog.edit.http.proxies.settings.ssl.client.certificate.file.text:
+    text: 'Файл SSL сертыфіката кліента [&C]:'
+dialog.edit.http.proxies.settings.client.certificate.passphrase.text:
+    text: 'Парольная фраза SSL сертыфіката кліента [&H]:'
+dialog.edit.http.proxies.settings.trust.default.cas.text:
+    text: Давяраць CA па змаўчанні [&A]
+dialog.edit.http.proxies.settings.test.connection.button.text:
+    text: Праверыць злучэнне [&T]
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.title:
+    text: Папярэджанне
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.text:
+    text: Налады будуць захаваны
+dialog.edit.http.proxies.settings.test.connection.error.title:
+    text: Праверка злучэння не ўдалася
+confirmation.text.delete.stored.authentication.information:
+    text: "Вы збіраецеся выдаліць усю захаваную інфармацыю аўтэнтыфікацыі Subversion.\nПрацягнуць выдаленне?"
+confirmation.title.clear.authentication.cache:
+    text: Ачысціць кэш аўтэнтыфікацыі
+command.line.interactive.mode.title:
+    text: Уключыць інтэрактыўны рэжым
+command.line.interactive.mode.description:
+    text: <html>Эмулюе паводзіны пры выкананні каманд Subversion непасрэдна з тэрмінала (у інтэрактыўным рэжыме).<br>Гэта неабходна для апрацоўкі запытаў пароля/парольнай фразы для рэпазіторыяў svn+ssh і даверу несапраўдным сертыфікатам сервера для рэпазіторыяў https.</html>
+non.english.locale.detected.warning:
+    text: Выкарыстоўваецца неанглійская лакаль.
+ssh.settings.executable.label:
+    text: 'Выканальны файл SSH:'
+ssh.settings.user.name.label:
+    text: 'Імя карыстальніка:'
+ssh.settings.port.label:
+    text: 'Порт:'
+ssh.settings.password.choice.title:
+    text: Пароль
+ssh.settings.private.key.choice.title:
+    text: Прыватны ключ
+ssh.settings.private.key.path.label:
+    text: 'Путь:'
+ssh.settings.subversion.config.choice.title:
+    text: Канфігурацыя Subversion
+ssh.settings.tunnel.label:
+    text: 'SSH туннель:'
+ssh.settings.update.tunnel.title:
+    text: Абнавіць
+label.configure.upgrade.label:
+    text: 'Стратэгія абнаўлення рабочай копіі:'
+radio.configure.upgrade.auto.16format:
+    text: Абнавіць аўтаматычна (выкарыстоўваць Subversion 1.6)(&6)
+radio.configure.upgrade.auto.17format:
+    text: Абнавіць аўтаматычна (выкарыстоўваць Subversion 1.7)(&7)
+radio.configure.upgrade.auto.18format:
+    text: Абнавіць аўтаматычна (выкарыстоўваць Subversion 1.8)(&8)
+label.configure.create.label:
+    text: "{0} створыць новую рабочую копію Subversion,\nвыберыце жаданы фармат рабочай копіі:"
+radio.configure.create.auto.16format:
+    text: Формат 1.6(&6)
+radio.configure.create.auto.17format:
+    text: Формат 1.7(&7)
+radio.configure.create.auto.18format:
+    text: Формат 1.8(&8)
+label.configure.change.label:
+    text: 'Змяніць фармат рабочай копіі ''''{0}'''' на:'
+radio.configure.change.auto.16format:
+    text: Формат 1.6(&6)
+radio.configure.change.auto.17format:
+    text: Формат 1.7(&7)
+radio.configure.change.auto.18format:
+    text: Формат 1.8(&8)
+dialog.upgrade.wcopy.format.title:
+    text: Фармат рабочай копіі Subversion
+label.working.copy.root.outside.text:
+    text: "Корань рабочай копіі знаходзіцца за межамі каталога, указанага ў наладах праекта.\nУся рабочая копія будзе пераўтворана."
+progress.text.loading.contents:
+    text: Загрузка змесціва ''{0}''
+progress.text2.revision.information:
+    text: Рэвізія {0}
+progress.title.loading.file.content:
+    text: Загрузка змесціва выдаленага файла
+progress.title.loading.file.properties:
+    text: Загрузка свойств удалённого файла
+exception.text.file.miss.svn:
+    text: Файл ''{0}'' даступны толькі для чытання, але адсутнічае ўласцівасць svn:needs-lock
+confirmation.text.edit.file:
+    text: Файл(ы), якія вы збіраецеся рэдагаваць, неабходна заблакіраваць перад рэдагаваннем
+file.status.external:
+    text: Знешні (svn)
+file.status.obstructed:
+    text: Заблакіраваны (svn)
+file.status.replaced:
+    text: Заменен (svn)
+confirmation.text.add.file:
+    text: "Дадаць наступны файл у Subversion?\n{0}"
+confirmation.text.add.dir:
+    text: "Дадаць наступную дырэкторыю ў Subversion?\n{0}"
+confirmation.title.add.file:
+    text: Запланаваць даданне
+confirmation.title.add.multiple.files:
+    text: Выберыце файлы для дадання ў Subversion
+action.name.ignore.files:
+    text: Дадаванне маскі ігнаруемых файлаў
+action.name.undo.ignore.files:
+    text: Выдаленне імёнаў файлаў (або масак) са спіса ігнаруемых
+confirmation.text.delete.file:
+    text: "Запланаваць выдаленне наступнага файла з Subversion?\n{0}"
+confirmation.text.delete.dir:
+    text: "Запланаваць выдаленне наступнай дырэкторыі з Subversion?\n{0}\nЗАЎВАГА: Дырэкторыя будзе выдалена з дыска пасля каміта зменаў."
+confirmation.text.delete.dir.17:
+    text: "Запланаваць выдаленне наступнай дырэкторыі з Subversion?\n{0}"
+confirmation.title.delete.file:
+    text: Запланаваць выдаленне
+confirmation.title.delete.multiple.files:
+    text: Выберыце файлы для выдалення з Subversion
+progress.text.locking.files:
+    text: Блакіроўка файлаў у рэпазіторыі…
+progress.text2.processing.file:
+    text: Обработка файла {0}
+progress.title.lock.files:
+    text: Заблакіраваць файлы
+exception.text.locking.file.failed:
+    text: 'Не ўдалося заблакіраваць файл: {0}'
+message.text.files.lock.failed:
+    text: '{0,choice, 0#Не ўдалося заблакіраваць файл.|1#Не ўдалося заблакіраваць файлы.}'
+message.text.files.locked:
+    text: '{0,choice, 0#Не ўдалося заблакіраваць файлы.|1#Заблакіраваны 1 файл|2#Заблакіравана {0,number} файлаў}'
+progress.text.unlocking.files:
+    text: Разблакіроўка файлаў у рэпазіторыі…
+progress.title.unlock.files:
+    text: Разблакіраваць файлы
+exception.text.failed.to.unlock.file:
+    text: 'Не ўдалося разблакіраваць файл: {0}'
+message.title.unlock.failures:
+    text: Памылкі разблакіроўкі
+message.text.files.unlocked:
+    text: '{0,choice, 0#Не ўдалося разблакіраваць файлы.|1#Разблакіраваны 1 файл|2#Разблакіравана {0,number} файлаў}'
+dialog.title.select.location:
+    text: Выберыце размяшчэнне
+exception.text.cleanupaction.batchperform.not.implemented:
+    text: CleanupAction.batchPerform не рэалізаваны
+progress.text2.adding:
+    text: Дадаванне ''{0}''
+progress.text2.deleting:
+    text: Выдаленне ''{0}''
+progress.text2.sending:
+    text: Отправка ''{0}''
+progress.text2.replacing:
+    text: Замена ''{0}''
+progress.text2.transmitting.delta:
+    text: Передача дельты для ''{0}''
+progress.title.copy:
+    text: Копія Subversion
+progress.text.copy.to:
+    text: Капіраваць у ''{0}''
+message.text.no.conflicts.found:
+    text: Канфлікты не знойдзены
+message.title.no.conflicts.found:
+    text: Няма канфліктаў
+label.select.files.and.directories.to.mark.resolved:
+    text: 'Выберыце файлы і каталогі для пазначэння як вырашаныя:'
+dialog.title.mark.resolved:
+    text: Пазначыць як вырашанае
+action.name.mark.resolved:
+    text: Пазначыць як вырашаны
+action.name.resolve.conflict:
+    text: Вырашыць канфлікт
+action.name.revert:
+    text: Адкаціць [&R]
+action.name.set.property:
+    text: Усталяваць уласцівасць
+exception.text.cannot.annotate.directory:
+    text: Аперацыя анатацыі мае сэнс толькі для файлаў
+progress.text.computing.annotation:
+    text: Вылічэнне анатацыі для ''{0}''
+action.text.annotate:
+    text: Анатаваць
+progress.title.commit:
+    text: Каміт
+status.text.committed.revision:
+    text: Зафіксавана рэвізія {0}.
+checkin.operation.name:
+    text: Каміт [_I]
+checkin.different.formats.involved:
+    text: "Выбраныя змены для {0,choice,0#рэпазіторыя|1#рэпазіторыяў} {1}\nналежаць рабочым копіям Subversion розных фарматаў.\nКаміт будзе падзелены на некалькі камітаў.\n\nВы можаце канвертаваць усе рабочыя копіі ў адзін фармат у раздзеле Змены | Інфармацыя пра рабочыя копіі Subversion.\nПрацягнуць каміт?"
+progress.text2.fetching.external.location:
+    text: Атрыманне знешняга размяшчэння для ''{0}''
+progress.text2.checked.out:
+    text: Выняна {1} файлаў, выймаецца {0}
+progress.text2.exported:
+    text: Экспортовано {1} файлов, экспортуется {0}
+progress.text2.checked.out.revision:
+    text: Выняна рэвізія {0}.
+progress.text2.exported.revision:
+    text: Экспартавана рэвізія {0}.
+status.text.checked.out.revision:
+    text: Атрымана рэвізія {0}.
+message.text.cannot.load.supported.formats:
+    text: 'Не ўдаецца загрузіць падтрымліваемыя фарматы: {0}'
+message.text.cannot.checkout:
+    text: 'Не ўдаецца выканаць checkout з svn: {0}'
+message.text.cannot.export:
+    text: 'Не ўдаецца экспартаваць з svn: {0}'
+message.title.export:
+    text: Экспарт з Subversion
+progress.text.checking.out:
+    text: Выполняется checkout файлов в ''{0}''
+progress.text.export:
+    text: Экспорт файлов в ''{0}''
+button.text.select.all:
+    text: Выбрать всё [&A]
+button.text.deselect.all:
+    text: Адмяніць выбар [&D]
+dialog.title.select.repository.location:
+    text: Выбраць размяшчэнне рэпазіторыя
+button.text.ssl.accept:
+    text: Прыняць [_A]
+button.text.ssl.reject:
+    text: Адхіліць [_R]
+button.text.ssh.accept:
+    text: Да [_Y]
+button.text.ssh.reject:
+    text: Нет [_N]
+dialog.title.ssl.examine.server.crertificate:
+    text: Праверка сертыфіката сервера
+dialog.title.ssh.examine.server.fingerprints:
+    text: Проверка отпечатка ключа сервера
+label.ssl.server.provided.certificate:
+    text: 'Сервер прадаставіў наступны сертыфікат:'
+label.ssh.server.provided.fingerprints:
+    text: Немагчыма ўсталяваць сапраўднасць вузла {0}.
+label.ssh.server.provided.fingerprints2:
+    text: Отпечаток ключа {0}
+label.ssh.server.provided.fingerprints3:
+    text: Вы ўпэўнены, што хочаце працягнуць падключэнне?
+checkbox.svn.ssh.cache.fingerprint:
+    text: Дадаць ключ у кэш Subversion [&A]
+dialog.title.set.property:
+    text: Усталяваць уласцівасць
+label.set.property.property.name:
+    text: 'Імя ўласцівасці [&N]:'
+radio.set.property.set.property.value:
+    text: 'Усталяваць значэнне ўласцівасці [&S]:'
+radio.set.property.delete.property:
+    text: Выдаліць уласцівасць [&D]
+checkbox.set.property.update.properties.recursively:
+    text: Абнавіць уласцівасці рэкурсіўна [&R]
+update.switch.configurable.name:
+    text: Абнавіць/Пераключыць
+checkbox.update.switch.configurable.to.specific.revision:
+    text: 'Абнавіць/пераключыць на пэўную рэвізію [&R]:'
+checkbox.update.switch.configurable.try.merge.without.changes:
+    text: Паспрабаваць зліццё без зменаў [&T]
+progress.text.merging.dry.run.changes:
+    text: Зліццё (пробны запуск) зменаў у ''{0}''
+progress.text.merging.changes:
+    text: Зліццё зменаў у ''{0}''
+progress.text.updating:
+    text: Абнаўленне ''{0}''
+exception.text.root.was.not.properly.updated:
+    text: 'svn: {0} не быў карэктна абноўлены; магчыма, ён ужо выдалены з рэпазіторыя разам з бацькоўскім элементам.'
+message.text.update.no.directories.found:
+    text: Не знойдзены версіянаваныя каталогі для абнаўлення
+messate.text.update.error:
+    text: 'SVN: Памылка абнаўлення'
+progress.text2.added:
+    text: Добавлено {0}
+progress.text2.deleted:
+    text: Удалено {0}
+progress.text2.conflicted:
+    text: Канфлікт у {0}
+progress.text2.treeconflicted:
+    text: Канфлікт у {0} (канфлікт дрэва)
+progres.text2.merged:
+    text: Аб'яднана {0}
+progres.text2.updated:
+    text: Обновлено {0}
+progress.text2.restored.file:
+    text: Восстановлено {0}
+progres.text2.updated.to.revision:
+    text: Абноўлена да рэвізіі {0}.
+status.text.updated.to.revision:
+    text: Абноўлена да рэвізіі {0}.
+progress.text2.skipped.file:
+    text: Прапушчана {0}
+update.group.name.skipped:
+    text: Прамахнуўся
+progress.text.updating.external.location:
+    text: Абнаўленне знешняга размяшчэння ў ''{0}''
+server.ssl.accept.temporary.action.name:
+    text: Прыняць часова [_T]
+integrate.display.name:
+    text: Інтэграцыя
+integrate.configuration.revision1.label:
+    text: рэвізія [&V]
+integrate.configuration.source2.label:
+    text: 'Крыніца 2:'
+integrate.configuration.revision2.label:
+    text: рэвізія [&R]
+integrate.configuration.source1.label:
+    text: 'Крыніца 1:'
+integrate.configuration.description.label:
+    text: Інтэграваць адрозненні паміж крыніцамі ў рабочую копію (параўнаць Крыніцу 2 з Крыніцай 1)
+source.url.could.not.be.empty.error.message:
+    text: URL крыніцы не можа быць пустым
+no.differences.between.sources.error.message:
+    text: Няма адрозненняў паміж крыніцай і той жа крыніцай
+configure.revision.specified.radio:
+    text: Указанная
+update.configuration.specific.url:
+    text: 'Абнавіць/пераключыць на пэўны URL [&U]:'
+progress.text.import:
+    text: Імпарт {0}
+message.text.cannot.import:
+    text: 'Не ўдаецца імпартаваць у svn: {0}'
+message.title.import:
+    text: Імпарт у Subversion
+revision.title:
+    text: Рэвізія
+checkout.dialog.title:
+    text: Атрымаць з Subversion
+checkout.dialog.button:
+    text: Атрымаць
+checkout.directory.chooser.title:
+    text: Каталог атрымання
+checkout.directory.chooser.prompt:
+    text: Выберыце каталог для атрымання з Subversion
+checkout.options.dialog.title:
+    text: Параметры атрымання SVN
+checkout.options.checkout.label:
+    text: 'Атрымаць:'
+configure.branches.title:
+    text: Наладзіць галіны Subversion
+configure.branches.error.wrong.url:
+    text: Размяшчэнне транка павінна быць у корані рэпазіторыя ''{0}''
+configure.branches.trunk.location:
+    text: 'Размяшчэнне транка:'
+configure.branches.branch.locations:
+    text: 'Размяшчэнні галін:'
+refresh.branches.item:
+    text: Абнавіць галіны…
+copy.column.title:
+    text: Капіраваць
+copy.column.tooltip:
+    text: Скапіравана з {0}
+compare.with.branch.progress.loading.content:
+    text: Загрузка змесціва
+compare.with.branch.diff.title:
+    text: Параўнаць з галінай
+compare.with.branch.error.title:
+    text: Параўнаць з галінай
+compare.with.branch.popup.title:
+    text: Параўнаць з галінай
+compare.with.branch.location.error:
+    text: "Не ўдалося знайсці размяшчэнне рэпазіторыя для файла ''{0}'' у галіне ''{1}''\nКалі ласка, праверце канфігурацыю галін."
+action.name.switch:
+    text: Пераключыць
+import.dialog.title:
+    text: Імпарт у Subversion
+import.dialog.button:
+    text: Імпарт
+repository.browser.add.location.prompt:
+    text: 'URL рэпазіторыя:'
+repository.browser.add.location.title:
+    text: Новае размяшчэнне рэпазіторыя
+repository.browser.details.action:
+    text: Паказаць/схаваць дэталі
+repository.browser.refresh.action:
+    text: Абнавіць выбраны вузел дрэва
+repository.browser.add.location.menu.item:
+    text: Размяшчэнне рэпазіторыя [_R]…
+repository.browser.edit.location.menu.item:
+    text: Рэдагаваць URL размяшчэння [_U]…
+repository.browser.discard.location.action:
+    text: Адмяніць размяшчэнне [_L]
+repository.browser.discard.location.prompt:
+    text: Хочаце адмяніць размяшчэнне ''{0}''?
+repository.browser.discard.location.title:
+    text: Адмяніць размяшчэнне
+repository.browser.new.folder.action:
+    text: Удалённая папка [_F]…
+repository.browser.import.action:
+    text: Імпарт [_I]…
+diff.options.title:
+    text: Параўнаць з галінай або тэгам
+diff.options.no.url.error:
+    text: Выберыце URL для параўнання
+diff.options.same.url.error:
+    text: Выберыце розныя URL для параўнання
+diff.options.no.patch.file.error:
+    text: Укажыце шлях для захавання файла патча
+diff.cant.get.properties.changes:
+    text: Невозможно показать свойства SVN
+repository.browser.browse.changes.action:
+    text: Прагляд зменаў [_B]…
+repository.browser.browse.changes.description:
+    text: Прагляд гісторыі зменаў у выбраным вузле
+repository.browser.compare.title:
+    text: Параўнанне ''{0}'' і ''{1}''
+cleanup.action.name:
+    text: Ачысціць
+changes.browser.revision.term:
+    text: Рэвізія
+progress.searching.for.files.with.conflicts:
+    text: Пошук файлаў з канфліктамі
+add.files.errors.title:
+    text: Памылкі пры дадаванні файлаў
+move.files.errors.title:
+    text: Памылкі пры перамяшчэнні файлаў
+delete.files.errors.title:
+    text: Памылкі пры выдаленні файлаў
+copy.dialog.title:
+    text: Галіна або тэг
+move.dialog.title:
+    text: Перамясціць або перайменаваць
+select.location.invalid.url.message:
+    text: 'Няправільны URL рэпазіторыя Subversion: ''''{0}'''''
+share.directory.action:
+    text: Апублікаваць каталог…
+share.directory.commit.message:
+    text: "{2}\nКаталог ''{0}'' создан пользователем {1}"
+share.directory.title:
+    text: Апублікаваць каталог
+share.directory.info.message:
+    text: Для завяршэння публікацыі выканайце каміт ''{0}''.
+share.directory.create.dir.progress.text:
+    text: Стварэнне выдаленай папкі {0}
+share.directory.checkout.back.progress.text:
+    text: Выполняется checkout {0}
+share.or.import.add.progress.text:
+    text: Планаванне дадання {0}
+action.share.whole.project.text:
+    text: Падзяліцца праектам (Subversion)…
+action.Subversion.integrate.changes.select.working.copy.text:
+    text: 'Інтэграваць у рабочую копію:'
+action.Subversion.integrate.changes.message.not.under.control.text:
+    text: Выбранае прызначэнне не знаходзіцца пад кантролем Subversion. Працягнуць?
+action.Subversion.integrate.changes.message.another.wc.text:
+    text: Выбранае прызначэнне знаходзіцца ўнутры рабочай копіі іншага рэпазіторыя. Працягнуць?
+action.Subversion.integrate.changes.branch.info.source.label.text:
+    text: 'URL зыходнай галіны: {0}'
+action.Subversion.integrate.changes.branch.info.target.label.text:
+    text: 'URL мэтавай галіны: {0}'
+action.Subversion.integrate.changes.actionname:
+    text: Інтэграваць у галіну…
+action.Subversion.integrate.changes.description:
+    text: Інтэгруе выбраныя спісы зменаў/наборы зменаў у выбраную галіну
+action.Subversion.integrate.changes.messages.title:
+    text: Інтэграваць у галіну
+action.Subversion.integrate.changes.dialog.add.wc.text:
+    text: Дадаць
+action.Subversion.integrate.changes.dialog.remove.wc.text:
+    text: Выдаліць
+action.Subversion.integrate.changes.message.files.up.to.date.text:
+    text: Все файлы актуальны
+action.Subversion.integrate.changes.collecting.changes.to.commit.task.title:
+    text: Збор зменаў для каміта
+action.Subversion.integrate.changes.error.unable.to.collect.changes.text:
+    text: 'Памылка пры зборы зменаў для каміта: {0}'
+error.cannot.load.revisions:
+    text: Не ўдаецца загрузіць спіс рэвізій
+action.Subversion.integrate.changes.progress.integrating.text:
+    text: Зліццё зменаў
+update.switch.to.branch.text:
+    text: 'Выкарыстоўваць галіну:'
+progress.live.provider.loading.revisions.text:
+    text: Загрузка рэвізій з сервера
+progress.live.provider.loading.revisions.details.text:
+    text: Загрузка рэвізій з сервера…
+dialog.show.svn.map.title:
+    text: Інфармацыя пра рабочыя копіі Subversion
+committed.changes.action.enable.merge.highlighting:
+    text: Падсвяціць інтэграваныя
+committed.changes.action.enable.merge.highlighting.description.text:
+    text: Опцыя даступна толькі для рэпазіторыяў SVN і рабочых копій версіі 1.5
+committed.changes.action.merge.highlighting.refresh.text:
+    text: Абнавіць
+committed.changes.action.merge.highlighting.refresh.description:
+    text: Абнавіць інфармацыю пра аб'яднаныя рэвізіі
+dialog.Subversion.select.working.copy.title:
+    text: Наладзіць шляхі рабочых копій
+dialog.Subversion.select.working.copy.wcopy.list.title:
+    text: Вядомыя рабочыя копіі
+action.Subversion.cleanup.progress.title:
+    text: Ачыстка Subversion
+action.Subversion.cleanup.error.message:
+    text: 'Памылка пры выкананні ачысткі для ''''{0}'''': {1}'
+action.Subversion.integrate.difference.option.use.ancestry.text:
+    text: Выкарыстоўваць гісторыю [&U]
+use.idea.proxy.as.default:
+    text: Выкарыстоўваць агульныя налады проксі {0} як налады па змаўчанні для Subversion
+use.idea.proxy.as.default.label.text:
+    text: Толькі HTTP проксі можа выкарыстоўвацца па змаўчанні
+navigate.to.idea.proxy.settings:
+    text: Перайсці да агульных налад проксі
+tab.repository.merge.panel.filter.plus:
+    text: Адфільтраваць інтэграваныя
+tab.repository.merge.panel.filter.minus:
+    text: Адфільтраваць неінтэграваныя
+tab.repository.merge.panel.filter.others:
+    text: Адфільтраваць астатнія
+browse.changes.settings.stop.on.copy:
+    text: Спыніць пры капіраванні [&S]
+action.mark.list.as.merged.text:
+    text: Пазначыць як злітае
+action.mark.list.as.merged.description:
+    text: Пазначыць выбраную рэвізію як злітую, але фактычна не выконваць зліццё
+action.mark.list.as.not.merged.text:
+    text: Пазначыць як незлітае
+action.mark.list.as.not.merged.description:
+    text: Пазначыць выбраную рэвізію як незлітую, але не змяняць нічога акрамя svn:mergeinfo
+label.depth.text:
+    text: '&Глыбіня [&D]:'
+label.depth.description:
+    text: Замяняе старую опцыю "recursive". "recursive"=false эквівалентна "immediates", "recursive"=true эквівалентна "infinity"
+undo.integrate.to.branch:
+    text: Адмяніць інтэграцыю ў галіну…
+undo.integrate.to.branch.description:
+    text: Выдаляе змены, зробленыя ў рэвізіі, з галіны
+undo.integrate.to.branch.dialog.title:
+    text: Адмяніць інтэграцыю ў галіну
+merge.source.details.title:
+    text: Дэталі крыніцы зліцця для {0} [{1}]
+repository.browser.edit.location.dialog.title:
+    text: Рэдагаваць URL размяшчэння
+action.Subversion.TogglePropertiesDiff.text:
+    text: Показать свойства
+action.Subversion.TogglePropertiesDiff.description:
+    text: Паказаць адрозненні ва ўласцівасцях SVN
+action.IntegrateChangeSetAction.text:
+    text: Інтэграваць у галіну
+show.properties.diff.progress.text.revision.information:
+    text: Рэвізія {0}
+show.properties.diff.progress.text2.property.information:
+    text: Свойство {0}
+checkbox.ignore.whitespace.when.merge.text:
+    text: Ігнараваць прабелы [&I]
+svn.integrate.changelist.warning.unresolved.conflicts.text:
+    text: Інтэграцыя перарвана. Ёсць нявырашаныя канфлікты або прапушчаныя элементы.
+svn.option.ignore.whitespace.in.annotate:
+    text: Ігнараваць адрозненні ў прабелах у анатацыях
+annotation.show.merge.sources.default.text:
+    text: Паказваць крыніцу зліцця ў гісторыі і анатацыях
+annotation.original.revision:
+    text: Зыходная рэвізія
+confirmation.resolve.tree.conflict.merge.moved:
+    text: Прымяніць іх змены ў {0} да лакальна перамешчанага {1}?
+confirmation.resolve.tree.conflict.merge.renamed:
+    text: Прымяніць іх змены ў {0} да лакальна перайменаванага {1}?
+svn.edit.commit.message.title:
+    text: 'Рэдагаваць каментарый да рэвізіі #{0}'
+svn.edit.commit.message.attention:
+    text: Увага! Папярэдняе паведамленне будзе страчана!
+svn.edit.commit.message.prompt:
+    text: 'Новы каментарый да рэвізіі:'
+quick.merge.variants.merge.all.explanation:
+    text: "Усе незлітыя рэвізіі будуць аб'яднаны.\nSubversion знойдзе незлітыя рэвізіі выкарыстоўваючы ўласцівасць svn:mergeinfo, запісаную ў лакальнай копіі."
+quick.merge.variants.quick.select.explanation:
+    text: "Паказвае ўсе рэвізіі з мэтавай галіны, злітыя і незлітыя.\nДля ручнога выбару. Вельмі хутка."
+quick.merge.variants.pre.select.explanation:
+    text: "Знаходзіць, адкуль адна з задзейнічаных галін была скапіравана з іншай.\nЗагружае толькі яшчэ не злітыя рэвізіі для выбару. Можа заняць працяглы час."
+dialog.create.branch.or.tag.from.working.copy.warning:
+    text: <html>Выкарыстоўвайце гэты варыянт для стварэння галіны <b>з лакальнымі зменамі</b>.<br/>У агульным выпадку, некалькі элементаў будуць "дададзены з гісторыяй", не толькі мэтавая дырэкторыя.<br/><br/>Кожны файл, які мае рэвізію, адрозную ад каранёвай, будзе скапіраваны асобна.<br/>Таму рэкамендуецца абнавіць рабочую копію перад стварэннем галіны.</html>

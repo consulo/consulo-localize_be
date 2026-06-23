@@ -1,0 +1,154 @@
+error.class.not.found.in.jar:
+    text: Класс ''{0}'' не найден в ''{1}''
+error.file.not.found.message:
+    text: Файл ''{0}'' не існуе
+error.invalid.gwt.installation.message:
+    text: '''''{0}'''' не является корректной установкой GWT: {1}'
+error.message.path.to.gwt.sdk.must.not.contain.character:
+    text: Шлях да GWT SDK не павінен змяшчаць сімвал '!'
+fix.download.gwt:
+    text: Загрузіць GWT…
+problem.description.unknown.css.class:
+    text: Невядомы CSS клас ''{0}''
+inspection.unresolved.references.to.css.classes.display.name:
+    text: Нявырашаныя спасылкі на CSS класы
+problem.description.methods.of.async.remote.service.0.isn.t.synchronized.with.1:
+    text: Метады асінхроннага выдаленага сервісу ''{0}'' не сінхранізаваны з ''{1}''
+quick.fix.name.synchronize.all.methods.of.0.with.1:
+    text: Сінхранізаваць усе метады ''{0}'' з ''{1}''
+problem.description.type.is.not.serializable:
+    text: Тып ''{0}'' не серыялізавальны
+problem.description.type.of.collection.elements.is.not.specified:
+    text: Тып элементаў ''{0}'' не ўказаны
+problem.description.gwt.serializable.type.0.should.implements.marker.interface.1:
+    text: Тып ''{0}'' павінен рэалізоўваць маркерны інтэрфейс {1}
+text.0.or.1:
+    text: '''''{0}'''' або ''''{1}'''''
+problem.description.0.is.not.a.checked.exception:
+    text: '''''{0}'''' не з''яўляецца правераным выключэннем'
+inspection.name.non.serializable.service.method.parameters:
+    text: Несерыялізавальныя тыпы параметраў або значэнняў, якія вяртаюць метады сервісу
+problem.description.generics.isnt.supported.in.gwt.before.1.5.version:
+    text: Дженерыкі не падтрымліваюцца ў GWT да версіі 1.5
+checkbox.text.report.interfaces:
+    text: Справаздача па інтэрфейсах
+label.choose.module.text:
+    text: 'Модуль [&M]:'
+run.gwt.configuration.display.name:
+    text: GWT канфігурацыя
+run.gwt.configuration.description:
+    text: GWT канфігурацыя
+default.gwt.run.configuration.name:
+    text: Без імя
+error.text.gwt.facet.not.configured.in.module.0:
+    text: GWT Facet не настроен в модуле ''{0}''
+question.text.gwt.facet.is.not.configured.for.module.0.do.you.want.to.create.it:
+    text: GWT Facet не настроен для модуля ''{0}''. Создать его?
+inspection.name.unresolved.references.to.html.tags:
+    text: Нявырашаныя спасылкі на HTML тэгі
+problem.description.html.tag.with.id.0.is.not.found:
+    text: HTML тег с ID ''{0}'' не найден
+inspection.name.classes.not.from.jre.emulation.library.in.client.code:
+    text: Выкарыстанне класаў і метадаў, адсутных у JRE Emulation Library
+problem.description.class.0.is.not.presented.in.jre.emulation.library:
+    text: Клас ''{0}'' адсутнічае ў эмуляцыйнай бібліятэцы JRE і не можа выкарыстоўвацца ў кліенцкім кодзе модуля GWT ''{1}''
+problem.description.class.0.is.defined.in.module.1.which.is.not.inherited.in.module.2:
+    text: Класс ''{0}'' определен в модуле ''{1}'', который не унаследован в модуле ''{2}''
+inspection.name.gwt.remote.service.is.not.registered.in.web.xml:
+    text: Выдалены сервіс GWT не зарэгістраваны ў web.xml
+problem.description.remote.service.is.not.registered.as.a.servlet.in.web.xml:
+    text: Выдалены сервіс ''{0}'' не зарэгістраваны як сервлет у web.xml
+quickfix.name.register.remote.service.0.in.web.xml:
+    text: Зарэгістраваць выдалены сервіс ''{0}'' у web.xml
+problem.description.correct.servlet.mapping.is.not.specified.for.remote.service.0:
+    text: Не ўказана карэктнае servlet-мапінг для выдаленага сервісу ''{0}''
+quickfix.name.add.servlet.mapping.for.remote.service.0:
+    text: Дадаць servlet-мапінг для выдаленага сервісу ''{0}''
+problem.description.incorrect.servlet.mapping.for.remote.service.0:
+    text: Няправільны фармат URL для выдаленага сервісу ''{0}''
+quickfix.name.set.correct.servlet.mapping.for.remote.service.0:
+    text: Усталяваць правільны фармат URL для выдаленага сервісу ''{0}''
+label.text.path.to.gwt.installation:
+    text: 'Путь к установке GWT [&P]:'
+gwt.installation.chooser.title:
+    text: Шлях да дырэкторыі ўсталёўкі GWT
+gwt.installation.chooser.description:
+    text: Укажыце шлях да дырэкторыі ўсталёўкі GWT
+error.message.gwt.user.jar.library.not.found.in.dependencies.of.module:
+    text: Бібліятэка gwt-user.jar не знойдзена ў залежнасцях модуля
+label.select.script.output.style.text:
+    text: 'Стыль вываду JavaScript [&O]:'
+label.select.web.facet.text:
+    text: 'Целевой Web Facet [&W]:'
+label.text.gwt.compiler.heap.size:
+    text: 'Максімальны памер кучы кампілятара (Mb) [&H]:'
+table.column.name.gwt.module:
+    text: GWT модуль
+table.column.name.output.relative.path:
+    text: Адносны шлях вываду
+label.text.additional.compiler.parameters:
+    text: 'Дадатковыя параметры VM кампілятара [&A]:'
+label.html.to.open.text:
+    text: 'Стартавая старонка [&P]:'
+dialog.caption.vm.parameters:
+    text: Параметры VM
+label.text.vm.parameters:
+    text: 'Параметры VM [&V]:'
+checkbox.text.use.custom.web.xml:
+    text: Выкарыстоўваць змесціва карыстальніцкага дэскрыптара 'web.xml' [&W]
+choose.text.select.gwt.module:
+    text: 'Выберыце модуль GWT:'
+dialog.title.choose.gwt.module:
+    text: Модуль GWT
+i18n.interface.method.gutter.tooltip:
+    text: <html><body>Метад мае звязаныя ўласцівасці ў {0} файлах
+i18n.goto.property.popup.title:
+    text: <html><body>Выберыце лакалізацыю для <b>{0}</b> (знойдзена {1} файлаў)</body></html>
+i18n.class.gutter.tooltip.text:
+    text: Клас мае {0} звязаных файлаў уласцівасцей
+inspection.name.inconsistent.gwt.localizable.interface:
+    text: Неўзгоднены лакалізуемы інтэрфейс
+quickfix.name.synchronize.all.methods.in.0:
+    text: Дадаць усе адсутныя метады ў ''{0}''
+quickfix.name.create.property.0:
+    text: Создать свойство ''{0}''
+quickfix.popup.title.choose.properties.file:
+    text: Выберыце файл уласцівасцей
+inspection.name.incorrect.serializable.class:
+    text: Некарэктны серыялізавальны клас
+problem.description.field.0.is.not.serializable:
+    text: Тып ''{0}'' не серыялізавальны
+problem.description.serializable.class.should.provide.public.no.args.constructor:
+    text: Серыялізавальны клас павінен прадастаўляць public канструктар без аргументаў
+inspection.name.method.with.parameters.in.interface.extending.constants:
+    text: Метад з параметрамі ў інтэрфейсе, які пашырае Constants
+problem.description.methods.with.parameters.are.not.allowed.in.an.interface.extending.constants:
+    text: Метады з параметрамі не дазволены ў інтэрфейсе, які пашырае Constants
+problem.description.properties.with.parameters.are.not.allowed.if.the.associated.interface.extends.constants:
+    text: Уласцівасці з параметрамі не дазволены, калі звязаны інтэрфейс пашырае Constants
+quickfix.name.inherit.0.from.messages.instead.of.constants:
+    text: Наследовать ''{0}'' от Messages вместо Constants
+inspection.name.unresolved.references.in.jsni.methods:
+    text: Нявырашаныя спасылкі ў JSNI метадах
+problem.description.cannot.resolve.0:
+    text: Немагчыма вызначыць ''{0}''
+problem.description.cannot.resolve.symbol.0.in.1:
+    text: Не ўдаецца вызначыць сімвал ''{0}'' у ''{1}''
+gwt.searching.for.implementations:
+    text: Пошук рэалізацый…
+error.message.this.action.is.allowed.only.for.client.side.packages.of.a.gwt.module:
+    text: Гэта дзеянне дазволена толькі для кліенцкіх пакетаў модуля GWT
+border.title.gwt.compilation:
+    text: Кампіляцыя GWT
+inspection.name.deprecated.gwt.key.tag.in.javadoc.comments:
+    text: Састарэлы тэг '@gwt.key' у JavaDoc каментарыях
+problem.description.gwt.key.tag.is.deprecated.in.gwt.1.5:
+    text: Тег '@gwt.key' устарел в GWT 1.5
+quickfix.name.replace.gwt.key.tag.with.key.annotation.in.method.0:
+    text: Замяніць тэг '@gwt.key' на анатацыю @Key у метадзе ''{0}''
+dialog.promt.enter.name.for.gwt.test.case:
+    text: 'Увядзіце імя для тэставага выпадку GWT:'
+dialog.title.new.gwt.test.case:
+    text: Новый тестовый случай GWT
+action.progress.creating.gwt.test.case.0:
+    text: Стварэнне тэставага выпадку GWT ''{0}''

@@ -1,0 +1,44 @@
+Integration.name:
+    text: '{0} Сервер'
+PersistentDataEditor.label.home:
+    text: '{0} Хатняя дырэкторыя [&H]:'
+PersistentDataEditor.label.version:
+    text: '{0} Версія:'
+PersistentDataEditor.chooser.title:
+    text: '{0} Хатняя дырэкторыя'
+PersistentDataEditor.chooser.description:
+    text: Выберыце хатнюю дырэкторыю {0}
+PersistentDataEditor.warning:
+    text: <html><body><b>Папярэджанне:</b> Выбраная дырэкторыя не з'яўляецца карэктнай хатняй дырэкторыяй {0}</body></html>
+PersistentDataEditor.unknown:
+    text: <невядома>
+ServerHelper.libraries.title:
+    text: Пошук бібліятэк сервера прыкладанняў
+ServerHelper.libraries.error:
+    text: Бібліятэкі сервера прыкладанняў не знойдзены
+ConfigurationType.name:
+    text: '{0} Сервер'
+ConfigurationType.description:
+    text: Канфігурацыя запуску сервера {0}
+RunEditor.title:
+    text: Налады сервера {0}
+RunEditor.username:
+    text: 'Імя карыстальніка [&U]:'
+RunEditor.password:
+    text: 'Пароль [&W]:'
+AppDescriptor.title:
+    text: Дэскрыптар разгортвання прыкладання {0}
+EjbDescriptor.title:
+    text: Дэскрыптар разгортвання EJB {0}
+CmpDescriptor.title:
+    text: Дэскрыптар разгортвання CMP {0}
+WebDescriptor.title:
+    text: Дэскрыптар разгортвання Web {0}
+ServerModel.password:
+    text: Указана імя карыстальніка, але не ўказаны пароль
+ServerModel.logfile:
+    text: Лог {0}
+ServerInstance.artifact.status:
+    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] Артефакт {1}: {2}\n"
+Error.fileNotFound:
+    text: Файл ''{0}'' не найден

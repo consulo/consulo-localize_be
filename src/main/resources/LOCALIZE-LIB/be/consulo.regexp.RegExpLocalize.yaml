@@ -1,0 +1,370 @@
+action.add.pattern.text:
+    text: Дадаць шаблон…
+action.add.regexp.replace.inspection.text:
+    text: Дадаць праверку замены рэгулярнага выразу…
+action.add.regexp.replace.template.text:
+    text: Дадаць шаблон замены рэгулярнага выразу…
+action.add.regexp.search.inspection.text:
+    text: Дадаць праверку пошуку рэгулярнага выразу…
+action.add.regexp.search.template.text:
+    text: Дадаць шаблон пошуку рэгулярнага выразу…
+button.enable.replace:
+    text: Уключыць замену
+button.search.only:
+    text: Толькі пошук
+checker.sample.text:
+    text: Прыклад тэксту
+color.settings.bad.character:
+    text: Няправільны сімвал
+color.settings.brace:
+    text: Фігурныя дужкі
+color.settings.bracket:
+    text: Квадратныя дужкі
+color.settings.character.class:
+    text: Клас сімвалаў
+color.settings.comma:
+    text: Запятая
+color.settings.comment:
+    text: Каментарый
+color.settings.dot:
+    text: Точка
+color.settings.escaped.character:
+    text: Экранаваны сімвал
+color.settings.inline.option:
+    text: Убудаваная опцыя
+color.settings.invalid.escape.sequence:
+    text: Неверная escape-последовательность
+color.settings.matched.groups:
+    text: Супаўшыя групы
+color.settings.name:
+    text: Імя
+color.settings.operator.character:
+    text: Сімвал аператара
+color.settings.parenthesis:
+    text: Круглыя дужкі
+color.settings.plain.character:
+    text: Звычайны сімвал
+color.settings.quantifier:
+    text: Квантыфікатар
+color.settings.quote.character:
+    text: Экранаванне двукоссяў
+color.settings.redundant.escape.sequence:
+    text: Лішняя escape-паслядоўнасць
+color.settings.title.regexp:
+    text: Рэгулярны выраз
+dialog.message.inspection.with.name.exists.warning:
+    text: Праверка з імем ''{0}'' ужо існуе
+doc.property.block.stands.for.0:
+    text: Блок свойств обозначает {0}
+doc.property.block.stands.for.characters.not.matching.0:
+    text: Блок уласцівасцей абазначае сімвалы, якія не адпавядаюць {0}
+edit.metadata.button:
+    text: Рэдагаваць метаданыя…
+error.0.repetition.not.allowed.inside.lookbehind:
+    text: Паўтарэнне {0} не дапускаецца ўнутры lookbehind
+error.alternation.alternatives.needs.to.have.the.same.length.inside.lookbehind:
+    text: Альтэрнатывы ўнутры lookbehind павінны мець аднолькавую даўжыню
+error.atomic.groups.are.not.supported.in.this.regex.dialect:
+    text: Атамарныя групы не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
+error.back.reference.is.nested.into.the.capturing.group.it.refers.to:
+    text: Адваротная спасылка ўкладзена ў захопліваючую групу, на якую яна спасылаецца
+error.conditional.group.reference.not.allowed.inside.lookbehind:
+    text: Спасылка на ўмоўную групу не дапускаецца ўнутры lookbehind
+error.conditionals.are.not.supported.in.this.regex.dialect:
+    text: Умоўныя выразы не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
+error.dangling.metacharacter:
+    text: Вісячы метасімвал ''{0}''
+error.dangling.opening.bracket:
+    text: Нечаканы пачатак квантыфікатара '{'
+error.define.subpattern.contains.more.than.one.branch:
+    text: Падшаблон DEFINE змяшчае некалькі галін
+error.embedded.comments.are.not.supported.in.this.regex.dialect:
+    text: Убудаваныя каментары не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
+error.empty.group:
+    text: Пустая группа
+error.group.reference.is.nested.into.the.named.group.it.refers.to:
+    text: Спасылка на групу ўкладзена ў іменаваную групу, на якую яна спасылаецца
+error.group.reference.not.allowed.inside.lookbehind:
+    text: Спасылка на групу не дапускаецца ўнутры lookbehind
+error.group.with.name.0.already.defined:
+    text: Група з імем ''{0}'' ужо вызначана
+error.illegal.character.range.to.from:
+    text: Недапушчальны дыяпазон сімвалаў (to < from)
+error.illegal.hexadecimal.escape.sequence:
+    text: Недапушчальная шаснаццатковая escape-паслядоўнасць
+error.illegal.octal.escape.sequence:
+    text: Недапушчальная васьмярковая escape-паслядоўнасць
+error.illegal.repetition.range.min.max:
+    text: Недапушчальны дыяпазон паўтарэнняў (min > max)
+error.illegal.unicode.escape.sequence:
+    text: Недапушчальная Unicode escape-паслядоўнасць
+error.illegal.unsupported.escape.sequence:
+    text: Недапушчальная/непадтрымлівальная escape-паслядоўнасць
+error.invalid.group.name:
+    text: Недапушчальнае імя групы
+error.look.behind.groups.are.not.supported.in.this.regex.dialect:
+    text: Групы lookbehind не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
+error.lookaround.conditions.in.conditionals.not.supported.in.this.regex.dialect:
+    text: Умовы прагляду ва ўмоўных выразах не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
+error.named.group.reference.not.allowed.inside.lookbehind:
+    text: Спасылка на іменаваную групу не дапускаецца ўнутры lookbehind
+error.named.unicode.characters.are.not.allowed.in.this.regex.dialect:
+    text: Іменаваныя Unicode-сімвалы не дапускаюцца ў гэтым дыялекце рэгулярных выразаў
+error.nested.quantifier.in.regexp:
+    text: Укладзены квантыфікатар у рэгулярным выразе
+error.property.escape.sequences.are.not.supported.in.this.regex.dialect:
+    text: Escape-паслядоўнасці ўласцівасцей не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
+error.redundant.group.nesting:
+    text: Лішняя ўкладзенасць груп
+error.repetition.value.too.large:
+    text: Занадта вялікае значэнне паўтарэння
+error.this.boundary.is.not.supported.in.this.regex.dialect:
+    text: Гэта мяжа не падтрымліваецца ў гэтым дыялекце рэгулярных выразаў
+error.this.hex.character.syntax.is.not.supported.in.this.regex.dialect:
+    text: Гэты сінтаксіс шаснаццатковых сімвалаў не падтрымліваецца ў гэтым дыялекце рэгулярных выразаў
+error.this.kind.group.reference.condition.not.supported.in.this.regex.dialect:
+    text: Гэты тып умовы спасылкі на групу не падтрымліваецца ў гэтым дыялекце рэгулярных выразаў
+error.this.named.group.reference.syntax.is.not.supported.in.this.regex.dialect:
+    text: Гэты сінтаксіс спасылкі на іменаваную групу не падтрымліваецца ў гэтым дыялекце рэгулярных выразаў
+error.this.named.group.syntax.is.not.supported.in.this.regex.dialect:
+    text: Гэты сінтаксіс іменаванай групы не падтрымліваецца ў гэтым дыялекце рэгулярных выразаў
+error.unequal.min.and.max.in.counted.quantifier.not.allowed.inside.lookbehind:
+    text: Няроўныя min і max у злічальным квантыфікатары не дапускаюцца ўнутры lookbehind
+error.unknown.character.category:
+    text: Невядомая катэгорыя сімвалаў
+error.unknown.character.name:
+    text: Невядомае імя сімвала
+error.unknown.inline.option.flag:
+    text: Невядомы сцяг убудаванай опцыі
+error.unknown.posix.character.class:
+    text: Невядомы клас сімвалаў POSIX
+error.unknown.property.name:
+    text: Невядомае імя ўласцівасці
+error.unknown.property.value:
+    text: Невядомае значэнне ўласцівасці
+error.unresolved.back.reference:
+    text: Неразрешённая обратная ссылка
+error.unresolved.named.group.reference:
+    text: Невырашаная спасылка на іменаваную групу
+error.unresolved.numbered.group.reference:
+    text: Неразрешённая ссылка на нумерованную группу
+filetype.regular.expression.description:
+    text: Рэгулярны выраз
+inspection.group.name.regexp:
+    text: Рэгулярныя выразы
+inspection.name.anonymous.group.or.numeric.back.reference:
+    text: Ананімная захопліваючая група або лікавая адваротная спасылка
+inspection.name.begin.or.end.anchor.in.unexpected.position:
+    text: Якар пачатку або канца ў нечаканай пазіцыі
+inspection.name.consecutive.spaces:
+    text: Последовательные пробелы
+inspection.name.custom.regexp:
+    text: Карыстальніцкая праверка рэгулярнага выразу
+inspection.name.duplicate.branch.in.alternation:
+    text: Дублюючая галіна ў альтэрнатыве
+inspection.name.duplicate.character.in.class:
+    text: Дублюючы сімвал у класе
+inspection.name.empty.branch.in.alternation:
+    text: Пустая галіна ў альтэрнатыве
+inspection.name.escaped.meta.character:
+    text: Экранаваны метасімвал
+inspection.name.octal.escape:
+    text: Васьмярковае экранаванне
+inspection.name.redundant.character.escape:
+    text: Лішняе экранаванне сімвала
+inspection.name.redundant.digit.class.element:
+    text: Лішні элемент класа '\d', '[:digit:]' або '\D'
+inspection.name.redundant.nested.character.class:
+    text: Лішні ўкладзены клас сімвалаў
+inspection.name.simplifiable.expression:
+    text: Рэгулярны выраз можна спрасціць
+inspection.name.single.character.alternation:
+    text: Аднасімвальная альтэрнатыва
+inspection.name.suspicious.backref:
+    text: Падазроная адваротная спасылка
+inspection.name.unnecessary.non.capturing.group:
+    text: Непатрэбная незахопліваючая група
+inspection.option.ignore.escaped.closing.brackets:
+    text: Ігнараваць экранаваныя закрывальныя дужкі '}' і ']'
+inspection.quick.fix.remove.duplicate.0.from.character.class:
+    text: Выдаліць дублюючы ''{0}'' з класа сімвалаў
+inspection.quick.fix.remove.duplicate.branch:
+    text: Выдаліць дублюючую галіну
+inspection.quick.fix.remove.duplicate.element.from.character.class:
+    text: Выдаліць дублюючы элемент з класа сімвалаў
+inspection.quick.fix.remove.empty.branch:
+    text: Выдаліць пустую галіну
+inspection.quick.fix.remove.redundant.0.class.element:
+    text: Выдаліць лішні элемент класа ''{0}''
+inspection.quick.fix.remove.redundant.class.element:
+    text: Выдаліць лішні элемент класа
+inspection.quick.fix.remove.redundant.escape:
+    text: Выдаліць лішняе экранаванне
+inspection.quick.fix.remove.unnecessary.non.capturing.group:
+    text: Распакаваць непатрэбную незахопліваючую групу
+inspection.quick.fix.replace.alternation.with.character.class:
+    text: Замяніць альтэрнатыву класам сімвалаў
+inspection.quick.fix.replace.redundant.character.class.with.contents:
+    text: Замяніць лішні клас сімвалаў яго змесцівам
+inspection.quick.fix.replace.with.character.inside.class:
+    text: Замяніць сімвалам унутры класа
+inspection.quick.fix.replace.with.hexadecimal.escape:
+    text: Замяніць шаснаццатковым экранаваннем
+inspection.quick.fix.replace.with.space.and.repeated.quantifier:
+    text: Замяніць прабелам і паўторным квантыфікатарам
+inspection.tree.create.inspection:
+    text: Выкарыстанне рэгулярнага выразу…
+inspection.tree.group.description:
+    text: Выкарыстоўвайце кнопку + на панэлі інструментаў для стварэння новай праверкі структурнага пошуку.<br>Праверкі структурнага пошуку падсвечваюць фрагменты кода, якія адпавядаюць зададзенаму шаблону пошуку. Хуткія выпраўленні можна дадаць з дапамогай шаблона замены.<br><br><a href="action://ssr.profile.action.provider.add.group">Дадаць карыстальніцкую праверку структурнага пошуку…</a>
+inspection.warning.anchor.code.ref.code.in.unexpected.position:
+    text: Якар <code>#ref</code> у нечаканай пазіцыі
+inspection.warning.anonymous.capturing.group:
+    text: Ананімная захопліваючая група
+inspection.warning.can.be.removed:
+    text: <code>#ref</code> лішняе
+inspection.warning.can.be.simplified:
+    text: <code>#ref</code> можна спрасціць да ''{0}''
+inspection.warning.consecutive.spaces.in.regexp:
+    text: '{0} паслядоўных прабелаў у рэгулярным выразе'
+inspection.warning.duplicate.branch.in.alternation:
+    text: Дублюючая галіна ў альтэрнатыве
+inspection.warning.empty.branch.in.alternation:
+    text: Пустая галіна ў альтэрнатыве
+inspection.warning.escaped.meta.character.0:
+    text: Экранаваны метасімвал <code>{0}</code>
+inspection.warning.group.back.reference.are.in.different.branches:
+    text: Група <code>{0}</code> і гэта адваротная спасылка знаходзяцца ў розных галінах
+inspection.warning.group.defined.after.back.reference:
+    text: Група <code>{0}</code> вызначана пасля гэтай адваротнай спасылкі
+inspection.warning.numeric.back.reference:
+    text: Лікавая адваротная спасылка
+inspection.warning.octal.escape.code.ref.code.in.regexp:
+    text: Васьмярковае экранаванне <code>#ref</code> у рэгулярным выразе
+inspection.warning.potential.exponential.backtracking:
+    text: Патэнцыяльны экспаненцыяльны бэктрэкінг
+inspection.warning.redundant.character.escape.0.in.regexp:
+    text: Лішняе экранаванне сімвала <code>{0}</code> у рэгулярным выразе
+inspection.warning.redundant.class.element:
+    text: Лішні ''{0}'' у рэгулярным выразе
+inspection.warning.redundant.nested.character.class:
+    text: Лішні ўкладзены клас сімвалаў
+inspection.warning.single.character.alternation.in.regexp:
+    text: Адназначная альтэрнатыва ў рэгулярным выразе
+inspection.warning.unnecessary.non.capturing.group:
+    text: Непатрэбная незахопліваючая група <code>{0}</code>
+intention.family.name.replace:
+    text: Замяніць
+intention.name.check.regexp:
+    text: Праверыць рэгулярны выраз
+label.any:
+    text: Любой
+label.regexp:
+    text: 'Рэгулярны выраз [&R]:'
+label.regexp.patterns:
+    text: 'Шаблоны рэгулярных выразаў:'
+label.sample:
+    text: 'Прыклад [&S]:'
+no.description.provided.description:
+    text: Апісанне не прадастаўлена
+parse.error.category.shorthand.not.allowed.in.this.regular.expression.dialect:
+    text: Скарочаная форма катэгорыі не дапускаецца ў гэтым дыялекце рэгулярных выразаў
+parse.error.character.class.expected:
+    text: Чакаецца клас сімвалаў
+parse.error.character.expected:
+    text: Чакаецца сімвал
+parse.error.character.or.mysql.character.name.expected:
+    text: Чакаецца сімвал або імя сімвала MySQL
+parse.error.closing.brace.expected:
+    text: Чакаецца '}'
+parse.error.closing.brace.or.number.expected:
+    text: Чакаецца '}' або лік
+parse.error.comma.expected:
+    text: Чакаецца ','
+parse.error.empty.property:
+    text: Пустое свойство
+parse.error.group.name.expected:
+    text: Чакаецца імя групы
+parse.error.group.name.or.number.expected:
+    text: Чакаецца імя групы або лік
+parse.error.group.number.expected:
+    text: Чакаецца нумар групы
+parse.error.illegal.category.shorthand:
+    text: Недапушчальная скарочаная форма катэгорыі
+parse.error.illegal.character.range:
+    text: Недапушчальны дыяпазон сімвалаў
+parse.error.negating.a.property.not.allowed.in.this.regular.expression.dialect:
+    text: Адмаўленне ўласцівасці не дапускаецца ў гэтым дыялекце рэгулярных выразаў
+parse.error.number.expected:
+    text: Чакаецца лік
+parse.error.opening.brace.expected:
+    text: Чакаецца '{'
+parse.error.opening.brace.or.category.shorthand.expected:
+    text: Чакаецца '{' або скарочаная форма катэгорыі
+parse.error.pattern.expected:
+    text: Чакаецца шаблон
+parse.error.posix.character.class.name.expected:
+    text: Чакаецца імя класа сімвалаў POSIX
+parse.error.property.name.expected:
+    text: Чакаецца імя ўласцівасці
+parse.error.property.value.expected:
+    text: Чакаецца значэнне ўласцівасці
+parse.error.unclosed.character.class:
+    text: Незакрыты клас сімвалаў
+parse.error.unclosed.group:
+    text: Чакаецца ')'
+parse.error.unclosed.group.name:
+    text: Незакрытае імя групы
+parse.error.unclosed.group.reference:
+    text: Незакрытая ссылка на группу
+parse.error.unclosed.mysql.character.equivalence.class:
+    text: Незакрыты клас эквівалентнасці сімвалаў MySQL
+parse.error.unclosed.mysql.character.expression:
+    text: Незакрыты выраз сімвала MySQL
+parse.error.unclosed.options.group:
+    text: Незакрытая група опцый
+parse.error.unclosed.posix.bracket.expression:
+    text: Незакрыты выраз у квадратных дужках POSIX
+parse.error.unclosed.property:
+    text: Незакрытое свойство
+parse.error.unicode.character.name.expected:
+    text: Чакаецца імя сімвала Unicode
+parse.error.unmatched.closing.bracket:
+    text: Няпарная закрывальная дужка ''{0}''
+regexp.dialog.language:
+    text: 'Язык [&L]:'
+regexp.dialog.replace.template:
+    text: 'Замена:'
+regexp.dialog.search.template:
+    text: 'Рэгулярны выраз для пошуку:'
+surrounder.atomic.group.pattern:
+    text: Атомарная группа(?:шаблон)
+surrounder.capturing.group.pattern:
+    text: Захопліваючая група(шаблон)
+surrounder.negative.lookahead.pattern:
+    text: Негатыўны прагляд наперад(?!шаблон)
+surrounder.negative.lookbehind.pattern:
+    text: Негатыўны прагляд назад(?<!шаблон)
+surrounder.non.capturing.group.pattern:
+    text: Незахопліваючая група(?:шаблон)
+surrounder.positive.lookahead.pattern:
+    text: Пазітыўны прагляд наперад(?=шаблон)
+surrounder.positive.lookbehind.pattern:
+    text: Пазітыўны прагляд назад(?<=шаблон)
+tooltip.bad.pattern:
+    text: Няправільны шаблон рэгулярнага выразу
+tooltip.found:
+    text: Выраз знойдзены ў прыкладзе
+tooltip.found.multiple:
+    text: Выраз знойдзены ў прыкладзе {0} раз
+tooltip.matches:
+    text: Выраз адпавядае прыкладу!
+tooltip.more.input.expected:
+    text: Чакаецца больш уваходных даных
+tooltip.no.match:
+    text: Выраз не адпавядае прыкладу
+tooltip.pattern.is.too.complex:
+    text: Шаблон рэгулярнага выразу занадта складаны
+warning.duplicate.character.0.inside.character.class:
+    text: Дублюючы сімвал ''{0}'' унутры класа сімвалаў
+warning.duplicate.predefined.character.class.0.inside.character.class:
+    text: Дублюючы прадвызначаны клас сімвалаў ''{0}'' унутры класа сімвалаў
