@@ -19,19 +19,19 @@ dtd.parser.message.whitespace.expected:
 element.is.not.closed:
     text: Элемент не закрыт
 expected.attribute.eq.sign:
-    text: Чакаецца знак '='
+    text: "Чакаецца знак '='"
 jsp.directive.end.expected:
     text: Чакаецца канец дырэктывы
 quote.expected:
     text: Чакаецца двукоссе
 rename.end.tag.name.intention:
-    text: Перайменаваць закрывальны тэг ''{0}'' у ''{1}''
+    text: "Перайменаваць закрывальны тэг ''{0}'' у ''{1}''"
 rename.start.tag.name.intention:
-    text: Перайменаваць адкрывальны тэг ''{0}'' у ''{1}''
+    text: "Перайменаваць адкрывальны тэг ''{0}'' у ''{1}''"
 tag.has.wrong.closing.tag.name:
     text: Адкрывальны тэг мае няправільны закрывальны тэг
 unknown.encoding.0:
-    text: 'Невядомая кадыроўка: ''''{0}'''''
+    text: "Невядомая кадыроўка: ''{0}''"
 xml.parsing.absent.root.tag:
     text: Карэктны XML дакумент павінен мець каранёвы тэг
 xml.parsing.attribute.value.expected:
@@ -63,8 +63,8 @@ xml.parsing.unterminated.processing.instruction:
 xml.schema.validation.attr.not.allowed.with.ref:
     text: Атрыбут {0} не дазволены тут пры выкарыстанні спасылкі на элемент
 xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
-    text: Атрыбуты 'default' і 'fixed' не павінны прысутнічаць адначасова
+    text: "Атрыбуты 'default' і 'fixed' не павінны прысутнічаць адначасова"
 xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
     text: Значэнне maxOccurs павінна быць больш за значэнне minOccurs
 xml.schema.validation.name.or.ref.should.present:
-    text: Павінен прысутнічаць атрыбут 'name' або 'ref'
+    text: "Павінен прысутнічаць атрыбут 'name' або 'ref'"

@@ -7,7 +7,7 @@ action.name.save.configuration:
 action.terminating.process.progress.kill.description:
     text: Завяршэнне працэсу
 add.new.run.configuration.action.name:
-    text: Дадаць новую канфігурацыю ''{0}''
+    text: "Дадаць новую канфігурацыю ''{0}''"
 add.new.run.configuration.action2.name:
     text: Дадайце новую канфігурацыю
 all.tests.scope.presentable.text:
@@ -31,7 +31,7 @@ before.launch.panel.title:
 before.launch.run.another.configuration:
     text: Запусціце іншую канфігурацыю
 before.launch.run.certain.configuration:
-    text: Запусціць ''{0}''
+    text: "Запусціць ''{0}''"
 before.launch.run.unknown.task:
     text: Невядомая задача
 button.add:
@@ -59,11 +59,11 @@ choose.test.method.dialog.title:
 class.does.not.exists.error.message:
     text: Клас {0} не існуе
 class.isnt.inheritor.of.testcase.error.message:
-    text: '{0} не з''яўляецца нашчадкам TestCase'
+    text: "{0} не з'яўляецца нашчадкам TestCase"
 class.isnt.test.class.error.message:
-    text: '{0} не з''яўляецца тэставым класам'
+    text: "{0} не з'яўляецца тэставым класам"
 class.not.found.in.module.error.message:
-    text: Клас ''{0}'' не знойдзены ў модулі ''{1}''
+    text: "Клас ''{0}'' не знойдзены ў модулі ''{1}''"
 clear.all.from.console.action.name:
     text: Ачысціць усё
 close.tab.action.name:
@@ -91,7 +91,7 @@ coverage.tab.title:
 create.run.configuration.action.name:
     text: Змяніць канфігурацыю запуску...
 create.run.configuration.for.item.dialog.title:
-    text: 'Стварыць канфігурацыю запуску: ''''{0}'''''
+    text: "Стварыць канфігурацыю запуску: ''{0}''"
 default.junit.config.name.all.in.module:
     text: Все в {0}
 default.junit.config.name.all.in.package.in.module:
@@ -119,7 +119,7 @@ down.the.stack.trace:
 edit.configuration.action:
     text: Рэдагаваць канфігурацыю [&E]
 edit.run.configuration.for.item.dialog.title:
-    text: 'Рэдагаваць канфігурацыю запуску: ''''{0}'''''
+    text: "Рэдагаваць канфігурацыю запуску: ''{0}''"
 edit.run.configuration.run.configuration.name.label:
     text: 'Імя [&N]:'
 encoding.name.system.default:
@@ -137,13 +137,13 @@ environment.variables.helper.use.arguments.label:
 error.common.title:
     text: Памылка
 error.running.configuration.message:
-    text: Памылка пры запуску ''{0}''
+    text: "Памылка пры запуску ''{0}''"
 execute.before.run.debug.dialog.title:
     text: Выканайце {0} перад запускам/адладкай
 export.test.results.custom.template.chooser.title:
     text: Выберыце карыстацкі шаблон
 export.test.results.custom.template.not.found:
-    text: Файл карыстальніцкага шаблону ''{0}'' не знойдзены
+    text: "Файл карыстальніцкага шаблону ''{0}'' не знойдзены"
 export.test.results.custom.template.path.empty:
     text: Шлях да карыстацкага шаблону пусты
 export.test.results.dialog.title:
@@ -151,7 +151,9 @@ export.test.results.dialog.title:
 export.test.results.failed:
     text: 'Не ўдалося экспартаваць вынікі тэсту: {0}'
 export.test.results.file.exists.message:
-    text: "Файл «{0}» ужо існуе.\nЖадаеце перазапісаць яго?"
+    text: |-
+        Файл «{0}» ужо існуе.
+        Жадаеце перазапісаць яго?
 export.test.results.file.exists.title:
     text: Экспартаваць вынікі тэстаў
 export.test.results.filename:
@@ -173,7 +175,7 @@ export.test.results.succeeded:
 export.test.results.task.name:
     text: Экспартаваць вынікі тэстаў
 failed.to.create.output.file:
-    text: Не ўдалося стварыць выходны файл ''{0}''
+    text: "Не ўдалося стварыць выходны файл ''{0}''"
 fix.run.configuration.problem.button:
     text: Выправіць
 home.directory.not.specified.for.jdk.error.message:
@@ -217,7 +219,7 @@ junit.configuration.test.method.radio:
 junit.configuration.test.runner.parameters.label:
     text: 'Параметры тест-раннера:'
 junit.not.found.in.module.error.message:
-    text: JUnit не найден в модуле ''{0}''
+    text: "JUnit не найден в модуле ''{0}''"
 junit.open.text.in.editor.action.name:
     text: Адкрыйце абраны тэст у рэдактары
 junit.runing.info.folders.on.top.action.description:
@@ -285,13 +287,13 @@ message.cannot.find.file.0:
 method.name.not.specified.error.message:
     text: Імя метаду не ўказана
 module.does.not.exist.error.message:
-    text: Модуль ''{0}'' не існуе
+    text: "Модуль ''{0}'' не існуе"
 module.does.not.exists:
-    text: Модуль ''{0}'' не існуе ў праекце ''{1}''
+    text: "Модуль ''{0}'' не існуе ў праекце ''{1}''"
 module.doesn.t.exist.in.project.error.text:
-    text: Модуль ''{0}'' не існуе ў праекце
+    text: "Модуль ''{0}'' не існуе ў праекце"
 module.is.unloaded.from.project.error.text:
-    text: Модуль ''{0}'' выгружаны з праекта
+    text: "Модуль ''{0}'' выгружаны з праекта"
 module.not.specified.error.text:
     text: Модуль не ўказаны
 move.down.action.name:
@@ -303,11 +305,11 @@ multiple.specified:
 next.faled.test.action.name:
     text: Наступны няўдалы тэст
 no.jdk.for.module.error.message:
-    text: Для модуля ''{0}'' не вызначаны JDK
+    text: "Для модуля ''{0}'' не вызначаны JDK"
 no.jdk.specified..error.message:
     text: JDK не ўказаны
 no.jdk.specified.for.module.warning.text:
-    text: Для модуля ''{0}'' не вызначаны JDK
+    text: "Для модуля ''{0}'' не вызначаны JDK"
 no.junit.error.message:
     text: junit.jar адсутнічае
 no.junit.in.scope.error.message:
@@ -327,9 +329,9 @@ open.message.view:
 output.tab.title:
     text: Вывод
 package.does.not.exist.error.message:
-    text: Пакет ''{0}'' не існуе
+    text: "Пакет ''{0}'' не існуе"
 package.not.found.error.message:
-    text: Пакет ''{0}'' не знойдзены
+    text: "Пакет ''{0}'' не знойдзены"
 perform.action.with.context.configuration.action.name:
     text: Канфігурацыя кантэксту {0}
 popup.title.choose.target.file:
@@ -349,7 +351,7 @@ remote.debug.configuration.display.name:
 remove.run.configuration.action.name:
     text: Выдаліць канфігурацыю
 rerun.configuration.action.name:
-    text: Перазапусціць ''{0}''
+    text: "Перазапусціць ''{0}''"
 rerun.confirmation.button.text:
     text: Спыніць і перазапусціць
 rerun.singleton.confirmation.message:
@@ -465,13 +467,13 @@ run.toolbar.widget.all.configurations:
 runner.content.tooltip.layout.settings:
     text: Налады макета
 save.temporary.run.configuration.action.name:
-    text: Захаваць канфігурацыю ''{0}'' [&S]
+    text: "Захаваць канфігурацыю ''{0}'' [&S]"
 script.execution.timeout:
     text: Выкананне скрыпта перавысіла {0} секунд.
 searching.test.progress.title:
     text: Пошук тэстаў...
 select.0.1:
-    text: Выберыце {0} ''{1}''
+    text: "Выберыце {0} ''{1}''"
 select.working.directory.message:
     text: Выберыце працоўны каталог
 service.view.activate.tool.window.action.description:
@@ -561,11 +563,11 @@ stop.all:
 stop.background.process:
     text: Спыніць фонавы працэс
 stop.configuration.action.name:
-    text: Спыніць ''{0}''
+    text: "Спыніць ''{0}''"
 stop.incompatible.confirmation.button.text:
     text: Стоп несумяшчальнае
 stop.incompatible.confirmation.message:
-    text: Канфігурацыя запуску ''{0}'' несумяшчальная з {2, choice, 1#бягучай запушчанай канфігурацыяй {1}.|2#наступнымі запушчанымі канфігурацыямі:{1}} Вы ўпэўнены, што хочаце спыніць {2, choice, 1#несумяшчальны запушчаны экзэмпляр|2#{2, number} несумяшчальных запушчаных экзэмпляраў}?
+    text: "Канфігурацыя запуску ''{0}'' несумяшчальная з {2, choice, 1#бягучай запушчанай канфігурацыяй {1}.|2#наступнымі запушчанымі канфігурацыямі:{1}} Вы ўпэўнены, што хочаце спыніць {2, choice, 1#несумяшчальны запушчаны экзэмпляр|2#{2, number} несумяшчальных запушчаных экзэмпляраў}?"
 stop.process:
     text: Спыніць працэс
 strings.equal.failed.dialog.title:
@@ -575,11 +577,11 @@ terminate.process.confirmation.text:
 terminating.process.progress.kill:
     text: Завяршэнне працэсу
 terminating.process.progress.title:
-    text: Завяршэнне ''{0}''
+    text: "Завяршэнне ''{0}''"
 test.in.scope.presentable.text:
-    text: Тэсты ў ''{0}''
+    text: "Тэсты ў ''{0}''"
 test.method.doesnt.exist.error.message:
-    text: Тэставы метад ''{0}'' не існуе
+    text: "Тэставы метад ''{0}'' не існуе"
 test.not.started.progress.text:
     text: Тэст не працуе
 title.cannot.open.file:

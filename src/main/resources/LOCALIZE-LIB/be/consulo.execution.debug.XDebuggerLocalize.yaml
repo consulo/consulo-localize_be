@@ -73,7 +73,7 @@ exception.label:
 exception.tab.name:
     text: Выключэнне
 inspect.value.dialog.title:
-    text: Даследаваць ''{0}''
+    text: "Даследаваць ''{0}''"
 invalid.frame:
     text: <Несапраўдны фрэйм>
 load.value.task.error:
@@ -107,7 +107,7 @@ memory.view.table.column.name.diff:
 multiple.chains.popup.title:
     text: Найдено несколько цепочек
 node.test.show.full.value:
-    text: ...(показать)
+    text: '...(показать)'
 node.text.ellipsis.0.more.nodes.double.click.to.show:
     text: …(яшчэ {0} элемент{0,choice, 1#|2#ы|5#аў}. Двайны пстрычок для прагляду)
 node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
@@ -159,7 +159,7 @@ settings.show.window.label:
 settings.tooltip.label:
     text: Калі адключана, выкарыстоўвайце "{0}" для паказу/хавання падказак
 showReferring.dialog.title:
-    text: Аб'екты, якія спасылаюцца, для {0}
+    text: "Аб'екты, якія спасылаюцца, для {0}"
 stack.frame.loading.text:
     text: Загрузка...
 stream.debugger.dialog.flat.mode.button:

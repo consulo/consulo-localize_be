@@ -1,5 +1,5 @@
 0.expected:
-    text: Чакаецца ''{0}''
+    text: "Чакаецца ''{0}''"
 PerFileConfigurableBase.empty.text:
     text: Новае адлюстраванне $addShortcut
 PerFileConfigurableBase.label.project:
@@ -25,13 +25,13 @@ button.do.not.override:
 button.override:
     text: Перавызначэнне
 cannot.delete.a.read.only.file:
-    text: Немагчыма выдаліць файл ''{0}'', даступны толькі для чытання.
+    text: "Немагчыма выдаліць файл ''{0}'', даступны толькі для чытання."
 cannot.modify.a.read.only.directory:
-    text: Немагчыма змяніць дырэкторыю ''{0}'', даступную толькі для чытання.
+    text: "Немагчыма змяніць дырэкторыю ''{0}'', даступную толькі для чытання."
 cannot.modify.a.read.only.file:
-    text: Немагчыма змяніць файл ''{0}'', даступны толькі для чытання.
+    text: "Немагчыма змяніць файл ''{0}'', даступны толькі для чытання."
 cannot.resolve.symbol:
-    text: Не ўдаецца вызначыць сімвал ''{0}''
+    text: "Не ўдаецца вызначыць сімвал ''{0}''"
 class.context.display:
     text: '{0} в {1}'
 color.name:
@@ -51,47 +51,47 @@ completion.quick.javadoc.ad:
 completion.smart.enter.ad:
     text: Выкарыстоўвайце {0} пасля завяршэння (зачыніце дужкі і г.д.), каб выправіць сінтаксіс кода
 compound.run.configuration.cycle:
-    text: '{0} ''''{1}'''' створыць цыклічную залежнасць, нельга дадаць'
+    text: "{0} ''{1}'' створыць цыклічную залежнасць, нельга дадаць"
 default.path.evaluator.option:
     text: Указвае, як правайдар спасылак павінен вылічаць шлях па змаўчанні для дадзенага файла
 dialog.message.duplicate.live.templates.in.group:
     text: Дублікат жывога шаблону `{0}` у групе {1}
 dialog.message.live.template.with.empty.abbreviation:
-    text: Знайшоў жывы шаблон з пустой абрэвіятурай у групе ''{0}'', такія шаблоны забароненыя
+    text: "Знайшоў жывы шаблон з пустой абрэвіятурай у групе ''{0}'', такія шаблоны забароненыя"
 dialog.message.live.template.with.empty.text:
-    text: Знойдзены жывы шаблон ''{0}'' з пустым тэкстам у групе ''{1}'', такія шаблоны бессэнсоўныя
+    text: "Знойдзены жывы шаблон ''{0}'' з пустым тэкстам у групе ''{1}'', такія шаблоны бессэнсоўныя"
 dialog.message.template.with.name.already.exists:
-    text: Шаблон пад назвай ''{0}'' ужо існуе. Увядзіце іншую назву шаблона
+    text: "Шаблон пад назвай ''{0}'' ужо існуе. Увядзіце іншую назву шаблона"
 dialog.message.valid.identifier:
-    text: «{0}» не з'яўляецца сапраўдным ідэнтыфікатарам
+    text: "«{0}» не з'яўляецца сапраўдным ідэнтыфікатарам"
 dialog.template.data.language.caption:
-    text: Мова даных шаблонаў з'яўляецца базавай мовай у файлах шаблонаў FreeMarker/Velocity і іншых фрэймворкаў. Каб змяніць налады мовы даных шаблона для файла, каталога або ўсяго праекта ў {0}, дадайце іх шляхі па меры неабходнасці і абярыце мову з выпадальнага спісу.
+    text: "Мова даных шаблонаў з'яўляецца базавай мовай у файлах шаблонаў FreeMarker/Velocity і іншых фрэймворкаў. Каб змяніць налады мовы даных шаблона для файла, каталога або ўсяго праекта ў {0}, дадайце іх шляхі па меры неабходнасці і абярыце мову з выпадальнага спісу."
 el.cannot.resolve.function:
-    text: 'Не ўдаецца вырашыць функцыю ''''{0}'''' #loc'
+    text: "Не ўдаецца вырашыць функцыю ''{0}'' #loc"
 el.cannot.resolve.method:
-    text: 'Не ўдаецца вырашыць метад ''''{0}''''() #loc'
+    text: "Не ўдаецца вырашыць метад ''{0}''() #loc"
 el.cannot.resolve.namespace:
-    text: 'Не ўдаецца вырашыць прастору імёнаў ''''{0}'''' #loc'
+    text: "Не ўдаецца вырашыць прастору імёнаў ''{0}'' #loc"
 el.cannot.resolve.property:
-    text: 'Не ўдаецца вырашыць уласцівасць або метад ''''{0}'''' (дынамічная ўласцівасць?) #loc'
+    text: "Не ўдаецца вырашыць уласцівасць або метад ''{0}'' (дынамічная ўласцівасць?) #loc"
 el.cannot.resolve.variable:
-    text: 'Не ўдаецца вырашыць пераменную ''''{0}'''' #loc'
+    text: "Не ўдаецца вырашыць пераменную ''{0}'' #loc"
 el.declare.variable.find.acceptable.class:
     text: Знайсці адпаведны клас
 el.declare.variable.intention.family:
-    text: Аб'явіць пераменную як знешнія даныя
+    text: "Аб'явіць пераменную як знешнія даныя"
 el.declare.variable.via.comment.annotation.intention.name:
-    text: Аб'явіць знешнюю пераменную ў анатацыі каментара
+    text: "Аб'явіць знешнюю пераменную ў анатацыі каментара"
 el.declare.variable.via.usebean.intention.name:
-    text: Аб'явіць знешнюю пераменную як <jsp:useBean />
+    text: "Аб'явіць знешнюю пераменную як <jsp:useBean />"
 el.mismatched.parameters.count:
     text: Розная колькасць фармальных і фактычных параметраў
 enum.constant.context:
-    text: Константа enum ''{0}'' в ''{1}''
+    text: "Константа enum ''{0}'' в ''{1}''"
 hint.text.can.t.modify.decompiled.code:
     text: Немагчыма змяніць дэкампіляваны код
 hint.text.couldn.t.find.surround:
-    text: Для бягучага кантэксту не знойдзена параметраў "Аб'ёмны гук".
+    text: "Для бягучага кантэксту не знойдзена параметраў \"Аб'ёмны гук\"."
 incorrect.name:
     text: Няправільнае імя
 indent.option.detected:
@@ -123,7 +123,7 @@ java.terms.type.parameter:
 jsf.el.out.of.attribute:
     text: 'JSF EL па-за атрыбутам #loc'
 jsf.method.call.is.nonstd.extension:
-    text: 'Выклік метаду з''яўляецца нестандартным пашырэннем #loc'
+    text: "Выклік метаду з'яўляецца нестандартным пашырэннем #loc"
 jsp.documentation.message.can.have.runtime.value:
     text: Можа мець значэнне часу выканання:\&nbsp;{0}
 jsp.documentation.message.custom.attribute.name:
@@ -183,13 +183,13 @@ psi.search.scope.project.and.libraries:
 psi.search.scope.test.files:
     text: Тестовые файлы проекта
 psi.search.scope.union:
-    text: Аб'яднанне {0} і {1}
+    text: "Аб'яднанне {0} і {1}"
 quickfix.change.template.data.language.text:
     text: Змяніць мову дадзеных шаблону {0} на...
 search.scope.module:
     text: В одном модуле
 search.scope.module.runtime:
-    text: Runtime область модуля ''{0}''
+    text: "Runtime область модуля ''{0}''"
 search.scope.unknown:
     text: <невядомая вобласць>
 status.bar.text.reference.has.been.copied:

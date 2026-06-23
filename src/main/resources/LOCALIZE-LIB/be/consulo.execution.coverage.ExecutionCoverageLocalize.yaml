@@ -5,7 +5,9 @@ action.ImportCoverage.text:
 action.name.cover:
     text: Покрыть
 branch.coverage.message:
-    text: "Трапленняў: {0}\nПакрыта {1}/{2} галін"
+    text: |-
+        Трапленняў: {0}
+        Пакрыта {1}/{2} галін
 cannot.show.coverage.reports.from.different.engines:
     text: Немагчыма паказаць справаздачы пра пакрыццё з розных рухавікоў.
 choose.coverage.suite.to.display:
@@ -61,7 +63,7 @@ coverage.import.report.toolwindow.empty.text:
 coverage.info.string.file:
     text: '{0,choice,1#файл|2#файла|5#файлов}'
 coverage.is.not.importable:
-    text: Пакрыццё не можа быць імпартавана ў гэта асяроддзе. {0} coverage.py або {1} ''{2}'' у Налады | Зборка, выкананне, разгортванне | Пакрыццё.
+    text: "Пакрыццё не можа быць імпартавана ў гэта асяроддзе. {0} coverage.py або {1} ''{2}'' у Налады | Зборка, выкананне, разгортванне | Пакрыццё."
 coverage.is.not.importable.option.enable:
     text: уключыць
 coverage.is.not.importable.option.install:
@@ -95,7 +97,7 @@ coverage.show.unmodified.elements:
 coverage.tab.title:
     text: Пакрыццё кода
 coverage.view.configuration.was.not.found:
-    text: Канфігурацыя ''{0}'' не знойдзена.
+    text: "Канфігурацыя ''{0}'' не знойдзена."
 coverage.view.edit.run.configuration.0:
     text: Націсніце
 coverage.view.edit.run.configuration.1:
@@ -123,17 +125,17 @@ coverage.view.title:
 delete.file:
     text: Выдаліць файл
 dialog.message.would.you.like.to.delete.file.on.disk:
-    text: Выдаліць файл ''{0}'' з дыска?
+    text: "Выдаліць файл ''{0}'' з дыска?"
 dialog.title.find.tests.by.names:
     text: Пошук тэстаў па імёнах
 display.coverage.prompt:
-    text: Паказаць дадзеныя пакрыцця для ''{0}''?
+    text: "Паказаць дадзеныя пакрыцця для ''{0}''?"
 extract.information.about.tests:
     text: Выняць інфармацыю пра тэсты
 following.test.could.not.be.found.1:
     text: 'Не ўдалося знайсці {0, choice, 1#тэст|2#тэсты}: {1}'
 generate.coverage.report.for:
-    text: 'Стварыць справаздачу пра пакрыццё для: ''''{0}'''''
+    text: "Стварыць справаздачу пра пакрыццё для: ''{0}''"
 hint.text.failed.to.load.covered.tests:
     text: Не ўдалося загрузіць пакрытыя тэсты
 hits.message:
@@ -157,9 +159,9 @@ no.coverage.runner.available.for:
 no.coverage.suites.configured:
     text: Наборы пакрыцця не настроены.
 node.summary.coverage.statistic:
-    text: '{0} в ''''{1}'''''
+    text: "{0} в ''{1}''"
 node.summary.no.coverage:
-    text: Няма пакрыцця ў ''{0}''
+    text: "Няма пакрыцця ў ''{0}''"
 popup.title.tests.covering.line:
     text: Тэсты, якія пакрываюць радок {0}:{1}
 remote.suites.node:
@@ -169,7 +171,7 @@ run.selected.configuration.with.coverage.enabled:
 run.with.coverage:
     text: Запусціць з пакрыццём [_V]
 run.with.coverage.mnemonic:
-    text: Запусціць '%s' з пакрыццём [_V]
+    text: "Запусціць '%s' з пакрыццём [_V]"
 settings.coverage.activate.coverage.view:
     text: Актываваць акно пакрыцця [&V]
 settings.coverage.add.to.the.active.suites:

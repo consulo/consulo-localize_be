@@ -31,11 +31,11 @@ build.artifacts.before.run.description.empty:
 build.artifacts.before.run.description.multiple:
     text: Собрать {0} артефактов
 build.artifacts.before.run.description.single:
-    text: Собрать артефакт ''{0}''
+    text: "Собрать артефакт ''{0}''"
 build.artifacts.before.run.selector.title:
     text: Выбрать артефакты
 chooser.description.select.output.directory.for.0.artifact:
-    text: Выберыце выходны каталог для артэфакта ''{0}''
+    text: "Выберыце выходны каталог для артэфакта ''{0}''"
 classes.up.to.date.check:
     text: Праверка актуальнасці класаў
 compiler.configurable.display.name:
@@ -49,11 +49,13 @@ compiler.results.export.text.prefix:
 compiler.running.dialog.title:
     text: Кампілятар працуе
 dialog.message.output.dir.artifact:
-    text: Артефакт ''{0}'' (''{1}'')
+    text: "Артефакт ''{0}'' (''{1}'')"
 dialog.message.output.dir.contains.source.roots:
-    text: Выходны каталог ''{0}'' артэфакта ''{1}'' змяшчае карані зыходнага кода праекта. Працягнуць і ачысціць яго?
+    text: "Выходны каталог ''{0}'' артэфакта ''{1}'' змяшчае карані зыходнага кода праекта. Працягнуць і ачысціць яго?"
 dialog.message.output.dirs.contain.source.roots:
-    text: "Выходныя каталогі наступных артэфактаў змяшчаюць карані зыходнага кода:\n{0}Працягнуць і ачысціць гэтыя каталогі?"
+    text: |-
+        Выходныя каталогі наступных артэфактаў змяшчаюць карані зыходнага кода:
+        {0}Працягнуць і ачысціць гэтыя каталогі?
 dialog.title.choose.artifacts:
     text: Выбрать артефакты
 dialog.title.output.directory.for.artifact:
@@ -71,11 +73,19 @@ element.type.name.module.test.output:
 error.bad.resource.patterns:
     text: Наступныя шаблоны рэсурсаў маюць няправільны фармат:{0}
 error.chunk.modules.must.have.same.jdk:
-    text: "Наступныя модулі павінны мець аднолькавую версію JDK з-за цыклічных залежнасцей паміж імі:\n{0}\nАбнавіце канфігурацыю модуляў"
+    text: |-
+        Наступныя модулі павінны мець аднолькавую версію JDK з-за цыклічных залежнасцей паміж імі:
+        {0}
+        Абнавіце канфігурацыю модуляў
 error.chunk.modules.must.have.same.language.level:
-    text: "Наступныя модулі павінны мець аднолькавы ўзровень мовы з-за цыклічных залежнасцей паміж імі:\n{0}\nАбнавіце канфігурацыю модуляў"
+    text: |-
+        Наступныя модулі павінны мець аднолькавы ўзровень мовы з-за цыклічных залежнасцей паміж імі:
+        {0}
+        Абнавіце канфігурацыю модуляў
 error.compiler.configurable.malformed.patterns:
-    text: "Наступныя шаблоны рэсурсаў маюць няправільны фармат:\n{0}"
+    text: |-
+        Наступныя шаблоны рэсурсаў маюць няправільны фармат:
+        {0}
 error.javac.out.of.memory:
     text: Недастаткова памяці. Павялічце максімальны памер кучы ў наладах Уласцівасці праекта|Кампілятар.
 error.output.not.specified:
@@ -107,7 +117,7 @@ label.text.class.path:
 label.text.main.class:
     text: 'Главный класс  [&M]:'
 mesage.text.deployment.descriptor.file.not.exist:
-    text: Файл дэскрыптара разгортвання ''{0}'' не існуе
+    text: "Файл дэскрыптара разгортвання ''{0}'' не існуе"
 message.category.error:
     text: ПАМЫЛКА
 message.category.information:
@@ -121,15 +131,15 @@ message.resource.patterns.format.changed:
 message.text.deployment.description.invalid.file:
     text: Некорректный файл
 message.text.error.copying.file.to.file:
-    text: Памылка капіравання ''{0}'' у ''{1}''.
+    text: "Памылка капіравання ''{0}'' у ''{1}''."
 message.text.xml.file.invalid:
-    text: XML файл ''{0}'' некорректен
+    text: "XML файл ''{0}'' некорректен"
 no.excludes:
     text: Няма выключэнняў
 no.validators:
     text: Няма даступных валідатараў
 node.text.0.directory.content:
-    text: Змесціва дырэкторыі ''{0}''
+    text: "Змесціва дырэкторыі ''{0}''"
 option.use.compiler.text:
     text: 'Выкарыстоўваць кампілятар:'
 packaging.element.text.output.root:
@@ -151,9 +161,9 @@ progress.parsing.file:
 progress.updating.caches:
     text: Абнаўленне кэша…
 rebuild.lvcs.label.no.errors:
-    text: '''''{0}'''' без памылак'
+    text: "''{0}'' без памылак"
 rebuild.lvcs.label.with.errors:
-    text: '''''{0}'''' з памылкамі'
+    text: "''{0}'' з памылкамі"
 rmi.compiler.description:
     text: RMI кампілятар
 rmic.option.enable.rmi.stubs:

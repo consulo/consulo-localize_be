@@ -213,7 +213,7 @@ options.java.attribute.descriptor.comma:
 options.java.attribute.descriptor.constructor.call:
     text: Метады //Выклік канструктара
 options.java.attribute.descriptor.constructor.declaration:
-    text: Метады //Аб'ява канструктара
+    text: "Метады //Аб'ява канструктара"
 options.java.attribute.descriptor.deprecated.symbol:
     text: Памылкі і папярэджанні // Састарэлы сімвал
 options.java.attribute.descriptor.dot:
@@ -469,7 +469,9 @@ options.xml.attribute.descriptor.tag.data:
 options.xml.attribute.descriptor.tag.name:
     text: Імя тэга
 project.file.read.only.error.message:
-    text: "Файл праекта прызначаны толькі для чытання.\nНастройкі не будуць захаваны, пакуль вы не зробіце файл даступным для запісу."
+    text: |-
+        Файл праекта прызначаны толькі для чытання.
+        Настройкі не будуць захаваны, пакуль вы не зробіце файл даступным для запісу.
 properties.options.display.name:
     text: Уласцівасці
 settings.panel.title:

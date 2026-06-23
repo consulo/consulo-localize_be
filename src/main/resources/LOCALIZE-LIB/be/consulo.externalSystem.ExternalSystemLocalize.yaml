@@ -17,19 +17,22 @@ error.resolve.already.running:
 error.resolve.generic:
     text: Памылка дазволу
 error.resolve.with.reason:
-    text: "{0}\n\nГл. лог IDE для падрабязнасцей (Даведка|Паказаць лог)"
+    text: |-
+        {0}
+
+        Гл. лог IDE для падрабязнасцей (Даведка|Паказаць лог)
 module.type.description:
     text: Модулі {0} выкарыстоўваюцца для распрацоўкі <b>JVM-based</b> прыкладанняў з залежнасцямі, кіраванымі <b>{0}</b>.
 notification.messages.project.sync.tab.name:
     text: Сінхранізацыя {0}
 notification.project.refresh.fail.title:
-    text: Сінхранізацыя праекта {0} ''{1}'' не ўдалася
+    text: "Сінхранізацыя праекта {0} ''{1}'' не ўдалася"
 orphan.modules.text:
     text: 'Наступныя модулі IDE былі выдалены пры сінхранізацыі праекта {0}: <p>{1}</p><br/>Вы можаце <a href="#">адкрыць дыялог</a> для выбару модуляў для аднаўлення.'
 progress.import.text:
-    text: Пабудова інфармацыі пра праект ''{0}'' {1}
+    text: "Пабудова інфармацыі пра праект ''{0}'' {1}"
 progress.refresh.text:
-    text: Імпарт праекта ''{0}'' {1}
+    text: "Імпарт праекта ''{0}'' {1}"
 run.configuration.description:
     text: Прыкладанне Quarkus
 run.configuration.settings.label.project:
@@ -57,7 +60,7 @@ settings.label.select.project:
 settings.title.system.settings:
     text: Агульныя налады
 tasks.before.run:
-    text: Запусціць задачу {0} ''{1}''
+    text: "Запусціць задачу {0} ''{1}''"
 tasks.before.run.empty:
     text: Запусціць задачу {0}
 tasks.edit.task.title:

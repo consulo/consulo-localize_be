@@ -7,7 +7,7 @@ create.property.quickfix.text:
 duplicate.property.diff.key.option:
     text: Дублюючыя ключы з рознымі значэннямі [&D]
 duplicate.property.diff.key.problem.descriptor:
-    text: 'Дублюючы ключ уласцівасці ''''{0}'''' з рознымі значэннямі #treeend :<br>'
+    text: "Дублюючы ключ уласцівасці ''{0}'' з рознымі значэннямі #treeend :<br>"
 duplicate.property.diff.key.progress.indicator.text:
     text: Апрацоўка дублюючага ключа ўласцівасці:{0}
 duplicate.property.display.name:
@@ -19,7 +19,7 @@ duplicate.property.key.error.message:
 duplicate.property.key.option:
     text: Дублюючыя ключы [&K]
 duplicate.property.key.problem.descriptor:
-    text: 'Дублюючы ключ уласцівасці ''''{0}'''' #treeend са значэннямі:<br>'
+    text: "Дублюючы ключ уласцівасці ''{0}'' #treeend са значэннямі:<br>"
 duplicate.property.key.progress.indicator.text:
     text: Апрацоўка дублюючага ключа ўласцівасці:{0}
 duplicate.property.module.scope.option:
@@ -29,13 +29,13 @@ duplicate.property.project.scope.option:
 duplicate.property.value.option:
     text: Дублюючыя значэнні [&V]
 duplicate.property.value.problem.descriptor:
-    text: 'Дублюючае значэнне ўласцівасці ''''{0}'''' #treeend з ключамі:<br>'
+    text: "Дублюючае значэнне ўласцівасці ''{0}'' #treeend з ключамі:<br>"
 duplicate.property.value.progress.indicator.text:
     text: Апрацоўка дублюючага значэння ўласцівасці:{0}
 no.property.selected.panel.label:
     text: <html><body><center>Выберыце імя ўласцівасці злева для рэдагавання яго значэнняў</body></html>
 project.view.resource.bundle.tree.node.text:
-    text: Пакет ресурсов ''{0}''
+    text: "Пакет ресурсов ''{0}''"
 properties.files.inspection.group.display.name:
     text: Файлы свойств
 property.key.expected.parsing.error.message:
@@ -47,7 +47,7 @@ remove.property.quick.fix.name:
 rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
     text: Увядзіце новае базавае імя пакета рэсурсаў
 rename.prefix.based.property.key.error.message:
-    text: Немагчыма перайменаваць ключ уласцівасці ''{1}'' на аснове прэфікса ''{0}'' па імені ''{2}'', спачатку змяніце прэфікс
+    text: "Немагчыма перайменаваць ключ уласцівасці ''{1}'' на аснове прэфікса ''{0}'' па імені ''{2}'', спачатку змяніце прэфікс"
 rename.resource.bundle.dialog.title:
     text: Перайменаваць пакет рэсурсаў
 searching.for.property.key.progress.text:

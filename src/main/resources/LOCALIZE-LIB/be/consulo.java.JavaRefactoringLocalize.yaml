@@ -5,7 +5,9 @@ add.property:
 annotation.types.cannot.be.inlined:
     text: Тыпы анатацый не могуць быць убудаваны
 cannot.perform.the.refactoring:
-    text: "Немагчыма выканаць рэфактарынг.\n\n"
+    text: |+
+        Немагчыма выканаць рэфактарынг.
+
 choose.destination.package.label:
     text: Выберыце мэтавы пакет
 class.cannot.be.inlined.because.a.call.to.its.constructor.is.unresolved:
@@ -29,13 +31,13 @@ class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
 class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
     text: Клас не можа быць убудаваны, бо мае выкарыстанні сваіх унутраных класаў
 class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
-    text: Клас не можа быць убудаваны, бо выкарыстоўваецца як кваліфікатар 'this'
+    text: "Клас не можа быць убудаваны, бо выкарыстоўваецца як кваліфікатар 'this'"
 class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
-    text: Клас не можа быць убудаваны, бо выкарыстоўваецца ў блоку 'catch'
+    text: "Клас не можа быць убудаваны, бо выкарыстоўваецца ў блоку 'catch'"
 class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
-    text: Клас не можа быць убудаваны, бо выкарыстоўваецца ў канструкцыі 'throws'
+    text: "Клас не можа быць убудаваны, бо выкарыстоўваецца ў канструкцыі 'throws'"
 class.cannot.be.inlined.because.its.constructor.contains.return.statements:
-    text: Клас не можа быць убудаваны, бо яго канструктар змяшчае аператары 'return'
+    text: "Клас не можа быць убудаваны, бо яго канструктар змяшчае аператары 'return'"
 class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
     text: Класс не может быть встроен, так как не может быть разрешен его суперкласс
 class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
@@ -47,7 +49,7 @@ could.not.find.selected.wrapping.class:
 declare.generated.annotations:
     text: Згенераваць анатацыі [&G]
 declare.static.pass.fields.checkbox:
-    text: Аб'явіць static (перадаваць палі як параметры) [&S]
+    text: "Аб'явіць static (перадаваць палі як параметры) [&S]"
 dialog.message.nothing.found.to.extract:
     text: Нічога не знойдзена для атрымання
 enums.cannot.be.inlined:
@@ -73,7 +75,7 @@ extract.delegate.unable.create.warning.message:
 extracted.class.command.name:
     text: Вынесены клас {0}
 extracted.class.should.have.unique.name:
-    text: Вынесены клас павінен мець унікальнае імя. Імя ''{0}'' ужо выкарыстоўваецца адным з унутраных класаў
+    text: "Вынесены клас павінен мець унікальнае імя. Імя ''{0}'' ужо выкарыстоўваецца адным з унутраных класаў"
 extracting.from.class:
     text: 'Вынясенне з класа:'
 field.selected.is.not.used.as.a.delegate:
@@ -91,7 +93,7 @@ inline.field.used.in.reflection:
 inline.local.unable.try.catch.warning.message:
     text: Немагчыма ўбудаваць за межамі блока try/catch
 inline.local.variable.declared.outside.cannot.refactor.message:
-    text: Пераменная аб'яўлена па-за блокам кода
+    text: "Пераменная аб'яўлена па-за блокам кода"
 inline.method.multiline.method.in.ctor.call:
     text: Убудоўванне не можа быць ужыта да шматрадковага метаду ў выкліку канструктара
 inline.method.qualifier.usage.side.effect:
@@ -115,17 +117,17 @@ inline.super.class.label:
 inline.super.no.anonymous.class:
     text: Немагчыма ўбудаваць у ананімны клас.
 inline.super.no.inner.class:
-    text: Немагчыма ўбудаваць ва ўнутраны клас. Перамясціце ''{0}'' на верхні ўзровень
+    text: "Немагчыма ўбудаваць ва ўнутраны клас. Перамясціце ''{0}'' на верхні ўзровень"
 inline.super.non.project.class.warning.message:
     text: Немагчыма ўбудаваць клас не з праекта
 interfaces.cannot.be.inlined:
     text: Інтэрфейсы нельга ўбудаваць
 introduce.parameter.object:
-    text: Стварыць аб'ект параметраў
+    text: "Стварыць аб'ект параметраў"
 introduce.type.parameter:
     text: Стварыць тыпавы параметр
 invalid.extracted.class.name:
-    text: '''''{0}'''' - недапушчальнае імя вынесенага класа'
+    text: "''{0}'' - недапушчальнае імя вынесенага класа"
 invert.boolean.title:
     text: Інвертаваць лагічнае значэнне
 library.classes.cannot.be.inlined:
@@ -135,7 +137,7 @@ members.to.extract.label:
 method.selected.has.no.parameters:
     text: Выбраны метад не мае параметраў.
 method.selected.returns.void:
-    text: Выбраны метад вяртае 'void'
+    text: "Выбраны метад вяртае 'void'"
 method.to.wrap.returns.from.label:
     text: 'Метад, значэнне якога трэба абгарнуць:'
 method.whose.return.are.to.wrapped:
@@ -187,11 +189,11 @@ the.refactoring.is.not.supported.on.non.static.inner.classes:
 the.selected.class.has.no.members.to.extract:
     text: У выбраным класе няма членаў для вынясення.
 the.selected.class.is.an.annotation.type:
-    text: Выбраны клас з'яўляецца інтэрфейсам анатацыі.
+    text: "Выбраны клас з'яўляецца інтэрфейсам анатацыі."
 the.selected.class.is.an.enumeration:
-    text: Выбраны клас з'яўляецца пералічэннем.
+    text: "Выбраны клас з'яўляецца пералічэннем."
 the.selected.class.is.an.interface:
-    text: Выбраны клас з'яўляецца інтэрфейсам.
+    text: "Выбраны клас з'яўляецца інтэрфейсам."
 the.selected.method.cannot.be.wrapped.because.it.is.defined.in.a.non.project.class:
     text: Выбранный метод нельзя обернуть, так как он определён в классе вне проекта
 there.already.exists.a.class.with.the.chosen.name:

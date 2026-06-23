@@ -17,7 +17,7 @@ action.group.by.title:
 action.group.by.usage.type:
     text: Па тыпу выкарыстання
 action.merge.same.line:
-    text: Аб'ядноўваць выкарыстанні ў адным радку
+    text: "Аб'ядноўваць выкарыстанні ў адным радку"
 action.next.occurrence:
     text: Наступнае ўваходжанне
 action.previous.occurrence:
@@ -65,7 +65,7 @@ message.part.number.of.unloaded.modules:
 message.part.small.number.of.unloaded.modules:
     text: '{0} невыгруженных модулей: {1}'
 message.part.unloaded.module.0:
-    text: Невыгруженный модуль ''{0}''
+    text: "Невыгруженный модуль ''{0}''"
 message.usage.search.was.canceled:
     text: Пошук выкарыстанняў адменены
 no.usages.found.in:
@@ -103,9 +103,11 @@ references.to.be.changed:
 select.the.usage.to.preview:
     text: Выберыце элемент для перадпрагляду
 several.occurrences.selected:
-    text: "Выбрана некалькі файлаў.\nВыберыце ўваходжанне для перадпрагляду з аднаго файла."
+    text: |-
+        Выбрана некалькі файлаў.
+        Выберыце ўваходжанне для перадпрагляду з аднаго файла.
 show.usages.advertisement:
-    text: Націсніце {0} яшчэ раз для пошуку ў ''{1}''
+    text: "Націсніце {0} яшчэ раз для пошуку ў ''{1}''"
 show.usages.only.usage:
     text: Гэта адзінае выкарыстанне ў {0}
 sort.alphabetically.action.text:
@@ -123,7 +125,7 @@ usage.type.annotation:
 usage.type.cast.target:
     text: Выкарыстанне ў мэтавым тыпе прывядзення
 usage.type.catch.declaration:
-    text: Аб'яўленне параметра ў catch-блоку
+    text: "Аб'яўленне параметра ў catch-блоку"
 usage.type.class.object:
     text: Выкарыстанне ў .class
 usage.type.comment:
@@ -139,13 +141,13 @@ usage.type.delegate.to.super.method.parameters.changed:
 usage.type.extends:
     text: Выкарыстанне ў extends/implements
 usage.type.field.declaration:
-    text: Аб'яўленне поля
+    text: "Аб'яўленне поля"
 usage.type.import:
     text: Выкарыстанне ў імпарце
 usage.type.instanceof:
     text: Выкарыстанне ў instanceof
 usage.type.local.declaration:
-    text: Аб'яўленне лакальнай пераменнай
+    text: "Аб'яўленне лакальнай пераменнай"
 usage.type.nested.class:
     text: Доступ к вложенному классу
 usage.type.new:
@@ -155,7 +157,7 @@ usage.type.new.anonymous:
 usage.type.new.array:
     text: Стварэнне новага масіва
 usage.type.parameter.declaration:
-    text: Аб'яўленне параметра метаду
+    text: "Аб'яўленне параметра метаду"
 usage.type.read:
     text: Чытанне значэння
 usage.type.recursion:

@@ -71,7 +71,7 @@ arrangement.title.settings.tab:
 button.delete:
     text: Выдаліць
 checkbox.align.multiline.fields.groups:
-    text: Групаваць аб'яўленні
+    text: "Групаваць аб'яўленні"
 checkbox.block.comment.at.first.column:
     text: Блочныя каментарыі з першай калонкі
 checkbox.indent.smart.tabs:
@@ -87,13 +87,13 @@ checkbox.line.comment.at.first.column:
 checkbox.spaces.additive.operators:
     text: Адытыўныя аператары (+, -)
 checkbox.spaces.after.colon:
-    text: После ':'
+    text: "После ':'"
 checkbox.spaces.after.comma:
     text: После запятой
 checkbox.spaces.after.question:
-    text: После '?'
+    text: "После '?'"
 checkbox.spaces.after.semicolon:
-    text: Пасля кропкі з коскай у 'for'
+    text: "Пасля кропкі з коскай у 'for'"
 checkbox.spaces.after.type.cast:
     text: Пасля прывядзення тыпу
 checkbox.spaces.annotation.array.initializer.left.brace:
@@ -105,7 +105,7 @@ checkbox.spaces.annotation.parentheses:
 checkbox.spaces.around.lambda.arrow:
     text: Стрелка лямбды
 checkbox.spaces.around.method.ref.dbl.colon.arrow:
-    text: Двайное двукроп'е спасылкі на метад
+    text: "Двайное двукроп'е спасылкі на метад"
 checkbox.spaces.around.unary.operator:
     text: Унарные операторы (!, -, +, ++, --)
 checkbox.spaces.array.initializer.left.brace:
@@ -113,59 +113,59 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: Аператары прысвойвання (=, +=, …)
 checkbox.spaces.before.colon:
-    text: Перед ':'
+    text: "Перед ':'"
 checkbox.spaces.before.comma:
     text: Перед запятой
 checkbox.spaces.before.opening.angle.bracket:
     text: Перад адкрывальнай вуглавой дужкай
 checkbox.spaces.before.question:
-    text: Перед '?'
+    text: "Перед '?'"
 checkbox.spaces.before.semicolon:
-    text: Перед точкой с запятой в 'for'
+    text: "Перед точкой с запятой в 'for'"
 checkbox.spaces.bitwise.operators:
     text: Пабітавыя аператары (&, |, ^)
 checkbox.spaces.catch.keyword:
-    text: Ключевое слово 'catch'
+    text: "Ключевое слово 'catch'"
 checkbox.spaces.catch.left.brace:
-    text: Левая фігурная дужка 'catch'
+    text: "Левая фігурная дужка 'catch'"
 checkbox.spaces.catch.parentheses:
-    text: Круглыя дужкі 'catch'
+    text: "Круглыя дужкі 'catch'"
 checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
     text: Пустыя круглыя дужкі выкліку метаду
 checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
-    text: Пустыя круглыя дужкі аб'яўлення метаду
+    text: "Пустыя круглыя дужкі аб'яўлення метаду"
 checkbox.spaces.checkbox.spaces.method.call.parentheses:
     text: Круглыя дужкі выкліку метаду
 checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
-    text: Круглыя дужкі аб'яўлення метаду
+    text: "Круглыя дужкі аб'яўлення метаду"
 checkbox.spaces.class.left.brace:
     text: Левая фігурная дужка класа
 checkbox.spaces.do.left.brace:
-    text: Левая фігурная дужка 'do'
+    text: "Левая фігурная дужка 'do'"
 checkbox.spaces.else.keyword:
-    text: Ключевое слово 'else'
+    text: "Ключевое слово 'else'"
 checkbox.spaces.else.left.brace:
-    text: Левая фігурная дужка 'else'
+    text: "Левая фігурная дужка 'else'"
 checkbox.spaces.equality.operators:
     text: Операторы равенства (==, !=)
 checkbox.spaces.finally.keyword:
-    text: Ключевое слово 'finally'
+    text: "Ключевое слово 'finally'"
 checkbox.spaces.finally.left.brace:
-    text: Левая фігурная дужка 'finally'
+    text: "Левая фігурная дужка 'finally'"
 checkbox.spaces.for.left.brace:
-    text: Левая фігурная дужка 'for'
+    text: "Левая фігурная дужка 'for'"
 checkbox.spaces.for.parentheses:
-    text: Круглыя дужкі 'for'
+    text: "Круглыя дужкі 'for'"
 checkbox.spaces.if.left.brace:
-    text: Левая фігурная дужка 'if'
+    text: "Левая фігурная дужка 'if'"
 checkbox.spaces.if.parentheses:
-    text: Круглыя дужкі 'if'
+    text: "Круглыя дужкі 'if'"
 checkbox.spaces.logical.operators:
     text: Лагічныя аператары (&&, ||)
 checkbox.spaces.method.call.parentheses:
     text: Круглыя дужкі выкліку метаду
 checkbox.spaces.method.declaration.parentheses:
-    text: Круглыя дужкі аб'яўлення метаду
+    text: "Круглыя дужкі аб'яўлення метаду"
 checkbox.spaces.method.left.brace:
     text: Левая фігурная дужка метаду
 checkbox.spaces.multiplicative.operators:
@@ -175,25 +175,25 @@ checkbox.spaces.relational.operators:
 checkbox.spaces.shift.operators:
     text: Аператары зруху (<<, >>, >>>)
 checkbox.spaces.switch.left.brace:
-    text: Левая фігурная дужка 'switch'
+    text: "Левая фігурная дужка 'switch'"
 checkbox.spaces.switch.parentheses:
-    text: Круглыя дужкі 'switch'
+    text: "Круглыя дужкі 'switch'"
 checkbox.spaces.synchronized.left.brace:
-    text: Левая фігурная дужка 'synchronized'
+    text: "Левая фігурная дужка 'synchronized'"
 checkbox.spaces.synchronized.parentheses:
-    text: Круглыя дужкі 'synchronized'
+    text: "Круглыя дужкі 'synchronized'"
 checkbox.spaces.try.left.brace:
-    text: Левая фігурная дужка 'try'
+    text: "Левая фігурная дужка 'try'"
 checkbox.spaces.try.parentheses:
-    text: Круглыя дужкі 'try'
+    text: "Круглыя дужкі 'try'"
 checkbox.spaces.type.cast.parentheses:
     text: Круглыя дужкі прывядзення тыпу
 checkbox.spaces.while.keyword:
-    text: Ключевое слово 'while'
+    text: "Ключевое слово 'while'"
 checkbox.spaces.while.left.brace:
-    text: Левая фігурная дужка 'while'
+    text: "Левая фігурная дужка 'while'"
 checkbox.spaces.while.parentheses:
-    text: Круглыя дужкі 'while'
+    text: "Круглыя дужкі 'while'"
 checkbox.spaces.within.array.initializer.braces:
     text: Унутры фігурных дужак ініцыялізатара масіва
 checkbox.spaces.within.braces:
@@ -285,7 +285,7 @@ wrapping.align.parenthesised.when.multiline:
 wrapping.align.simple.methods.in.columns:
     text: Выраўноўваць простыя метады ў слупках
 wrapping.align.throws.keyword:
-    text: Выраўноўваць 'throws' па пачатку метаду
+    text: "Выраўноўваць 'throws' па пачатку метаду"
 wrapping.align.variables.in.columns:
     text: Выраўноўваць пераменныя ў слупках
 wrapping.align.when.multiline:
@@ -307,9 +307,9 @@ wrapping.brace.placement.class.declaration:
 wrapping.brace.placement.end.of.line:
     text: У канцы радка
 wrapping.brace.placement.lambda:
-    text: У аб'яўленні lambda
+    text: "У аб'яўленні lambda"
 wrapping.brace.placement.method.declaration:
-    text: У аб'яўленні метаду
+    text: "У аб'яўленні метаду"
 wrapping.brace.placement.next.line:
     text: На наступным радку
 wrapping.brace.placement.next.line.each.shifted:
@@ -321,9 +321,9 @@ wrapping.brace.placement.next.line.shifted:
 wrapping.brace.placement.other:
     text: Прочее
 wrapping.case.statements.on.one.line:
-    text: Каждый 'case' на отдельной строке
+    text: "Каждый 'case' на отдельной строке"
 wrapping.catch.on.new.line:
-    text: '''catch'' на новой строке'
+    text: "'catch' на новой строке"
 wrapping.chained.method.call.first.on.new.line:
     text: Пераносіць першы выклік
 wrapping.chained.method.calls:
@@ -333,7 +333,7 @@ wrapping.chop.down.if.long:
 wrapping.classes.annotation:
     text: Анатацыі класаў
 wrapping.colon.signs.on.next.line:
-    text: Знакі ':' на наступным радку
+    text: "Знакі ':' на наступным радку"
 wrapping.comments:
     text: Каментарыі
 wrapping.comments.wrap.at.right.margin:
@@ -341,9 +341,9 @@ wrapping.comments.wrap.at.right.margin:
 wrapping.do.not.wrap:
     text: Не пераносіць
 wrapping.dowhile.statement:
-    text: Оператор 'do ... while()'
+    text: "Оператор 'do ... while()'"
 wrapping.else.on.new.line:
-    text: '''else'' з новага радка'
+    text: "'else' з новага радка"
 wrapping.enum.constants:
     text: Константы enum
 wrapping.extends.implements.keyword:
@@ -353,9 +353,9 @@ wrapping.extends.implements.list:
 wrapping.fields.annotation:
     text: Анатацыі палёў
 wrapping.finally.on.new.line:
-    text: '''finally'' з новага радка'
+    text: "'finally' з новага радка"
 wrapping.for.statement:
-    text: Оператор 'for()'
+    text: "Оператор 'for()'"
 wrapping.force.braces:
     text: Прымусовыя фігурныя дужкі
 wrapping.force.braces.always:
@@ -365,11 +365,11 @@ wrapping.force.braces.do.not.force:
 wrapping.force.braces.when.multiline:
     text: Пры пераносе
 wrapping.if.statement:
-    text: Оператор 'if()'
+    text: "Оператор 'if()'"
 wrapping.indent.break.from.case:
-    text: Отступ 'break' от 'case'
+    text: "Отступ 'break' от 'case'"
 wrapping.indent.case.from.switch:
-    text: Отступ веток 'case'
+    text: "Отступ веток 'case'"
 wrapping.keep.comment.at.first.column:
     text: Каментарыі ў першай калонцы
 wrapping.keep.line.breaks:
@@ -393,7 +393,7 @@ wrapping.long.lines:
 wrapping.method.arguments:
     text: Аргументы вызова метода
 wrapping.method.parameters:
-    text: Параметры аб'яўлення метаду
+    text: "Параметры аб'яўлення метаду"
 wrapping.method.parentheses:
     text: Круглыя дужкі метаду
 wrapping.methods.annotation:
@@ -401,23 +401,23 @@ wrapping.methods.annotation:
 wrapping.modifier.list:
     text: Спіс мадыфікатараў
 wrapping.new.line.after.lbrace:
-    text: Новая строка после '{'
+    text: "Новая строка после '{'"
 wrapping.new.line.after.lpar:
-    text: Новая строка после '('
+    text: "Новая строка после '('"
 wrapping.operation.sign.on.next.line:
     text: Знак аперацыі на наступным радку
 wrapping.parameters.annotation:
     text: Анатацыі параметраў
 wrapping.quest.and.colon.signs.on.next.line:
-    text: Знакі '?' і ':' на наступным радку
+    text: "Знакі '?' і ':' на наступным радку"
 wrapping.rbrace.on.new.line:
-    text: '''}'' на новой строке'
+    text: "'}' на новой строке"
 wrapping.rpar.on.new.line:
-    text: ''')'' на новой строке'
+    text: "')' на новой строке"
 wrapping.special.else.if.braces.treatment:
-    text: Особая обработка 'else if'
+    text: "Особая обработка 'else if'"
 wrapping.switch.statement:
-    text: Оператор 'switch'
+    text: "Оператор 'switch'"
 wrapping.take.priority.over.call.chain.wrapping:
     text: Прыярытэт над пераносам ланцуга выклікаў
 wrapping.ternary.operation:
@@ -427,11 +427,11 @@ wrapping.throws.keyword:
 wrapping.throws.list:
     text: Спіс throws
 wrapping.try.statement:
-    text: Оператор 'try'
+    text: "Оператор 'try'"
 wrapping.while.on.new.line:
-    text: '''while'' з новага радка'
+    text: "'while' з новага радка"
 wrapping.while.statement:
-    text: Оператор 'while()'
+    text: "Оператор 'while()'"
 wrapping.wrap.always:
     text: Заўсёды пераносіць
 wrapping.wrap.if.long:

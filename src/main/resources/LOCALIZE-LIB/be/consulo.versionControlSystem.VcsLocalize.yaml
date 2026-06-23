@@ -89,9 +89,9 @@ annotation.commit.number:
 annotation.original.revision.text:
     text: 'Рэдакцыя: {0}'
 annotation.switch.to.merged.text:
-    text: Паказаць крыніцу аб'яднання
+    text: "Паказаць крыніцу аб'яднання"
 annotation.switch.to.original.text:
-    text: Схаваць крыніцу аб'яднання
+    text: "Схаваць крыніцу аб'яднання"
 annotation.wrong.line.number.notification.text:
     text: <html>Колькасць радкоў у анатацыі з {0} не супадае з колькасцю радкоў у файле. Праверце кадыроўку файла і падзельнікі радкоў.</html>
 before.checkin.cleanup.code:
@@ -101,7 +101,10 @@ before.checkin.new.todo.check:
 before.checkin.standard.options.check.smells:
     text: Прааналізаваць код [&A]
 before.commit.files.contain.code.smells.edit.them.confirm.text:
-    text: "{0} файлаў змяшчаюць праблемы.\n{1,choice, 0#Няма памылак|1#1 памылка|2#{1} памылкі|5#{1} памылак}, {2,choice, 0#няма папярэджанняў|1#1 папярэджанне|2#{2} папярэджанні|5#{2} папярэджанняў}\nХочаце прагледзець іх?"
+    text: |-
+        {0} файлаў змяшчаюць праблемы.
+        {1,choice, 0#Няма памылак|1#1 памылка|2#{1} памылкі|5#{1} памылак}, {2,choice, 0#няма папярэджанняў|1#1 папярэджанне|2#{2} папярэджанні|5#{2} папярэджанняў}
+        Хочаце прагледзець іх?
 border.changes.filter.change.number.filter:
     text: Змена
 border.changes.filter.date.filter:
@@ -185,7 +188,7 @@ changes.checkbox.delete.locally.added.files:
 changes.default.changelist.name:
     text: Змены
 changes.dialog.editchangelist.error.already.exists:
-    text: Спіс змяненняў пад назвай ''{0}'' ужо існуе
+    text: "Спіс змяненняў пад назвай ''{0}'' ужо існуе"
 changes.dialog.editchangelist.title:
     text: Рэдагаваць журнал змяненняў
 changes.dialog.newchangelist.title:
@@ -225,7 +228,9 @@ changes.remove.active.prompt:
 changes.remove.active.title:
     text: Выдаленне актыўнага журнала змяненняў
 changes.removechangelist.multiple.warning.text:
-    text: "Вы ўпэўнены, што хочаце выдаліць {0} спісаў змен?\nУсе змены будуць перамешчаны ў актыўны спіс змен."
+    text: |-
+        Вы ўпэўнены, што хочаце выдаліць {0} спісаў змен?
+        Усе змены будуць перамешчаны ў актыўны спіс змен.
 changes.removechangelist.warning.text:
     text: "Вы ўпэўнены, што хочаце выдаліць журнал зменаў ''{0}''?\nУсе змены будуць перамешчаны ў актыўны спіс змен."
 changes.removechangelist.warning.title:
@@ -331,7 +336,9 @@ committed.changes.regex.title:
 composite.change.provider.include.vcs.checkbox:
     text: Уключыць змены з {0}
 confirmation.text.add.file:
-    text: "Дадаць наступны файл у Subversion?\n{0}"
+    text: |-
+        Дадаць наступны файл у Subversion?
+        {0}
 confirmation.title.add.file:
     text: Запланаваць даданне
 create.patch.commit.action.title:
@@ -393,7 +400,7 @@ error.adding.files.prompt:
 error.adding.files.title:
     text: Немагчыма дадаць файлы
 error.executing.commit:
-    text: 'Памылка пры выкананні ''''{0}'''': {1}'
+    text: "Памылка пры выкананні ''{0}'': {1}"
 error.updating.changes:
     text: 'Памылка абнаўлення змяненняў: {0}'
 exception.text.internal.error.method.should.not.be.called:
@@ -413,13 +420,13 @@ file.status.name.hijacked:
 file.status.name.ignored:
     text: Ігнаруецца
 file.status.name.merged:
-    text: Аб'яднаны
+    text: "Аб'яднаны"
 file.status.name.merged.with.both.conflicts:
-    text: Канфлікты пры аб'яднанні тэксту і ўласцівасцей
+    text: "Канфлікты пры аб'яднанні тэксту і ўласцівасцей"
 file.status.name.merged.with.conflicts:
-    text: Аб'яднаны з канфліктамі
+    text: "Аб'яднаны з канфліктамі"
 file.status.name.merged.with.property.conflicts:
-    text: Канфлікты пры аб'яднанні ўласцівасцей
+    text: "Канфлікты пры аб'яднанні ўласцівасцей"
 file.status.name.modified:
     text: Зменены
 file.status.name.obsolete:
@@ -523,7 +530,7 @@ message.title.show.differences:
 message.title.vcs.update.errors:
     text: '{0} памылак'
 move.to.changelist:
-    text: Перамясціць змены ў актыўны спіс (''{0}'') [&M]
+    text: "Перамясціць змены ў актыўны спіс (''{0}'') [&M]"
 multiple.file.merge.accept.theirs:
     text: Прыняць іх версію [&T]
 multiple.file.merge.accept.yours:
@@ -531,11 +538,11 @@ multiple.file.merge.accept.yours:
 multiple.file.merge.column.name:
     text: Імя
 multiple.file.merge.loading.progress.title:
-    text: Загрузка версій для аб'яднання...
+    text: "Загрузка версій для аб'яднання..."
 multiple.file.merge.merge:
-    text: Аб'яднаць [&M]...
+    text: "Аб'яднаць [&M]..."
 multiple.file.merge.request.title:
-    text: Аб'яднанне версій {0}
+    text: "Аб'яднанне версій {0}"
 multiple.file.merge.title:
     text: Канфлікты
 new.changelist.duplicate.name.error:
@@ -691,13 +698,13 @@ status.group.name.will.be.merged:
 status.group.name.will.be.merged.with.conflicts:
     text: Будзе зліта з канфліктамі
 status.group.name.will.be.merged.with.property.conflicts:
-    text: Будуць аб'яднаны маёмасныя канфлікты
+    text: "Будуць аб'яднаны маёмасныя канфлікты"
 status.group.name.will.be.merged.with.tree.conflicts:
-    text: Будзе аб'яднана з дрэвамі канфліктаў
+    text: "Будзе аб'яднана з дрэвамі канфліктаў"
 status.group.name.will.be.restored:
     text: Будуць адноўлены
 switch.to.changelist:
-    text: Пераключыцца на журнал змяненняў ''{0}'' [&T]
+    text: "Пераключыцца на журнал змяненняў ''{0}'' [&T]"
 todo.handler.only.added:
     text: <html><body>Знойдзена {0,choice, 0#|1#адно|2#{0}} TODO {0,choice, 0#|1#заданне|2#заданняў}, якія былі дададзены або адрэдагаваны.<br/>Хочаце прагледзець {0,choice,1#яго|2#іх}?<br/>{1,choice, 0#|1#1 файл прапушчаны.|2#{1} файлаў прапушчана.}</body></html>
 todo.handler.only.both:
@@ -733,13 +740,13 @@ update.group.name.locally.added:
 update.group.name.locally.removed:
     text: Выдалена лакальна
 update.group.name.merged:
-    text: Аб'яднаны
+    text: "Аб'яднаны"
 update.group.name.merged.with.conflicts:
     text: Зліта з канфліктамі
 update.group.name.merged.with.property.conflicts:
     text: Зліўся з маёмаснымі канфліктамі
 update.group.name.merged.with.tree.conflicts:
-    text: Аб'яднаны з дрэвамі канфліктаў
+    text: "Аб'яднаны з дрэвамі канфліктаў"
 update.group.name.modified:
     text: Зменены
 update.group.name.not.in.repository:

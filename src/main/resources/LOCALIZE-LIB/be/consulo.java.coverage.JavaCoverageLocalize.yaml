@@ -71,7 +71,7 @@ run.configuration.track.per.test.coverage:
 run.configuration.track.per.test.coverage.comment:
     text: Збіраць даныя пра тое, якія радкі кода пакрыты канкрэтнымі тэстамі
 settings.coverage.java.ignore.implicitly.declared.default.constructors:
-    text: Ігнараваць няяўна аб'яўленыя канструктары па змаўчанні
+    text: "Ігнараваць няяўна аб'яўленыя канструктары па змаўчанні"
 settings.coverage.java.java.coverage:
     text: Пакрыццё Java
 show.coverage.data.only.in.specified.classes.and.packages:

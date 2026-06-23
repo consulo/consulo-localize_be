@@ -83,7 +83,7 @@ cloud.status.connection.successful:
 cloud.status.double.click.to.connect:
     text: Двойчы пстрыкніце вузел сервера для падключэння
 clouds.configure.empty.selection.string:
-    text: Для налады інтэграцыі з {0} націсніце ''+''
+    text: "Для налады інтэграцыі з {0} націсніце ''+''"
 configurable.display.name.clouds:
     text: Облака
 create.new.deployment.configuration.for.singleton.type:

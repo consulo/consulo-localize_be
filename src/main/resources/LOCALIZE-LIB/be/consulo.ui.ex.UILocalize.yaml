@@ -1,11 +1,11 @@
 are.you.sure.you.want.to.delete.selected.file.confirmation.message:
-    text: Выдаліць ''{0}''?
+    text: "Выдаліць ''{0}''?"
 are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
     text: Выдаліць {0} выбраных файлаў і каталогаў?
 are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
     text: Выдаліць {0} выбраных файлаў?
 are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
-    text: Выдаліць папку ''{0}''?
+    text: "Выдаліць папку ''{0}''?"
 are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
     text: Выдаліць {0} выбраных каталогаў?
 autoscroll.from.source.action.description:
@@ -49,13 +49,13 @@ color.panel.select.color.dialog.description:
 component.with.browse.button.browse.button.tooltip.text:
     text: Обзор…
 create.new.file.could.not.create.file.error.message:
-    text: Невозможно создать файл ''{0}''
+    text: "Невозможно создать файл ''{0}''"
 create.new.file.enter.new.file.name.prompt.text:
     text: 'Увядзіце імя новага файла:'
 create.new.file.file.name.cannot.be.empty.error.message:
     text: Імя файла не можа быць пустым
 create.new.folder.could.not.create.folder.error.message:
-    text: Невозможно создать папку ''{0}''
+    text: "Невозможно создать папку ''{0}''"
 create.new.folder.enter.new.folder.name.prompt.text:
     text: 'Увядзіце імя новай папкі:'
 create.new.folder.folder.name.cannot.be.empty.error.message:
@@ -87,7 +87,7 @@ file.cache.conflict.keep.memory.changes.button:
 file.cache.conflict.load.fs.changes.button:
     text: Загрузіць змены з файлавай сістэмы [&L]
 file.cache.conflict.message.text:
-    text: Файл ''{0}'' быў зменены як у памяці, так і на дыску
+    text: "Файл ''{0}'' быў зменены як у памяці, так і на дыску"
 file.cache.conflict.save.changes.button:
     text: Захаваць змесціва з памяці
 file.cache.conflict.show.difference.button:
@@ -99,7 +99,9 @@ file.chooser.create.new.folder.command.name:
 file.chooser.default.title:
     text: Выберыце шлях
 file.chooser.save.dialog.confirmation:
-    text: "{0} ужо існуе.\nЗамяніць яго?"
+    text: |-
+        {0} ужо існуе.
+        Замяніць яго?
 file.chooser.save.dialog.confirmation.title:
     text: Пацвярджэнне захавання
 file.chooser.save.dialog.default.title:
@@ -107,7 +109,7 @@ file.chooser.save.dialog.default.title:
 file.chooser.save.dialog.file.name:
     text: 'Імя файла:'
 file.is.read.only.message.text:
-    text: Файл ''{0}'' даступны толькі для чытання.
+    text: "Файл ''{0}'' даступны толькі для чытання."
 files.are.read.only.message.text:
     text: Файлы {0} даступны толькі для чытання.
 go.to.line.command.name:
@@ -119,9 +121,9 @@ insert.file.path.to.text.action.name:
 integer.field.value.expected:
     text: Чакаецца значэнне
 integer.field.value.not.a.number:
-    text: Значэнне ''{0}'' не з'яўляецца цэлым лікам
+    text: "Значэнне ''{0}'' не з'яўляецца цэлым лікам"
 integer.field.value.out.of.range:
-    text: Значэнне ''{0}'' па-за дыяпазонам {1}..{2}
+    text: "Значэнне ''{0}'' па-за дыяпазонам {1}..{2}"
 label.class.filter.editor.add.dialog.filter.pattern:
     text: 'Увядзіце шаблон фільтра:'
 master.detail.err.empty.name:
@@ -205,7 +207,7 @@ status.bar.encoding.widget.name:
 status.bar.fatal.error.widget.name:
     text: Унутраная памылка
 status.bar.hide.widget.action.name:
-    text: Скрыть ''{0}''
+    text: "Скрыть ''{0}''"
 status.bar.inspection.profile.widget.name:
     text: Профіль інспекцый
 status.bar.line.separator.widget.name:

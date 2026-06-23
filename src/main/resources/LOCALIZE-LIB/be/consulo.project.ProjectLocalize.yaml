@@ -29,7 +29,7 @@ artifacts.add.copy.action:
 artifacts.create.action:
     text: Создать {0}
 banner.slogan.artifact.0:
-    text: Артефакт ''{0}''
+    text: "Артефакт ''{0}''"
 button.add:
     text: Дадаць
 button.remove:
@@ -45,7 +45,7 @@ button.text.remove.selected:
 checkbox.text.build.on.make:
     text: Уключыць у зборку праекта  [&B]
 choose.modules.dialog.description:
-    text: Бібліятэка ''{0}'' будзе дададзена ў выбраныя модулі.
+    text: "Бібліятэка ''{0}'' будзе дададзена ў выбраныя модулі."
 choose.modules.dialog.title:
     text: Выбор модулей
 classpath.add.library.action:
@@ -59,7 +59,7 @@ classpath.chooser.description.add.module.dependency:
 classpath.chooser.title.add.module.dependency:
     text: Выберыце модулі
 classpath.message.library.already.added:
-    text: Бібліятэка ''{0}'' ужо дададзена ў гэты модуль
+    text: "Бібліятэка ''{0}'' ужо дададзена ў гэты модуль"
 classpath.panel.navigate.action.text:
     text: Навігацыя
 classpath.title.adding.dependency:
@@ -75,7 +75,7 @@ command.deleting.files:
 command.finish:
     text: Поўнае
 confirmation.message.would.you.like.to.ignore.facet:
-    text: Хочаце ігнараваць facet ''{0}'' у модулі ''{1}''?
+    text: "Хочаце ігнараваць facet ''{0}'' у модулі ''{1}''?"
 copy.module.dialog.title:
     text: Капіраваць модуль
 dependencies.used.in.popup.title:
@@ -105,7 +105,7 @@ error.adding.module.to.project:
 error.message.configuration.cannot.load:
     text: Немагчыма загрузіць {0}
 error.message.unknown.facet.type.0:
-    text: 'Невядомы тып facet: ''''{0}'''''
+    text: "Невядомы тып facet: ''{0}''"
 external.annotation.prompt:
     text: Запыт знешняй анатацыі
 external.annotations.external.option:
@@ -143,7 +143,7 @@ label.text.specify.artifact.name:
 label.text.the.following.frameworks.are.detected:
     text: <html>У праекце выяўлена некалькі фрэймворкаў. Калі ласка, праверце наступныя элементы і выключыце памылкова вызначаныя.</html>
 libraries.node.text.ide:
-    text: Бібліятэкі змяшчаюць класы, якія дадаюць розную функцыянальнасць у ваша прыкладанне. Бібліятэкі таксама ўключаюць зыходныя файлы і JavaDoc, якія дапамагаюць у распрацоўцы праекта.<br><br>IntelliJ IDEA выкарыстоўвае бібліятэкі для аўтадапаўнення кода, валідацыі, падсветкі памылак і г.д.<br><br>Глабальныя бібліятэкі даступны ва ўсім праекце і могуць выкарыстоўвацца ва ўсіх модулях. Акрамя таго, яны даступны ва ўсіх праектах, створаных лакальна на вашым камп'ютары.<br><br>Звярніце ўвагу, што глабальныя бібліятэкі недаступны для тых, з кім вы дзеліцеся праектам. Калі вы хочаце падзяліцца праектам з камандай, выкарыстоўвайце замест гэтага праектныя бібліятэкі.<br><br>Разгарніце вузел і выберыце падэлементы для кіравання глабальнымі бібліятэкамі.<br><br>Каб падключыць бібліятэку да модуля, выберыце модуль, націсніце ўкладку "Залежнасці", націсніце "Дадаць" і ўкажыце размяшчэнне бібліятэкі.
+    text: "Бібліятэкі змяшчаюць класы, якія дадаюць розную функцыянальнасць у ваша прыкладанне. Бібліятэкі таксама ўключаюць зыходныя файлы і JavaDoc, якія дапамагаюць у распрацоўцы праекта.<br><br>IntelliJ IDEA выкарыстоўвае бібліятэкі для аўтадапаўнення кода, валідацыі, падсветкі памылак і г.д.<br><br>Глабальныя бібліятэкі даступны ва ўсім праекце і могуць выкарыстоўвацца ва ўсіх модулях. Акрамя таго, яны даступны ва ўсіх праектах, створаных лакальна на вашым камп'ютары.<br><br>Звярніце ўвагу, што глабальныя бібліятэкі недаступны для тых, з кім вы дзеліцеся праектам. Калі вы хочаце падзяліцца праектам з камандай, выкарыстоўвайце замест гэтага праектныя бібліятэкі.<br><br>Разгарніце вузел і выберыце падэлементы для кіравання глабальнымі бібліятэкамі.<br><br>Каб падключыць бібліятэку да модуля, выберыце модуль, націсніце ўкладку \"Залежнасці\", націсніце \"Дадаць\" і ўкажыце размяшчэнне бібліятэкі."
 libraries.node.text.module:
     text: Бібліятэкі змяшчаюць класы, якія дадаюць розную функцыянальнасць у ваша прыкладанне. Бібліятэкі таксама ўключаюць зыходныя файлы і JavaDoc, якія дапамагаюць у распрацоўцы праекта.<br><br>IntelliJ IDEA выкарыстоўвае бібліятэкі для аўтадапаўнення кода, валідацыі, падсветкі памылак і г.д.<br><br>Бібліятэкі модуля даступны толькі з модуляў, да якіх яны падключаны. Разгарніце вузел і выберыце падэлементы для кіравання бібліятэкамі модуля.<br><br>Каб падключыць бібліятэку да модуля, выберыце модуль, націсніце ўкладку "Залежнасці", націсніце "Дадаць" і ўкажыце размяшчэнне бібліятэкі.
 libraries.node.text.project:
@@ -153,7 +153,7 @@ library.attach.files.action:
 library.attach.files.description:
     text: Выберыце файлы або дырэкторыі, якія змяшчаюць класы, зыходнікі і дакументацыю бібліятэкі
 library.attach.files.to.library.action:
-    text: Прымацаваць файлы або дырэкторыі да бібліятэкі ''{0}''
+    text: "Прымацаваць файлы або дырэкторыі да бібліятэкі ''{0}''"
 library.attach.sources.action:
     text: Падключыць зыходнікі
 library.attach.sources.action.busy.text:
@@ -171,7 +171,7 @@ library.configure.title:
 library.docs.node:
     text: Дакументацыя
 library.name.already.exists.error:
-    text: Бібліятэка ''{0}'' ужо існуе
+    text: "Бібліятэка ''{0}'' ужо існуе"
 library.name.already.exists.title:
     text: Бібліятэка ўжо існуе
 library.name.not.specified.error:
@@ -189,13 +189,13 @@ message.no.module.dependency.candidates:
 message.text.stop.searching.for.frameworks:
     text: '{0} у дадзены момант шукае фрэймворкі. Хочаце спыніць пошук?'
 module.0.already.exists.error.message:
-    text: Модуль ''{0}'' ужо існуе
+    text: "Модуль ''{0}'' ужо існуе"
 module.add.error.message:
     text: 'Памылка дадання модуля ў праект: {0}'
 module.add.error.title:
     text: Дадаць модуль
 module.already.exists.error:
-    text: Модуль ''{0}'' ужо існуе ў праекце.
+    text: "Модуль ''{0}'' ужо існуе ў праекце."
 module.cannot.load.error:
     text: "Не ўдалося загрузіць файл модуля ''{0}'':\n{1}"
 module.circular.dependency.warning.description:
@@ -205,7 +205,7 @@ module.circular.dependency.warning.short:
 module.classpath.button.edit:
     text: Рэдагаваць [&I]…
 module.group.banner.text:
-    text: Группа модулей ''{0}''
+    text: "Группа модулей ''{0}''"
 module.javadoc.add.path.prompt:
     text: Выберыце JAR/zip файлы або каталогі, у якіх знаходзіцца javadoc дакументацыя модуля
 module.javadoc.add.path.title:
@@ -231,11 +231,19 @@ module.paths.add.content.action.description:
 module.paths.add.content.already.exists.error:
     text: Корань змесціва "{0}" ужо існуе
 module.paths.add.content.dominate.error:
-    text: "Дадаваемы корань змесціва \"{0}\"\nдамінуе над існуючым коранем \"{1}\".\nЭлементы змесціва не павінны перасякацца."
+    text: |-
+        Дадаваемы корань змесціва "{0}"
+        дамінуе над існуючым коранем "{1}".
+        Элементы змесціва не павінны перасякацца.
 module.paths.add.content.duplicate.error:
-    text: "Корань змесціва \"{0}\" ужо вызначаны для модуля \"{1}\".\nДва модулі ў праекце не могуць выкарыстоўваць адзін і той жа корань змесціва."
+    text: |-
+        Корань змесціва "{0}" ужо вызначаны для модуля "{1}".
+        Два модулі ў праекце не могуць выкарыстоўваць адзін і той жа корань змесціва.
 module.paths.add.content.intersect.error:
-    text: "Дадаваемы корань змесціва \"{0}\"\nзнаходзіцца пад існуючым коранем \"{1}\".\nЭлементы змесціва не павінны перасякацца."
+    text: |-
+        Дадаваемы корань змесціва "{0}"
+        знаходзіцца пад існуючым коранем "{1}".
+        Элементы змесціва не павінны перасякацца.
 module.paths.add.content.prompt:
     text: Корань змесціва - гэта дырэкторыя, якая змяшчае ўсе файлы, што адносяцца да гэтага модуля
 module.paths.add.content.title:
@@ -283,13 +291,17 @@ module.remove.command:
 module.remove.confirmation:
     text: "Выдаліць {1, choice, 1#модуль ''{0}''|2#{1} модуляў} з праекта?\nФайлы на дыску не будуць выдалены."
 module.remove.confirmation.prompt:
-    text: "Выдаліць {1, choice, 1#модуль|2#модулі} {0} з праекта?\nФайлы выдалены не будуць."
+    text: |-
+        Выдаліць {1, choice, 1#модуль|2#модулі} {0} з праекта?
+        Файлы выдалены не будуць.
 module.remove.confirmation.title:
     text: Выдаліць {0, choice, 1#модуль|2#модулі}
 module.remove.from.project.confirmation:
-    text: Вы хочаце выдаліць модуль ''{0}'' з гэтага праекта?
+    text: "Вы хочаце выдаліць модуль ''{0}'' з гэтага праекта?"
 module.remove.last.confirmation:
-    text: "Вы ўпэўнены, што хочаце выдаліць {0, choice, 1#адзіны модуль|2#усе модулі} з гэтага праекта?\nФайлы на дыску не будуць выдалены."
+    text: |-
+        Вы ўпэўнены, што хочаце выдаліць {0, choice, 1#адзіны модуль|2#усе модулі} з гэтага праекта?
+        Файлы на дыску не будуць выдалены.
 module.sdk.not.defined:
     text: JDK модуля не определен
 module.toggle.excluded.action:
@@ -313,7 +325,7 @@ modules.order.export.scope.column:
 output.tab.title:
     text: Вывод
 path.0.is.invalid.error.message:
-    text: Шлях ''{0}'' несапраўдны
+    text: "Шлях ''{0}'' несапраўдны"
 progress.indexing.scanning:
     text: Сканіраванне файлаў для індэксацыі...
 progress.indexing.updating:
@@ -377,9 +389,9 @@ project.roots.external.annotations.tab.title:
 project.roots.javadoc.tab.description:
     text: Кіраванне знешнімі JavaDoc, прымацаванымі да гэтага модуля.<br>Знешнія JavaDoc пераазначаюць анатацыі JavaDoc у вашым модулі.
 project.roots.library.problem.message:
-    text: недапушчальны элемент ''{0}'' у спісе залежнасцей
+    text: "недапушчальны элемент ''{0}'' у спісе залежнасцей"
 project.roots.module.banner.text:
-    text: Модуль ''{0}''
+    text: "Модуль ''{0}''"
 project.roots.module.duplicate.name.message:
     text: паўторнае імя модуля
 project.roots.module.groups.text:
@@ -395,17 +407,17 @@ project.roots.plain.mode.action.text.disabled:
 project.roots.plain.mode.action.text.enabled:
     text: Показать группы модулей
 project.roots.project.banner.text:
-    text: Агульныя налады праекта ''{0}''
+    text: "Агульныя налады праекта ''{0}''"
 project.roots.project.display.name:
     text: Проект
 project.roots.project.jdk.inherited:
     text: SDK проекта
 project.roots.replace.library.entry.message:
-    text: Вы сапраўды хочаце замяніць старую бібліятэку ''{0}''?
+    text: "Вы сапраўды хочаце замяніць старую бібліятэку ''{0}''?"
 project.roots.replace.library.entry.title:
     text: Бібліятэка ўжо дададзена
 project.roots.tooltip.library.has.broken.paths:
-    text: Бібліятэка ''{0}'' мае пашкоджаныя {1, choice, 1#шлях|2#шляхі}.
+    text: "Бібліятэка ''{0}'' мае пашкоджаныя {1, choice, 1#шлях|2#шляхі}."
 project.settings.display.name:
     text: Структура проекта
 prompt.open.project.in.new.frame:
@@ -419,15 +431,15 @@ rename.module.title:
 rename.scope.title:
     text: Перайменаваць вобласць бачнасці
 sdk.configuration.exception:
-    text: SDK ''{0}'' несапраўдны.
+    text: "SDK ''{0}'' несапраўдны."
 sdk.configure.annotations.tab:
     text: Анатацыі
 sdk.configure.editor.title:
     text: Редактор SDK
 sdk.configure.home.file.invalid.error:
-    text: Выбраны файл не з'яўляецца карэктным дамашнім шляхам для {0}
+    text: "Выбраны файл не з'яўляецца карэктным дамашнім шляхам для {0}"
 sdk.configure.home.invalid.error:
-    text: Выбраная дырэкторыя не з'яўляецца карэктным дамашнім шляхам для {0}
+    text: "Выбраная дырэкторыя не з'яўляецца карэктным дамашнім шляхам для {0}"
 sdk.configure.home.title:
     text: Выберыце дамашнюю дырэкторыю для {0}
 sdk.configure.javadoc.url.prompt:
@@ -441,7 +453,7 @@ sdk.configure.title:
 sdk.configure.type.home.path:
     text: 'Дамашні шлях {0}:'
 sdk.java.corrupt.error:
-    text: Возможно, SDK, установленный в ''{0}'', поврежден
+    text: "Возможно, SDK, установленный в ''{0}'', поврежден"
 sdk.java.corrupt.title:
     text: Не ўдалося вызначыць версію SDK
 sdk.list.name.required.error:

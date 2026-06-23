@@ -1,5 +1,5 @@
 maven.tasks.before.run:
-    text: Запусціць мэту Maven ''{0}''
+    text: "Запусціць мэту Maven ''{0}''"
 maven.tasks.before.run.empty:
     text: Запусціць мэту Maven
 maven.tasks.executing:

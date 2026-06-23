@@ -25,7 +25,7 @@ add.field.breakpoint.dialog.field.chooser.title:
 add.field.breakpoint.dialog.title:
     text: Дадаць пункт назірання за полем
 add.instance.filter.dialog.error.numeric.value.expected:
-    text: ID экзэмпляра павінен быць лікавым значэннем тыпу 'long'
+    text: "ID экзэмпляра павінен быць лікавым значэннем тыпу 'long'"
 add.instance.filter.dialog.prompt:
     text: 'Увядзіце ID экзэмпляра:'
 add.instance.filter.dialog.title:
@@ -93,11 +93,11 @@ error.array.renderer.configurable.end.index.less.than.start:
 error.array.renderer.configurable.start.index.less.than.zero:
     text: Пачатковы індэкс меншы за 0
 error.breakpoint.file.not.found:
-    text: Файл ''{0}'' не знойдзены; пункты спынення для гэтага файла будуць праігнараваны
+    text: "Файл ''{0}'' не знойдзены; пункты спынення для гэтага файла будуць праігнараваны"
 error.cannot.create.expression.from.code.fragment:
     text: Немагчыма стварыць выраз з фрагмента кода
 error.cannot.load.breakpoint.file:
-    text: Не ўдаецца загрузіць файл ''{0}''; пункты спынення для гэтага файла будуць праігнараваны
+    text: "Не ўдаецца загрузіць файл ''{0}''; пункты спынення для гэтага файла будуць праігнараваны"
 error.cannot.open.debugger.port:
     text: Не ўдаецца адкрыць порт адладчыка
 error.class.circularity.error:
@@ -113,7 +113,7 @@ error.context.has.changed:
 error.corrupt.debug.info:
     text: 'Адладачная інфармацыя можа быць пашкоджана: {0}'
 error.debug.connector.not.found:
-    text: Требуемый коннектор ''{0}'' не найден. Проверьте установку JDK.
+    text: "Требуемый коннектор ''{0}'' не найден. Проверьте установку JDK."
 error.debugger.already.listening:
     text: Адладчык ужо праслухоўвае
 error.early.return:
@@ -121,7 +121,10 @@ error.early.return:
 error.evaluating.breakpoint.condition.or.action:
     text: "Праблема пры апрацоўцы падзеі VM:\nПункт спынення: ''{0}''\nПамылка: {1}\nХочаце спыніцца на пункце спынення?"
 error.exception.while.connecting:
-    text: "Памылка падключэння да выдаленага працэсу.\nУзнікла выключэнне: {0}\nПаведамленне выключэння: {1}"
+    text: |-
+        Памылка падключэння да выдаленага працэсу.
+        Узнікла выключэнне: {0}
+        Паведамленне выключэння: {1}
 error.exception.while.reloading:
     text: 'Выключэнне пры перазагрузцы класаў: {0}: {1}'
 error.executing.finally:
@@ -145,7 +148,7 @@ error.invalid.argument:
 error.invalid.breakpoint.method.not.found:
     text: Метод не найден в классе {0}
 error.invalid.breakpoint.missing.field.in.class:
-    text: Не ўдаецца знайсці поле ''{0}'' у класе ''{1}''
+    text: "Не ўдаецца знайсці поле ''{0}'' у класе ''{1}''"
 error.invalid.breakpoint.no.executable.code:
     text: Не знойдзены выканальны код у радку {0} класа {1}
 error.invalid.breakpoint.no.line.info:
@@ -155,13 +158,13 @@ error.invalid.breakpoint.source.changed:
 error.invalid.breakpoint.source.not.found:
     text: Клас {0}, знойдзены ў classpath праекта, не мае звязаных зыходных файлаў
 error.invalid.field.name:
-    text: Недапушчальнае імя поля ''{0}''
+    text: "Недапушчальнае імя поля ''{0}''"
 error.invalid.local.variable.name:
-    text: Недапушчальнае імя лакальнай пераменнай ''{0}''
+    text: "Недапушчальнае імя лакальнай пераменнай ''{0}''"
 error.invalid.stackframe:
     text: Унутранае выключэнне - недапушчальны фрэйм стэка
 error.invalid.type.name:
-    text: Недапушчальнае імя тыпу ''{0}''
+    text: "Недапушчальнае імя тыпу ''{0}''"
 error.io.error:
     text: Памылка ўводу/вываду
 error.jdk.not.specified:
@@ -211,27 +214,27 @@ evaluation.error.array.reference.expected:
 evaluation.error.array.type.expected:
     text: Чакаецца тып масіва
 evaluation.error.boolean.condition.expected:
-    text: Ва ўмове чакаецца значэнне тыпу 'boolean'
+    text: "Ва ўмове чакаецца значэнне тыпу 'boolean'"
 evaluation.error.boolean.expected:
     text: Чакаецца лагічнае значэнне
 evaluation.error.boolean.value.expected.in.condition:
-    text: Ва ўмове чакаецца значэнне тыпу 'boolean'
+    text: "Ва ўмове чакаецца значэнне тыпу 'boolean'"
 evaluation.error.cannot.cast.boolean:
-    text: Немагчыма прывесці лагічнае значэнне да ''{0}''
+    text: "Немагчыма прывесці лагічнае значэнне да ''{0}''"
 evaluation.error.cannot.cast.char:
-    text: Немагчыма прывесці сімвальнае значэнне да ''{0}''
+    text: "Немагчыма прывесці сімвальнае значэнне да ''{0}''"
 evaluation.error.cannot.cast.null:
-    text: Немагчыма прывесці null да ''{0}''
+    text: "Немагчыма прывесці null да ''{0}''"
 evaluation.error.cannot.cast.numeric:
-    text: Немагчыма прывесці лікавае значэнне да ''{0}''
+    text: "Немагчыма прывесці лікавае значэнне да ''{0}''"
 evaluation.error.cannot.cast.object:
-    text: Немагчыма прывесці ''{0}'' да ''{1}''
+    text: "Немагчыма прывесці ''{0}'' да ''{1}''"
 evaluation.error.cannot.evaluate.array.initializer:
     text: Не ўдаецца вылічыць ініцыялізатар масіва
 evaluation.error.cannot.evaluate.class.type:
     text: Не ўдаецца вылічыць тып класа
 evaluation.error.cannot.evaluate.qualifier:
-    text: Не ўдаецца вылічыць кваліфікатар ''{0}''
+    text: "Не ўдаецца вылічыць кваліфікатар ''{0}''"
 evaluation.error.cannot.evaluate.tostring:
     text: Немагчыма вылічыць {0}.toString()
 evaluation.error.cannot.find.stackframe.source:
@@ -239,31 +242,31 @@ evaluation.error.cannot.find.stackframe.source:
 evaluation.error.cannot.initialize.array:
     text: Не ўдаецца ініцыялізаваць масіў
 evaluation.error.cannot.resolve.constructor:
-    text: Не ўдаецца вызначыць канструктар ''{0}''
+    text: "Не ўдаецца вызначыць канструктар ''{0}''"
 evaluation.error.cannot.resolve.field.class:
-    text: Не ўдаецца вызначыць клас, які змяшчае поле ''{0}''
+    text: "Не ўдаецца вызначыць клас, які змяшчае поле ''{0}''"
 evaluation.error.cannot.sources.for.field.class:
-    text: Не ўдаецца знайсці зыходнікі для класа, які змяшчае поле ''{0}''
+    text: "Не ўдаецца знайсці зыходнікі для класа, які змяшчае поле ''{0}''"
 evaluation.error.class.not.loaded:
-    text: Класс ''{0}'' не загружен
+    text: "Класс ''{0}'' не загружен"
 evaluation.error.class.or.array.expected:
-    text: Чакаецца клас або тып масіва пры вылічэнні поля ''{0}''
+    text: "Чакаецца клас або тып масіва пры вылічэнні поля ''{0}''"
 evaluation.error.debug.info.unavailable:
     text: Адладачная інфармацыя недаступная
 evaluation.error.empty.code.fragment:
     text: Чакаецца фрагмент кода
 evaluation.error.evaluating.field:
-    text: 'Памылка пры вылічэнні поля: ''''{0}'''''
+    text: "Памылка пры вылічэнні поля: ''{0}''"
 evaluation.error.evaluating.method:
-    text: 'Памылка пры вылічэнні метаду: ''''{0}'''''
+    text: "Памылка пры вылічэнні метаду: ''{0}''"
 evaluation.error.identifier.expected:
-    text: Чакаецца ідэнтыфікатар замест ''{0}''
+    text: "Чакаецца ідэнтыфікатар замест ''{0}''"
 evaluation.error.incompatible.array.initializer.type:
     text: Тып ініцыялізатара несумяшчальны з тыпам кампанентаў масіва
 evaluation.error.incompatible.types:
-    text: Несумяшчальныя тыпы для аперацыі ''{0}''
+    text: "Несумяшчальныя тыпы для аперацыі ''{0}''"
 evaluation.error.incompatible.variable.initializer.type:
-    text: Ініцыялізатар для ''{0}'' мае несумяшчальны тып
+    text: "Ініцыялізатар для ''{0}'' мае несумяшчальны тып"
 evaluation.error.inconsistent.debug.info:
     text: Адладачная інфармацыя супярэчлівая
 evaluation.error.integer.expected:
@@ -277,21 +280,21 @@ evaluation.error.invalid.expression:
 evaluation.error.invalid.index.expression:
     text: Некарэктны індэксны выраз
 evaluation.error.invalid.this.expression:
-    text: Немагчыма падставіць ''{0}'' у ''{1}'' як ''this''
+    text: "Немагчыма падставіць ''{0}'' у ''{1}'' як ''this''"
 evaluation.error.invalid.type.name:
-    text: 'Недапушчальнае імя тыпу: ''''{0}'''''
+    text: "Недапушчальнае імя тыпу: ''{0}''"
 evaluation.error.lambda.evaluation.not.supported:
     text: Вылічэнне лямбда-выразаў не падтрымліваецца
 evaluation.error.lebeled.loops.not.found:
-    text: Няма аператараў цыкла з меткай ''{0}''
+    text: "Няма аператараў цыкла з меткай ''{0}''"
 evaluation.error.local.variable.declarations.not.supported:
     text: Дэкларацыі лакальных пераменных тут не падтрымліваюцца.
 evaluation.error.local.variable.missing:
-    text: Не ўдаецца знайсці лакальную пераменную ''{0}''
+    text: "Не ўдаецца знайсці лакальную пераменную ''{0}''"
 evaluation.error.local.variable.missing.from.class.closure:
-    text: Лакальная пераменная ''{0}'' не знойдзена ў замыканні класа
+    text: "Лакальная пераменная ''{0}'' не знойдзена ў замыканні класа"
 evaluation.error.method.exception:
-    text: Метад выкінуў выключэнне ''{0}''.
+    text: "Метад выкінуў выключэнне ''{0}''."
 evaluation.error.method.reference.evaluation.not.supported:
     text: Вылічэнне спасылак на метады не падтрымліваецца
 evaluation.error.multi.dimensional.arrays.creation.not.supported:
@@ -299,27 +302,27 @@ evaluation.error.multi.dimensional.arrays.creation.not.supported:
 evaluation.error.nested.evaluation:
     text: Вылічэнне не падтрымліваецца падчас вылічэння іншага метаду
 evaluation.error.no.instance.field:
-    text: 'Нет такого поля экземпляра: ''''{0}'''''
+    text: "Нет такого поля экземпляра: ''{0}''"
 evaluation.error.no.instance.method:
-    text: 'Нет такого метода экземпляра: ''''{0}'''''
+    text: "Нет такого метода экземпляра: ''{0}''"
 evaluation.error.no.stackframe:
     text: 'Немагчыма вылічыць: кадр стэка недаступны'
 evaluation.error.no.static.field:
-    text: 'Няма такога статычнага поля: ''''{0}'''''
+    text: "Няма такога статычнага поля: ''{0}''"
 evaluation.error.no.static.method:
-    text: 'Няма такога статычнага метаду: ''''{0}'''''
+    text: "Няма такога статычнага метаду: ''{0}''"
 evaluation.error.not.lvalue:
-    text: Левая частка прысвойвання не з'яўляецца значэннем
+    text: "Левая частка прысвойвання не з'яўляецца значэннем"
 evaluation.error.not.rvalue:
-    text: Правая частка прысвойвання не з'яўляецца значэннем
+    text: "Правая частка прысвойвання не з'яўляецца значэннем"
 evaluation.error.numeric.expected:
     text: Чакаецца лікавае значэнне
 evaluation.error.object.collected:
-    text: Аб'ект быў сабраны зборшчыкам смецця
+    text: "Аб'ект быў сабраны зборшчыкам смецця"
 evaluation.error.object.reference.expected:
-    text: Чакаецца спасылка на аб'ект
+    text: "Чакаецца спасылка на аб'ект"
 evaluation.error.operation.not.supported:
-    text: Аперацыя ''{0}'' не падтрымліваецца
+    text: "Аперацыя ''{0}'' не падтрымліваецца"
 evaluation.error.process.exited:
     text: 'Немагчыма вылічыць: працэс завершаны'
 evaluation.error.sources.out.of.sync:
@@ -327,11 +330,11 @@ evaluation.error.sources.out.of.sync:
 evaluation.error.stack.frame.unavailable:
     text: Кадр стека недоступен
 evaluation.error.statement.not.supported:
-    text: Аператар ''{0}'' не падтрымліваецца
+    text: "Аператар ''{0}'' не падтрымліваецца"
 evaluation.error.surrounded.expression.null:
     text: Акружаны выраз роўны null
 evaluation.error.this.not.avalilable:
-    text: '''this'' недоступен'
+    text: "'this' недоступен"
 evaluation.error.thread.collected:
     text: Паток быў сабраны зборшчыкам смецця
 evaluation.error.thread.not.at.breakpoint:
@@ -351,15 +354,15 @@ evaluation.error.unsupported.declaration:
 evaluation.error.unsupported.expression.type:
     text: Непадтрымліваемы тып выразу
 evaluation.error.variable.already.declared:
-    text: Пераменная ''{0}'' ужо аб'яўлена
+    text: "Пераменная ''{0}'' ужо аб'яўлена"
 evaluation.error.variable.not.declared:
-    text: Пераменная ''{0}'' не аб'яўлена
+    text: "Пераменная ''{0}'' не аб'яўлена"
 exception.breakpoint.console.message:
-    text: Выключэнне ''{0}'' адбылося ў {1}({2})
+    text: "Выключэнне ''{0}'' адбылося ў {1}({2})"
 exception.breakpoint.console.message.location.info.absent:
     text: Няма адладачнай інфармацыі
 exception.breakpoint.console.message.with.thread.info:
-    text: Выключэнне ''{0}'' адбылося ў патоку ''{1}'' у {2}({3})
+    text: "Выключэнне ''{0}'' адбылося ў патоку ''{1}'' у {2}({3})"
 exception.breakpoints.tab.title:
     text: Пункты спынення на выключэннях Java
 field.watchpoints.tab.title:
@@ -367,7 +370,9 @@ field.watchpoints.tab.title:
 frame.panel.frames.not.available:
     text: Кадры недаступныя для непрыпыненага патоку
 hotswap.dialog.hang.warning:
-    text: "JVM у дадзены момант прыпынена.\nПеразагрузка класаў з актыўнымі староннімі JVM-агентамі можа прывесці да завісання JVM."
+    text: |-
+        JVM у дадзены момант прыпынена.
+        Перазагрузка класаў з актыўнымі староннімі JVM-агентамі можа прывесці да завісання JVM.
 hotswap.dialog.run.prompt:
     text: Некаторыя класы былі зменены. Перазагрузіць змененыя класы зараз?
 hotswap.dialog.title:
@@ -377,7 +382,7 @@ hotswap.dialog.title.with.session:
 instance.filters.dialog.title:
     text: Фільтры экзэмпляраў
 internal.error.locations.of.line:
-    text: Унутраная памылка пры загрузцы адладачнай інфармацыі з ''{0}''. Пункты спынення будуць недаступныя ў гэтым класе.
+    text: "Унутраная памылка пры загрузцы адладачнай інфармацыі з ''{0}''. Пункты спынення будуць недаступныя ў гэтым класе."
 label.add.field.breakpoint.dialog.field.name:
     text: 'Імя поля:'
 label.add.field.breakpoint.dialog.fq.name:
@@ -391,7 +396,7 @@ label.array.renderer.configurable.max.count2:
 label.array.renderer.configurable.start.index:
     text: 'Пачатковы індэкс масіва  [&R]:'
 label.base.renderer.configurable.all.overriding:
-    text: Для ўсіх класаў, якія пераазначаюць метад 'toString()'
+    text: "Для ўсіх класаў, якія пераазначаюць метад 'toString()'"
 label.base.renderer.configurable.alternate.view:
     text: Уключыць альтэрнатыўны выгляд для класаў Collection  [&E]
 label.base.renderer.configurable.autoscroll:
@@ -399,17 +404,17 @@ label.base.renderer.configurable.autoscroll:
 label.base.renderer.configurable.classes.from.list:
     text: 'Для класаў са спіса:'
 label.base.renderer.configurable.enable.toString:
-    text: 'Уключыць прагляд аб''ектаў праз ''t&oString()''  [&O]:'
+    text: "Уключыць прагляд аб'ектаў праз 't&oString()'  [&O]:"
 label.base.renderer.configurable.hide.null.array.elements:
     text: Схаваць null элементы ў масівах і калекцыях  [&N]
 label.base.renderer.configurable.show.declared.type:
-    text: Аб'яўлены тып  [&T]
+    text: "Аб'яўлены тып  [&T]"
 label.base.renderer.configurable.show.fq.names:
     text: Поўныя імёны  [&Q]
 label.base.renderer.configurable.show.hex.value:
     text: Паказваць шаснаццатковыя значэнні для прымітываў
 label.base.renderer.configurable.show.object.id:
-    text: ID аб'екта  [&I]
+    text: "ID аб'екта  [&I]"
 label.base.renderer.configurable.show.static.fields:
     text: Статычныя палі  [&S]
 label.base.renderer.configurable.show.static.final.fields:
@@ -425,11 +430,11 @@ label.capture.configurable.capture.variables:
 label.compound.renderer.configurable.append.default.children:
     text: Дадаць даччыныя элементы па змаўчанні
 label.compound.renderer.configurable.apply.to:
-    text: 'Прымяніць рэндэрар да аб''ектаў тыпу (поўнае імя):'
+    text: "Прымяніць рэндэрар да аб'ектаў тыпу (поўнае імя):"
 label.compound.renderer.configurable.ondemand:
     text: Па запыце
 label.compound.renderer.configurable.show.type:
-    text: Паказваць тып і id аб'екта
+    text: "Паказваць тып і id аб'екта"
 label.compound.renderer.configurable.table.header.expression:
     text: Выраз
 label.compound.renderer.configurable.table.header.name:
@@ -479,7 +484,7 @@ label.debugger.hotswap.configurable.ask:
 label.debugger.hotswap.configurable.compile.before.hotswap:
     text: Собрать проект перед перезагрузкой классов
 label.debugger.hotswap.configurable.enable.vm.hang.warning:
-    text: Уключыць папярэджанне 'JVM завісне'
+    text: "Уключыць папярэджанне 'JVM завісне'"
 label.debugger.hotswap.configurable.never:
     text: Ніколі  [&N]
 label.debugger.hotswap.configurable.reload.classes:
@@ -521,7 +526,7 @@ label.thread.group.node.group.collected:
 label.thread.node.in.group:
     text: '"{0}"@{1} в группе "{3}": {2}'
 label.thread.node.thread.collected:
-    text: Паток ''{0}'' быў сабраны зборшчыкам смецця
+    text: "Паток ''{0}'' быў сабраны зборшчыкам смецця"
 label.threads.view.configurable.current.thread.on.top:
     text: Перамяшчаць бягучы паток уверх
 label.threads.view.configurable.show.class.name:
@@ -579,7 +584,7 @@ message.node.local.variables.not.captured:
 message.node.navigate:
     text: … Перайсці
 message.node.object.collected:
-    text: Аб'ект быў сабраны зборшчыкам смецця падчас выкліку метаду
+    text: "Аб'ект быў сабраны зборшчыкам смецця падчас выкліку метаду"
 message.node.show.icon:
     text: … Показать значок
 message.node.show.image:
@@ -651,9 +656,9 @@ status.line.breakpoint.reached.full.trace:
 status.listening:
     text: 'Чаканне падключэння, адрас: {0}'
 status.method.entry.breakpoint.reached:
-    text: Вход в метод ''{0}'' в {1}({2}:{3,number,#})
+    text: "Вход в метод ''{0}'' в {1}({2}:{3,number,#})"
 status.method.exit.breakpoint.reached:
-    text: Дасягнуты пункт спынення метаду. Метад ''{0}'' рыхтуецца да выхаду ў {1}({2}:{3,number,#})
+    text: "Дасягнуты пункт спынення метаду. Метад ''{0}'' рыхтуецца да выхаду ў {1}({2}:{3,number,#})"
 status.paused:
     text: Прыпынена
 status.paused.in.another.thread:
@@ -747,7 +752,10 @@ user.renderers.configurable.display.name:
 warning.finally.block.detected:
     text: 'Выяўлены непустыя блокі finally:'
 warning.jdk140.unstable:
-    text: "Версія віртуальнай машыны прыкладання, якое адладжваецца - \"1.4.0\".\nДакументаваныя памылкі J2SDK 1.4.0 могуць выклікаць нестабільную працу адладчыка.\nРэкамендуецца выкарыстоўваць J2SDK 1.4.0_01 або вышэй."
+    text: |-
+        Версія віртуальнай машыны прыкладання, якое адладжваецца - "1.4.0".
+        Дакументаваныя памылкі J2SDK 1.4.0 могуць выклікаць нестабільную працу адладчыка.
+        Рэкамендуецца выкарыстоўваць J2SDK 1.4.0_01 або вышэй.
 warning.range.too.big:
     text: Пазначаны занадта вялікі дыяпазон. {0} патрабуе занадта шмат рэсурсаў для выканання запытанай аперацыі. Вы ўпэўнены, што хочаце працягнуць?
 warning.recalculate:

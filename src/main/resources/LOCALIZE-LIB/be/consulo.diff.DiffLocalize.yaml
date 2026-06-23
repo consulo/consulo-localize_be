@@ -9,7 +9,9 @@ apply.partially.resolved.merge.dialog.title:
 apply.patch.all.changes.processed.message.text:
     text: Захаваць змены і завяршыць вырашэнне
 apply.patch.partially.resolved.changes.confirmation.message:
-    text: "{0, choice, 1#1 блок|2#{0, number} блока|3#{0, number} блокаў} не апрацавана.\nЗахаваць змены і завяршыць вырашэнне?"
+    text: |-
+        {0, choice, 1#1 блок|2#{0, number} блока|3#{0, number} блокаў} не апрацавана.
+        Захаваць змены і завяршыць вырашэнне?
 apply.somehow.status.message.all.applied:
     text: Усе блокі вырашаны
 apply.somehow.status.message.already.applied:
@@ -143,4 +145,4 @@ synchronize.document.and.its.fragment:
 synchronize.scrolling:
     text: Сінхранізаваць пракрутку
 unified.viewer:
-    text: Аб'яднаны прагляд
+    text: "Аб'яднаны прагляд"

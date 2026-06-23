@@ -241,7 +241,7 @@ action.sync.completed.successfully:
 action.text.remove.0:
     text: Выдаліць {0}
 action.text.remove.abbreviation.0:
-    text: Выдаліць абрэвіятуру ''{0}''
+    text: "Выдаліць абрэвіятуру ''{0}''"
 action.todo.edit.filters:
     text: Рэдагаваць фільтры
 action.todo.show.all:
@@ -277,7 +277,7 @@ bean.property:
 browsers.settings:
     text: Вэб-браўзеры і папярэдні прагляд
 bundled.jre.version.message:
-    text: Рэкамендуецца пераключыцца на ўбудаваны Java Runtime, які лепш падыходзіць для ІАР (бягучы Java Runtime {0} ад {1}, размешчаны ў ''{2}'').
+    text: "Рэкамендуецца пераключыцца на ўбудаваны Java Runtime, які лепш падыходзіць для ІАР (бягучы Java Runtime {0} ад {1}, размешчаны ў ''{2}'')."
 button.add.separator:
     text: Дадаць раздзяляльнік [&S]
 button.cancel:
@@ -341,7 +341,7 @@ button.wizard.previous:
 button.yes:
     text: Так [_Y]
 change.encoding.command.name:
-    text: Змяніць кадыроўку ''{0}''
+    text: "Змяніць кадыроўку ''{0}''"
 checkbox.confirm.application.exit:
     text: Пацвердзіце выхад з ІАР
 checkbox.copy.javadoc:
@@ -443,9 +443,9 @@ command.renaming.module:
 command.select.all:
     text: Выбраць усё
 conversion.dialog.text.1:
-    text: Фармат праекта ''{0}'' састарэў і будзе пераўтвораны. Магчыма, вы не зможаце адкрыць гэты праект у больш ранніх версіях {1}.
+    text: "Фармат праекта ''{0}'' састарэў і будзе пераўтвораны. Магчыма, вы не зможаце адкрыць гэты праект у больш ранніх версіях {1}."
 conversion.dialog.text.2:
-    text: '<b> </b><a href="details">Больш...</a><br/><br/>Старая версія файлаў праекта будзе захавана ў: ''''{0}'''''
+    text: "<b> </b><a href=\"details\">Больш...</a><br/><br/>Старая версія файлаў праекта будзе захавана ў: ''{0}''"
 copy.reference:
     text: Скапіраваць спасылку [&Y]
 copy.references:
@@ -467,7 +467,7 @@ dialog.directory.for.downloaded.files.title:
 dialog.message.cannot.save.the.file.0:
     text: Немагчыма захаваць файл {0}
 dialog.message.incompatible.encoding:
-    text: Абраная кадыроўка (''{0}'') можа змяніць змесціва ''{1}''.<br>Хачу<br>1. <b>Перазагрузіце</b> файл з дыска ў новай кадыроўцы ''{0}'', перазапісваючы змесціва рэдактара або<br>2. <b>Пераўтварыць</b> тэкст і перапісаць файл у новай кадоўцы?
+    text: "Абраная кадыроўка (''{0}'') можа змяніць змесціва ''{1}''.<br>Хачу<br>1. <b>Перазагрузіце</b> файл з дыска ў новай кадыроўцы ''{0}'', перазапісваючы змесціва рэдактара або<br>2. <b>Пераўтварыць</b> тэкст і перапісаць файл у новай кадоўцы?"
 dialog.title.abbreviation:
     text: Скарачэнне
 dialog.title.choose.color:
@@ -493,11 +493,14 @@ dialog.title.unable.to.save:
 diff.dialog.title:
     text: Адрозненні паміж схемамі
 directory.module.content.root:
-    text: "Каранёвая дырэкторыя змесціва модуля\n"
+    text: |
+        Каранёвая дырэкторыя змесціва модуля
 directory.module.file:
-    text: "Дырэкторыя файла модуля\n"
+    text: |
+        Дырэкторыя файла модуля
 directory.project.file.directory:
-    text: "Дырэкторыя {0}\n"
+    text: |
+        Дырэкторыя {0}
 display.balloon.notifications:
     text: Паказаць усплывальныя апавяшчэнні
 display.name.firefox.settings:
@@ -541,13 +544,13 @@ empty.text.recent.files:
 empty.text.search.everywhere:
     text: Шукайце ўсюды
 encoding.do.not.convert.message:
-    text: Не пераўтвараць у ''{0}''
+    text: "Не пераўтвараць у ''{0}''"
 encoding.name.system.default:
     text: '<Сістэмнае змаўчанне: {0}>'
 encoding.not.available:
     text: Няма ў наяўнасці
 encoding.unsupported.characters.message:
-    text: Кадыроўка ''{0}'' не падтрымлівае некаторыя сімвалы ў тэксце
+    text: "Кадыроўка ''{0}'' не падтрымлівае некаторыя сімвалы ў тэксце"
 encodings.dialog.caption:
     text: Дадайце шляхі да файлаў або каталогаў і абярыце кадыроўку для выкарыстання ў {0}.<br>Файлы і каталогі ўспадкоўваюць кадыроўку ад бацькоўскіх каталогаў або праекта.<br>Убудаваныя кадыроўкі ў файлах JSP, HTML і XML перавызначаюць гэтыя налады.
 error.0.browser.path.not.specified:
@@ -557,7 +560,7 @@ error.adding.module.to.project:
 error.cannot.convert.project:
     text: 'Немагчыма пераўтварыць праект: {0}'
 error.cannot.create.temp.dir:
-    text: Немагчыма стварыць часовы каталог ''{0}''
+    text: "Немагчыма стварыць часовы каталог ''{0}''"
 error.cannot.find.file:
     text: Файл {0} не найден
 error.cannot.load.project:
@@ -575,7 +578,7 @@ error.file.does.not.exist:
 error.file.download.failed:
     text: "Не ўдалося загрузіць ''{0}'':\n{1}"
 error.file.not.found.message:
-    text: Файл ''{0}'' не існуе
+    text: "Файл ''{0}'' не існуе"
 error.files.of.this.type.cannot.be.opened:
     text: Файлы гэтага тыпу нельга адкрыць у {0}
 error.invalid.template.file.name.or.extension:
@@ -585,13 +588,15 @@ error.loading.package.list:
 error.malformed.url:
     text: 'Няправільны URL: {0}'
 error.message.cannot.make.files.writable:
-    text: "Наступныя файлы немагчыма разблакіраваць:\n{0}"
+    text: |-
+        Наступныя файлы немагчыма разблакіраваць:
+        {0}
 error.message.cannot.modify.file.0:
-    text: Немагчыма змяніць файл ''{0}''
+    text: "Немагчыма змяніць файл ''{0}''"
 error.message.unable.to.create.file:
-    text: Немагчыма стварыць файл ''{0}''
+    text: "Немагчыма стварыць файл ''{0}''"
 error.module.already.exists:
-    text: Модуль пад назвай ''{0}'' ужо існуе
+    text: "Модуль пад назвай ''{0}'' ужо існуе"
 error.module.with.name.already.exists:
     text: Модуль з імем {0} ужо існуе
 error.name.cannot.be.empty:
@@ -611,27 +616,43 @@ error.please.specify.template.name:
 error.project.file.does.not.exist:
     text: Немагчыма загрузіць {0}. Файл не існуе.
 error.reading.settings.file:
-    text: "Памылка пры чытанні файла {0}.\nПераканайцеся, што файл быў створаны функцыяй \"Файл | Кіраванне настройкамі IDE | Экспарт настроек…\"\n\n{1}"
+    text: |-
+        Памылка пры чытанні файла {0}.
+        Пераканайцеся, што файл быў створаны функцыяй "Файл | Кіраванне настройкамі IDE | Экспарт настроек…"
+
+        {1}
 error.reading.settings.file.2:
-    text: "Памылка пры чытанні файла {0}.\n\n{1}"
+    text: |-
+        Памылка пры чытанні файла {0}.
+
+        {1}
 error.saving.license.data:
-    text: "Памылка захавання дадзеных ліцэнзіі.\n{0}"
+    text: |-
+        Памылка захавання дадзеных ліцэнзіі.
+        {0}
 error.saving.statistics:
     text: 'Памылка пры захаванні сістэмнай інфармацыі: {0}'
 error.source.directory.should.be.under.module.content.root.directory:
     text: Дырэкторыя з зыходным кодам павінна знаходзіцца ў каранёвай дырэкторыі змесціва модуля
 error.text.file.already.exists:
-    text: "Файл {0} ужо існуе.\nПерапісаць ці дадаць?"
+    text: |-
+        Файл {0} ужо існуе.
+        Перапісаць ці дадаць?
 error.tips.not.found:
     text: Падказкі дня не знойдзены. Пераканайцеся, што {0} усталяваны правільна.
 error.unable.to.parse.template.message:
-    text: "Немагчыма разабраць шаблон \"{0}\",\nпаведамленне пра памылку: {1}"
+    text: |-
+        Немагчыма разабраць шаблон "{0}",
+        паведамленне пра памылку: {1}
 error.unable.to.read.tip.of.the.day:
     text: <html><body>Немагчыма прачытаць параду дня ({0}). Пераканайцеся, што {1} усталяваны правільна.</body></html>
 error.updating.package.list:
     text: 'Памылка абнаўлення спісу пакетаў: {0}'
 error.writing.settings:
-    text: "Памылка пры запісе настроек.\n\n{0}"
+    text: |-
+        Памылка пры запісе настроек.
+
+        {0}
 error.writing.to.file:
     text: 'Памылка запісу ў файл: {0}'
 errortree.error:
@@ -645,7 +666,7 @@ errortree.prefix.line:
 errortree.warning:
     text: 'Папярэджанне:'
 failed.to.install.package.dialog.title:
-    text: Не ўдалося ўсталяваць ''{0}''
+    text: "Не ўдалося ўсталяваць ''{0}''"
 failed.to.install.packages.dialog.title:
     text: Не ўдалося ўсталяваць пакеты
 favorites.list.unnamed:
@@ -735,7 +756,7 @@ hierarchy.legend.method.defined.in.superclass:
 hierarchy.legend.method.is.defined.in.class:
     text: Метад вызначаецца ў класе
 hierarchy.legend.method.should.be.defined:
-    text: Метад павінен быць вызначаны, паколькі клас не з'яўляецца абстрактным
+    text: "Метад павінен быць вызначаны, паколькі клас не з'яўляецца абстрактным"
 hierarchy.method.next.occurence.name:
     text: Перайсці да наступнага метаду
 hierarchy.method.prev.occurence.name:
@@ -753,7 +774,7 @@ ide.shutdown.action:
 incompatible.encoding.dialog.title:
     text: 'Несумяшчальная кадыроўка: {0}'
 install.package.failure:
-    text: Памылка ўсталявання пакета ''{0}''. <a href="xxx">Больш падрабязна...</a>
+    text: "Памылка ўсталявання пакета ''{0}''. <a href=\"xxx\">Больш падрабязна...</a>"
 label.appearance.caret.blinking:
     text: 'Выгляд: курсор міргае'
 label.appearance.show.inner.whitespaces:
@@ -787,7 +808,10 @@ label.icon.path:
 label.inactive.timeout.sec:
     text: секунд
 label.java.source.files.have.been.found:
-    text: "Зыходныя файлы для вашага модуля знойдзены. Калі ласка, выберыце каталогі, якія будуць\nадзначаны як шляхі да зыходных файлаў. Гэтыя шляхі адпавядаюць пакетам па змаўчанні (каранёвым, безыменным, верхняга ўзроўню).\nЗаўвага: праграма распазнае толькі зыходныя файлы, размешчаныя ў гэтых каталогах."
+    text: |-
+        Зыходныя файлы для вашага модуля знойдзены. Калі ласка, выберыце каталогі, якія будуць
+        адзначаны як шляхі да зыходных файлаў. Гэтыя шляхі адпавядаюць пакетам па змаўчанні (каранёвым, безыменным, верхняга ўзроўню).
+        Заўвага: праграма распазнае толькі зыходныя файлы, размешчаныя ў гэтых каталогах.
 label.library.will.be.created.description.text:
     text: Будзе створана бібліятэка ўзроўню {0} <b>{1}</b> з {2} {2, choice, 1#файлам|2#файламі}
 label.line.column:
@@ -799,7 +823,7 @@ label.macros:
 label.missed.libraries.prefix:
     text: 'Наступныя бібліятэкі адсутнічаюць:'
 label.missed.libraries.text:
-    text: Бібліятэка ''{0}'' не знойдзена ў спісе залежнасцей модуля
+    text: "Бібліятэка ''{0}'' не знойдзена ў спісе залежнасцей модуля"
 label.name:
     text: Імя
 label.no.actions.found:
@@ -821,7 +845,10 @@ label.please.enter.project.name:
 label.project.jdk:
     text: 'SDK проекта:'
 label.project.roots.have.been.found:
-    text: "Зыходныя файлы для вашага праекта знойдзены. Калі ласка, выберыце каталогі, якія будуць\nдададзены ў карані праекта. Гэтыя шляхі адпавядаюць пакетам па змаўчанні (каранёвым, безыменным, верхняга ўзроўню).\nЗаўвага: праграма распазнае толькі зыходныя файлы, размешчаныя ў гэтых каталогах."
+    text: |-
+        Зыходныя файлы для вашага праекта знойдзены. Калі ласка, выберыце каталогі, якія будуць
+        дададзены ў карані праекта. Гэтыя шляхі адпавядаюць пакетам па змаўчанні (каранёвым, безыменным, верхняга ўзроўню).
+        Заўвага: праграма распазнае толькі зыходныя файлы, размешчаныя ў гэтых каталогах.
 label.project.roots.not.found:
     text: Зыходныя файлы для вашага праекта не знойдзены.
 label.scope:
@@ -851,7 +878,7 @@ license.panel.perpetual.license.description:
 listbox.customfiletype.keywords:
     text: Ключавыя словы
 loading.in.progress:
-    text: '<html><body style=''text-align: center;padding-top:20px;''>Загрузка...</body></html>'
+    text: "<html><body style='text-align: center;padding-top:20px;'>Загрузка...</body></html>"
 local.scopes.node.text:
     text: Лакальныя вобласці
 low.disk.space.message:
@@ -941,9 +968,9 @@ message.educational.license:
 message.expiration.date:
     text: 'Дата заканчэння: {0}'
 message.macro.exists:
-    text: Макрас ''{0}'' ужо існуе. Хочаце перазапісаць?
+    text: "Макрас ''{0}'' ужо існуе. Хочаце перазапісаць?"
 message.module:
-    text: Модуль ''{0}''
+    text: "Модуль ''{0}''"
 message.module.file.has.an.older.format.do.you.want.to.convert.it:
     text: Файл модуля мае састарэлы фармат. Хочаце пераўтварыць яго?
 message.modules:
@@ -955,21 +982,25 @@ message.no.targets.available:
 message.occurrence.N.of.M:
     text: Матч {0} ад {1}
 message.open.file.is.project:
-    text: "{0} - гэта файл праекта.\nАдкрыць як праект?"
+    text: |-
+        {0} - гэта файл праекта.
+        Адкрыць як праект?
 message.open.source.project.license:
     text: Ліцэнзія для Open Source праекта. {0}
 message.path.to.fqn.has.been.copied:
-    text: '''''{0}'''' скапіравана.'
+    text: "''{0}'' скапіравана."
 message.personal.license:
     text: Персанальная ліцэнзія
 message.please.select.element.for.javadoc:
     text: Выберыце элемент, для якога вы хочаце праглядзець дакументацыю
 message.reference.to.fqn.has.been.copied:
-    text: Спасылка на ''{0}'' была скапіравана.
+    text: "Спасылка на ''{0}'' была скапіравана."
 message.server.protocol.hijacked:
     text: 'Адказ сервера ліцэнзій не прайшоў праверку цэласнасці дадзеных: {0}'
 message.settings.exported.successfully:
-    text: "Вашы налады паспяхова экспартаваны.\nІх можна імпартаваць з дапамогай \"Файл | Кіраванне настройкамі IDE | Імпарт настроек…\""
+    text: |-
+        Вашы налады паспяхова экспартаваны.
+        Іх можна імпартаваць з дапамогай "Файл | Кіраванне настройкамі IDE | Імпарт настроек…"
 message.settings.imported.successfully:
     text: Налады паспяхова імпартаваны. {0} {1} для прымянення налад?
 message.text.creating.deployment.descriptor:
@@ -979,7 +1010,7 @@ message.text.error.creating.deployment.descriptor:
 message.text.unlock.read.only.files:
     text: <html><body>Наступныя файлы даступныя толькі для чытання. {0} разблакуе іх.<br>{1}</body></html>
 message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
-    text: <html><body>Ваш модуль быў паспяхова ператвораны.<br> Старая версія захавана ў ''{0}''</body></html>
+    text: "<html><body>Ваш модуль быў паспяхова ператвораны.<br> Старая версія захавана ў ''{0}''</body></html>"
 new.library.file.chooser.title:
     text: Новыя файлы бібліятэкі
 no.charset.set.reason.charset.auto.detected.by.bom:
@@ -1023,11 +1054,11 @@ open.url.in.browser.tooltip:
 option.hide.tool.window.bars:
     text: Схаваць панэлі інструментаў
 package.0.installed.successfully:
-    text: Пакет ''{0}'' паспяхова ўсталяваны
+    text: "Пакет ''{0}'' паспяхова ўсталяваны"
 package.installed.successfully:
     text: Пакет паспяхова ўсталяваны
 package.successfully.uninstalled:
-    text: Пакет ''{0}'' быў паспяхова выдалены
+    text: "Пакет ''{0}'' быў паспяхова выдалены"
 package.successfully.upgraded:
     text: Пакет {0} паспяхова абноўлены
 packages.settings.latest.version:
@@ -1087,7 +1118,7 @@ progress.window.empty.text:
 progress.window.title:
     text: Фонавыя задачы
 project.directory.is.not.writable:
-    text: Падобна, каталог ''{0}'' недаступны для запісу. Калі ласка, выберыце іншае размяшчэнне.
+    text: "Падобна, каталог ''{0}'' недаступны для запісу. Калі ласка, выберыце іншае размяшчэнне."
 project.import.default.name:
     text: ІмпартаванаЗ{0}
 project.import.default.name.dotIdea:
@@ -1115,9 +1146,14 @@ prompt.choose.export.settings.file.path:
 prompt.choose.import.file.path:
     text: Выберыце файл або дырэкторыю настроек для імпарту
 prompt.confirm.project.no.jdk:
-    text: "Стварыць праект без прызначанага SDK?\nSDK неабходны для кампіляцыі, адладкі і запуску прыкладанняў,\nа таксама для вызначэння класаў стандартнага SDK."
+    text: |-
+        Стварыць праект без прызначанага SDK?
+        SDK неабходны для кампіляцыі, адладкі і запуску прыкладанняў,
+        а таксама для вызначэння класаў стандартнага SDK.
 prompt.create.non.existing.package:
-    text: "Пакет {0} не існуе.\nСтварыць яго?"
+    text: |-
+        Пакет {0} не існуе.
+        Стварыць яго?
 prompt.delete.and:
     text: І
 prompt.delete.class:
@@ -1179,7 +1215,7 @@ prompt.gotofile.enter.file.name:
 prompt.gotosymbol.enter.symbol.name:
     text: 'Увядзіце назву сімвала:'
 prompt.input.favorites.list.new.name:
-    text: 'Перайменаваць спіс абраных ''''{0}'''' у:'
+    text: "Перайменаваць спіс абраных ''{0}'' у:"
 prompt.input.new.favorites.list.name:
     text: Увядзіце імя для новага спісу абраных
 prompt.new.project.file.name:
@@ -1187,9 +1223,12 @@ prompt.new.project.file.name:
 prompt.open.project.in.new.frame:
     text: <html><body>Дзе вы хочаце адкрыць праект?</body></html>
 prompt.overwrite.project.folder:
-    text: "Папка {0} ужо існуе ў {1}.\nЯе змесціва можа быць перазапісана.\nПрацягнуць?"
+    text: |-
+        Папка {0} ужо існуе ў {1}.
+        Яе змесціва можа быць перазапісана.
+        Працягнуць?
 prompt.overwrite.settings.file:
-    text: Перазапісаць ''{0}''?
+    text: "Перазапісаць ''{0}''?"
 prompt.please.check.all.components.to.export:
     text: 'Калі ласка, адзначце налады для экспарту:'
 prompt.please.select.module.jdk:
@@ -1197,7 +1236,10 @@ prompt.please.select.module.jdk:
 prompt.please.select.project.jdk:
     text: Выберыце SDK праекта. Гэты SDK будзе выкарыстоўвацца па змаўчанні ўсімі модулямі праекта.
 prompt.please.specify.java.sources.directory:
-    text: "Укажыце дырэкторыю, дзе знаходзяцца зыходныя файлы вашага праекта.\nГэты шлях павінен адпавядаць пакету па змаўчанні (каранёваму, безыменнаму, верхняга ўзроўню).\nЗаўвага: праграма распазнае толькі зыходныя файлы, размешчаныя ў гэтых дырэкторыях."
+    text: |-
+        Укажыце дырэкторыю, дзе знаходзяцца зыходныя файлы вашага праекта.
+        Гэты шлях павінен адпавядаць пакету па змаўчанні (каранёваму, безыменнаму, верхняга ўзроўню).
+        Заўвага: праграма распазнае толькі зыходныя файлы, размешчаныя ў гэтых дырэкторыях.
 prompt.relative.path.to.sources.empty:
     text: "Адносны шлях да зыходнікаў пусты.\nХочаце адзначыць каранёвую дырэкторыю модуля\n''{0}''\nяк дырэкторыю з зыходным кодам?"
 prompt.reset.to.original.template:
@@ -1205,9 +1247,13 @@ prompt.reset.to.original.template:
 prompt.select.source.directory:
     text: Выбраць дырэкторыю з зыходным кодам
 prompt.specify.module.group.name:
-    text: "Укажыце назву групы, пад якой будзе адлюстроўвацца {0}.\n\n"
+    text: |+
+        Укажыце назву групы, пад якой будзе адлюстроўвацца {0}.
+
 prompt.specify.name.of.module.subgroup:
-    text: "Укажыце назву падгрупы {0}, пад якой будзе адлюстроўвацца {1}\n\n"
+    text: |+
+        Укажыце назву падгрупы {0}, пад якой будзе адлюстроўвацца {1}
+
 prompt.stop.searching.for.sources:
     text: '{0} у дадзены момант шукае зыходнікі. Хочаце спыніць пошук?'
 quick.lists.presentable.name:
@@ -1253,7 +1299,9 @@ run.anything.ad.run.with.debug:
 run.anything.console.error.title:
     text: Немагчыма выканаць каманду
 run.anything.console.process.finished:
-    text: "\nПрацэс скончыўся з кодам выхаду {0}."
+    text: |4-
+
+        Працэс скончыўся з кодам выхаду {0}.
 run.anything.context.browse.directory:
     text: Агляд каталога...
 run.anything.context.project:
@@ -1283,7 +1331,7 @@ run.anything.main.list.empty.primary.text:
 run.anything.main.list.empty.secondary.text:
     text: Увядзіце "?" для прагляду ўсіх каманд
 run.anything.notification.warning.content:
-    text: Немагчыма выканаць каманду ''{0}''.
+    text: "Немагчыма выканаць каманду ''{0}''."
 run.anything.notification.warning.title:
     text: Памылка выканання каманды
 run.anything.recent.group.title:
@@ -1309,9 +1357,9 @@ run.canceled.by.user.message:
 run.configuration.error.executable.not.specified:
     text: Выканальны файл не ўказаны
 run.configuration.error.working.directory.does.not.exist:
-    text: Немагчыма запусціць працэс, рабочая дырэкторыя ''{0}'' не існуе
+    text: "Немагчыма запусціць працэс, рабочая дырэкторыя ''{0}'' не існуе"
 scope.banner.text:
-    text: Вобласць ''{0}''
+    text: "Вобласць ''{0}''"
 scope.class.hierarchy:
     text: Іерархія класаў
 scope.current.file:
@@ -1377,13 +1425,13 @@ searcheverywhere.allelements.tab.name:
 searcheverywhere.commands.tab.name:
     text: Каманды
 searcheverywhere.found.matches.title:
-    text: Супадзенні для ''{0}'' у [{1}]
+    text: "Супадзенні для ''{0}'' у [{1}]"
 searcheverywhere.found.targets.title:
     text: Неадсартаваныя вынікі
 searcheverywhere.history.shortcuts.hint:
     text: Націсніце {0} або {1}, каб прагледзець гісторыю пошуку
 searcheverywhere.indexing.incomplete.results:
-    text: Вынікі пошуку ў ''{0}'' могуць быць няпоўнымі пры абнаўленні індэкса {1}
+    text: "Вынікі пошуку ў ''{0}'' могуць быць няпоўнымі пры абнаўленні індэкса {1}"
 searcheverywhere.indexing.mode.not.supported:
     text: Пошук «{0}» недаступны, пакуль індэкс {1} абнаўляецца
 searcheverywhere.nothing.found.for.all.anywhere:
@@ -1639,10 +1687,20 @@ upgrade.packages.failed:
 upgrade.packages.failed.dialog.title:
     text: Памылка абнаўлення пакета
 warning.delete.all.files.and.subdirectories:
-    text: "\nУсе файлы і падкаталогі ў «{0}» будуць выдалены.\nГэта дзеянне можа быць незваротным\n!"
+    text: |4-
+
+        Усе файлы і падкаталогі ў «{0}» будуць выдалены.
+        Гэта дзеянне можа быць незваротным
+        !
 warning.delete.all.files.and.subdirectories.in.the.selected.directory:
-    text: "\nУсе файлы і падкаталогі ў выбраным каталогу будуць выдалены.\nГэта дзеянне можа быць незваротным\n!"
+    text: |4-
+
+        Усе файлы і падкаталогі ў выбраным каталогу будуць выдалены.
+        Гэта дзеянне можа быць незваротным
+        !
 warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
-    text: Файл модуля ''{0}'' ужо існуе.
+    text: "Файл модуля ''{0}'' ужо існуе."
 warning.text.0.do.you.want.to.overwrite.these.files:
-    text: "{0}\nПеразапісаць {1,choice,1#гэты файл|2#гэтыя файлы}?"
+    text: |-
+        {0}
+        Перазапісаць {1,choice,1#гэты файл|2#гэтыя файлы}?

@@ -17,11 +17,11 @@ deployment.view.delete:
 deployment.view.select:
     text: Выберыце {0}
 error.cannot.resolve.plugin:
-    text: Не ўдаецца вызначыць плагін ''{0}'' у залежнасцях
+    text: "Не ўдаецца вызначыць плагін ''{0}'' у залежнасцях"
 error.file.not.found:
     text: Файл не найден
 error.file.not.found.message:
-    text: Файл ''{0}'' не існуе
+    text: "Файл ''{0}'' не існуе"
 error.no.plugin.xml:
     text: Файл plugin.xml не найден
 error.occurred:
@@ -59,11 +59,11 @@ inspections.component.not.registered.quickfix.name:
 inspections.registration.problems.abstract:
     text: Клас кампанента плагіна не павінен быць abstract
 inspections.registration.problems.component.duplicate.interface:
-    text: Не дапускаецца некалькі кампанентаў з аднолькавым 'interface-class'
+    text: "Не дапускаецца некалькі кампанентаў з аднолькавым 'interface-class'"
 inspections.registration.problems.component.incompatible.interface:
-    text: Клас кампанента не можа быць прысвоены інтэрфейсу ''{0}''
+    text: "Клас кампанента не можа быць прысвоены інтэрфейсу ''{0}''"
 inspections.registration.problems.incompatible.message:
-    text: Згодна з рэгістрацыяй у plugin.xml, клас павінен пашыраць ''{0}''
+    text: "Згодна з рэгістрацыяй у plugin.xml, клас павінен пашыраць ''{0}''"
 inspections.registration.problems.missing.noarg.ctor:
     text: Клас дзеяння павінен мець канструктар без аргументаў
 inspections.registration.problems.name:
@@ -125,7 +125,7 @@ new.menu.project.component.text:
 plugin.descriptor:
     text: Дэскрыптар плагіна IntelliJ Platform
 prepare.for.deployment:
-    text: Падрыхтоўка модуля плагіна ''{0}'' да разгортвання
+    text: "Падрыхтоўка модуля плагіна ''{0}'' да разгортвання"
 prepare.for.deployment.all:
     text: Падрыхтоўка ўсіх модуляў плагінаў да разгортвання
 program.parameters:
@@ -143,7 +143,7 @@ sandbox.purpose:
 sandbox.specification:
     text: Калі ласка, настройце пясочніцу
 saved.message:
-    text: '{0, choice, 1#Zip|2#JAR} файл модуля ''''{1}'''' сохранён в {2}'
+    text: "{0, choice, 1#Zip|2#JAR} файл модуля ''{1}'' сохранён в {2}"
 saved.message.common:
     text: '{0} будзе захаваны ў выбранай дырэкторыі'
 select.plugin.modules.description:
@@ -153,10 +153,10 @@ select.plugin.modules.title:
 select.target.location.of.description:
     text: Выберыце мэтавае размяшчэнне для {0}
 success.deployment.message:
-    text: Падрыхтоўка модуля плагіна ''{0}'' да разгортвання паспяхова завершана
+    text: "Падрыхтоўка модуля плагіна ''{0}'' да разгортвання паспяхова завершана"
 success.deployment.message.all:
     text: Падрыхтоўка ўсіх плагінаў да разгортвання паспяхова завершана
 suggest.to.delete:
-    text: Выдаліць ''{0}''?
+    text: "Выдаліць ''{0}''?"
 vm.parameters:
     text: Параметры VM [&V]

@@ -9,9 +9,9 @@ generate.setter.fields.chooser.title:
 generate.to.string.chooser.title:
     text: Выберыце палі для выкарыстання ў функцыі toString
 interface.function.declaration.should.have.no.body:
-    text: Аб'яўленне функцыі інтэрфейсу не павінна мець цела
+    text: "Аб'яўленне функцыі інтэрфейсу не павінна мець цела"
 interface.should.have.no.variable.declarations:
-    text: Інтэрфейс не павінен змяшчаць аб'яўленняў пераменных
+    text: "Інтэрфейс не павінен змяшчаць аб'яўленняў пераменных"
 invalid.identifier.value:
     text: Няправільнае значэнне ідэнтыфікатара
 javascript.argument.type.mismatch:
@@ -29,33 +29,33 @@ javascript.brackets:
 javascript.comma:
     text: Дужкі і аператары//Коска
 javascript.create.class.intention.name:
-    text: Создать класс ''{0}''
+    text: "Создать класс ''{0}''"
 javascript.create.constant.field.intention.name:
-    text: Создать константное поле ''{0}''
+    text: "Создать константное поле ''{0}''"
 javascript.create.constant.intention.name:
-    text: Создать константу ''{0}''
+    text: "Создать константу ''{0}''"
 javascript.create.event.handler.intention.name:
-    text: Стварыць апрацоўшчык падзеі ''{0}''
+    text: "Стварыць апрацоўшчык падзеі ''{0}''"
 javascript.create.function.intention.family:
     text: Стварыць функцыю або метад JavaScript
 javascript.create.function.intention.name:
-    text: Стварыць функцыю ''{0}''
+    text: "Стварыць функцыю ''{0}''"
 javascript.create.get.property.intention.name:
-    text: Создать свойство ''get'' ''{0}''
+    text: "Создать свойство ''get'' ''{0}''"
 javascript.create.interface.intention.name:
-    text: Стварыць інтэрфейс ''{0}''
+    text: "Стварыць інтэрфейс ''{0}''"
 javascript.create.method.intention.name:
-    text: Создать метод ''{0}''
+    text: "Создать метод ''{0}''"
 javascript.create.property.intention.name:
-    text: Создать свойство ''{0}''
+    text: "Создать свойство ''{0}''"
 javascript.create.set.property.intention.name:
-    text: Создать свойство ''set'' ''{0}''
+    text: "Создать свойство ''set'' ''{0}''"
 javascript.create.variable.intention.family:
     text: Стварыць пераменную або ўласцівасць JavaScript
 javascript.create.variable.intention.name:
-    text: Создать переменную ''{0}''
+    text: "Создать переменную ''{0}''"
 javascript.declare.variable.intention.name:
-    text: Уставіць аб'яўленне {0} для ''{1}''
+    text: "Уставіць аб'яўленне {0} для ''{1}''"
 javascript.deprecated.symbol.used.name.message:
     text: 'Выкарыстоўваецца састарэлы сімвал, звярніцеся да дакументацыі для пошуку лепшай альтэрнатывы #loc'
 javascript.doccomment:
@@ -77,7 +77,7 @@ javascript.fix.implement.methods:
 javascript.fix.optimize.imports:
     text: Аптымізаваць імпарты
 javascript.fix.package.name:
-    text: Усталяваць імя пакета ''{0}''
+    text: "Усталяваць імя пакета ''{0}''"
 javascript.fix.remove.access.modifier:
     text: Выдаліць мадыфікатар доступу
 javascript.fix.remove.circular.dependency:
@@ -107,9 +107,9 @@ javascript.initializer.type.mismatch:
 javascript.insert.cast.fix:
     text: Уставіць прывядзенне тыпу
 javascript.instance.member.function:
-    text: Аб'ект//Метад
+    text: "Аб'ект//Метад"
 javascript.instance.member.variable:
-    text: Аб'ект//Уласцівасць
+    text: "Аб'ект//Уласцівасць"
 javascript.interface.can.not.be.instantiated.message:
     text: Інтэрфейс не можа быць інстанцыяваны
 javascript.introduce.constant.error.no.expression.selected:
@@ -181,9 +181,9 @@ javascript.parser.message.expected.equal:
 javascript.parser.message.expected.expression:
     text: Чакаецца выраз
 javascript.parser.message.expected.forloop.in.or.semicolon:
-    text: Чакаецца 'in' або ;
+    text: "Чакаецца 'in' або ;"
 javascript.parser.message.expected.forloop.left.hand.side.expression.or.variable.declaration:
-    text: Чакаецца левабаковы выраз або аб'яўленне пераменнай перад 'in'
+    text: "Чакаецца левабаковы выраз або аб'яўленне пераменнай перад 'in'"
 javascript.parser.message.expected.formal.parameter.name:
     text: Чакаецца імя фармальнага параметра
 javascript.parser.message.expected.function.name:
@@ -193,17 +193,17 @@ javascript.parser.message.expected.identifier:
 javascript.parser.message.expected.identifier.string.literal.or.numeric.literal:
     text: Чакаецца ідэнтыфікатар, радковы літарал або лікавы літарал
 javascript.parser.message.expected.instanceof:
-    text: Чакаецца 'instanceof'
+    text: "Чакаецца 'instanceof'"
 javascript.parser.message.expected.lparen:
     text: Чакаецца (
 javascript.parser.message.expected.name:
     text: Чакаецца імя
 javascript.parser.message.expected.namespace:
-    text: Чакаецца 'namespace'
+    text: "Чакаецца 'namespace'"
 javascript.parser.message.expected.parameter.name:
     text: Чакаецца імя параметра
 javascript.parser.message.expected.rbrace:
-    text: Чакаецца '}'
+    text: "Чакаецца '}'"
 javascript.parser.message.expected.rbracket:
     text: Чакаецца ]
 javascript.parser.message.expected.rparen:
@@ -221,7 +221,7 @@ javascript.parser.message.expected.value:
 javascript.parser.message.expected.variable.name:
     text: Чакаецца імя пераменнай
 javascript.parser.message.expected.while.keyword:
-    text: Чакаецца 'while'
+    text: "Чакаецца 'while'"
 javascript.parser.message.expected.xml:
     text: Чакаецца ключавое слова XML кантэксту
 javascript.parser.message.expected.xml.element:
@@ -251,13 +251,13 @@ javascript.surround.with.function:
 javascript.surround.with.function.expression:
     text: функцыянальны выраз
 javascript.term.does.not.evaluate.to.function:
-    text: Выраз метаду не з'яўляецца тыпам Function
+    text: "Выраз метаду не з'яўляецца тыпам Function"
 javascript.term.does.not.evaluate.to.function2:
     text: Уласцівасць не можа быць выклікана як функцыя
 javascript.term.does.not.evaluate.to.function2.fix:
     text: Выдаліць спіс аргументаў
 javascript.undeclared.variable.name.message:
-    text: 'Пераменная {0} аб''яўлена няяўна #loc'
+    text: "Пераменная {0} аб'яўлена няяўна #loc"
 javascript.unresolved.function.name.message:
     text: 'Невырашаная функцыя або метад <code>{0}()</code> #loc'
 javascript.unresolved.type.name.message:
@@ -275,41 +275,41 @@ javascript.validation.message.access.modifier.allowed.only.for.class.members:
 javascript.validation.message.access.modifier.allowed.only.for.package.members:
     text: Для членаў пакета дазволены толькі мадыфікатары public/internal
 javascript.validation.message.arguments.with.rest.parameter:
-    text: Аб'ект 'arguments' недаступны пры выкарыстанні rest-параметра
+    text: "Аб'ект 'arguments' недаступны пры выкарыстанні rest-параметра"
 javascript.validation.message.assignment.to.const:
     text: Спроба прысвоіць значэнне канстанце або readonly пераменнай
 javascript.validation.message.break.without.target:
-    text: Немагчыма вызначыць мэту для 'break'
+    text: "Немагчыма вызначыць мэту для 'break'"
 javascript.validation.message.circular.dependency:
     text: Цыклічная залежнасць
 javascript.validation.message.class.name.expected.here:
     text: Тут чакаецца імя класа
 javascript.validation.message.class.should.be.in.file:
-    text: Класс ''{0}'' должен быть определён в файле ''{1}''
+    text: "Класс ''{0}'' должен быть определён в файле ''{1}''"
 javascript.validation.message.constructor.in.mxml.is.not.allowed:
     text: Конструкторы не разрешены в MXML-классах
 javascript.validation.message.continue.without.target:
-    text: Немагчыма вызначыць мэту для 'continue'
+    text: "Немагчыма вызначыць мэту для 'continue'"
 javascript.validation.message.duplicate.declaration:
-    text: Дублюючае аб'яўленне
+    text: "Дублюючае аб'яўленне"
 javascript.validation.message.duplicate.label:
     text: Дублюючая метка
 javascript.validation.message.file.should.be.under.source.root:
-    text: Аб'ект знаходзіцца ў файле па-за коранем зыходнікаў, некаторыя функцыі недаступны
+    text: "Аб'ект знаходзіцца ў файле па-за коранем зыходнікаў, некаторыя функцыі недаступны"
 javascript.validation.message.function.override.for.object.method:
     text: Метод, унаследованный от Object, не требует override
 javascript.validation.message.function.override.incompatible.access.modifier:
-    text: Несумяшчальнае пераазначэнне, павінен мець мадыфікатар доступу ''{0}''
+    text: "Несумяшчальнае пераазначэнне, павінен мець мадыфікатар доступу ''{0}''"
 javascript.validation.message.function.override.incompatible.signature:
-    text: Несумяшчальнае пераазначэнне, павінна быць сігнатура ''{0}''
+    text: "Несумяшчальнае пераазначэнне, павінна быць сігнатура ''{0}''"
 javascript.validation.message.function.override.incompatible.signature2:
-    text: Несумяшчальнае пераазначэнне, павінен быць вяртаемы тып ''{0}''
+    text: "Несумяшчальнае пераазначэнне, павінен быць вяртаемы тып ''{0}''"
 javascript.validation.message.function.override.without.override.modifier:
     text: Метод переопределяет метод суперкласса {0} без ключевого слова override
 javascript.validation.message.function.override.without.parent.method:
     text: Метод не переопределяет метод суперкласса
 javascript.validation.message.function.should.be.in.file:
-    text: Функцыя ''{0}'' павінна быць вызначана ў файле ''{1}''
+    text: "Функцыя ''{0}'' павінна быць вызначана ў файле ''{1}''"
 javascript.validation.message.get.method.should.be.valid.type:
     text: Тып вяртаемага значэння гетара не павінен быць {0}
 javascript.validation.message.get.method.should.have.no.parameter:
@@ -317,15 +317,15 @@ javascript.validation.message.get.method.should.have.no.parameter:
 javascript.validation.message.implements.for.interface.not.allowed:
     text: Спіс implements не дазволены для інтэрфейсу
 javascript.validation.message.incorrect.package.name:
-    text: Імя пакета ''{0}'' не адпавядае шляху да файла ''{1}''
+    text: "Імя пакета ''{0}'' не адпавядае шляху да файла ''{1}''"
 javascript.validation.message.interface.members.cannot.have.access.modifiers:
     text: Члены інтэрфейсу не могуць мець мадыфікатары доступу
 javascript.validation.message.interface.method.invalid.access.modifier:
-    text: Несумяшчальная рэалізацыя, павінен мець мадыфікатар доступу 'public'
+    text: "Несумяшчальная рэалізацыя, павінен мець мадыфікатар доступу 'public'"
 javascript.validation.message.interface.method.invalid.signature:
-    text: Несумяшчальная рэалізацыя, павінна быць сігнатура ''{0}''
+    text: "Несумяшчальная рэалізацыя, павінна быць сігнатура ''{0}''"
 javascript.validation.message.interface.method.invalid.signature2:
-    text: Несумяшчальная рэалізацыя, павінен быць вяртаемы тып ''{0}''
+    text: "Несумяшчальная рэалізацыя, павінен быць вяртаемы тып ''{0}''"
 javascript.validation.message.interface.method.not.implemented:
     text: Метад {0} з інтэрфейсу {1} не рэалізаваны
 javascript.validation.message.interface.name.expected.here:
@@ -339,7 +339,7 @@ javascript.validation.message.must.be.lvalue:
 javascript.validation.message.namespace.allowed.only.for.class.members:
     text: Прасторы імёнаў дазволены толькі для членаў класа
 javascript.validation.message.namespace.should.be.in.file:
-    text: Прастора імёнаў ''{0}'' павінна быць вызначана ў файле ''{1}''
+    text: "Прастора імёнаў ''{0}'' павінна быць вызначана ў файле ''{1}''"
 javascript.validation.message.nested.classes.are.not.allowed:
     text: Вложенные классы не разрешены
 javascript.validation.message.package.shouldbe.first.statement:
@@ -353,7 +353,7 @@ javascript.validation.message.remove.unneeded.comma.fix:
 javascript.validation.message.rest.parameter.should.not.be.initialized:
     text: Rest-параметр не павінен быць ініцыялізаваны
 javascript.validation.message.return.outside.function.definition:
-    text: '''return'' па-за вызначэннем функцыі'
+    text: "'return' па-за вызначэннем функцыі"
 javascript.validation.message.return.value.of.type.is.required:
     text: Патрабуецца вяртаемае значэнне тыпу {0}
 javascript.validation.message.set.method.should.be.void.or.without.type:
@@ -361,11 +361,11 @@ javascript.validation.message.set.method.should.be.void.or.without.type:
 javascript.validation.message.set.method.should.have.one.parameter:
     text: Вызначэнне сетара павінна мець роўна адзін параметр
 javascript.validation.message.super.referenced.from.static.context:
-    text: '''super'' выкарыстоўваецца ў статычным кантэксце'
+    text: "'super' выкарыстоўваецца ў статычным кантэксце"
 javascript.validation.message.super.referenced.without.class.instance.context:
-    text: '''super'' выкарыстоўваецца без кантэксту экзэмпляра класа'
+    text: "'super' выкарыстоўваецца без кантэксту экзэмпляра класа"
 javascript.validation.message.this.referenced.from.static.context:
-    text: '''this'' выкарыстоўваецца ў статычным кантэксце'
+    text: "'this' выкарыстоўваецца ў статычным кантэксце"
 javascript.validation.message.unexpected.type.for.rest.parameter:
     text: Rest-параметр не павінен мець тып
 javascript.validation.message.unneeded.comma:
@@ -373,7 +373,7 @@ javascript.validation.message.unneeded.comma:
 javascript.validation.message.use.namespace.reference.or.access.modifier:
     text: Выкарыстоўвайце прастору імёнаў АБО мадыфікатар доступу
 javascript.validation.message.variable.should.be.in.file:
-    text: Переменная ''{0}'' должна быть определена в файле ''{1}''
+    text: "Переменная ''{0}'' должна быть определена в файле ''{1}''"
 javascript.validation.unused.import:
     text: Нявыкарыстаны import
 js.deprecated.symbols.inspection.name:
@@ -381,13 +381,13 @@ js.deprecated.symbols.inspection.name:
 js.inspection.group.name:
     text: Агульныя
 js.undeclared.variable.inspection.name:
-    text: Няяўна аб'яўленая глабальная пераменная JavaScript
+    text: "Няяўна аб'яўленая глабальная пераменная JavaScript"
 js.unresolved.variable.inspection.name:
     text: Неразрешённая ссылка
 js.untyped.declaration.inspection.name:
-    text: Аб'яўленне без тыпу
+    text: "Аб'яўленне без тыпу"
 js.untyped.declaration.problem.addtype.fix:
-    text: Дадаць тып да аб'яўлення
+    text: "Дадаць тып да аб'яўлення"
 js.untyped.function.problem:
     text: 'Функцыя {0} не мае тыпу вяртаемага значэння #loc'
 js.untyped.variable.problem:

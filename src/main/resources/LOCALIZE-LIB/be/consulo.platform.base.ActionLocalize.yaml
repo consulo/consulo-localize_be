@@ -91,7 +91,7 @@ action.ChangeSplitOrientation.text:
 action.ChangeTemplateDataLanguage.text:
     text: Змяніць мову дадзеных шаблону
 action.ChangeToThisFileTypeAction.description:
-    text: Перавызначыць тып файла на ''{0}''
+    text: "Перавызначыць тып файла на ''{0}''"
 action.ChangeTypeSignature.description:
     text: Змяніце тып вяртання метаду, поля, параметра, зменнай або параметра тыпу класа і выпраўце ўсе спасылкі
 action.ChangeTypeSignature.text:
@@ -615,7 +615,7 @@ action.GotoRelated.description:
 action.GotoRelated.text:
     text: Звязаныя сімвалы [_R]…
 action.GotoSuperMethod.description:
-    text: Перайсці да аб'явы метаду, які перавызначаны або рэалізаваны бягучым метадам
+    text: "Перайсці да аб'явы метаду, які перавызначаны або рэалізаваны бягучым метадам"
 action.GotoSuperMethod.text:
     text: Перайсці да супер метаду
 action.GotoSymbol.description:
@@ -769,9 +769,9 @@ action.IntroduceParameter.description:
 action.IntroduceParameter.text:
     text: Стварыць параметр [_P]…
 action.IntroduceParameterObject.description:
-    text: Замяніць спіс параметраў метаду аб'ектам
+    text: "Замяніць спіс параметраў метаду аб'ектам"
 action.IntroduceParameterObject.text:
-    text: Стварыць аб'ект параметраў [_J]…
+    text: "Стварыць аб'ект параметраў [_J]…"
 action.IntroduceVariable.description:
     text: Змесціце вынік абранага выразу ў зменную
 action.IntroduceVariable.text:
@@ -943,7 +943,7 @@ action.OverrideFileTypeAction.description:
 action.OverrideFileTypeAction.text:
     text: Перавызначыць тып файла
 action.OverrideFileTypeAction.verbose.description:
-    text: Разглядаць файл ''{0}''{1,choice,0#|1# (і {1} іншых файлаў)} як файл іншага тыпу
+    text: "Разглядаць файл ''{0}''{1,choice,0#|1# (і {1} іншых файлаў)} як файл іншага тыпу"
 action.OverrideMethods.description:
     text: Перавызначыць метады базавага класа ў бягучым класе
 action.OverrideMethods.text:
@@ -1115,7 +1115,7 @@ action.ReverteOverrideFileTypeAction.description:
 action.ReverteOverrideFileTypeAction.text:
     text: Адмяніць перавызначэнне тыпу файла
 action.ReverteOverrideFileTypeAction.verbose.description:
-    text: Адмяніць аперацыю "Пераазначыць тып файла" і аднавіць стары тып файла для ''{0}''{1,choice,0#|1# (і {1} іншых файлаў)}
+    text: "Адмяніць аперацыю \"Пераазначыць тып файла\" і аднавіць стары тып файла для ''{0}''{1,choice,0#|1# (і {1} іншых файлаў)}"
 action.RunAnything.description:
     text: Дазваляе выканаць любую каманду
 action.RunAnything.text:
@@ -1339,7 +1339,7 @@ action.SurroundWith.description:
 action.SurroundWith.text:
     text: Акружаць [_S]…
 action.SurroundWithLiveTemplate.description:
-    text: Аб'ёмнае вылучэнне шаблонам
+    text: "Аб'ёмнае вылучэнне шаблонам"
 action.SurroundWithLiveTemplate.text:
     text: Акружыце жывым шаблонам [_P]…
 action.Switcher.text:
@@ -1713,7 +1713,7 @@ group.OpenProjectWindows.text:
 group.OverrideFileTypeAction.bundledPlugin:
     text: Убудаваны
 group.OverrideFileTypeAction.fromNamedPlugin:
-    text: З плагіна ''{0}''
+    text: "З плагіна ''{0}''"
 group.OverrideFileTypeAction.title:
     text: Выберыце тып файла
 group.PairFileActions.text:

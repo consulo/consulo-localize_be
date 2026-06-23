@@ -67,7 +67,7 @@ create.copyright.profile:
 detect.copyright.regexp.is.incorrect.configuration.error:
     text: 'Некарэктны рэгулярны выраз для выяўлення аўтарскіх правоў:'
 dialog.message.duplicate.copyright.profile.name:
-    text: 'Дублюючае імя профілю аўтарскіх правоў: ''''{0}'''''
+    text: "Дублюючае імя профілю аўтарскіх правоў: ''{0}''"
 dialog.message.new.copyright.profile.name:
     text: 'Імя новага профілю аўтарскіх правоў:'
 dialog.message.no.copyright.configured:
@@ -77,7 +77,9 @@ dialog.message.the.copyright.settings.imported:
 dialog.message.the.selected.file.copyright.settings:
     text: Выбраны файл не змяшчае налад аўтарскіх правоў.
 dialog.message.velocity.template.contains.error.0:
-    text: "Шаблон Velocity змяшчае памылку:\n{0}"
+    text: |-
+        Шаблон Velocity змяшчае памылку:
+        {0}
 dialog.message.velocity.template.is.valid:
     text: Шаблон Velocity корректен.
 dialog.title.import.complete:

@@ -27,7 +27,7 @@ proxy.pac.url.example:
 proxy.pac.url.label:
     text: 'URL аўтаматычнай настройкі проксі:'
 proxy.settings.override.by.plugin.checkbox:
-    text: Налады проксі прадастаўлены плагінам ''{0}''
+    text: "Налады проксі прадастаўлены плагінам ''{0}''"
 proxy.system.label:
     text: <html>Уласцівасць JVM <tt>java.net.useSystemProxies</tt> усталявана ў <tt>true</tt>. Гэта прывядзе да таго, што некаторыя сеткавыя выклікі будуць праходзіць праз проксі, вызначаны аперацыйнай сістэмай. Калі вы не плануеце выкарыстоўваць сістэмны проксі, адключыце гэту ўласцівасць.</html>
 proxy.system.proxy.settings:

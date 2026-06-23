@@ -51,7 +51,7 @@ html.inspections.check.image.width.message:
 html.inspections.check.presentational.tag:
     text: Прэзентацыйны тэг
 html.inspections.check.valid.script.tag:
-    text: Няправільнае змесціва тэга 'script'
+    text: "Няправільнае змесціва тэга 'script'"
 html.inspections.create.label.from.text.after.action:
     text: Стварыць новую метку з тэксту пасля элемента {0}
 html.inspections.create.label.from.text.before.action:
@@ -145,9 +145,9 @@ url.is.empty.validation.problem:
 webservice.status.tooltip:
     text: Бягучы статус налад, памылкі ўводу і г.д.
 xml.dtd.create.dtd.element.intention.name:
-    text: Стварыць аб'яўленне элемента {0}
+    text: "Стварыць аб'яўленне элемента {0}"
 xml.dtd.create.entity.intention.name:
-    text: Стварыць аб'яўленне сутнасці {0}
+    text: "Стварыць аб'яўленне сутнасці {0}"
 xml.inspections.check.dtd.references:
     text: Невырашаныя спасылкі DTD
 xml.inspections.check.file.with.xerces:
@@ -155,9 +155,9 @@ xml.inspections.check.file.with.xerces:
 xml.inspections.check.tag.empty.body:
     text: Пустое змесціва элемента
 xml.inspections.duplicate.id:
-    text: Дублюючы атрыбут 'id'
+    text: "Дублюючы атрыбут 'id'"
 xml.inspections.invalid.id:
-    text: Неразрешённая ссылка 'id'
+    text: "Неразрешённая ссылка 'id'"
 xml.inspections.path.resolve:
     text: Неразрешённая ссылка на файл
 xml.inspections.tag.empty.body:
@@ -165,9 +165,9 @@ xml.inspections.tag.empty.body:
 xml.inspections.unbound.prefix:
     text: Незвязаны прэфікс прасторы імёнаў
 xml.inspections.unused.schema:
-    text: Нявыкарыстанае аб'яўленне схемы
+    text: "Нявыкарыстанае аб'яўленне схемы"
 xml.inspections.unused.schema.declaration:
-    text: Аб'яўленне прасторы імёнаў ніколі не выкарыстоўваецца
+    text: "Аб'яўленне прасторы імёнаў ніколі не выкарыстоўваецца"
 xml.inspections.unused.schema.location:
     text: Размяшчэнне прасторы імёнаў ніколі не выкарыстоўваецца
 xml.javadoc.complex.type.message:

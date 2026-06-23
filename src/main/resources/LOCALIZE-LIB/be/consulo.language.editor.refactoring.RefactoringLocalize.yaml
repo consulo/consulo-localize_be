@@ -17,27 +17,27 @@
 0.implements.1:
     text: '{0} рэалізуе {1}.'
 0.is.1.and.will.not.be.accessible.from.2.in.the.target.class:
-    text: '{0} з''яўляецца {1} і не будзе даступны з {2}.'
+    text: "{0} з'яўляецца {1} і не будзе даступны з {2}."
 0.is.a.part.of.method.hierarchy.do.you.want.to.delete.multiple.parameters:
-    text: '{0} з''яўляецца часткай іерархіі метадаў. Выдаліць некалькі параметраў?'
+    text: "{0} з'яўляецца часткай іерархіі метадаў. Выдаліць некалькі параметраў?"
 0.is.already.overridden.in.1:
     text: '{0} ужо пераазначаны ў {1}. Метад не будзе перамешчаны ў гэты клас.'
 0.is.an.interface.method.implementation.will.be.added.to.all.directly.implementing.classes:
     text: "{0} з'яўляецца інтэрфейсам.\nРэалізацыя метаду будзе дададзена ва ўсе класы, якія напрамую рэалізуюць інтэрфейс.\nПрацягнуць?"
 0.is.an.interface.that.has.no.implementing.classes:
-    text: '{0} з''яўляецца інтэрфейсам без рэалізавальных класаў'
+    text: "{0} з'яўляецца інтэрфейсам без рэалізавальных класаў"
 0.is.not.a.legal.fq.name:
-    text: '''''{0}'''' не з''яўляецца карэктным поўным імем'
+    text: "''{0}'' не з'яўляецца карэктным поўным імем"
 0.is.not.a.legal.java.identifier:
-    text: '''''{0}'''' не з''яўляецца дапушчальным ідэнтыфікатарам Java'
+    text: "''{0}'' не з'яўляецца дапушчальным ідэнтыфікатарам Java"
 0.is.not.accessible.from.1.value.for.introduced.parameter.in.that.method.call.will.be.incorrect:
     text: '{0} недаступны з {1}. Значэнне ўведзенага параметра ў гэтым выкліку метаду будзе некарэктным.'
 0.is.not.an.identifier:
-    text: <b><code>{0}</code></b> не з'яўляецца карэктным ідэнтыфікатарам для выкарыстання ў <b><code>{1}</code></b>
+    text: "<b><code>{0}</code></b> не з'яўляецца карэктным ідэнтыфікатарам для выкарыстання ў <b><code>{1}</code></b>"
 0.is.not.initialized.in.declaration.such.fields.are.not.allowed.in.interfaces:
-    text: '{0} не ініцыялізавана ў аб''яўленні. Такія палі не дапускаюцца ў інтэрфейсах.'
+    text: "{0} не ініцыялізавана ў аб'яўленні. Такія палі не дапускаюцца ў інтэрфейсах."
 0.is.not.static.it.cannot.be.moved.to.the.interface:
-    text: '{0} не з''яўляецца статычным. Яго нельга перамясціць у інтэрфейс'
+    text: "{0} не з'яўляецца статычным. Яго нельга перамясціць у інтэрфейс"
 0.is.read.only:
     text: '{0} даступны толькі для чытання.'
 0.is.used.for.writing.in.1:
@@ -91,9 +91,9 @@ ExtractSuperClass.superclass:
 a.package.local.class.0.will.no.longer.be.accessible.from.1:
     text: Package-local клас {0} больш не будзе даступны з {1}
 add.object.as.a.parameter.to.constructors.with.name:
-    text: 'Дадаць &аб''ект як параметр у канструктары з імем:'
+    text: "Дадаць &аб'ект як параметр у канструктары з імем:"
 add.object.as.a.parameter.with.name:
-    text: 'Дадаць аб''ект як параметр з імем [&O]:'
+    text: "Дадаць аб'ект як параметр з імем [&O]:"
 add.parameters.for.fields:
     text: 'Дадаць параметры для &палёў:'
 add.parameters.for.fields.to.constructors:
@@ -113,7 +113,9 @@ all.references.and.remove.the.class:
 all.references.and.remove.the.field:
     text: Убудаваць &усе выкарыстанні, выдаліць поле
 all.these.directories.will.be.moved.and.all.references.to.0.will.be.changed:
-    text: "Усе гэтыя каталогі будуць перамешчаны, і ўсе спасылкі на {0}\nбудуць зменены."
+    text: |-
+        Усе гэтыя каталогі будуць перамешчаны, і ўсе спасылкі на {0}
+        будуць зменены.
 analyze.and.replace.usages:
     text: Аналізаваць і замяніць выкарыстанні
 annotate.field.as.nonnls.checkbox:
@@ -195,7 +197,7 @@ changeSignature.no.return.type:
 changeSignature.no.type.for.exception:
     text: Укажыце тып для выключэння
 changeSignature.no.type.for.parameter:
-    text: Укажыце тып {0} для параметра ''{1}''
+    text: "Укажыце тып {0} для параметра ''{1}''"
 changeSignature.parameter.caller.chooser:
     text: Выберыце метады для распаўсюджвання новага параметра
 changeSignature.parameters.wont.propagate:
@@ -211,11 +213,11 @@ changeSignature.return.type.prompt:
 changeSignature.vararg.not.last:
     text: Rest-параметр павінен быць апошнім у сігнатуры метаду
 changeSignature.wrong.return.type:
-    text: 'Няправільны тып вяртаемага значэння: ''''{0}'''''
+    text: "Няправільны тып вяртаемага значэння: ''{0}''"
 changeSignature.wrong.type.for.exception:
-    text: 'Няправільны тып: ''''{0}'''' для выключэння'
+    text: "Няправільны тып: ''{0}'' для выключэння"
 changeSignature.wrong.type.for.parameter:
-    text: 'Няправільны тып: ''''{0}'''' для параметра ''''{1}'''''
+    text: "Няправільны тып: ''{0}'' для параметра ''{1}''"
 changing.signature.of.0:
     text: Змяненне сігнатуры {0}
 checkbox.safe.delete.with.usage.search:
@@ -231,7 +233,9 @@ choose.the.ones.you.want.to.be.deleted:
 class.0.already.exists:
     text: Клас {0} ужо існуе
 class.0.does.not.exist:
-    text: "Клас {0} не існуе.\nСтварыць?"
+    text: |-
+        Клас {0} не існуе.
+        Стварыць?
 class.0.does.not.have.inheritors:
     text: У класа {0} няма нашчадкаў.
 class.0.is.not.accessible.from.target.1:
@@ -255,7 +259,7 @@ class.has.been.successfully.created:
 class.is.abstract:
     text: '{0} является абстрактным.'
 class.is.interface:
-    text: '{0} з''яўляецца інтэрфейсам.'
+    text: "{0} з'яўляецца інтэрфейсам."
 class.is.never.used:
     text: Клас ніколі не выкарыстоўваецца
 class.name.prompt:
@@ -293,7 +297,7 @@ convert.to.instance.method.title:
 convertToInstanceMethod.all.reference.type.parameters.are.not.in.project:
     text: 'Не знойдзены мэтавы клас для метаду экзэмпляра: не знойдзены параметр метаду з тыпам, які спасылаецца на клас у праекце.'
 convertToInstanceMethod.method.is.not.static:
-    text: Метад {0} не з'яўляецца статычным
+    text: "Метад {0} не з'яўляецца статычным"
 convertToInstanceMethod.no.parameters.with.reference.type:
     text: Няма параметраў спасылачнага тыпу.
 copy.class.clone.0.1:
@@ -347,15 +351,15 @@ current.class:
 current.method.radio:
     text: Бягучы метад [&M]
 declaration.s.to.be.generified:
-    text: Аб'яўленні для пераўтварэння ў generic {0}
+    text: "Аб'яўленні для пераўтварэння ў generic {0}"
 declare.final:
-    text: Аб'явіць final [&F]
+    text: "Аб'явіць final [&F]"
 declare.folded.parameters:
     text: Свернутые параметры [&F]
 declare.static.checkbox:
-    text: Аб'явіць static [&S]
+    text: "Аб'явіць static [&S]"
 declare.varargs.checkbox:
-    text: Аб'явіць varargs [&A]
+    text: "Аб'явіць varargs [&A]"
 delegation.panel.delegate.via.overloading.method:
     text: Дэлегаваць праз перагружаны метад [&L]
 delegation.panel.method.calls.label:
@@ -369,7 +373,7 @@ delete.include.command:
 delete.title:
     text: Выдаліць
 delete.variable.declaration:
-    text: Выдаліць аб'яўленне пераменнай [&D]
+    text: "Выдаліць аб'яўленне пераменнай [&D]"
 destination.directory.does.not.correspond.to.any.package:
     text: Мэтавая дырэкторыя не адпавядае ніякаму пакету
 destination.package:
@@ -377,13 +381,16 @@ destination.package:
 dialog.message.cannot.inline.reference.from.0:
     text: Немагчыма ўбудаваць спасылку з {0}
 dialog.message.file.already.exists.in.directory:
-    text: Файл ''{0}'' ужо існуе ў дырэкторыі ''{1}''
+    text: "Файл ''{0}'' ужо існуе ў дырэкторыі ''{1}''"
 dialog.message.refactoring.not.available.in.current.scope:
     text: '{0} недаступны ў бягучай вобласці бачнасці'
 dialog.message.selected.element.used.from.non.project.files:
     text: Выбраны элемент выкарыстоўваецца з непраектных файлаў. Гэтыя выкарыстанні не будуць перайменаваны. Працягнуць?
 directories.and.all.references.to.package.will.be.renamed:
-    text: "\n\nЯкія дырэкторыі вы хочаце перайменаваць?"
+    text: |4-
+
+
+        Якія дырэкторыі вы хочаце перайменаваць?
 directory.0.already.contains.1.named.2:
     text: "Дырэкторыя {0}\nужо змяшчае {1} з імем ''{2}''"
 directory.0.already.contains.a.file.named.1:
@@ -395,7 +402,9 @@ do.not.replace:
 do.not.show.this.message.in.the.future:
     text: Больш не паказваць гэта паведамленне [&D]
 do.you.want.to.process.overriding.methods.with.covariant.return.type:
-    text: "Апрацаваць пераазначальныя метады\nз каварыянтным тыпам вяртаемага значэння?"
+    text: |-
+        Апрацаваць пераазначальныя метады
+        з каварыянтным тыпам вяртаемага значэння?
 do.you.wish.to.continue:
     text: Хочаце працягнуць?
 do.you.wish.to.ignore.them.and.continue:
@@ -531,11 +540,13 @@ field.0.is.never.used:
 field.0.is.not.accessible:
     text: Поле {0} недаступна з {1}
 field.0.is.not.static:
-    text: "Поле {0} не статычнае.\nТолькі статычныя члены падтрымліваюць рэфактарынг {1}."
+    text: |-
+        Поле {0} не статычнае.
+        Толькі статычныя члены падтрымліваюць рэфактарынг {1}.
 field.0.will.hide.field.1.of.the.base.class:
     text: "Поле {0} скроет \nполе {1} базового {2}"
 field.declaration.radio:
-    text: Аб'яўленне поля  [&D]
+    text: "Аб'яўленне поля  [&D]"
 field.description:
     text: поле {0}
 field.exists:
@@ -555,11 +566,15 @@ generate.getter.for.delegated.component:
 generify.title:
     text: Пераўтварыць сырыя тыпы ў generic
 getter.and.setter.methods.found.for.the.field.0:
-    text: "Для поля {0} знойдзены метады getter і setter.\nТаксама {1} іх?"
+    text: |-
+        Для поля {0} знойдзены метады getter і setter.
+        Таксама {1} іх?
 getter.method.found.for.the.field.0:
     text: Для поля {0} найден метод getter. Также {1} getter?
 idea.has.found.fragments.that.can.be.replaced.with.include.directive:
-    text: "{0} знайшоў фрагменты, якія можна замяніць дырэктывай include.\nХочаце прагледзець гэтыя фрагменты?"
+    text: |-
+        {0} знайшоў фрагменты, якія можна замяніць дырэктывай include.
+        Хочаце прагледзець гэтыя фрагменты?
 idea.has.not.found.any.code.that.can.be.replaced.with.method.call:
     text: '{0} не знайшла дублікатаў'
 ignore.button:
@@ -581,13 +596,13 @@ inline.field.command:
 inline.field.elements.header:
     text: Убудоўваемае поле
 inline.field.field.name.label:
-    text: 'Убудаваць поле ''''{0}'''':'
+    text: "Убудаваць поле ''{0}'':"
 inline.field.title:
     text: Убудоўванне поля
 inline.included.file.title:
     text: Убудаваць уключаны файл
 inline.local.variable.prompt:
-    text: Убудаваць лакальную пераменную ''{0}''?
+    text: "Убудаваць лакальную пераменную ''{0}''?"
 inline.method.border.title:
     text: Убудоўванне
 inline.method.checking.tail.calls.progress:
@@ -601,9 +616,9 @@ inline.method.method.label:
 inline.method.title:
     text: Убудаваць метад
 inline.parameter.confirmation:
-    text: Убудаваць параметр ''{0}'' з ініцыялізатарам ''{1}''?
+    text: "Убудаваць параметр ''{0}'' з ініцыялізатарам ''{1}''?"
 inline.parameter.error.hierarchy:
-    text: Убудоўванне параметра не падтрымліваецца, калі метад з'яўляецца часткай іерархіі наследавання
+    text: "Убудоўванне параметра не падтрымліваецца, калі метад з'яўляецца часткай іерархіі наследавання"
 inline.parameter.error.varargs:
     text: Убудоўванне varargs параметраў не падтрымліваецца
 inline.parameter.refactoring:
@@ -611,7 +626,7 @@ inline.parameter.refactoring:
 inline.parameter.replace.with.local.checkbox:
     text: Замяніць лакальнай пераменнай  [&E]
 inline.the.contents.include.prompt:
-    text: Убудаваць змесціва ''{0}''?
+    text: "Убудаваць змесціва ''{0}''?"
 inline.title:
     text: Убудаваць
 inline.to.anonymous.border.title:
@@ -637,7 +652,9 @@ inlined.method.implements.method.from.0:
 inlined.method.overrides.method.from.0:
     text: Убудоўваемы метад пераазначае метад з {0}
 inner.class.0.is.already.defined.in.class.1:
-    text: "Унутраны клас {0} ужо вызначаны ў класе {1}.\nПрацягнуць?"
+    text: |-
+        Унутраны клас {0} ужо вызначаны ў класе {1}.
+        Працягнуць?
 inner.class.0.is.not.static:
     text: "Унутраны клас {0} не з'яўляецца статычным.\nРэфактарынг {1} падтрымліваецца толькі для статычных членаў."
 inner.class.exists:
@@ -885,9 +902,9 @@ move.method.is.not.supported.for.constructors:
 move.method.is.not.supported.for.generic.classes:
     text: Перамяшчэнне метаду не падтрымліваецца для абагульненых класаў
 move.method.is.not.supported.when.method.is.part.of.inheritance.hierarchy:
-    text: Перамяшчэнне метаду не падтрымліваецца, калі метад з'яўляецца часткай іерархіі наследавання
+    text: "Перамяшчэнне метаду не падтрымліваецца, калі метад з'яўляецца часткай іерархіі наследавання"
 move.method.this.parameter.label:
-    text: Выберыце імя для параметра ''{0}.this''
+    text: "Выберыце імя для параметра ''{0}.this''"
 move.nonstatic.class.from.jsp.not.supported:
     text: Перамяшчэнне нестатычных класаў з JSP старонкі не падтрымліваецца
 move.package.refactoring.cannot.be.applied.to.default.package:
@@ -919,7 +936,7 @@ moving.directories.command:
 moving.local.classes.is.not.supported:
     text: Перамяшчэнне лакальных класаў не падтрымліваецца
 multiple.directories.correspond.to.package:
-    text: 'Пакет ''''{0}'''' існуе ў некалькіх дырэкторыях:'
+    text: "Пакет ''{0}'' існуе ў некалькіх дырэкторыях:"
 name.for.extracted.include.file:
     text: 'Імя для вынятага include-файла (пашырэнне па змаўчанні: {0}) [&N]'
 name.prompt:
@@ -959,7 +976,9 @@ only.fields.variables.of.methods.of.valid.type.can.be.considered:
 package.description:
     text: пакет {0}
 package.does.not.exist:
-    text: "Пакет {0} не існуе.\nСтварыць яго?"
+    text: |-
+        Пакет {0} не існуе.
+        Стварыць яго?
 package.for.new.interface:
     text: 'Пакет для новага інтэрфейсу [&P]:'
 package.for.new.superclass:
@@ -989,7 +1008,9 @@ please.enter.a.valid.name.for.inverted.element:
 please.enter.a.valid.target.package.name:
     text: Увядзіце карэктнае імя мэтавага пакета
 press.the.do.migrate.button:
-    text: "Націсніце кнопку \"Выканаць міграцыю\" унізе панэлі вынікаў пошуку\nдля міграцыі з выкарыстаннем карты міграцыі \"{0}\"\n"
+    text: |
+        Націсніце кнопку "Выканаць міграцыю" унізе панэлі вынікаў пошуку
+        для міграцыі з выкарыстаннем карты міграцыі "{0}"
 preview.button:
     text: Предпросмотр [&P]
 preview.usages.to.be.changed:
@@ -1085,7 +1106,9 @@ refactoring.introduceVariable:
 refactoring.is.not.supported.for.jsp.classes:
     text: Рэфактарынг не падтрымліваецца для JSP класаў
 refactoring.is.not.supported.for.recursive.methods:
-    text: "Рэфактарынг {0} не можа быць прыменены для выдалення рэкурсіўных метадаў.\nВы можаце ўбудаваць толькі асобныя выклікі метадаў."
+    text: |-
+        Рэфактарынг {0} не можа быць прыменены для выдалення рэкурсіўных метадаў.
+        Вы можаце ўбудаваць толькі асобныя выклікі метадаў.
 refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
     text: Рэфактарынг {0} не падтрымліваецца, калі аператар return перарывае паток выканання
 references.found.in.code:
@@ -1099,13 +1122,13 @@ references.in.code.to.0.1:
 references.in.code.to.elements.from.migration.map:
     text: Спасылкі ў кодзе на элементы з карты міграцыі "{0}" {1}
 references.to.0.to.be.replaced.with.references.to.1:
-    text: Спасылкі на ''{0}'' будуць заменены спасылкамі на ''{1}''{2}
+    text: "Спасылкі на ''{0}'' будуць заменены спасылкамі на ''{1}''{2}"
 remove.duplicates.command:
     text: Выдаліць дублікаты
 remove.include.prompt:
     text: Уключаны файл больш не выкарыстоўваецца. Выдаліць яго?
 remove.parameter.0.no.longer.used:
-    text: Выдаліць невыкарыстаны параметр ''{0}''
+    text: "Выдаліць невыкарыстаны параметр ''{0}''"
 rename.0.and.its.usages.to:
     text: 'Перайменаваць {0} і яго выкарыстанні ў:'
 rename.bound.forms:
@@ -1367,9 +1390,9 @@ type.cook.drop.obsolete.casts:
 type.cook.elements.header:
     text: Вобласць дзеяння пераўтварэння ў generic
 type.cook.generify.objects:
-    text: Пераўтварыць аб'екты ў generic [&O]
+    text: "Пераўтварыць аб'екты ў generic [&O]"
 type.cook.leave.object.parameterized.types.raw:
-    text: Пакінуць параметрызаваныя тыпы аб'ектаў сырымі [&L]
+    text: "Пакінуць параметрызаваныя тыпы аб'ектаў сырымі [&L]"
 type.cook.perform.exhaustive.search:
     text: Выканаць поўны пошук [&E]
 type.cook.preserve.raw.arrays:
@@ -1403,7 +1426,10 @@ unused.overriding.methods.title:
 usageView.doAction:
     text: Рэфактарынг [&R]
 usageView.need.reRun:
-    text: "Немагчыма выканаць рэфактарынг.\nКод быў зменены пасля пошуку выкарыстанняў.\nКалі ласка, выканайце пошук выкарыстанняў зноў."
+    text: |-
+        Немагчыма выканаць рэфактарынг.
+        Код быў зменены пасля пошуку выкарыстанняў.
+        Калі ласка, выканайце пошук выкарыстанняў зноў.
 usageView.tabText:
     text: Перадпрагляд рэфактарынгу
 usageView.usagesText:
@@ -1427,7 +1453,7 @@ variable.has.no.dominating.definition:
 variable.has.no.initializer:
     text: Пераменная {0} не мае ініцыялізатара.
 variable.is.accessed.for.writing.and.used.with.inlined:
-    text: Іншая пераменная ''{0}'' вызначана і выкарыстоўваецца з убудаваным вызначэннем
+    text: "Іншая пераменная ''{0}'' вызначана і выкарыстоўваецца з убудаваным вызначэннем"
 variable.is.never.used:
     text: Пераменная {0} ніколі не выкарыстоўваецца
 variable.is.never.used.before.modification:

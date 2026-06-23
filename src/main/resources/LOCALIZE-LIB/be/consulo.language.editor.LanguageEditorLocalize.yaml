@@ -1,5 +1,5 @@
 inlay.hints.show.settings:
-    text: Адключыць падказкі для метаду ''{0}''
+    text: "Адключыць падказкі для метаду ''{0}''"
 settings.hints:
     text: Убудаваныя падказкі
 settings.hints.group.annotations:
