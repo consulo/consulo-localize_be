@@ -13,7 +13,7 @@ anonymous.class:
 call.can.throw.npe:
     text: Цепочка вызовов может вызвать NullPointerException
 change.lvalue.type:
-    text: Змяніць тып пераменнай ''{0}'' на ''{1}''
+    text: "Змяніць тып пераменнай ''{0}'' на ''{1}''"
 closure:
     text: замыканне
 create.directory.command:
@@ -25,17 +25,17 @@ dialog.create.class.package.chooser.title:
 dynamic.element:
     text: Дынамічны элемент
 expected.type.0:
-    text: Чакаўся ''{0}'', знойдзены ''{1}''
+    text: "Чакаўся ''{0}'', знойдзены ''{1}''"
 fix.class:
     text: Выправіць клас {0}
 getter.0.clashes.with.getter.1:
-    text: 'Узнік канфлікт: ''''{0}'''' з ''''{1}'''''
+    text: "Узнік канфлікт: ''{0}'' з ''{1}''"
 gr.package.inspection.check.scripts:
     text: Правяраць скрыпты
 highlight.if.groovy.object.methods.overridden:
     text: Падсвечваць спасылкі з класа, які пераазначае invokeMethod(), getProperty() або setProperty()
 highlight.if.missing.methods.declared:
-    text: Падсвечваць спасылкі з класа, які аб'яўляе missingMethod() або missingProperty()
+    text: "Падсвечваць спасылкі з класа, які аб'яўляе missingMethod() або missingProperty()"
 ignore.boolean.expressions:
     text: Ігнараваць непрысвоеныя пераменныя ў лагічных праверках
 implement.class:
@@ -43,7 +43,7 @@ implement.class:
 java.style.property.access:
     text: Выклік аксесара ў стылі Java
 local.var.0.is.reassigned:
-    text: Лакальнай пераменнай ''{0}'' прысвойваецца новае значэнне
+    text: "Лакальнай пераменнай ''{0}'' прысвойваецца новае значэнне"
 method.may.be.static:
     text: Метод может быть static
 method.may.be.static.ignore.empty.method.option:
@@ -71,31 +71,31 @@ pointless.boolean.problem.descriptor:
 pointless.boolean.quickfix:
     text: Спрасціць
 remove.0:
-    text: Выдаліць ''.{0}''
+    text: "Выдаліць ''.{0}''"
 replace.0.with.1:
-    text: Замяніць ''{0}'' на ''{1}''
+    text: "Замяніць ''{0}'' на ''{1}''"
 replace.postfix.0.with.prefix.0:
-    text: Замяніць постфіксны ''{0}'' на прэфіксны ''{0}''
+    text: "Замяніць постфіксны ''{0}'' на прэфіксны ''{0}''"
 replace.qualified.name.with.import:
     text: Замяніць поўнае імя на імпарт
 rtype.cannot.contain.ltype:
-    text: '''''{1}'''' не может содержать ''''{0}'''''
+    text: "''{1}'' не может содержать ''{0}''"
 second.unsafe.call:
     text: Второй небезопасный вызов
 target.0.does.not.exist:
-    text: Цэль ''{0}'' не існуе
+    text: "Цэль ''{0}'' не існуе"
 target.annotation.is.unused:
     text: '@Target не выкарыстоўваецца'
 type.customizer.is.not.marked.as.a.resource.file:
     text: Скрыпт настройкі тыпу не пазначаны як рэсурс кампілятара
 type.doesnt.contain.method:
-    text: Тып ''{0}'' не можа быць ітэраваны ў дыяпазоне, бо не мае метаду ''{1}''
+    text: "Тып ''{0}'' не можа быць ітэраваны ў дыяпазоне, бо не мае метаду ''{1}''"
 unassigned.access.tooltip:
-    text: Пераменнай ''{0}'' можа быць не прысвоена значэнне
+    text: "Пераменнай ''{0}'' можа быць не прысвоена значэнне"
 unresolved.type.status:
-    text: Тып ''{0}'' не дазволены
+    text: "Тып ''{0}'' не дазволены"
 unused.0:
-    text: Невыкарыстаны ''{0}''
+    text: "Невыкарыстаны ''{0}''"
 unused.assignment.tooltip:
     text: Прысвойванне не выкарыстоўваецца
 unused.variable:

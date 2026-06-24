@@ -1,5 +1,5 @@
 add.return.type.to.method.declaration:
-    text: Дадаць тып значэння, якое вяртаецца, у аб'яўленне метаду
+    text: "Дадаць тып значэння, якое вяртаецца, у аб'яўленне метаду"
 cannot.create.class:
     text: Невозможно создать класс
 change.to.end.of.line.comment.intention.family.name:
@@ -91,17 +91,17 @@ create.parameter.for.field.intention.family.name:
 create.parameter.for.field.intention.name:
     text: Дадаць параметр канструктара для поля
 demorgans.intention.name1:
-    text: Замяніць '\&\&' на '||'
+    text: "Замяніць '\\&\\&' на '||'"
 demorgans.intention.name2:
-    text: Замяніць '||' на '\&\&'
+    text: "Замяніць '||' на '\\&\\&'"
 demorgans.law.intention.family.name:
     text: Закон де Моргана
 do.you.want.to.change.method.return.type:
-    text: Хочаце змяніць тып, які вяртае метад ''{0}''
+    text: "Хочаце змяніць тып, які вяртае метад ''{0}''"
 do.you.want.to.change.type.of.parameter.in.method:
-    text: Хочаце змяніць тып параметра ''{0}'' у метадзе ''{1}''
+    text: "Хочаце змяніць тып параметра ''{0}'' у метадзе ''{1}''"
 do.you.want.to.change.variable.type:
-    text: Хочаце змяніць тып ''{0}''
+    text: "Хочаце змяніць тып ''{0}''"
 each.to.for.intention.family.name:
     text: Замяніць each на for-in
 each.to.for.intention.name:
@@ -113,17 +113,17 @@ field.already.exists:
 field.is.used.in.argument.label:
     text: Поле <b>{0}</b> выкарыстоўваецца ў метцы аргумента
 flip.comparison.intention.name:
-    text: Інвертаваць ''{0}'' у ''{1}''
+    text: "Інвертаваць ''{0}'' у ''{1}''"
 flip.conditional.intention.family.name:
     text: Інвертаваць умоўны выраз
 flip.conjunction.intention.family.name:
-    text: Інвертаваць аперанды кан'юнкцыі
+    text: "Інвертаваць аперанды кан'юнкцыі"
 flip.if.intention.family.name:
     text: Інвертаваць if-выразы
 flip.if.intention.name:
     text: Інвертаваць if-выразы
 flip.smth.intention.name:
-    text: Інвертаваць ''{0}''
+    text: "Інвертаваць ''{0}''"
 for.to.each.intention.family.name:
     text: Замяніць for-in на each
 for.to.each.intention.name:
@@ -133,9 +133,9 @@ gr.alias.import.intention.family.name:
 gr.alias.import.intention.name:
     text: Імпарт з псеўданімам
 gr.break.string.on.line.breaks.intention.family.name:
-    text: Разбіць радок па '\n'
+    text: "Разбіць радок па '\\n'"
 gr.break.string.on.line.breaks.intention.name:
-    text: Разбіць радок па '\n'
+    text: "Разбіць радок па '\\n'"
 gr.convert.string.to.char.intention.family.name:
     text: Прывесці да char
 gr.convert.string.to.char.intention.name:
@@ -147,33 +147,33 @@ gr.convert.type.cast.to.safe.cast.intention.name:
 gr.copy.string.concatenation.content.intention.family.name:
     text: Капіраваць тэкст канкатэнацыі радкоў у буфер абмену
 gr.create.missing.switch.branches.intention.family.name:
-    text: Стварыць адсутныя галіны 'switch'
+    text: "Стварыць адсутныя галіны 'switch'"
 gr.create.missing.switch.branches.intention.name:
-    text: Стварыць адсутныя галіны 'switch'
+    text: "Стварыць адсутныя галіны 'switch'"
 gr.introduce.local.variable.intention.family.name:
     text: Создать локальную переменную
 gr.introduce.local.variable.intention.name:
     text: Создать локальную переменную
 gr.make.member.private.intention.family.name:
-    text: Сделать 'private'
+    text: "Сделать 'private'"
 gr.make.member.private.intention.name:
-    text: Сделать 'private'
+    text: "Сделать 'private'"
 gr.make.member.protected.intention.family.name:
-    text: Сделать 'protected'
+    text: "Сделать 'protected'"
 gr.make.member.protected.intention.name:
-    text: Сделать 'protected'
+    text: "Сделать 'protected'"
 gr.make.member.public.intention.family.name:
-    text: Сделать 'public'
+    text: "Сделать 'public'"
 gr.make.member.public.intention.name:
-    text: Сделать 'public'
+    text: "Сделать 'public'"
 gr.remove.annotation.intention.name:
     text: Выдаліць
 gr.set.strong.type.intention.family.name:
-    text: Аб'явіць яўны тып
+    text: "Аб'явіць яўны тып"
 gr.set.strong.type.intention.name:
-    text: Аб'явіць яўны тып
+    text: "Аб'явіць яўны тып"
 gr.split.declaration.intention.family.name:
-    text: Падзяліць аб'яўленне пераменнай
+    text: "Падзяліць аб'яўленне пераменнай"
 import.on.demand.intention.family.name:
     text: Дадаць static import па запыце
 import.on.demand.intention.name:
@@ -199,15 +199,15 @@ intention.category.control.flow:
 intention.category.conversions:
     text: Groovy/Пераўтварэнні выразаў
 intention.category.groovy.declaration:
-    text: Groovy/Аб'яўленні
+    text: "Groovy/Аб'яўленні"
 intention.category.groovy.other:
     text: Groovy/Прочее
 intention.category.groovy.style:
     text: Groovy/Стыль Groovy
 invert.if.intention.family.name:
-    text: Інвертаваць умову 'if'
+    text: "Інвертаваць умову 'if'"
 invert.if.intention.name:
-    text: Інвертаваць умову 'if'
+    text: "Інвертаваць умову 'if'"
 java.style.properties.invocation.intention.family.name:
     text: Змяніць выклік аксесара ў стылі Java на спасылку на ўласцівасць у стылі Groovy
 java.style.properties.invocation.intention.name:
@@ -223,9 +223,9 @@ make.closure.call.implicit.intention.name:
 map.param.name:
     text: 'Імя Map-параметра [&N]:'
 merge.else.if.intention.family.name:
-    text: Аб'яднаць else if
+    text: "Аб'яднаць else if"
 merge.if.and.intention.family.name:
-    text: Аб'яднаць укладзеныя 'if' выразы
+    text: "Аб'яднаць укладзеныя 'if' выразы"
 method.is.used.outside.of.groovy:
     text: Метад выкарыстоўваецца па-за Groovy
 method.with.signature.already.exists:
@@ -235,7 +235,7 @@ move.class.to.new.file.intention.family.name:
 move.class.to.new.file.intention.name:
     text: Перамясціць у асобны файл
 move.to.correct.dir:
-    text: Перамясціць у пакет ''{0}''
+    text: "Перамясціць у пакет ''{0}''"
 move.to.correct.dir.family.name:
     text: Перамясціць файл у правільны пакет
 negate.comparison.intention.family.name:
@@ -247,7 +247,7 @@ remove.catch.block:
 remove.exception:
     text: Выдаліць выключэнне
 remove.parameter.0:
-    text: Выдаліць параметр ''{0}''
+    text: "Выдаліць параметр ''{0}''"
 remove.parentheses.from.method.call.intention.family.name:
     text: Выдаліць лішнія дужкі з выкліку метаду
 remove.parentheses.from.method.call.intention.name:
@@ -265,13 +265,13 @@ remove.unnecessary.escape.characters.intention.family.name:
 remove.unnecessary.escape.characters.intention.name:
     text: Выдаліць лішнія экрануючыя сімвалы
 remove.unnecessary.return.intention.family.name:
-    text: Выдаліць лішняе ключавое слова 'return'
+    text: "Выдаліць лішняе ключавое слова 'return'"
 remove.unnecessary.return.intention.name:
-    text: Выдаліць ключавое слова 'return'
+    text: "Выдаліць ключавое слова 'return'"
 remove.unused.parameter:
     text: Выдаліць невыкарыстаны параметр
 rename.file.to.0:
-    text: Перайменаваць файл у ''{0}''
+    text: "Перайменаваць файл у ''{0}''"
 rename.file.with.class.intention.family.name:
     text: Перайменаваць файл па адпаведным імені класа
 rename.file.with.class.intention.name:
@@ -291,11 +291,11 @@ replace.qualified.reference.with.import.intention.family.name:
 replace.qualified.reference.with.import.intention.name:
     text: Замяніць на імпарт
 replace.ternary.with.if.else.intention.family.name:
-    text: Замяніць '?:' на if else
+    text: "Замяніць '?:' на if else"
 replace.ternary.with.if.else.intention.name:
-    text: Замяніць '?:' на if else
+    text: "Замяніць '?:' на if else"
 replace.with.wrapper:
-    text: Замяніць на ''{0}''
+    text: "Замяніць на ''{0}''"
 simplify.ternary.operator.intention.family.name:
     text: Спрасціць умоўны выраз
 simplify.ternary.operator.intention.name:
@@ -303,13 +303,13 @@ simplify.ternary.operator.intention.name:
 split.else.if.intention.family.name:
     text: Падзяліць else if
 split.if.intention.family.name:
-    text: Падзяліць на 2 аператары 'if'
+    text: "Падзяліць на 2 аператары 'if'"
 split.if.intention.name:
-    text: Падзяліць на 2 аператары 'if'
+    text: "Падзяліць на 2 аператары 'if'"
 split.into.declaration.and.assignment:
-    text: Падзяліць на аб'яўленне і прысвойванне
+    text: "Падзяліць на аб'яўленне і прысвойванне"
 split.into.separate.declaration:
-    text: Падзяліць на асобнае аб'яўленне
+    text: "Падзяліць на асобнае аб'яўленне"
 try.catch.fix:
     text: Выпраўленне try-catch
 write.access.to.closure.variable:
