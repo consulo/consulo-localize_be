@@ -33,39 +33,39 @@ choose.external.definitions.file:
 defined.variable.expected:
     text: Чакаецца вызначаная пераменная
 error.cannot.resolve.macro:
-    text: Немагчыма вызначыць макрас ''{0}''
+    text: "Немагчыма вызначыць макрас ''{0}''"
 error.cannot.resolve.method:
-    text: Немагчыма вызначыць метад ''{0}'' класа ''{1}''
+    text: "Немагчыма вызначыць метад ''{0}'' класа ''{1}''"
 error.cannot.resolve.property:
-    text: Немагчыма вызначыць уласцівасць ''{0}'' класа ''{1}''
+    text: "Немагчыма вызначыць уласцівасць ''{0}'' класа ''{1}''"
 error.cannot.resolve.variable:
-    text: Немагчыма вызначыць пераменную ''{0}''
+    text: "Немагчыма вызначыць пераменную ''{0}''"
 error.no.applicable.method:
-    text: У ''{1}'' няма метаду ''{0}'', які прымяняецца да {2}
+    text: "У ''{1}'' няма метаду ''{0}'', які прымяняецца да {2}"
 error.wrong.number.of.arguments.for.macro:
-    text: Выклік ''{0}'' з няправільнай колькасцю аргументаў
+    text: "Выклік ''{0}'' з няправільнай колькасцю аргументаў"
 expression.expected:
     text: Чакаецца выраз
 identifier:
     text: ідэнтыфікатар
 illegal.iterable.expression.type:
-    text: 'Недапушчальны тып ітэруемага выразу: ''''{0}'''''
+    text: "Недапушчальны тып ітэруемага выразу: ''{0}''"
 invalid.java.type:
     text: Недапушчальны тып Java
 invalid.operand.type:
-    text: 'Недапушчальны тып аперанда: ''''{0}'''''
+    text: "Недапушчальны тып аперанда: ''{0}''"
 invalid.operands.type:
-    text: 'Недапушчальныя тыпы аперандаў: ''''{0}'''' і ''''{1}'''''
+    text: "Недапушчальныя тыпы аперандаў: ''{0}'' і ''{1}''"
 invalid.token:
-    text: Недапушчальны токен ''{0}''
+    text: "Недапушчальны токен ''{0}''"
 loop.variable.expected:
     text: Чакаецца пераменная цыкла
 macro.declaration.expected:
     text: Чакаецца імя макраса і спіс параметраў
 macro.declaration.will.be.ignored:
-    text: Макрас ''{0}'' ужо вызначаны ў ''{1}'' і будзе праігнараваны ў ''{2}''
+    text: "Макрас ''{0}'' ужо вызначаны ў ''{1}'' і будзе праігнараваны ў ''{2}''"
 macro.is.already.defined:
-    text: Макрос ''{0}'' уже определен в ''{1}''
+    text: "Макрос ''{0}'' уже определен в ''{1}''"
 number:
     text: лік
 operand.expected:
@@ -73,9 +73,9 @@ operand.expected:
 operation.not.allowed:
     text: Аперацыя не дазволена
 parameter.expected:
-    text: Чакаецца аб'яўленне параметра
+    text: "Чакаецца аб'яўленне параметра"
 token.expected:
-    text: Чакаецца ''{0}''
+    text: "Чакаецца ''{0}''"
 type.name.loop.variable:
     text: пераменная цыкла
 type.name.macro:
@@ -133,4 +133,4 @@ vtl.references.inspection:
 vtl.types.inspection:
     text: Праверка тыпаў
 will.be.considered.as.macro.call:
-    text: Будзе разглядацца як выклік макраса, чакаецца '('
+    text: "Будзе разглядацца як выклік макраса, чакаецца '('"

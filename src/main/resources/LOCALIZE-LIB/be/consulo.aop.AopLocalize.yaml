@@ -1,7 +1,7 @@
 add.pjp.parameter:
     text: Дадаць параметр ProceedingJoinPoint
 around.advice.call.cannot.proceed:
-    text: 'Выклік advice не можа працягнуцца: магчыма, вы забыліся аб''явіць параметр ProceedingJoinPoint'
+    text: "Выклік advice не можа працягнуцца: магчыма, вы забыліся аб'явіць параметр ProceedingJoinPoint"
 around.advice.should.return.something:
     text: Значэнне, якое вяртае join point, будзе страчана
 around.advice.style.inspection:
@@ -23,17 +23,17 @@ error.argNames.should.match:
 error.arrays.not.allowed.here:
     text: Масівы тут не дазволены
 error.cannot.resolve.parameter:
-    text: Не ўдаецца вызначыць параметр ''{0}''
+    text: "Не ўдаецца вызначыць параметр ''{0}''"
 error.cannot.resolve.pointcut:
-    text: Не ўдаецца вызначыць pointcut ''{0}''
+    text: "Не ўдаецца вызначыць pointcut ''{0}''"
 error.cannot.resolve.symbol:
-    text: Не ўдаецца вызначыць сімвал ''{0}''
+    text: "Не ўдаецца вызначыць сімвал ''{0}''"
 error.constructor.pattern.expected:
     text: Чакаецца шаблон канструктара
 error.default.implementation.class.should.be.specified:
     text: Павінен быць указаны клас рэалізацыі па змаўчанні
 error.double.ellipsis.prohibited:
-    text: Выкарыстанне больш чым аднаго '..' забаронена
+    text: "Выкарыстанне больш чым аднаго '..' забаронена"
 error.field.name.pattern.expected:
     text: Чакаецца шаблон імя поля
 error.generics.not.allowed.here:
@@ -101,6 +101,6 @@ tooltip.text.navigate.to.introductions:
 tooltip.text.navigate.to.methods:
     text: Перайсці да метадаў з Advice
 unbound.pointcut.parameter:
-    text: Несвязанный параметр pointcut ''{0}''
+    text: "Несвязанный параметр pointcut ''{0}''"
 warning.argNames.should.be.defined:
     text: Атрыбут {0} не вызначаны

@@ -9,7 +9,7 @@ PersistentDataEditor.chooser.title:
 PersistentDataEditor.chooser.description:
     text: Выберыце хатнюю дырэкторыю {0}
 PersistentDataEditor.warning:
-    text: <html><body><b>Папярэджанне:</b> Выбраная дырэкторыя не з'яўляецца карэктнай хатняй дырэкторыяй {0}</body></html>
+    text: "<html><body><b>Папярэджанне:</b> Выбраная дырэкторыя не з'яўляецца карэктнай хатняй дырэкторыяй {0}</body></html>"
 PersistentDataEditor.unknown:
     text: <невядома>
 ServerHelper.libraries.title:
@@ -39,6 +39,7 @@ ServerModel.password:
 ServerModel.logfile:
     text: Лог {0}
 ServerInstance.artifact.status:
-    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] Артефакт {1}: {2}\n"
+    text: |
+        [{0,time,yyyy-MM-dd hh:mm:ss,SSS}] Артефакт {1}: {2}
 Error.fileNotFound:
-    text: Файл ''{0}'' не найден
+    text: "Файл ''{0}'' не найден"

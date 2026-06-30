@@ -11,23 +11,23 @@ aop.warning.aspectj.isnt.enabled:
 aop.warnings.inspection.display.name:
     text: Некарэктны элемент Spring AOP aspect або pointcut
 bean.autowiring.by.type:
-    text: 'Не ўдалося выканаць аўтаматычнае звязванне. Існуе некалькі бінаў тыпу ''''{0}''''. Біны: {1}. Уласцівасці: ''''{2}'''''
+    text: "Не ўдалося выканаць аўтаматычнае звязванне. Існуе некалькі бінаў тыпу ''{0}''. Біны: {1}. Уласцівасці: ''{2}''"
 bean.autowiring.by.type.none:
-    text: Не ўдалося выканаць аўтаматычнае звязванне. Не знойдзены біны тыпу ''{0}''.
+    text: "Не ўдалося выканаць аўтаматычнае звязванне. Не знойдзены біны тыпу ''{0}''."
 bean.bad.property.type:
-    text: Уласцівасць тыпу ''{0}'' не можа быць укаранёна праз ''{1}''
+    text: "Уласцівасць тыпу ''{0}'' не можа быць укаранёна праз ''{1}''"
 bean.class.autowired.by.type:
-    text: Не ўдалося выканаць аўтаматычнае звязванне. Існуе некалькі бінаў тыпу ''{0}''.
+    text: "Не ўдалося выканаць аўтаматычнае звязванне. Існуе некалькі бінаў тыпу ''{0}''."
 bean.class.autowired.incorrect.qualifier.type:
-    text: Не ўдалося выканаць аўтаматычнае звязванне. Кваліфікаваны бін павінен быць тыпу ''{0}''.
+    text: "Не ўдалося выканаць аўтаматычнае звязванне. Кваліфікаваны бін павінен быць тыпу ''{0}''."
 bean.class.unknown.qualifier.bean:
-    text: Не ўдаецца знайсці бін з кваліфікатарам ''{0}''
+    text: "Не ўдаецца знайсці бін з кваліфікатарам ''{0}''"
 bean.must.be.of.type:
-    text: Бін павінен быць тыпу ''{0}''
+    text: "Бін павінен быць тыпу ''{0}''"
 cannot.autowire.bean.of.type:
-    text: Не ўдалося выканаць аўтаматычнае звязванне. Бін павінен быць тыпу ''{0}''
+    text: "Не ўдалося выканаць аўтаматычнае звязванне. Бін павінен быць тыпу ''{0}''"
 cannot.find.bean.constructor.with.parameters.count:
-    text: Не знойдзены прыдатны канструктар у класе ''{0}''
+    text: "Не знойдзены прыдатны канструктар у класе ''{0}''"
 cannot.find.bean.qualified.by:
     text: Не ўдаецца знайсці бін з кваліфікатарам {0}
 cannot.find.constructor.arg.index:
@@ -39,7 +39,7 @@ cannot.find.factory.method.index:
 cannot.find.factory.method.with.parameters.count:
     text: Не знойдзены прыдатны фабрычны метад у класе
 cannot.resolve.method:
-    text: Не ўдаецца вырашыць метад ''{0}''
+    text: "Не ўдаецца вырашыць метад ''{0}''"
 config.display.name:
     text: Канфігурацыя
 config.file.is.not.spring:
@@ -51,13 +51,15 @@ config.new.file:
 constructor.arg.incorrect.value.type:
     text: Тып укараняемага значэння павінен адпавядаць тыпу аргумента канструктара
 create.missing.mappings:
-    text: Стварыць адсутныя супастаўленні для ''{0}''
+    text: "Стварыць адсутныя супастаўленні для ''{0}''"
 create.missing.properties:
     text: Стварыць адсутныя ўласцівасці
 create.new.spring.configuration.file:
     text: Стварыць новы канфігурацыйны файл Spring
 custom.bean.no.id:
-    text: "IntelliJ IDEA не можа знайсці ID гэтага біна ў канфігурацыйным файле. Перайменаванне можа прывесці да\nнекарэктнага кода. Хочаце працягнуць?"
+    text: |-
+        IntelliJ IDEA не можа знайсці ID гэтага біна ў канфігурацыйным файле. Перайменаванне можа прывесці да
+        некарэктнага кода. Хочаце працягнуць?
 custom.bean.no.id.title:
     text: Папярэджанне
 do.you.want.to.move.bean.to.the.top.level:
@@ -65,7 +67,7 @@ do.you.want.to.move.bean.to.the.top.level:
 error.pointcut.or.pointcut.ref.should.be.defined:
     text: Павінен быць вызначаны атрыбут pointcut або pointcut-ref
 idref.cannot.be.added.in.collection:
-    text: Немагчыма дадаць у калекцыю тыпу ''{0}''
+    text: "Немагчыма дадаць у калекцыю тыпу ''{0}''"
 incorrect.constructor.arg.index.not.unique:
     text: Індэкс павінен быць унікальным
 interface.not.allowed:
@@ -73,27 +75,27 @@ interface.not.allowed:
 introduce.bean.intention:
     text: Укараніць бін
 jdk.proxy.intercepts.class:
-    text: 'Уласцівасць біна павінна мець тып інтэрфейсу: ''''{0}'''''
+    text: "Уласцівасць біна павінна мець тып інтэрфейсу: ''{0}''"
 mark.bean.as.abstract:
     text: Пазначыць бін як abstract
 method.cannot.instantiate.bean:
-    text: Фабрычны метад ''{0}'' не можа стварыць экзэмпляр біна
+    text: "Фабрычны метад ''{0}'' не можа стварыць экзэмпляр біна"
 method.must.be.public:
-    text: Фабрычны метад ''{0}'' павінен быць public
+    text: "Фабрычны метад ''{0}'' павінен быць public"
 method.must.be.static:
-    text: Фабрычны метад ''{0}'' павінен быць static
+    text: "Фабрычны метад ''{0}'' павінен быць static"
 method.must.not.be.static:
-    text: Фабрычны метад ''{0}'' не павінен быць static
+    text: "Фабрычны метад ''{0}'' не павінен быць static"
 missing.aspectj.autoproxy.inspection.display.name:
     text: Отсутствует aspectj-autoproxy
 model.add.constructor.args.for.method.quickfix.message:
-    text: Дадаць <constructor-arg> для ''{0}''
+    text: "Дадаць <constructor-arg> для ''{0}''"
 model.bean.error.message:
-    text: Не ўдаецца вырашыць бін ''{0}''
+    text: "Не ўдаецца вырашыць бін ''{0}''"
 model.bean.quickfix.message:
-    text: Стварыць новы бін ''{0}''
+    text: "Стварыць новы бін ''{0}''"
 model.create.factory.method.quickfix.message:
-    text: Стварыць фабрычны метад ''{0}''
+    text: "Стварыць фабрычны метад ''{0}''"
 model.inspection.bean.autowiring:
     text: Некарэктны аўтавайрынг XML Spring-біна
 model.inspection.bean.constructor.arg:
@@ -105,7 +107,7 @@ model.inspection.bean.property.value:
 model.inspection.display.bean.name.convention:
     text: Імя Spring-біна парушае пагадненні
 model.inspection.display.name:
-    text: Няправільна настроены элемент 'flow'
+    text: "Няправільна настроены элемент 'flow'"
 model.inspection.injection.value.add.list:
     text: Дадаць тэг <list>
 model.inspection.injection.value.add.map:
@@ -131,15 +133,15 @@ model.inspection.injection.value.style.ref.message:
 model.inspection.injection.value.style.value.fix:
     text: Замяніць элемент <value> атрыбутам "{0}"
 model.inspection.invalid.identifier.message:
-    text: '''''{0}'''' не адпавядае пагадненню аб найменні бінаў'
+    text: "''{0}'' не адпавядае пагадненню аб найменні бінаў"
 model.inspection.invalid.lowercase.name.message:
-    text: '''''{0}'''' павінна пачынацца з маленькай літары'
+    text: "''{0}'' павінна пачынацца з маленькай літары"
 model.inspection.validator.description.text:
     text: Spring модель
 model.inspection.validator.progress.text:
     text: Праверка Spring-мадэлі…
 model.property.error.message:
-    text: Не ўдаецца вырашыць уласцівасць ''{0}''
+    text: "Не ўдаецца вырашыць уласцівасць ''{0}''"
 model.qualifiers.in.class.inspection.display.name:
     text: Некарэктны аўтавайрынг у кампанентах Spring-бінаў
 move.bean:
@@ -157,11 +159,13 @@ parse.custom.bean.success:
 parse.no.custom.beans:
     text: Парсер не стварыў бінаў
 parse.no.namespace.handler:
-    text: Не ўдаецца знайсці карыстальніцкі апрацоўшчык для прасторы імёнаў ''{0}''
+    text: "Не ўдаецца знайсці карыстальніцкі апрацоўшчык для прасторы імёнаў ''{0}''"
 parse.only.infrastructure.beans:
     text: Парсер стварыў толькі інфраструктурныя біны
 parse.these.beans:
-    text: "Карыстальніцкі апрацоўшчык прасторы імёнаў стварыў наступныя вызначэнні бінаў:\n{0}"
+    text: |-
+        Карыстальніцкі апрацоўшчык прасторы імёнаў стварыў наступныя вызначэнні бінаў:
+        {0}
 parse.these.beans.induct:
     text: "Карыстальніцкі апрацоўшчык прасторы імёнаў стварыў наступнае вызначэнне біна:\n{0}\n\nМеркаваць, што ўсе біны\nз прасторы імёнаў ''{1}'' з лакальным імем ''{2}''\nмаюць той жа клас і бяруць іх id з атрыбута ''{3}''?"
 parse.these.beans.induct.only.this:
@@ -173,9 +177,9 @@ process.unexpectedly.terminated:
 required.properties.inspection:
     text: Уласцівасць Spring-біна з @Required не ўкаранёна
 required.properties.missed:
-    text: 'Отсутствуют обязательные свойства: ''''{0}'''''
+    text: "Отсутствуют обязательные свойства: ''{0}''"
 required.property.not.mapped:
-    text: Обязательное свойство ''{0}'' не внедрено
+    text: "Обязательное свойство ''{0}'' не внедрено"
 required.spring.bean.type.inspection:
     text: Некарэктны тып укаранёнага біна
 scopes.inspection.display.name:
@@ -191,7 +195,7 @@ spring.bean.autowire.escape.inspection.name:
 spring.bean.class.navigate.choose.class.title:
     text: Выбраць бін
 spring.bean.class.tooltip.navigate.declaration:
-    text: Перайсці да аб'яўлення(яў) Spring-біна
+    text: "Перайсці да аб'яўлення(яў) Spring-біна"
 spring.bean.constructor.arg:
     text: Аргумент конструктора
 spring.bean.dependencies.chooser.title:
@@ -219,7 +223,7 @@ spring.bean.instantiation.inspection:
 spring.bean.instantiation.using.factory.method:
     text: Spring Bean (створаны статычным фабрычным метадам)
 spring.bean.lookup.method.bean.has.no.class:
-    text: Bean ''{0}'' не мае класа
+    text: "Bean ''{0}'' не мае класа"
 spring.bean.lookup.method.constructor.not.allowed:
     text: Конструктор здесь не разрешен
 spring.bean.lookup.method.incorrect.return.type:
@@ -233,7 +237,7 @@ spring.bean.lookup.method.must.be.public.or.protected:
 spring.bean.lookup.method.must.have.no.parameters:
     text: Метад не павінен мець параметраў
 spring.bean.lookup.method.return.type.mismatch:
-    text: Тып вяртаемага значэння метаду lookup не адпавядае класу Bean ''{0}''
+    text: "Тып вяртаемага значэння метаду lookup не адпавядае класу Bean ''{0}''"
 spring.bean.map.entry:
     text: Элемент адлюстравання
 spring.bean.properties.chooser.title:
@@ -267,9 +271,9 @@ spring.generate.properties:
 spring.generate.setter.dependencies:
     text: Залежнасць праз сетар…
 spring.parent.bean.tooltip:
-    text: Перайсці да даччыных аб'яўленняў
+    text: "Перайсці да даччыных аб'яўленняў"
 spring.required.property.inspection:
-    text: Адсутнічаюць ін'екцыі ўласцівасцей @Required у аб'яўленні Spring XML-біна
+    text: "Адсутнічаюць ін'екцыі ўласцівасцей @Required у аб'яўленні Spring XML-біна"
 this.pointcut.designator.isn.t.supported.by.spring:
     text: Spring не падтрымлівае pointcut-дэскрыптар {0}
 timeout.parsing.bean:
@@ -287,10 +291,12 @@ use.cglib.proxying:
 use.p.namespace:
     text: Преобразовать в p-namespace
 util.schema.inspection.name:
-    text: Няправільна настроеныя біны схемы 'util', вызначаныя ў XML-кантэксце прыкладання
+    text: "Няправільна настроеныя біны схемы 'util', вызначаныя ў XML-кантэксце прыкладання"
 warning.pointcut.should.have.id:
     text: Pointcut павінен мець ID
 xml.schema.update.is.required:
     text: Патрабуецца абнаўленне XML-схемы
 xml.schema.will.be.updated:
-    text: "XML-схема будзе абноўлена да spring-beans.xsd.\nПрацягнуць?"
+    text: |-
+        XML-схема будзе абноўлена да spring-beans.xsd.
+        Працягнуць?

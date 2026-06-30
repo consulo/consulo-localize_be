@@ -1,17 +1,17 @@
 YAMLDuplicatedKeysInspection.duplicated.key:
-    text: Ключ ''{0}'' дублюецца
+    text: "Ключ ''{0}'' дублюецца"
 YAMLDuplicatedKeysInspection.merge.quickfix.name:
-    text: Аб'яднаць дублюючыя раздзелы
+    text: "Аб'яднаць дублюючыя раздзелы"
 YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
     text: Выдаліць ключ
 YamlBooleanType.validation.error.quoted.value:
     text: Чакаецца лагічнае значэнне
 YamlDeprecatedKeysInspectionBase.deprecated.key:
-    text: Ключ ''{0}'' устарел
+    text: "Ключ ''{0}'' устарел"
 YamlEnumType.validation.error.value.unknown:
-    text: Значэнне ''{0}'' не чакаецца ў гэтым месцы
+    text: "Значэнне ''{0}'' не чакаецца ў гэтым месцы"
 YamlEnumType.validation.warning.value.deprecated:
-    text: Значэнне ''{0}'' састарэла
+    text: "Значэнне ''{0}'' састарэла"
 YamlIntegerType.error.integer.value:
     text: Чакаецца цэлалікавае значэнне
 YamlMetaClass.error.scalar.value:
@@ -19,17 +19,17 @@ YamlMetaClass.error.scalar.value:
 YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
     text: Дадаць адсутныя ключы
 YamlMissingKeysInspectionBase.missing.keys:
-    text: 'Адсутнічаюць абавязковыя ключы: ''''{0}'''''
+    text: "Адсутнічаюць абавязковыя ключы: ''{0}''"
 YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
     text: Выдаліць усе нерэдагуемыя ключы з файла
 YamlNonEditableKeysInspectionBase.noneditable.key:
-    text: Ключ ''{0}'' не можа быць зменены карыстальнікам
+    text: "Ключ ''{0}'' не можа быць зменены карыстальнікам"
 YamlNumberType.error.numeric.value:
     text: Чакаецца лікавае значэнне
 YamlScalarType.error.scalar.value:
     text: Чакаецца скалярнае значэнне
 YamlUnknownKeysInspectionBase.unknown.key:
-    text: Ключ ''{0}'' не чакаецца ў гэтым месцы
+    text: "Ключ ''{0}'' не чакаецца ў гэтым месцы"
 YamlUnknownValuesInspectionBase.error.array.is.required:
     text: Патрабуецца масіў
 YamlUnknownValuesInspectionBase.error.array.not.allowed:
@@ -45,9 +45,9 @@ color.settings.yaml.dstring:
 color.settings.yaml.key:
     text: Ключ
 color.settings.yaml.scalar.list:
-    text: Блок '|'
+    text: "Блок '|'"
 color.settings.yaml.scalar.text:
-    text: Блок '>'
+    text: "Блок '>'"
 color.settings.yaml.sign:
     text: 'Сімвалы: дужкі, коскі і г.д.'
 color.settings.yaml.string:
@@ -71,7 +71,7 @@ find.usages.unnamed:
 inspections.duplicated.keys.name:
     text: Дублюючыя ключы YAML
 inspections.incompatible.types.message:
-    text: Тып значэння ''{0}'', у той час як іншыя значэнні выкарыстоўваюць тып ''{1}''
+    text: "Тып значэння ''{0}'', у той час як іншыя значэнні выкарыстоўваюць тып ''{1}''"
 inspections.incompatible.types.quickfix.wrap.all.quotes.message:
     text: Абгарнуць усе скаляры ў паслядоўнасці ў двукоссі
 inspections.incompatible.types.quickfix.wrap.quotes.message:
@@ -91,7 +91,7 @@ inspections.recursive.alias.name:
 inspections.schema.deprecation.name:
     text: Састарэлы ключ YAML
 inspections.schema.deprecation.text:
-    text: 'Ключ ''''{0}'''' устарел: {1}'
+    text: "Ключ ''{0}'' устарел: {1}"
 inspections.schema.validation.name:
     text: Валідацыя па JSON Schema
 inspections.schema.validation.prefix:
@@ -109,7 +109,7 @@ inspections.unused.anchor.name:
 inspections.unused.anchor.quickfix.name:
     text: Выдаліць якар
 new.name.conflicts.with:
-    text: 'Ключ канфліктуе з існуючым: ''''{0}'''''
+    text: "Ключ канфліктуе з існуючым: ''{0}''"
 parsing.error.sequence.item.expected:
     text: Чакаецца элемент паслядоўнасці
 rename.same.name:

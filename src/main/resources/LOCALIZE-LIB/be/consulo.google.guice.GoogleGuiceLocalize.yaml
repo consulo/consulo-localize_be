@@ -1,11 +1,11 @@
 binding.annotation.without.inject.display.name:
     text: Анатацыя прывязкі без @Inject
 binding.annotation.without.inject.problem.descriptor:
-    text: 'Анатацыя прывязкі без аб''яўленага @Inject #ref #loc'
+    text: "Анатацыя прывязкі без аб'яўленага @Inject #ref #loc"
 conflicting.annotations.display.name:
     text: Канфлікт анатацый Guice
 conflicting.annotations.problem.descriptor:
-    text: 'Анатацыя #ref канфліктуе з іншымі аб''яўленымі анатацыямі #loc'
+    text: "Анатацыя #ref канфліктуе з іншымі аб'яўленымі анатацыямі #loc"
 delete.binding:
     text: Выдаліць прывязку
 interception.annotation.without.runtime.retention.display.name:
@@ -105,7 +105,7 @@ singleton.injects.scoped.problem.descriptor:
 toggle.injection.required.family.name:
     text: Пераключыць укараненне
 toggle.required:
-    text: Пераключыць 'optional'
+    text: "Пераключыць 'optional'"
 uninstantiable.binding.display.name:
     text: Немагчыма стварыць экзэмпляр прывязкі
 uninstantiable.binding.problem.descriptor:

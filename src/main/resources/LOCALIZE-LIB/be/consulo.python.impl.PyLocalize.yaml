@@ -7,7 +7,7 @@ ACT.qualify.with.module:
 ANN.assign.to.none:
     text: Прызначэнне Няма
 ANN.break.outside.loop:
-    text: '''разрыў'' па-за цыклам'
+    text: "'разрыў' па-за цыклам"
 ANN.cant.assign.to.call:
     text: Немагчыма прысвоіць значэнне выкліку функцыі
 ANN.cant.assign.to.comprh:
@@ -45,7 +45,7 @@ ANN.cant.delete.literal:
 ANN.continue.outside.loop:
     text: «працягнуць» па-за цыклам
 ANN.default.except.must.be.last:
-    text: па змаўчанні 'except:' павінен быць апошнім
+    text: "па змаўчанні 'except:' павінен быць апошнім"
 ANN.deleting.none:
     text: Выдаленне нічога
 ANN.duplicate.param.name:
@@ -61,7 +61,7 @@ ANN.regular.param.after.keyword:
 ANN.regular.param.after.vararg:
     text: звычайны параметр пасля параметра *
 ANN.star.import.at.top.only:
-    text: '''імпарт *'' дазволены толькі на ўзроўні модуля'
+    text: "'імпарт *' дазволены толькі на ўзроўні модуля"
 ANN.starred.param.after.kwparam:
     text: параметр * пасля параметра **
 ANN.tuple.py3:
@@ -79,7 +79,7 @@ INSP.NAME.augment.assignment:
 INSP.NAME.bad.except.clauses.order:
     text: Няправільны парадак сказаў «за выключэннем».
 INSP.NAME.byte.literal:
-    text: Літарал байта змяшчае сімвалы, якія не з'яўляюцца ASCII
+    text: "Літарал байта змяшчае сімвалы, якія не з'яўляюцца ASCII"
 INSP.NAME.chained.comparisons:
     text: Занадта складаныя ланцужкі параўнанняў
 INSP.NAME.check.can.be.simplified:
@@ -119,7 +119,7 @@ INSP.NAME.init.return:
 INSP.NAME.invalid.interpreter:
     text: Няправільны інтэрпрэтатар
 INSP.NAME.list.creation:
-    text: Аб'ява неаптымальнага спісу
+    text: "Аб'ява неаптымальнага спісу"
 INSP.NAME.mandatory.encoding:
     text: Кадыроўка файла не ўказана
 INSP.NAME.method.may.be.static:
@@ -129,13 +129,13 @@ INSP.NAME.method.over:
 INSP.NAME.missing.or.empty.docstring:
     text: Адсутнічае або пусты радок дакументацыі
 INSP.NAME.missing.super.constructor:
-    text: Прапушчаны выклік '__init__' суперкласа
+    text: "Прапушчаны выклік '__init__' суперкласа"
 INSP.NAME.nested.decorators:
     text: Праблемная ўкладзенасць дэкаратараў
 INSP.NAME.new.init.signature:
     text: Несумяшчальныя подпісы __new__ і __init__
 INSP.NAME.non.ascii:
-    text: Файл змяшчае сімвалы, якія не з'яўляюцца ASCII
+    text: "Файл змяшчае сімвалы, якія не з'яўляюцца ASCII"
 INSP.NAME.none.function.assignment:
     text: Прызначэнне выклікаў функцый, якія нічога не вяртаюць
 INSP.NAME.oldstyle.class:
@@ -187,9 +187,9 @@ INSP.class.has.no.init:
 INSP.classic.class.usage.old.style.class:
     text: Клас у старым стылі
 INSP.classic.class.usage.old.style.class.ancestors:
-    text: Клас старога стылю, бо ўсе класы, ад якіх ён успадкоўваецца, з'яўляюцца класамі старога стылю
+    text: "Клас старога стылю, бо ўсе класы, ад якіх ён успадкоўваецца, з'яўляюцца класамі старога стылю"
 INSP.decorator.receives.unexpected.builtin:
-    text: Гэты дэкаратар не атрымае чаканага выкліку; убудаваны дэкаратар вяртае спецыяльны аб'ект
+    text: "Гэты дэкаратар не атрымае чаканага выкліку; убудаваны дэкаратар вяртае спецыяльны аб'ект"
 INSP.deleter.should.not.return:
     text: Праграма выдалення не павінна вяртаць значэнне
 INSP.deleter.signature.advice:
@@ -223,7 +223,7 @@ INSP.missing.parameter.in.docstring:
 INSP.missing.super.constructor.message:
     text: Прапушчаны выклік __init__ суперкласса
 INSP.must.have.first.parameter:
-    text: Метад павінен мець першы параметр, які звычайна называецца ''{0}''
+    text: "Метад павінен мець першы параметр, які звычайна называецца ''{0}''"
 INSP.new.incompatible.to.init:
     text: Подпіс несумяшчальны з __init__
 INSP.no.docstring:
@@ -231,7 +231,7 @@ INSP.no.docstring:
 INSP.no.format.specifier.char:
     text: Адсутнічае сімвал спецыфікатара фармату
 INSP.none.function.assignment:
-    text: Функцыя ''{0}'' нічога не вяртае
+    text: "Функцыя ''{0}'' нічога не вяртае"
 INSP.oldstyle.class.getattribute:
     text: Клас старога стылю змяшчае азначэнне __getattribute__
 INSP.oldstyle.class.slots:
@@ -241,13 +241,13 @@ INSP.oldstyle.class.super:
 INSP.probably.mistyped.self:
     text: Магчыма, вы мелі на ўвазе «я»?
 INSP.redeclared.name:
-    text: Паўторна абвешчаны ''{0}'', вызначаны вышэй, без выкарыстання
+    text: "Паўторна абвешчаны ''{0}'', вызначаны вышэй, без выкарыстання"
 INSP.setter.should.not.return:
     text: Усталёўшчык не павінен вяртаць значэнне
 INSP.setter.signature.advice:
     text: Подпіс установшчыка павінен быць (я, значэнне)
 INSP.signature.mismatch:
-    text: Подпіс метаду ''{0}'' не супадае з подпісам базавага метаду ў класе ''{1}''
+    text: "Подпіс метаду ''{0}'' не супадае з подпісам базавага метаду ў класе ''{1}''"
 INSP.strange.arg.want.callable:
     text: Дзіўны аргумент; чаканы выклік
 INSP.too.few.args.for.fmt.string:
@@ -261,11 +261,11 @@ INSP.try.except.import.error:
 INSP.tuples.never.assign.items:
     text: Картэжы не падтрымліваюць прызначэнне элементаў
 INSP.unbound.function.too.large:
-    text: Функцыя ''{0}'' занадта вялікая для аналізу
+    text: "Функцыя ''{0}'' занадта вялікая для аналізу"
 INSP.unbound.local.variable:
-    text: Лакальная зменная ''{0}'' можа быць выкарыстана перад прызначэннем
+    text: "Лакальная зменная ''{0}'' можа быць выкарыстана перад прызначэннем"
 INSP.unbound.nonlocal.variable:
-    text: Нелакальная зменная ''{0}'' павінна быць звязана ў вобласці знешняй функцыі
+    text: "Нелакальная зменная ''{0}'' павінна быць звязана ў вобласці знешняй функцыі"
 INSP.unexpected.arg:
     text: Нечаканы аргумент
 INSP.unexpected.parameter.in.docstring:
@@ -273,13 +273,13 @@ INSP.unexpected.parameter.in.docstring:
 INSP.unreachable.code:
     text: Гэты код недасяжны
 INSP.unused.locals.local.class.isnot.used:
-    text: Лакальны клас ''{0}'' не выкарыстоўваецца
+    text: "Лакальны клас ''{0}'' не выкарыстоўваецца"
 INSP.unused.locals.local.function.isnot.used:
-    text: Лакальная функцыя ''{0}'' не выкарыстоўваецца
+    text: "Лакальная функцыя ''{0}'' не выкарыстоўваецца"
 INSP.unused.locals.local.variable.isnot.used:
-    text: Значэнне лакальнай зменнай ''{0}'' не выкарыстоўваецца
+    text: "Значэнне лакальнай зменнай ''{0}'' не выкарыстоўваецца"
 INSP.unused.locals.parameter.isnot.used:
-    text: Значэнне параметра ''{0}'' не выкарыстоўваецца
+    text: "Значэнне параметра ''{0}'' не выкарыстоўваецца"
 INSP.unused.locals.replace.with.wildcard:
     text: Замяніць на _
 INSP.usually.named.self:
@@ -305,15 +305,15 @@ INTN.convert.to.fstring.literal:
 INTN.convert.variadic.param:
     text: Пераўтварыце зменныя параметры ў звычайныя
 INTN.flip.comparison:
-    text: Інвертаваць ''{0}''
+    text: "Інвертаваць ''{0}''"
 INTN.format.operator.to.method:
     text: Пераўтварыце фармат у выклік метаду "str.format"
 INTN.insert.assertion:
     text: Праверка тыпу ўстаўкі
 INTN.join.if:
-    text: Аб'яднайце два выказванні "калі".
+    text: "Аб'яднайце два выказванні \"калі\"."
 INTN.negate.comparison:
-    text: Замяніць ''{0}'' на ''{1}''
+    text: "Замяніць ''{0}'' на ''{1}''"
 INTN.quoted.string:
     text: Пераўтварэнне радкоў з адзінарнымі двукоссямі ў падвойныя і наадварот
 INTN.quoted.string.double.to.single:
@@ -345,31 +345,31 @@ INTN.specify.type.in.annotation:
 INTN.split.if:
     text: Разбіце на 2 аператары "калі".
 INTN.string.concatenation.to.format:
-    text: Замяніць аб'яднанне радкоў на "str.format"
+    text: "Замяніць аб'яднанне радкоў на \"str.format\""
 INTN.transform.into.if.else.statement:
     text: Пераўтварыце ўмоўныя выразы ў аператары «if/else».
 INTN.triple.quoted.string:
     text: Пераўтварэнне радка з патройнымі двукоссямі ў радок з адзінарнымі двукоссямі
 INTN.yield.from:
-    text: Пераўтварыце відавочныя ітэрацыі з выразамі 'yield' у 'yield from'
+    text: "Пераўтварыце відавочныя ітэрацыі з выразамі 'yield' у 'yield from'"
 PARSE.expected.colon:
-    text: Чакаецца ':'
+    text: "Чакаецца ':'"
 PARSE.expected.colon.or.rbracket:
-    text: Чакаецца ':' або ']'
+    text: "Чакаецца ':' або ']'"
 PARSE.expected.comma:
     text: Чакаецца ","
 PARSE.expected.comma.lpar.rpar:
-    text: Чакаецца ',', '(' або ')'
+    text: "Чакаецца ',', '(' або ')'"
 PARSE.expected.comma.or.rpar:
-    text: Чакаецца ',' або ')'
+    text: "Чакаецца ',' або ')'"
 PARSE.expected.else:
     text: «Інакш» чакаецца
 PARSE.expected.expr.or.comma.or.bracket:
-    text: Чакаецца выраз, ',' або ']'
+    text: "Чакаецца выраз, ',' або ']'"
 PARSE.expected.expression:
     text: Чаканы выраз
 PARSE.expected.for.or.bracket:
-    text: Чакаецца ']' або 'for'
+    text: "Чакаецца ']' або 'for'"
 PARSE.expected.formal.param.name:
     text: Чакаецца афіцыйная назва параметра
 PARSE.expected.identifier:
@@ -377,15 +377,15 @@ PARSE.expected.identifier:
 PARSE.expected.in:
     text: Чакаецца "ў"
 PARSE.expected.lpar:
-    text: Чакаецца '('
+    text: "Чакаецца '('"
 PARSE.expected.name:
     text: Імя чаканае
 PARSE.expected.rbrace:
     text: Чакаецца "}"
 PARSE.expected.rbracket:
-    text: Чакаецца ']'
+    text: "Чакаецца ']'"
 PARSE.expected.rpar:
-    text: Чакаецца ')'
+    text: "Чакаецца ')'"
 PARSE.expected.statement.break:
     text: Чакаецца збой аператара
 PARSE.expected.tick:
@@ -433,11 +433,11 @@ QFIX.action.failed:
 QFIX.add.encoding:
     text: Дадайце дэкларацыю кадавання
 QFIX.add.global:
-    text: Дадаць глабальнае аб'яву
+    text: "Дадаць глабальнае аб'яву"
 QFIX.add.import.add.import:
-    text: Дадаць "''{0}"
+    text: "Дадаць \"''{0}\""
 QFIX.add.parameter.self:
-    text: Дадаць параметр ''{0}''
+    text: "Дадаць параметр ''{0}''"
 QFIX.add.property:
     text: Дадайце ўласцівасць для поля
 QFIX.add.super:
@@ -445,7 +445,7 @@ QFIX.add.super:
 QFIX.augment.assignment:
     text: Замяніць прызначэнне пашыраным прызначэннем
 QFIX.auto.import.import.name:
-    text: Імпарт ''{0}''
+    text: "Імпарт ''{0}''"
 QFIX.auto.import.import.this.name:
     text: Імпартаваць гэтае імя
 QFIX.chained.comparison:
@@ -453,7 +453,7 @@ QFIX.chained.comparison:
 QFIX.change.base.class:
     text: Змяніць базавы клас
 QFIX.classic.class.transform:
-    text: Успадкаваць ад аб'екта
+    text: "Успадкаваць ад аб'екта"
 QFIX.convert.single.quoted.docstring:
     text: Пераўтварэнне радка дакумента ў радок з патройнымі падвойнымі двукоссямі
 QFIX.convert.to.new.style:
@@ -483,7 +483,7 @@ QFIX.make.public:
 QFIX.move.attribute:
     text: Перамясціць атрыбут у метад __init__
 QFIX.move.from.future.import:
-    text: Перамясціць 'from __future__ import' у патрэбнае месца
+    text: "Перамясціць 'from __future__ import' у патрэбнае месца"
 QFIX.redundant.parentheses:
     text: Выдаліць лішнія дужкі
 QFIX.remove.argument.equal.default:
@@ -503,9 +503,9 @@ QFIX.replace.function.set.with.literal:
 QFIX.statement.effect:
     text: Замяніць выклікам функцыі
 QFIX.unresolved.reference:
-    text: Замяніць ''{0}'' на ''{1}.{0}''
+    text: "Замяніць ''{0}'' на ''{1}.{0}''"
 QFIX.unresolved.reference.add.param:
-    text: Стварыць параметр ''{0}''
+    text: "Стварыць параметр ''{0}''"
 QFIX.use.property:
     text: Выкарыстоўвайце ўласцівасць для поля
 active.sdk.dialog.project.interpreter:
@@ -533,7 +533,7 @@ custom.type.mimic.name:
 debug.popup.title.step.into.function:
     text: Перайсці да функцыі
 formatter.after.hash:
-    text: Пасля '#'
+    text: "Пасля '#'"
 formatter.after.local.imports:
     text: 'Пасля мясцовага імпарту:'
 formatter.align.when.multiline:
@@ -551,9 +551,9 @@ formatter.around.top.level.classes.and.function:
 formatter.around.top.level.imports:
     text: 'Пасля імпарту верхняга ўзроўню:'
 formatter.before.backslash:
-    text: Перад '\'
+    text: "Перад '\\'"
 formatter.before.hash:
-    text: Перад '#'
+    text: "Перад '#'"
 formatter.braces:
     text: Брекеты
 formatter.collections.and.comprehensions:
@@ -561,7 +561,7 @@ formatter.collections.and.comprehensions:
 formatter.dictionary.literals:
     text: Літэралы слоўніка
 formatter.force.new.line.after.colon:
-    text: Прымусовы працяжнік пасля двукроп'я
+    text: "Прымусовы працяжнік пасля двукроп'я"
 formatter.imports.panel.optimize.imports:
     text: Аптымізацыя імпарту
 formatter.imports.panel.sort.by.type:
@@ -579,7 +579,7 @@ formatter.multi.clause.statements:
 formatter.panel.add.trailing.line.feed:
     text: Дадайце новы радок у канцы файла
 formatter.panel.dict.alignment.align.on.colon:
-    text: Выраўнаваць па двукроп'ю
+    text: "Выраўнаваць па двукроп'ю"
 formatter.panel.dict.alignment.align.on.value:
     text: Выраўнаваць па значэнні
 formatter.panel.dict.alignment.do.not.align:
@@ -619,7 +619,10 @@ refactoring.change.signature.error.tuple.parameters:
 refactoring.change.signature.error.wrong.caret.position.method.name:
     text: Курсор павінен быць размешчаны на назве метаду, які будзе рэарганізаваны
 refactoring.change.signature.find.usages.of.base.class:
-    text: "Метад {0} класа {1}\noзамяняе метад класа {2}.\nВы жадаеце зрабіць рэфактаринг базавага метаду?"
+    text: |-
+        Метад {0} класа {1}
+        oзамяняе метад класа {2}.
+        Вы жадаеце зрабіць рэфактаринг базавага метаду?
 refactoring.change.signature.usage.view.declarations.header:
     text: Функцыі для рэфактарынгу
 refactoring.convert.package.to.module.error.not.empty.package:
@@ -649,7 +652,7 @@ refactoring.extract.method.error.returns:
 refactoring.extract.method.error.star.import:
     text: Немагчыма рэарганізаваць з імпартам са зорачкай у блоку кода
 refactoring.extract.method.error.yield:
-    text: Немагчыма выканаць рэфактарынг з аператарам 'yield' у блоку кода
+    text: "Немагчыма выканаць рэфактарынг з аператарам 'yield' у блоку кода"
 refactoring.extract.super.class.no.members.allowed:
     text: Ні адзін з элементаў не можа быць адноўлены
 refactoring.extract.super.name.0.must.be.ident:
@@ -663,7 +666,7 @@ refactoring.inline.local.multiassignment:
 refactoring.introduce.constant.dialog.title:
     text: Выняць канстанту
 refactoring.introduce.constant.scope.error:
-    text: Імя ўжо аб'яўлена ў вобласці бачнасці
+    text: "Імя ўжо аб'яўлена ў вобласці бачнасці"
 refactoring.introduce.name.error:
     text: Некарэктнае імя
 refactoring.introduce.parameter.dialog.title:
@@ -723,7 +726,7 @@ refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
 refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
     text: 'Немагчыма падняць элемент: не ўнутры класа'
 refactoring.will.not.be.accessible:
-    text: Элемент, які перамяшчаецца, залежыць ад ''{0}'', які не будзе даступны пасля рэфактарынгу
+    text: "Элемент, які перамяшчаецца, залежыць ад ''{0}'', які не будзе даступны пасля рэфактарынгу"
 remote.debug.info:
     text: Інфармацыя
 remote.debug.local.host:
@@ -879,7 +882,7 @@ sdk.select.path:
 sdk.some.skeletons.failed:
     text: Не ўдалося стварыць некалькі шкілетаў
 smartKeys.insert.self.in.method:
-    text: Устаўце 'self' пры вызначэнні метаду
+    text: "Устаўце 'self' пры вызначэнні метаду"
 smartKeys.insert.type.placeholder.in.docstring.stub:
     text: Устаўце запаўняльнікі тыпаў у заглушку дакументацыі
 unable.to.stop:

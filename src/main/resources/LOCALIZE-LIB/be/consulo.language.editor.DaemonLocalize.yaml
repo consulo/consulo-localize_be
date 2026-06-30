@@ -10,6 +10,12 @@ heavyProcess.type.syncing:
     text: Сінхранізацыя...
 import.popup.hint.text:
     text: <html><body><a href="action">Імпартаваць {0}…</a> &nbsp;{1}? &nbsp;&nbsp;<span style="color:#{3}">{2}</span></body></html>
+    names:
+    - kind
+    - name
+    - shortcut
+    - actionName
+    - shortcutColor
 import.popup.multiple:
     text: '{0}? (множественный выбор…)'
 inspection.collapse.description:
