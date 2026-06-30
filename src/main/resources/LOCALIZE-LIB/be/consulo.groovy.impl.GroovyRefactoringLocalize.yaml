@@ -9,23 +9,23 @@ cannot.find.a.single.definition.to.inline.local.var:
 cannot.inline.0.:
     text: Немагчыма ўбудаваць {0}
 cannot.inline.reference.0:
-    text: Немагчыма ўбудаваць спасылку ''{0}''
+    text: "Немагчыма ўбудаваць спасылку ''{0}''"
 cannot.introduce.field.in.interface:
     text: Немагчыма стварыць поле ў інтэрфейсе
 cannot.introduce.field.in.script:
     text: У вобласці бачнасці няма класа
 cannot.rename.property.0:
-    text: Немагчыма перайменаваць уласцівасць <bold>''{0}''</bold>, якая пераазначае метад <bold>''{1}''</bold>
+    text: "Немагчыма перайменаваць уласцівасць <bold>''{0}''</bold>, якая пераазначае метад <bold>''{1}''</bold>"
 cannot.rename.script.class.to.0:
-    text: Немагчыма перайменаваць клас скрыпта ''{0}'' у ''{1}''
+    text: "Немагчыма перайменаваць клас скрыпта ''{0}'' у ''{1}''"
 changeSignature.no.type.for.exception:
     text: Укажыце тып для выключэння
 changeSignature.not.throwable.type:
-    text: 'Няправільны тып: ''''{0}'''' для выключэння, павінен пашыраць java.lang.Throwable'
+    text: "Няправільны тып: ''{0}'' для выключэння, павінен пашыраць java.lang.Throwable"
 changeSignature.refactoring.name:
     text: Змяніць сігнатуру
 changeSignature.wrong.type.for.exception:
-    text: 'Няправільны тып: ''''{0}'''' для выключэння'
+    text: "Няправільны тып: ''{0}'' для выключэння"
 changing.signature.of.0:
     text: Змяненне сігнатуры {0}
 class.does.not.exist.in.the.module:
@@ -47,13 +47,13 @@ convert.to.java.refactoring.name:
 converting.files.to.java:
     text: Пераўтварэнне файлаў у Java
 declare.final:
-    text: Аб'явіць final [&F]
+    text: "Аб'явіць final [&F]"
 expression.contains.errors:
     text: Выраз змяшчае памылкі
 field.0.is.already.defined:
     text: Поле {0} уже определено
 field.cannot.be.initialized.in.field.declaration:
-    text: Поле не можа быць ініцыялізавана ў аб'яўленні
+    text: "Поле не можа быць ініцыялізавана ў аб'яўленні"
 field.is.not.accessible.form.context.0:
     text: Поле {0}, якое выкарыстоўваецца ва ўбудоўваным метадзе, недаступна з месца выкліку
 files.to.be.converted:
@@ -61,11 +61,11 @@ files.to.be.converted:
 final.field.cant.be.initialized.in.cur.method:
     text: Поле final не можа быць ініцыялізавана ў бягучым метадзе
 inline.local.variable.prompt.0.1:
-    text: Убудаваць лакальную пераменную ''{0}''?
+    text: "Убудаваць лакальную пераменную ''{0}''?"
 inline.method.border.title:
     text: Убудоўванне
 inline.method.label:
-    text: Убудаваць метад ''{0}''
+    text: "Убудаваць метад ''{0}''"
 inline.method.title:
     text: Убудаваць метад
 inline.variable.title:
@@ -89,7 +89,7 @@ method.is.not.accessible.form.context.0:
 multiple.output.values:
     text: Для вылучанага фрагмента кода існуе некалькі выходных значэнняў
 name.is.wrong:
-    text: Імя ''{0}'' некарэктнае
+    text: "Імя ''{0}'' некарэктнае"
 name.label:
     text: 'Імя [&N]:'
 no.occurrences.found:
@@ -99,9 +99,9 @@ only.in.groovy.files:
 parameters.border.title:
     text: Параметры
 ref.0.will.not.be.resolved.outside.of.current.context:
-    text: Спасылка ''{0}'' не будзе вызначана за межамі бягучага кантэксту
+    text: "Спасылка ''{0}'' не будзе вызначана за межамі бягучага кантэксту"
 refactored.method.will.cover.closure.property:
-    text: Рэфактарынг метаду пераазначыць уласцівасць замыкання ''{0}'' у {1}
+    text: "Рэфактарынг метаду пераазначыць уласцівасць замыкання ''{0}'' у {1}"
 refactoring.cannot.be.applied.no.sources.attached:
     text: 'Рэфактарынг не можа быць ужыты: зыходны код не прымацаваны'
 refactoring.cannot.be.applied.to.abstract.methods:
@@ -121,7 +121,7 @@ refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow
 reference.to.accessor.0.is.used:
     text: Ссылка на аксессор <bold>{0}<bold> не может быть встроена.
 remove.parameter.0.no.longer.used:
-    text: Выдаліць невыкарыстаны параметр ''{0}''
+    text: "Выдаліць невыкарыстаны параметр ''{0}''"
 rename.groovy.property:
     text: Перайменаваць уласцівасць Groovy [&G]
 rename.is.not.applicable.to.implicit.elements:
@@ -129,11 +129,11 @@ rename.is.not.applicable.to.implicit.elements:
 rename.member:
     text: Перайменаваць {0}
 rename.property:
-    text: Перайменаваць уласцівасць ''{0}''
+    text: "Перайменаваць уласцівасць ''{0}''"
 replace.getter.for.property:
-    text: Стандартны гетар для ўласцівасці ''{0}'' будзе перазапісаны
+    text: "Стандартны гетар для ўласцівасці ''{0}'' будзе перазапісаны"
 replace.setter.for.property:
-    text: Стандартны сетар для ўласцівасці ''{0}'' будзе перазапісаны
+    text: "Стандартны сетар для ўласцівасці ''{0}'' будзе перазапісаны"
 return.type.is.wrong:
     text: Няправільны тып значэння, якое вяртаецца
 row.move.down:
@@ -155,7 +155,7 @@ selected.variable.is.used.for.write:
 signature.preview.border.title:
     text: Папярэдні прагляд сігнатуры
 specify.default.value:
-    text: Укажыце значэнне па змаўчанні або ініцыялізатар для параметра ''{0}''
+    text: "Укажыце значэнне па змаўчанні або ініцыялізатар для параметра ''{0}''"
 specify.type.label:
     text: Яўна ўказаць тып, які вяртаецца [&T]
 super.reference.is.used:
@@ -167,7 +167,7 @@ there.is.no.method.or.closure:
 this.invocation.only.and.keep.the.method:
     text: Убудаваць толькі гэты выклік і захаваць метад [&K]
 type.for.parameter.is.incorrect:
-    text: Некарэктны тып для параметра ''{0}''
+    text: "Некарэктны тып для параметра ''{0}''"
 variable.conflicts.with.field.0:
     text: Выбранае імя будзе канфліктаваць з полем {0}
 variable.conflicts.with.parameter.0:
@@ -175,7 +175,7 @@ variable.conflicts.with.parameter.0:
 variable.conflicts.with.variable.0:
     text: Выбранае імя будзе канфліктаваць з лакальнай пераменнай {0}
 variable.is.accessed.for.writing:
-    text: Пераменная ''{0}'' выкарыстоўваецца для запісу
+    text: "Пераменная ''{0}'' выкарыстоўваецца для запісу"
 variable.of.type:
     text: 'Пераменная тыпу [&T]:'
 visibility.border.title:

@@ -193,34 +193,6 @@ changes.dialog.editchangelist.title:
     text: Рэдагаваць журнал змяненняў
 changes.dialog.newchangelist.title:
     text: Новы спіс змен
-changes.nodetitle.changecount:
-    text: '{0,choice, 0#нет файлов|1#1 файл|2#{0} файла|5#{0} файлов}'
-changes.nodetitle.directory.changecount:
-    text: '{0,choice, 0#няма дырэкторый|1#1 дырэкторыя|2#{0} дырэкторыі|5#{0} дырэкторый}'
-changes.nodetitle.directory.file.changecount:
-    text: '{0,choice, 0#няма дырэкторый|1#1 дырэкторыя|2#{0} дырэкторыі|5#{0} дырэкторый}, {1,choice, 0#няма файлаў|1#1 файл|2#{1} файлы|5#{1} файлаў}'
-changes.nodetitle.have.outdated.files:
-    text: Некаторыя файлы былі зменены на серверы
-changes.nodetitle.ignored.files:
-    text: Ігнараваныя файлы
-changes.nodetitle.locally.deleted.files:
-    text: Лакальна выдаленыя файлы
-changes.nodetitle.locked.folders:
-    text: Заблакіраваныя працоўныя копіі тэчак
-changes.nodetitle.locked.folders.tooltip:
-    text: Некаторыя папкі заблакіраваны; Аперацыі ў цвёрдай валюце ім недаступныя. Патрабуе ачысткі.
-changes.nodetitle.logicallt.locked.folders:
-    text: Яўна заблакіраваныя файлы
-changes.nodetitle.modified.without.editing:
-    text: Змененыя файлы без распакавання
-changes.nodetitle.switched.files:
-    text: Пераключаныя файлы
-changes.nodetitle.switched.roots:
-    text: Пераключэнне каранёў
-changes.nodetitle.unversioned.files:
-    text: Файлы без версій
-changes.nodetitle.updating:
-    text: Абнавіць…
 changes.remove.active.empty.prompt:
     text: 'Выберыце спіс змен, якія стануць актыўнымі:'
 changes.remove.active.prompt:

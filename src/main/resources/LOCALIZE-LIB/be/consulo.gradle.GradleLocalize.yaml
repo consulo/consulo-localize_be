@@ -3,7 +3,9 @@ gradle.settings.text.home.path:
 gradle.settings.text.vm.options:
     text: 'Параметры Gradle VM:'
 gradle.home.setting.type.explicit.incorrect:
-    text: "Няправільнае размяшчэнне Gradle.\nШлях: {0}"
+    text: |-
+        Няправільнае размяшчэнне Gradle.
+        Шлях: {0}
 gradle.home.setting.type.explicit.empty:
     text: Не ўказана размяшчэнне Gradle
 gradle.codeInsight.action.apply_plugin.text:

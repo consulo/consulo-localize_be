@@ -53,7 +53,7 @@ color.settings.redundant.escape.sequence:
 color.settings.title.regexp:
     text: Рэгулярны выраз
 dialog.message.inspection.with.name.exists.warning:
-    text: Праверка з імем ''{0}'' ужо існуе
+    text: "Праверка з імем ''{0}'' ужо існуе"
 doc.property.block.stands.for.0:
     text: Блок свойств обозначает {0}
 doc.property.block.stands.for.characters.not.matching.0:
@@ -73,9 +73,9 @@ error.conditional.group.reference.not.allowed.inside.lookbehind:
 error.conditionals.are.not.supported.in.this.regex.dialect:
     text: Умоўныя выразы не падтрымліваюцца ў гэтым дыялекце рэгулярных выразаў
 error.dangling.metacharacter:
-    text: Вісячы метасімвал ''{0}''
+    text: "Вісячы метасімвал ''{0}''"
 error.dangling.opening.bracket:
-    text: Нечаканы пачатак квантыфікатара '{'
+    text: "Нечаканы пачатак квантыфікатара '{'"
 error.define.subpattern.contains.more.than.one.branch:
     text: Падшаблон DEFINE змяшчае некалькі галін
 error.embedded.comments.are.not.supported.in.this.regex.dialect:
@@ -87,7 +87,7 @@ error.group.reference.is.nested.into.the.named.group.it.refers.to:
 error.group.reference.not.allowed.inside.lookbehind:
     text: Спасылка на групу не дапускаецца ўнутры lookbehind
 error.group.with.name.0.already.defined:
-    text: Група з імем ''{0}'' ужо вызначана
+    text: "Група з імем ''{0}'' ужо вызначана"
 error.illegal.character.range.to.from:
     text: Недапушчальны дыяпазон сімвалаў (to < from)
 error.illegal.hexadecimal.escape.sequence:
@@ -173,7 +173,7 @@ inspection.name.octal.escape:
 inspection.name.redundant.character.escape:
     text: Лішняе экранаванне сімвала
 inspection.name.redundant.digit.class.element:
-    text: Лішні элемент класа '\d', '[:digit:]' або '\D'
+    text: "Лішні элемент класа '\\d', '[:digit:]' або '\\D'"
 inspection.name.redundant.nested.character.class:
     text: Лішні ўкладзены клас сімвалаў
 inspection.name.simplifiable.expression:
@@ -185,9 +185,9 @@ inspection.name.suspicious.backref:
 inspection.name.unnecessary.non.capturing.group:
     text: Непатрэбная незахопліваючая група
 inspection.option.ignore.escaped.closing.brackets:
-    text: Ігнараваць экранаваныя закрывальныя дужкі '}' і ']'
+    text: "Ігнараваць экранаваныя закрывальныя дужкі '}' і ']'"
 inspection.quick.fix.remove.duplicate.0.from.character.class:
-    text: Выдаліць дублюючы ''{0}'' з класа сімвалаў
+    text: "Выдаліць дублюючы ''{0}'' з класа сімвалаў"
 inspection.quick.fix.remove.duplicate.branch:
     text: Выдаліць дублюючую галіну
 inspection.quick.fix.remove.duplicate.element.from.character.class:
@@ -195,7 +195,7 @@ inspection.quick.fix.remove.duplicate.element.from.character.class:
 inspection.quick.fix.remove.empty.branch:
     text: Выдаліць пустую галіну
 inspection.quick.fix.remove.redundant.0.class.element:
-    text: Выдаліць лішні элемент класа ''{0}''
+    text: "Выдаліць лішні элемент класа ''{0}''"
 inspection.quick.fix.remove.redundant.class.element:
     text: Выдаліць лішні элемент класа
 inspection.quick.fix.remove.redundant.escape:
@@ -223,7 +223,7 @@ inspection.warning.anonymous.capturing.group:
 inspection.warning.can.be.removed:
     text: <code>#ref</code> лішняе
 inspection.warning.can.be.simplified:
-    text: <code>#ref</code> можна спрасціць да ''{0}''
+    text: "<code>#ref</code> можна спрасціць да ''{0}''"
 inspection.warning.consecutive.spaces.in.regexp:
     text: '{0} паслядоўных прабелаў у рэгулярным выразе'
 inspection.warning.duplicate.branch.in.alternation:
@@ -245,7 +245,7 @@ inspection.warning.potential.exponential.backtracking:
 inspection.warning.redundant.character.escape.0.in.regexp:
     text: Лішняе экранаванне сімвала <code>{0}</code> у рэгулярным выразе
 inspection.warning.redundant.class.element:
-    text: Лішні ''{0}'' у рэгулярным выразе
+    text: "Лішні ''{0}'' у рэгулярным выразе"
 inspection.warning.redundant.nested.character.class:
     text: Лішні ўкладзены клас сімвалаў
 inspection.warning.single.character.alternation.in.regexp:
@@ -275,11 +275,11 @@ parse.error.character.expected:
 parse.error.character.or.mysql.character.name.expected:
     text: Чакаецца сімвал або імя сімвала MySQL
 parse.error.closing.brace.expected:
-    text: Чакаецца '}'
+    text: "Чакаецца '}'"
 parse.error.closing.brace.or.number.expected:
-    text: Чакаецца '}' або лік
+    text: "Чакаецца '}' або лік"
 parse.error.comma.expected:
-    text: Чакаецца ','
+    text: "Чакаецца ','"
 parse.error.empty.property:
     text: Пустое свойство
 parse.error.group.name.expected:
@@ -297,9 +297,9 @@ parse.error.negating.a.property.not.allowed.in.this.regular.expression.dialect:
 parse.error.number.expected:
     text: Чакаецца лік
 parse.error.opening.brace.expected:
-    text: Чакаецца '{'
+    text: "Чакаецца '{'"
 parse.error.opening.brace.or.category.shorthand.expected:
-    text: Чакаецца '{' або скарочаная форма катэгорыі
+    text: "Чакаецца '{' або скарочаная форма катэгорыі"
 parse.error.pattern.expected:
     text: Чакаецца шаблон
 parse.error.posix.character.class.name.expected:
@@ -311,7 +311,7 @@ parse.error.property.value.expected:
 parse.error.unclosed.character.class:
     text: Незакрыты клас сімвалаў
 parse.error.unclosed.group:
-    text: Чакаецца ')'
+    text: "Чакаецца ')'"
 parse.error.unclosed.group.name:
     text: Незакрытае імя групы
 parse.error.unclosed.group.reference:
@@ -329,7 +329,7 @@ parse.error.unclosed.property:
 parse.error.unicode.character.name.expected:
     text: Чакаецца імя сімвала Unicode
 parse.error.unmatched.closing.bracket:
-    text: Няпарная закрывальная дужка ''{0}''
+    text: "Няпарная закрывальная дужка ''{0}''"
 regexp.dialog.language:
     text: 'Язык [&L]:'
 regexp.dialog.replace.template:
@@ -365,6 +365,6 @@ tooltip.no.match:
 tooltip.pattern.is.too.complex:
     text: Шаблон рэгулярнага выразу занадта складаны
 warning.duplicate.character.0.inside.character.class:
-    text: Дублюючы сімвал ''{0}'' унутры класа сімвалаў
+    text: "Дублюючы сімвал ''{0}'' унутры класа сімвалаў"
 warning.duplicate.predefined.character.class.0.inside.character.class:
-    text: Дублюючы прадвызначаны клас сімвалаў ''{0}'' унутры класа сімвалаў
+    text: "Дублюючы прадвызначаны клас сімвалаў ''{0}'' унутры класа сімвалаў"

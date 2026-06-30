@@ -13,7 +13,7 @@ add.ant.file.action.name:
 additional.classpath.tab.add.all.in.directory.button:
     text: Дадаць усё ў дырэкторыі [&L]
 ant.build.local.history.label:
-    text: 'Выполняется Ant: ''''{0}'''''
+    text: "Выполняется Ant: ''{0}''"
 ant.build.message.node.prefix.text:
     text: 'Сборка:'
 ant.build.progress.dialog.title:
@@ -27,7 +27,7 @@ ant.create.meta.target.action.description:
 ant.create.meta.target.action.name:
     text: Создать мета-цель
 ant.create.target.intention.description:
-    text: Создать цель ''{0}''
+    text: "Создать цель ''{0}''"
 ant.event.after.compilation.presentable.name:
     text: Пасля кампіляцыі
 ant.event.before.compilation.presentable.name:
@@ -53,9 +53,9 @@ ant.intention.create.target.family.name:
 ant.is.active.terminate.confirmation.text:
     text: Працэс Ant з таго ж файла зборкі актыўны. Завяршыць яго?
 ant.jar.is.directory.error.message:
-    text: '{0} з''яўляецца дырэкторыяй'
+    text: "{0} з'яўляецца дырэкторыяй"
 ant.jar.not.found.in.directory.error.message:
-    text: ant.jar не знойдзены ў дырэкторыі ''{0}''
+    text: "ant.jar не знойдзены ў дырэкторыі ''{0}''"
 ant.process.is.active.terminate.confirmation.text:
     text: Працэс Ant актыўны. Завяршыць працэс Ant?
 ant.property.value.editor.insert.macro.tooltip.text:
@@ -71,7 +71,7 @@ ant.setup.dialog.title:
 ant.target:
     text: цель
 ant.target.before.run.description:
-    text: Выканаць цэль Ant ''{0}''
+    text: "Выканаць цэль Ant ''{0}''"
 ant.target.before.run.description.empty:
     text: Выканаць цэль Ant
 ant.target.choser.title:
@@ -133,11 +133,13 @@ cannot.add.ant.files.dialog.title:
 cannot.add.build.file.dialog.title:
     text: Немагчыма дадаць файл зборкі
 cannot.add.build.files.from.excluded.directories.error.message:
-    text: "Немагчыма дадаць файлы зборкі з выключаных дырэкторый\n{0}"
+    text: |-
+        Немагчыма дадаць файлы зборкі з выключаных дырэкторый
+        {0}
 cannot.resolve.refid:
-    text: Немагчыма вызначыць refid ''{0}''
+    text: "Немагчыма вызначыць refid ''{0}''"
 cannot.resolve.target:
-    text: Цэль ''{0}'' невядомая
+    text: "Цэль ''{0}'' невядомая"
 cannot.start.build.name.error.message:
     text: Немагчыма запусціць {0}
 cant.add.file.error.message:
@@ -145,7 +147,7 @@ cant.add.file.error.message:
 cant.read.from.ant.jar.error.message:
     text: Немагчыма прачытаць з {0}
 cant.run.ant.ant.reference.is.not.configured.error.message:
-    text: Ant ''{0}'' не настроен
+    text: "Ant ''{0}'' не настроен"
 cant.run.ant.no.ant.configured.error.message:
     text: Ant не настроен
 close.ant.build.messages.dialog.title:
@@ -185,7 +187,7 @@ filter.ant.targets.action.description:
 filter.ant.targets.action.name:
     text: Фільтраваць цэлі
 integer.attribute.has.invalid.value:
-    text: Атрыбут ''{0}'' павінен мець цэлалікавае значэнне
+    text: "Атрыбут ''{0}'' павінен мець цэлалікавае значэнне"
 intention.configure.highlighting.family.name:
     text: Наладзіць падсветку
 intention.configure.highlighting.text:
@@ -265,15 +267,15 @@ starting.ant.build.dialog.title:
 stop.ant.action.name:
     text: Спыніць
 target.is.duplicated:
-    text: Цэль ''{0}'' дублюецца
+    text: "Цэль ''{0}'' дублюецца"
 target.is.duplicated.in.imported.file:
-    text: Цэль ''{0}'' дублюецца ў файле ''{1}''
+    text: "Цэль ''{0}'' дублюецца ў файле ''{1}''"
 target.tag.name.status.text:
     text: 'Цель: {0}'
 unknown.macro.attribute:
-    text: Невядомы макра-атрыбут ''{0}''
+    text: "Невядомы макра-атрыбут ''{0}''"
 unknown.property:
-    text: Невядомая ўласцівасць ''{0}''
+    text: "Невядомая ўласцівасць ''{0}''"
 user.inout.request.ant.build.input.dialog.title:
     text: Увод для зборкі Ant
 using.definition.which.type.failed.to.load:
